@@ -1,0 +1,376 @@
+{
+  "updated_at": "2026-04-24 09:34:03 GMT+8",
+  "updated_ts": 1776994443,
+  "daily": {
+    "top10": [
+      {
+        "full_name": "huggingface/ml-intern",
+        "description": "Star huggingface / ml-intern 🤗 ml-intern: an open-source ML engineer that reads papers, trains models, and ships ML models",
+        "language": "Python",
+        "total_stars": 3385,
+        "period_stars": 720,
+        "forks": 290,
+        "url": "https://github.com/huggingface/ml-intern"
+      },
+      {
+        "full_name": "zilliztech/claude-context",
+        "description": "Star zilliztech / claude-context Code search MCP for Claude Code. Make entire codebase the context for any coding agent.",
+        "language": "TypeScript",
+        "total_stars": 8444,
+        "period_stars": 1011,
+        "forks": 663,
+        "url": "https://github.com/zilliztech/claude-context"
+      },
+      {
+        "full_name": "HKUDS/RAG-Anything",
+        "description": "Star HKUDS / RAG-Anything \"RAG-Anything: All-in-One RAG Framework\"",
+        "language": "Python",
+        "total_stars": 18185,
+        "period_stars": 590,
+        "forks": 2101,
+        "url": "https://github.com/HKUDS/RAG-Anything"
+      },
+      {
+        "full_name": "Z4nzu/hackingtool",
+        "description": "Star Z4nzu / hackingtool ALL IN ONE Hacking Tool For Hackers",
+        "language": "Python",
+        "total_stars": 61094,
+        "period_stars": 1383,
+        "forks": 6843,
+        "url": "https://github.com/Z4nzu/hackingtool"
+      },
+      {
+        "full_name": "ruvnet/RuView",
+        "description": "Star ruvnet / RuView π RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video.",
+        "language": "Rust",
+        "total_stars": 49844,
+        "period_stars": 429,
+        "forks": 6589,
+        "url": "https://github.com/ruvnet/RuView"
+      },
+      {
+        "full_name": "Anil-matcha/Open-Generative-AI",
+        "description": "Star Anil-matcha / Open-Generative-AI Uncensored, open-source alternative to Higgsfield AI, Freepik, Krea, Openart AI — Free, unrestricted AI image &amp; video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
+        "language": "JavaScript",
+        "total_stars": 6972,
+        "period_stars": 316,
+        "forks": 1334,
+        "url": "https://github.com/Anil-matcha/Open-Generative-AI"
+      },
+      {
+        "full_name": "Alishahryar1/free-claude-code",
+        "description": "Star Alishahryar1 / free-claude-code Use claude-code for free in the terminal, VSCode extension or via discord like openclaw",
+        "language": "Python",
+        "total_stars": 5636,
+        "period_stars": 1962,
+        "forks": 949,
+        "url": "https://github.com/Alishahryar1/free-claude-code"
+      },
+      {
+        "full_name": "sponsors/open-metadata",
+        "description": "Sponsor Star open-metadata / OpenMetadata OpenMetadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team collaboration.",
+        "language": "TypeScript",
+        "total_stars": 0,
+        "period_stars": 776,
+        "forks": 0,
+        "url": "https://github.com/sponsors/open-metadata"
+      },
+      {
+        "full_name": "microsoft/ai-agents-for-beginners",
+        "description": "Star microsoft / ai-agents-for-beginners 12 Lessons to Get Started Building AI Agents",
+        "language": "Jupyter Notebook",
+        "total_stars": 58812,
+        "period_stars": 208,
+        "forks": 20033,
+        "url": "https://github.com/microsoft/ai-agents-for-beginners"
+      },
+      {
+        "full_name": "PowerShell/PowerShell",
+        "description": "Star PowerShell / PowerShell PowerShell for every system!",
+        "language": "C#",
+        "total_stars": 52793,
+        "period_stars": 67,
+        "forks": 8275,
+        "url": "https://github.com/PowerShell/PowerShell"
+      }
+    ],
+    "ai_top10": [
+      {
+        "full_name": "huggingface/ml-intern",
+        "description": "Star huggingface / ml-intern 🤗 ml-intern: an open-source ML engineer that reads papers, trains models, and ships ML models",
+        "language": "Python",
+        "total_stars": 3385,
+        "period_stars": 720,
+        "forks": 290,
+        "url": "https://github.com/huggingface/ml-intern"
+      },
+      {
+        "full_name": "zilliztech/claude-context",
+        "description": "Star zilliztech / claude-context Code search MCP for Claude Code. Make entire codebase the context for any coding agent.",
+        "language": "TypeScript",
+        "total_stars": 8444,
+        "period_stars": 1011,
+        "forks": 663,
+        "url": "https://github.com/zilliztech/claude-context"
+      },
+      {
+        "full_name": "HKUDS/RAG-Anything",
+        "description": "Star HKUDS / RAG-Anything \"RAG-Anything: All-in-One RAG Framework\"",
+        "language": "Python",
+        "total_stars": 18185,
+        "period_stars": 590,
+        "forks": 2101,
+        "url": "https://github.com/HKUDS/RAG-Anything"
+      },
+      {
+        "full_name": "Anil-matcha/Open-Generative-AI",
+        "description": "Star Anil-matcha / Open-Generative-AI Uncensored, open-source alternative to Higgsfield AI, Freepik, Krea, Openart AI — Free, unrestricted AI image &amp; video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
+        "language": "JavaScript",
+        "total_stars": 6972,
+        "period_stars": 316,
+        "forks": 1334,
+        "url": "https://github.com/Anil-matcha/Open-Generative-AI"
+      },
+      {
+        "full_name": "Alishahryar1/free-claude-code",
+        "description": "Star Alishahryar1 / free-claude-code Use claude-code for free in the terminal, VSCode extension or via discord like openclaw",
+        "language": "Python",
+        "total_stars": 5636,
+        "period_stars": 1962,
+        "forks": 949,
+        "url": "https://github.com/Alishahryar1/free-claude-code"
+      },
+      {
+        "full_name": "microsoft/ai-agents-for-beginners",
+        "description": "Star microsoft / ai-agents-for-beginners 12 Lessons to Get Started Building AI Agents",
+        "language": "Jupyter Notebook",
+        "total_stars": 58812,
+        "period_stars": 208,
+        "forks": 20033,
+        "url": "https://github.com/microsoft/ai-agents-for-beginners"
+      },
+      {
+        "full_name": "cline/cline",
+        "description": "Star cline / cline Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way.",
+        "language": "TypeScript",
+        "total_stars": 60828,
+        "period_stars": 123,
+        "forks": 6256,
+        "url": "https://github.com/cline/cline"
+      },
+      {
+        "full_name": "microsoft/onnxruntime",
+        "description": "Star microsoft / onnxruntime ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator",
+        "language": "C++",
+        "total_stars": 20188,
+        "period_stars": 49,
+        "forks": 3855,
+        "url": "https://github.com/microsoft/onnxruntime"
+      },
+      {
+        "full_name": "sponsors/mksglu",
+        "description": "Sponsor Star mksglu / context-mode Context window optimization for AI coding agents. Sandboxes tool output, 98% reduction. 12 platforms",
+        "language": "TypeScript",
+        "total_stars": 0,
+        "period_stars": 238,
+        "forks": 0,
+        "url": "https://github.com/sponsors/mksglu"
+      },
+      {
+        "full_name": "sponsors/coreyhaines31",
+        "description": "Sponsor Star coreyhaines31 / marketingskills Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+        "language": "JavaScript",
+        "total_stars": 0,
+        "period_stars": 285,
+        "forks": 0,
+        "url": "https://github.com/sponsors/coreyhaines31"
+      }
+    ]
+  },
+  "weekly": {
+    "top10": [
+      {
+        "full_name": "forrestchang/andrej-karpathy-skills",
+        "description": "Star forrestchang / andrej-karpathy-skills A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+        "language": "",
+        "total_stars": 80616,
+        "period_stars": 32115,
+        "forks": 7602,
+        "url": "https://github.com/forrestchang/andrej-karpathy-skills"
+      },
+      {
+        "full_name": "SimoneAvogadro/android-reverse-engineering-skill",
+        "description": "Star SimoneAvogadro / android-reverse-engineering-skill Claude Code skill to support Android app's reverse engineering",
+        "language": "Shell",
+        "total_stars": 4744,
+        "period_stars": 2702,
+        "forks": 546,
+        "url": "https://github.com/SimoneAvogadro/android-reverse-engineering-skill"
+      },
+      {
+        "full_name": "EvoMap/evolver",
+        "description": "Star EvoMap / evolver The GEP-powered self-evolving engine for AI agents. Auditable evolution with Genes, Capsules, and Events. | evomap.ai",
+        "language": "JavaScript",
+        "total_stars": 6681,
+        "period_stars": 3759,
+        "forks": 656,
+        "url": "https://github.com/EvoMap/evolver"
+      },
+      {
+        "full_name": "openai/openai-agents-python",
+        "description": "Star openai / openai-agents-python A lightweight, powerful framework for multi-agent workflows",
+        "language": "Python",
+        "total_stars": 24861,
+        "period_stars": 3842,
+        "forks": 3799,
+        "url": "https://github.com/openai/openai-agents-python"
+      },
+      {
+        "full_name": "jamiepine/voicebox",
+        "description": "Star jamiepine / voicebox The open-source AI voice studio. Clone, dictate, create.",
+        "language": "TypeScript",
+        "total_stars": 22854,
+        "period_stars": 3969,
+        "forks": 2673,
+        "url": "https://github.com/jamiepine/voicebox"
+      },
+      {
+        "full_name": "sponsors/thedotmack",
+        "description": "Sponsor Star thedotmack / claude-mem A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+        "language": "TypeScript",
+        "total_stars": 0,
+        "period_stars": 7562,
+        "forks": 0,
+        "url": "https://github.com/sponsors/thedotmack"
+      },
+      {
+        "full_name": "NousResearch/hermes-agent",
+        "description": "Star NousResearch / hermes-agent The agent that grows with you",
+        "language": "Python",
+        "total_stars": 113233,
+        "period_stars": 20316,
+        "forks": 16496,
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      {
+        "full_name": "multica-ai/multica",
+        "description": "Star multica-ai / multica The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+        "language": "TypeScript",
+        "total_stars": 20203,
+        "period_stars": 5741,
+        "forks": 2450,
+        "url": "https://github.com/multica-ai/multica"
+      },
+      {
+        "full_name": "Lordog/dive-into-llms",
+        "description": "Star Lordog / dive-into-llms 《动手学大模型Dive into LLMs》系列编程实践教程",
+        "language": "Jupyter Notebook",
+        "total_stars": 34009,
+        "period_stars": 3561,
+        "forks": 4169,
+        "url": "https://github.com/Lordog/dive-into-llms"
+      },
+      {
+        "full_name": "Tracer-Cloud/opensre",
+        "description": "Star Tracer-Cloud / opensre Build your own AI SRE agents. The open source toolkit for the AI era ✨",
+        "language": "Python",
+        "total_stars": 2674,
+        "period_stars": 1614,
+        "forks": 293,
+        "url": "https://github.com/Tracer-Cloud/opensre"
+      }
+    ],
+    "ai_top10": [
+      {
+        "full_name": "forrestchang/andrej-karpathy-skills",
+        "description": "Star forrestchang / andrej-karpathy-skills A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+        "language": "",
+        "total_stars": 80616,
+        "period_stars": 32115,
+        "forks": 7602,
+        "url": "https://github.com/forrestchang/andrej-karpathy-skills"
+      },
+      {
+        "full_name": "SimoneAvogadro/android-reverse-engineering-skill",
+        "description": "Star SimoneAvogadro / android-reverse-engineering-skill Claude Code skill to support Android app's reverse engineering",
+        "language": "Shell",
+        "total_stars": 4744,
+        "period_stars": 2702,
+        "forks": 546,
+        "url": "https://github.com/SimoneAvogadro/android-reverse-engineering-skill"
+      },
+      {
+        "full_name": "EvoMap/evolver",
+        "description": "Star EvoMap / evolver The GEP-powered self-evolving engine for AI agents. Auditable evolution with Genes, Capsules, and Events. | evomap.ai",
+        "language": "JavaScript",
+        "total_stars": 6681,
+        "period_stars": 3759,
+        "forks": 656,
+        "url": "https://github.com/EvoMap/evolver"
+      },
+      {
+        "full_name": "openai/openai-agents-python",
+        "description": "Star openai / openai-agents-python A lightweight, powerful framework for multi-agent workflows",
+        "language": "Python",
+        "total_stars": 24861,
+        "period_stars": 3842,
+        "forks": 3799,
+        "url": "https://github.com/openai/openai-agents-python"
+      },
+      {
+        "full_name": "jamiepine/voicebox",
+        "description": "Star jamiepine / voicebox The open-source AI voice studio. Clone, dictate, create.",
+        "language": "TypeScript",
+        "total_stars": 22854,
+        "period_stars": 3969,
+        "forks": 2673,
+        "url": "https://github.com/jamiepine/voicebox"
+      },
+      {
+        "full_name": "sponsors/thedotmack",
+        "description": "Sponsor Star thedotmack / claude-mem A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+        "language": "TypeScript",
+        "total_stars": 0,
+        "period_stars": 7562,
+        "forks": 0,
+        "url": "https://github.com/sponsors/thedotmack"
+      },
+      {
+        "full_name": "NousResearch/hermes-agent",
+        "description": "Star NousResearch / hermes-agent The agent that grows with you",
+        "language": "Python",
+        "total_stars": 113233,
+        "period_stars": 20316,
+        "forks": 16496,
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      {
+        "full_name": "multica-ai/multica",
+        "description": "Star multica-ai / multica The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+        "language": "TypeScript",
+        "total_stars": 20203,
+        "period_stars": 5741,
+        "forks": 2450,
+        "url": "https://github.com/multica-ai/multica"
+      },
+      {
+        "full_name": "Lordog/dive-into-llms",
+        "description": "Star Lordog / dive-into-llms 《动手学大模型Dive into LLMs》系列编程实践教程",
+        "language": "Jupyter Notebook",
+        "total_stars": 34009,
+        "period_stars": 3561,
+        "forks": 4169,
+        "url": "https://github.com/Lordog/dive-into-llms"
+      },
+      {
+        "full_name": "Tracer-Cloud/opensre",
+        "description": "Star Tracer-Cloud / opensre Build your own AI SRE agents. The open source toolkit for the AI era ✨",
+        "language": "Python",
+        "total_stars": 2674,
+        "period_stars": 1614,
+        "forks": 293,
+        "url": "https://github.com/Tracer-Cloud/opensre"
+      }
+    ]
+  }
+}

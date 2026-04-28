@@ -1,1143 +1,320 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GitHub Trending 日报</title>
-  <style>
-    :root {
-      --bg: #f8f9fa;
-      --paper: #ffffff;
-      --text: #1a1a1a;
-      --muted: #5f6b76;
-      --line: #e6e8eb;
-      --blue: #0969da;
-      --orange: #e36209;
-      --soft-blue: #eaf3ff;
-      --soft-orange: #fff1e8;
-      --shadow: 0 8px 24px rgba(16, 24, 40, 0.05);
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-      line-height: 1.7;
-    }
-    a { color: var(--blue); text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .container { max-width: 1180px; margin: 0 auto; padding: 0 20px 48px; }
-    .hero {
-      background: linear-gradient(180deg, #ffffff 0%, #fcfcfd 100%);
-      border-bottom: 1px solid var(--line);
-      margin-bottom: 24px;
-    }
-    .hero-inner { max-width: 1180px; margin: 0 auto; padding: 36px 20px 28px; }
-    .eyebrow {
-      display: inline-block;
-      font-size: 12px;
-      letter-spacing: .08em;
-      text-transform: uppercase;
-      color: var(--orange);
-      background: var(--soft-orange);
-      padding: 6px 10px;
-      border-radius: 999px;
-      margin-bottom: 14px;
-      font-weight: 700;
-    }
-    h1 {
-      margin: 0;
-      font-size: 38px;
-      line-height: 1.2;
-      letter-spacing: -0.02em;
-    }
-    .subtitle {
-      margin-top: 10px;
-      color: var(--muted);
-      font-size: 16px;
-      max-width: 860px;
-    }
-    .hero-meta {
-      display: grid;
-      grid-template-columns: 1.3fr 1fr 1fr;
-      gap: 16px;
-      margin-top: 24px;
-    }
-    .meta-card {
-      background: var(--paper);
-      border: 1px solid var(--line);
-      border-radius: 14px;
-      padding: 16px 18px;
-      box-shadow: var(--shadow);
-    }
-    .meta-label { color: var(--muted); font-size: 13px; margin-bottom: 8px; }
-    .meta-value { font-size: 24px; font-weight: 800; color: var(--text); }
-    .meta-sub { margin-top: 6px; color: var(--muted); font-size: 14px; }
-
-    .tabs {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin: 18px 0 20px;
-      position: sticky;
-      top: 0;
-      background: rgba(248, 249, 250, 0.92);
-      backdrop-filter: blur(10px);
-      padding: 12px 0;
-      z-index: 20;
-    }
-    .tab-btn {
-      border: 1px solid var(--line);
-      background: #fff;
-      color: var(--muted);
-      border-radius: 999px;
-      padding: 10px 16px;
-      font-size: 14px;
-      font-weight: 700;
-      cursor: pointer;
-      transition: .2s ease;
-    }
-    .tab-btn.active {
-      background: var(--blue);
-      color: #fff;
-      border-color: var(--blue);
-      box-shadow: 0 6px 18px rgba(9, 105, 218, 0.18);
-    }
-
-    .tab-panel { display: none; }
-    .tab-panel.active { display: block; }
-
-    .section {
-      background: var(--paper);
-      border: 1px solid var(--line);
-      border-radius: 18px;
-      box-shadow: var(--shadow);
-      margin-bottom: 22px;
-      overflow: hidden;
-    }
-    .section-head {
-      padding: 22px 24px 10px;
-      border-bottom: 1px solid #f0f1f3;
-    }
-    .section-head h2 {
-      margin: 0;
-      font-size: 24px;
-      letter-spacing: -0.01em;
-    }
-    .section-head p {
-      margin: 8px 0 0;
-      color: var(--muted);
-      font-size: 14px;
-    }
-
-    .table-wrap { overflow-x: auto; }
-    table { width: 100%; border-collapse: collapse; min-width: 960px; }
-    th, td { padding: 14px 16px; border-bottom: 1px solid #eef1f4; vertical-align: top; }
-    th {
-      font-size: 13px;
-      color: var(--muted);
-      background: #fbfbfc;
-      text-align: left;
-      font-weight: 700;
-      white-space: nowrap;
-    }
-    td { font-size: 14px; }
-    tbody tr:hover { background: #fcfdff; }
-    .rank {
-      font-weight: 800;
-      color: var(--orange);
-      width: 72px;
-    }
-    .project-cell a {
-      display: inline-block;
-      font-weight: 800;
-      font-size: 15px;
-      margin-bottom: 4px;
-    }
-    .desc {
-      color: var(--muted);
-      font-size: 13px;
-      max-width: 460px;
-    }
-    .num { font-variant-numeric: tabular-nums; white-space: nowrap; }
-    .highlight { color: var(--orange); font-weight: 800; }
-    .tag {
-      display: inline-block;
-      padding: 4px 10px;
-      border-radius: 999px;
-      font-size: 12px;
-      font-weight: 700;
-      white-space: nowrap;
-    }
-    .tag.agent { background: #eaf3ff; color: #0969da; }
-    .tag.dev { background: #eefaf1; color: #1a7f37; }
-    .tag.finance { background: #fff1e8; color: #bc4c00; }
-    .tag.edge { background: #f3efff; color: #6f42c1; }
-    .tag.voice { background: #fff0f6; color: #bf3989; }
-    .tag.edu { background: #eef9ff; color: #0550ae; }
-    .tag.data { background: #f7f7f8; color: #57606a; }
-    .tag.general { background: #f6f8fa; color: #57606a; }
-
-    .insight-grid, .signal-grid {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 18px;
-      padding: 22px 24px 24px;
-    }
-    .insight-card, .signal-card {
-      border: 1px solid var(--line);
-      border-radius: 14px;
-      padding: 18px;
-      background: linear-gradient(180deg, #ffffff 0%, #fcfcfd 100%);
-    }
-    .insight-title-row h3, .signal-card h3 {
-      margin: 0 0 8px;
-      font-size: 18px;
-      line-height: 1.35;
-    }
-    .one-liner {
-      margin: 0 0 10px;
-      color: var(--blue);
-      font-weight: 700;
-      font-size: 14px;
-    }
-    .analysis, .signal-card p {
-      margin: 0;
-      font-size: 14px;
-      color: #2f3439;
-    }
-    .signal-projects {
-      font-size: 13px;
-      color: var(--muted);
-      margin-bottom: 10px;
-      font-weight: 700;
-    }
-    .footer {
-      text-align: center;
-      color: var(--muted);
-      font-size: 13px;
-      margin-top: 10px;
-      padding-top: 14px;
-    }
-    @media (max-width: 900px) {
-      .hero-meta { grid-template-columns: 1fr; }
-      .insight-grid, .signal-grid { grid-template-columns: 1fr; }
-      h1 { font-size: 30px; }
-    }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>GitHub Trending 日报</title>
+<style>*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;background:#f5f5f0;color:#1a1a1a;line-height:1.7;}
+.header{background:#fff;border-bottom:3px solid #1a1a1a;padding:24px 0 16px;text-align:center;}
+.header-inner{max-width:960px;margin:0 auto;padding:0 24px;}
+.header-top{display:flex;align-items:baseline;justify-content:center;gap:16px;margin-bottom:8px;}
+.logo{font-size:28px;font-weight:900;letter-spacing:-1px;color:#1a1a1a;}
+.logo span{color:#e63946;}
+.date{font-size:14px;color:#666;border-left:1px solid #ccc;padding-left:16px;}
+.summary{font-size:14px;color:#444;background:#fffbf0;border:1px solid #f0d060;border-radius:4px;padding:8px 16px;display:inline-block;margin-top:8px;}
+.tabs{background:#fff;border-bottom:2px solid #eee;position:sticky;top:0;z-index:10;}
+.tabs-inner{max-width:960px;margin:0 auto;padding:0 24px;display:flex;}
+.tab{padding:14px 24px;font-size:15px;font-weight:600;color:#666;cursor:pointer;border-bottom:3px solid transparent;margin-bottom:-2px;transition:all .2s;}
+.tab:hover{color:#1a1a1a;}
+.tab.active{color:#e63946;border-bottom-color:#e63946;}
+.content{max-width:960px;margin:0 auto;padding:32px 24px;}
+.panel{display:none;}
+.panel.active{display:block;}
+.section{background:#fff;border:1px solid #e8e8e8;border-radius:4px;margin-bottom:24px;overflow:hidden;}
+.section-header{padding:16px 20px;border-bottom:1px solid #f0f0f0;display:flex;align-items:center;gap:8px;}
+.section-title{font-size:17px;font-weight:700;}
+.section-icon{font-size:18px;}
+table{width:100%;border-collapse:collapse;}
+th{background:#fafafa;padding:10px 14px;text-align:left;font-size:13px;font-weight:600;color:#666;border-bottom:1px solid #eee;}
+td{padding:12px 14px;font-size:14px;border-bottom:1px solid #f5f5f5;vertical-align:middle;}
+tr:last-child td{border-bottom:none;}
+tr:hover td{background:#fafffe;}
+.rank{font-weight:700;color:#999;font-size:13px;width:36px;}
+.rank.top3{color:#e63946;}
+.proj-name{font-weight:600;color:#0066cc;text-decoration:none;}
+.proj-name:hover{text-decoration:underline;}
+.proj-sub{font-size:12px;color:#999;margin-top:2px;}
+.lang-tag{display:inline-block;padding:2px 8px;border-radius:10px;font-size:12px;font-weight:500;background:#f0f0f0;color:#555;}
+.lang-Python{background:#e8f4fd;color:#2980b9;}
+.lang-TypeScript{background:#e8f8f0;color:#27ae60;}
+.lang-Rust{background:#fdf0e8;color:#e67e22;}
+.lang-Kotlin{background:#f0e8fd;color:#8e44ad;}
+.stars{font-weight:600;color:#f39c12;}
+.stars-new{color:#e63946;font-weight:700;}
+.insight-list{padding:20px;}
+.insight-item{margin-bottom:20px;padding-bottom:20px;border-bottom:1px solid #f5f5f5;}
+.insight-item:last-child{border-bottom:none;margin-bottom:0;padding-bottom:0;}
+.insight-repo{font-size:13px;font-weight:700;color:#e63946;margin-bottom:6px;}
+.insight-date{font-weight:400;color:#aaa;font-size:12px;}
+.insight-text{font-size:14px;color:#333;line-height:1.8;}
+.signal-tags{padding:20px;display:flex;flex-wrap:wrap;gap:10px;}
+.signal-tag{padding:6px 14px;border-radius:20px;font-size:13px;font-weight:600;}
+.tag-hot{background:#ffeef0;color:#e63946;border:1px solid #ffcdd2;}
+.tag-rising{background:#fff8e1;color:#f57c00;border:1px solid #ffe082;}
+.tag-watch{background:#e8f5e9;color:#2e7d32;border:1px solid #c8e6c9;}
+.invest-cards{padding:20px;display:grid;grid-template-columns:repeat(2,1fr);gap:16px;}
+.invest-card{border:1px solid #e8e8e8;border-radius:6px;padding:16px;}
+.invest-dir{font-size:15px;font-weight:700;margin-bottom:8px;}
+.invest-proj{font-size:12px;color:#666;margin-bottom:8px;}
+.invest-bar-wrap{background:#f0f0f0;border-radius:4px;height:6px;margin-bottom:10px;}
+.invest-bar{height:6px;border-radius:4px;}
+.bar-strong{background:#e63946;width:90%;}
+.bar-mid{background:#f39c12;width:60%;}
+.bar-watch{background:#27ae60;width:35%;}
+.invest-strength{font-size:12px;margin-bottom:4px;}
+.str-strong{color:#e63946;font-weight:700;}
+.str-mid{color:#f39c12;font-weight:700;}
+.str-watch{color:#27ae60;font-weight:700;}
+.footer{text-align:center;padding:24px;color:#aaa;font-size:12px;border-top:1px solid #eee;margin-top:8px;}
+@media(max-width:640px){.invest-cards{grid-template-columns:1fr;}.tab{padding:10px 14px;font-size:13px;}}</style>
 </head>
 <body>
-  <header class="hero">
-    <div class="hero-inner">
-      <div class="eyebrow">GitHub Trending Daily Brief</div>
-      <h1>GitHub Trending 日报</h1>
-      <div class="subtitle">用产品日报的方式读 GitHub 热榜：不只是看谁涨得快，更看哪些方向正在形成趋势、共识和投资信号。</div>
-      <div class="hero-meta">
-        <div class="meta-card">
-          <div class="meta-label">今日头条项目</div>
-          <div class="meta-value">mattpocock</div>
-          <div class="meta-sub">今日新增 ⭐ 5,645 · Skills for Real Engineers. Straight from my .claude directory.</div>
-        </div>
-        <div class="meta-card">
-          <div class="meta-label">更新时间</div>
-          <div class="meta-value" style="font-size:20px;">2026-04-28 09:10:07 GMT+8</div>
-          <div class="meta-sub">数据源：/workspace/github-trending/data.json</div>
-        </div>
-        <div class="meta-card">
-          <div class="meta-label">本页结构</div>
-          <div class="meta-value" style="font-size:20px;">4 个榜单视角</div>
-          <div class="meta-sub">榜单总览 / 深度解读 / 投资信号拆解</div>
-        </div>
-      </div>
-    </div>
-  </header>
+<div class="header">
+<div class="header-inner">
+  <div class="header-top">
+    <div class="logo">GitHub <span>Trending</span> 日报</div>
+    <div class="date">2026年04月28日 · 数据更新于 09:10</div>
+  </div>
+  <div class="summary">📌 今日热榜：mattpocock、abhigyanpatwari、awesome-codex-skills 领衔，mattpocock 单日涨星 5,645</div>
+</div>
+</div>
+<div class="tabs">
+<div class="tabs-inner">
+  <div class="tab active" onclick="showTab(0)">📊 今日全站热榜</div>
+  <div class="tab" onclick="showTab(1)">🤖 AI / ML 专题</div>
+  <div class="tab" onclick="showTab(2)">📈 本周趋势 &amp; 投资信号</div>
+  <div class="tab" onclick="showTab(3)">📚 历史解读库</div>
+</div>
+</div>
+<div class="content">
 
-  <main class="container">
-    
-    <div class="tabs">
-      <button class="tab-btn active" data-tab="daily-full">今日全榜</button>
-      <button class="tab-btn" data-tab="daily-ai">今日AI专榜</button>
-      <button class="tab-btn" data-tab="weekly-full">本周全榜</button>
-      <button class="tab-btn" data-tab="weekly-ai">本周AI专榜</button>
-    </div>
-    
+<div class="panel active" id="panel-0">
+  <div class="section">
+    <div class="section-header"><span class="section-icon">🏆</span><span class="section-title">榜单总览</span></div>
+    <table><thead><tr><th>#</th><th>项目</th><th>语言</th><th>今日新增 ⭐</th><th>总 ⭐</th><th>Forks</th></tr></thead>
+    <tbody><tr><td class="rank top3">1</td><td><a class="proj-name" href="https://github.com/sponsors/mattpocock" target="_blank">sponsors / mattpocock</a><div class="proj-sub">Sponsor Star mattpocock / skills Agent Skills for real engineers. Straight from my .claude</div></td><td><span class="lang-tag">Shell</span></td><td class="stars-new">+2,519</td><td class="stars">0</td><td>0</td></tr>
+<tr><td class="rank top3">2</td><td><a class="proj-name" href="https://github.com/Alishahryar1/free-claude-code" target="_blank">Alishahryar1 / free-claude-code</a><div class="proj-sub">Star Alishahryar1 / free-claude-code Use claude-code for free in the terminal, VSCode exte</div></td><td><span class="lang-tag lang-Python">Python</span></td><td class="stars-new">+1,701</td><td class="stars">14,008</td><td>1,985</td></tr>
+<tr><td class="rank top3">3</td><td><a class="proj-name" href="https://github.com/Z4nzu/hackingtool" target="_blank">Z4nzu / hackingtool</a><div class="proj-sub">Star Z4nzu / hackingtool ALL IN ONE Hacking Tool For Hackers</div></td><td><span class="lang-tag lang-Python">Python</span></td><td class="stars-new">+1,720</td><td class="stars">65,726</td><td>7,380</td></tr>
+<tr><td class="rank">4</td><td><a class="proj-name" href="https://github.com/sponsors/abhigyanpatwari" target="_blank">sponsors / abhigyanpatwari</a><div class="proj-sub">Sponsor Star abhigyanpatwari / GitNexus GitNexus: The Zero-Server Code Intelligence Engine</div></td><td><span class="lang-tag lang-TypeScript">TypeScript</span></td><td class="stars-new">+700</td><td class="stars">0</td><td>0</td></tr>
+<tr><td class="rank">5</td><td><a class="proj-name" href="https://github.com/PostHog/posthog" target="_blank">PostHog / posthog</a><div class="proj-sub">Star PostHog / posthog 🦔 PostHog is an all-in-one developer platform for building successf</div></td><td><span class="lang-tag lang-Python">Python</span></td><td class="stars-new">+337</td><td class="stars">33,896</td><td>2,638</td></tr>
+<tr><td class="rank">6</td><td><a class="proj-name" href="https://github.com/microsoft/typescript-go" target="_blank">microsoft / typescript-go</a><div class="proj-sub">Star microsoft / typescript-go Staging repo for development of native port of TypeScript</div></td><td><span class="lang-tag">Go</span></td><td class="stars-new">+23</td><td class="stars">25,178</td><td>923</td></tr>
+<tr><td class="rank">7</td><td><a class="proj-name" href="https://github.com/sponsors/trycua" target="_blank">sponsors / trycua</a><div class="proj-sub">Sponsor Star trycua / cua Open-source infrastructure for Computer-Use Agents. Sandboxes, S</div></td><td><span class="lang-tag">HTML</span></td><td class="stars-new">+182</td><td class="stars">0</td><td>0</td></tr>
+<tr><td class="rank">8</td><td><a class="proj-name" href="https://github.com/gastownhall/beads" target="_blank">gastownhall / beads</a><div class="proj-sub">Star gastownhall / beads Beads - A memory upgrade for your coding agent</div></td><td><span class="lang-tag">Go</span></td><td class="stars-new">+152</td><td class="stars">21,739</td><td>1,442</td></tr>
+<tr><td class="rank">9</td><td><a class="proj-name" href="https://github.com/sponsors/curl" target="_blank">sponsors / curl</a><div class="proj-sub">Sponsor Star curl / curl A command line tool and library for transferring data with URL sy</div></td><td><span class="lang-tag">C</span></td><td class="stars-new">+30</td><td class="stars">0</td><td>0</td></tr>
+<tr><td class="rank">10</td><td><a class="proj-name" href="https://github.com/home-assistant/core" target="_blank">home-assistant / core</a><div class="proj-sub">Star home-assistant / core 🏡 Open source home automation that puts local control and priva</div></td><td><span class="lang-tag lang-Python">Python</span></td><td class="stars-new">+73</td><td class="stars">86,591</td><td>37,364</td></tr>
+</tbody></table>
+  </div>
+  <div class="section">
+    <div class="section-header"><span class="section-icon">📝</span><span class="section-title">深度解读 · Top 5</span></div>
+    <div class="insight-list"><div class="insight-item"><div class="insight-repo">#1 mattpocock  · TypeScript教学工具</div><div class="insight-text">这是 TypeScript 教育领域知名开发者 Matt Pocock 的个人技能目录项目，直接来源于其 `.claude` 目录，展示了如何将 AI 编程助手（Claude）的配置与提示词工程化管理的实践方案。随着 Vibe Coding 和 AI 辅助开发的兴起，开发者分享自己的 AI 工作流配置正成为新趋势，该项目因作者在 TypeScript 社区的高影响力而迅速获得关注。所在赛道为 **AI 编程工作流 / 提示词工程**，对希望优化 Claude 使用效率的开发者具有较强的参考价值。</div></div>
+<div class="insight-item"><div class="insight-repo">#2 free-claude-code  · AI编程助手</div><div class="insight-text">通过巧妙的代理转发机制，让用户无需付费即可在终端、VSCode插件或Discord中使用Claude Code编程助手，极大降低了AI编程工具的使用门槛。该项目在短时间内积累大量关注，折射出开发者对高质量AI编程辅助工具强烈的平民化需求。属于AI开发工具与LLM访问代理赛道，是当前"免费/破限使用AI能力"这一热门方向的典型代表。</div></div>
+<div class="insight-item"><div class="insight-repo">#3 hackingtool  · 黑客渗透工具</div><div class="insight-text">这是一个集成了渗透测试、信息收集、漏洞利用、社会工程学等多类攻击工具的"瑞士军刀"式黑客工具箱，适合安全研究人员和CTF参赛者快速调用各类工具链。项目以Python构建、操作简便，将数十种分散的安全工具统一整合到一个菜单驱动界面，大幅降低了使用门槛。属于网络安全/渗透测试工具赛道，凭借其一站式集成特性持续积累庞大用户群，是安全学习者入门实战的高频参考项目。</div></div>
+<div class="insight-item"><div class="insight-repo">#4 abhigyanpatwari  · 代码知识图谱</div><div class="insight-text">一款完全运行在浏览器端的代码智能分析工具，无需服务器即可将 GitHub 仓库或 ZIP 文件转化为交互式知识图谱，并内置 Graph RAG 智能问答代理，极大降低了代码探索与理解的门槛。凭借零服务端架构和隐私友好的纯客户端设计，特别适合开发者快速理解陌生代码库、进行架构梳理或技术评审。该项目处于代码智能（Code Intelligence）与本地 AI 应用的交叉赛道，契合当前开发工具 AI 化和隐私计算的双重趋势，值得密切关注。</div></div>
+<div class="insight-item"><div class="insight-repo">#5 posthog  · 产品分析平台</div><div class="insight-text">面向开发者的一体化产品分析平台，集成了产品分析、会话回放、错误追踪、特性标志、A/B实验、用户调研及数据仓库等功能，让团队无需依赖多个工具即可完整掌握产品数据链路。作为Mixpanel、Amplitude等SaaS工具的开源替代方案，支持私有化部署，数据主权掌握在自己手中，对注重数据安全的企业尤为友好。所在赛道为产品增长与数据基础设施，近期融入AI辅助调试能力使其竞争力进一步提升，值得关注。</div></div>
+</div>
+  </div>
+  <div class="section">
+    <div class="section-header"><span class="section-icon">📡</span><span class="section-title">今日技术信号</span></div>
+    <div class="signal-tags"><span class="signal-tag tag-hot">🔥 TypeScript教学工具</span>
+<span class="signal-tag tag-hot">🔥 AI编程助手</span>
+<span class="signal-tag tag-rising">📈 黑客渗透工具</span>
+<span class="signal-tag tag-rising">📈 代码知识图谱</span>
+<span class="signal-tag tag-watch">👀 产品分析平台</span>
+</div>
+  </div>
+</div>
 
-    <section id="daily-full" class="tab-panel active">
-    <section class="section">
-      <div class="section-head">
-        <h2>榜单总览</h2>
-        <p>今日 Top 项目一览，可点击跳转 GitHub</p>
-      </div>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>排名</th>
-              <th>项目</th>
-              <th>方向/标签</th>
-              <th>今日新增⭐</th>
-              <th>总⭐</th>
-              <th>编程语言</th>
-            </tr>
-          </thead>
-          <tbody>
-            
-        <tr>
-          <td class="rank">1</td>
-          <td class="project-cell">
-            <a href="https://github.com/sponsors/mattpocock" target="_blank" rel="noopener noreferrer">sponsors/mattpocock</a>
-            <div class="desc">Skills for Real Engineers. Straight from my .claude directory.</div>
-          </td>
-          <td><span class="tag agent">AI Agent 基础设施</span></td>
-          <td class="num highlight">+5,645</td>
-          <td class="num">0</td>
-          <td>Shell</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">2</td>
-          <td class="project-cell">
-            <a href="https://github.com/sponsors/abhigyanpatwari" target="_blank" rel="noopener noreferrer">sponsors/abhigyanpatwari</a>
-            <div class="desc">GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration</div>
-          </td>
-          <td><span class="tag agent">AI Agent 基础设施</span></td>
-          <td class="num highlight">+1,102</td>
-          <td class="num">0</td>
-          <td>TypeScript</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">3</td>
-          <td class="project-cell">
-            <a href="https://github.com/ComposioHQ/awesome-codex-skills" target="_blank" rel="noopener noreferrer">ComposioHQ/awesome-codex-skills</a>
-            <div class="desc">A curated list of practical Codex skills for automating workflows across the Codex CLI and API.</div>
-          </td>
-          <td><span class="tag agent">AI Agent 基础设施</span></td>
-          <td class="num highlight">+638</td>
-          <td class="num">2,807</td>
-          <td>Python</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">4</td>
-          <td class="project-cell">
-            <a href="https://github.com/Alishahryar1/free-claude-code" target="_blank" rel="noopener noreferrer">Alishahryar1/free-claude-code</a>
-            <div class="desc">Use claude-code for free in the terminal, VSCode extension or via discord like openclaw</div>
-          </td>
-          <td><span class="tag dev">AI 开发者效率</span></td>
-          <td class="num highlight">+2,949</td>
-          <td class="num">16,123</td>
-          <td>Python</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">5</td>
-          <td class="project-cell">
-            <a href="https://github.com/gastownhall/beads" target="_blank" rel="noopener noreferrer">gastownhall/beads</a>
-            <div class="desc">Beads - A memory upgrade for your coding agent</div>
-          </td>
-          <td><span class="tag agent">AI Agent 基础设施</span></td>
-          <td class="num highlight">+498</td>
-          <td class="num">22,205</td>
-          <td>Go</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">6</td>
-          <td class="project-cell">
-            <a href="https://github.com/penpot/penpot" target="_blank" rel="noopener noreferrer">penpot/penpot</a>
-            <div class="desc">Penpot: The open-source design tool for design and code collaboration</div>
-          </td>
-          <td><span class="tag dev">AI 开发者效率</span></td>
-          <td class="num highlight">+166</td>
-          <td class="num">46,615</td>
-          <td>Clojure</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">7</td>
-          <td class="project-cell">
-            <a href="https://github.com/davila7/claude-code-templates" target="_blank" rel="noopener noreferrer">davila7/claude-code-templates</a>
-            <div class="desc">CLI tool for configuring and monitoring Claude Code</div>
-          </td>
-          <td><span class="tag dev">AI 开发者效率</span></td>
-          <td class="num highlight">+154</td>
-          <td class="num">25,785</td>
-          <td>Python</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">8</td>
-          <td class="project-cell">
-            <a href="https://github.com/microsoft/VibeVoice" target="_blank" rel="noopener noreferrer">microsoft/VibeVoice</a>
-            <div class="desc">Open-Source Frontier Voice AI</div>
-          </td>
-          <td><span class="tag voice">语音生成与多模态</span></td>
-          <td class="num highlight">+757</td>
-          <td class="num">43,111</td>
-          <td>Python</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">9</td>
-          <td class="project-cell">
-            <a href="https://github.com/Z4nzu/hackingtool" target="_blank" rel="noopener noreferrer">Z4nzu/hackingtool</a>
-            <div class="desc">ALL IN ONE Hacking Tool For Hackers</div>
-          </td>
-          <td><span class="tag general">通用 AI 工具</span></td>
-          <td class="num highlight">+1,830</td>
-          <td class="num">67,115</td>
-          <td>Python</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">10</td>
-          <td class="project-cell">
-            <a href="https://github.com/TauricResearch/TradingAgents" target="_blank" rel="noopener noreferrer">TauricResearch/TradingAgents</a>
-            <div class="desc">TradingAgents: Multi-Agents LLM Financial Trading Framework</div>
-          </td>
-          <td><span class="tag agent">AI Agent 基础设施</span></td>
-          <td class="num highlight">+248</td>
-          <td class="num">53,796</td>
-          <td>Python</td>
-        </tr>
-        
-          </tbody>
-        </table>
-      </div>
-    </section>
-    
-    <section class="section">
-      <div class="section-head">
-        <h2>深度解读</h2>
-        <p>Top 5 项目逐一拆解：它在解决什么问题，为什么会火</p>
-      </div>
-      <div class="insight-grid">
-        
-      </div>
-    </section>
-    
-    <section class="section">
-      <div class="section-head">
-        <h2>投资信号拆解</h2>
-        <p>从榜单热度背后提炼值得持续追踪的方向</p>
-      </div>
-      <div class="signal-grid">
-        
-        <article class="signal-card">
-          <h3>AI Agent 基础设施层（最热）</h3>
-          <div class="signal-projects">代表项目：hermes-agent、multica、Archon</div>
-          <p>Agent 数量爆发后，管理、调度、持久化成为瓶颈。谁能做好 Agent 的“操作系统”，谁就有护城河。可类比 2010 年代 DevOps 工具链的崛起。</p>
-        </article>
-        
-        <article class="signal-card">
-          <h3>AI 开发者效率（卖铲子的生意）</h3>
-          <div class="signal-projects">代表项目：markitdown、karpathy-skills、claude-code-best-practice</div>
-          <p>每个 AI 应用都需要数据清洗和 prompt 工程。微软 markitdown 接近 11 万 star，说明这个需求规模巨大，且用户粘性强。</p>
-        </article>
-        
-        <article class="signal-card">
-          <h3>AI 垂直金融（新兴）</h3>
-          <div class="signal-projects">代表项目：Kronos、ai-hedge-fund</div>
-          <p>通用大模型在金融场景效果有限，垂直金融模型有独特数据壁垒。量化交易 + AI 是华尔街正在押注的方向。</p>
-        </article>
-        
-        <article class="signal-card">
-          <h3>语音合成（端侧突破）</h3>
-          <div class="signal-projects">代表项目：OpenBMB/VoxCPM</div>
-          <p>Tokenizer-Free 架构降低了多语言 TTS 门槛，端侧语音合成是手机、车载等场景的必争之地。</p>
-        </article>
-        
-      </div>
-    </section>
-    </section>
-    <section id="daily-ai" class="tab-panel">
-    <section class="section">
-      <div class="section-head">
-        <h2>榜单总览</h2>
-        <p>今日 Top 项目一览，可点击跳转 GitHub</p>
-      </div>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>排名</th>
-              <th>项目</th>
-              <th>方向/标签</th>
-              <th>今日新增⭐</th>
-              <th>总⭐</th>
-              <th>编程语言</th>
-            </tr>
-          </thead>
-          <tbody>
-            
-        <tr>
-          <td class="rank">1</td>
-          <td class="project-cell">
-            <a href="https://github.com/sponsors/mattpocock" target="_blank" rel="noopener noreferrer">sponsors/mattpocock</a>
-            <div class="desc">Skills for Real Engineers. Straight from my .claude directory.</div>
-          </td>
-          <td><span class="tag agent">AI Agent 基础设施</span></td>
-          <td class="num highlight">+5,645</td>
-          <td class="num">0</td>
-          <td>Shell</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">2</td>
-          <td class="project-cell">
-            <a href="https://github.com/sponsors/abhigyanpatwari" target="_blank" rel="noopener noreferrer">sponsors/abhigyanpatwari</a>
-            <div class="desc">GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration</div>
-          </td>
-          <td><span class="tag agent">AI Agent 基础设施</span></td>
-          <td class="num highlight">+1,102</td>
-          <td class="num">0</td>
-          <td>TypeScript</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">3</td>
-          <td class="project-cell">
-            <a href="https://github.com/Alishahryar1/free-claude-code" target="_blank" rel="noopener noreferrer">Alishahryar1/free-claude-code</a>
-            <div class="desc">Use claude-code for free in the terminal, VSCode extension or via discord like openclaw</div>
-          </td>
-          <td><span class="tag dev">AI 开发者效率</span></td>
-          <td class="num highlight">+2,949</td>
-          <td class="num">16,123</td>
-          <td>Python</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">4</td>
-          <td class="project-cell">
-            <a href="https://github.com/gastownhall/beads" target="_blank" rel="noopener noreferrer">gastownhall/beads</a>
-            <div class="desc">Beads - A memory upgrade for your coding agent</div>
-          </td>
-          <td><span class="tag agent">AI Agent 基础设施</span></td>
-          <td class="num highlight">+498</td>
-          <td class="num">22,205</td>
-          <td>Go</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">5</td>
-          <td class="project-cell">
-            <a href="https://github.com/davila7/claude-code-templates" target="_blank" rel="noopener noreferrer">davila7/claude-code-templates</a>
-            <div class="desc">CLI tool for configuring and monitoring Claude Code</div>
-          </td>
-          <td><span class="tag dev">AI 开发者效率</span></td>
-          <td class="num highlight">+154</td>
-          <td class="num">25,785</td>
-          <td>Python</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">6</td>
-          <td class="project-cell">
-            <a href="https://github.com/microsoft/VibeVoice" target="_blank" rel="noopener noreferrer">microsoft/VibeVoice</a>
-            <div class="desc">Open-Source Frontier Voice AI</div>
-          </td>
-          <td><span class="tag voice">语音生成与多模态</span></td>
-          <td class="num highlight">+757</td>
-          <td class="num">43,111</td>
-          <td>Python</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">7</td>
-          <td class="project-cell">
-            <a href="https://github.com/TauricResearch/TradingAgents" target="_blank" rel="noopener noreferrer">TauricResearch/TradingAgents</a>
-            <div class="desc">TradingAgents: Multi-Agents LLM Financial Trading Framework</div>
-          </td>
-          <td><span class="tag agent">AI Agent 基础设施</span></td>
-          <td class="num highlight">+248</td>
-          <td class="num">53,796</td>
-          <td>Python</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">8</td>
-          <td class="project-cell">
-            <a href="https://github.com/CJackHwang/ds2api" target="_blank" rel="noopener noreferrer">CJackHwang/ds2api</a>
-            <div class="desc">Deepseek to API: A lightweight, high-performance full-stack middleware converting client protocols to universal APIs. Supports multi-account rotation, compiled binaries, Vercel Serverless, and Docker. Compatible with Google, Claude, and OpenAI API formats.</div>
-          </td>
-          <td><span class="tag dev">AI 开发者效率</span></td>
-          <td class="num highlight">+138</td>
-          <td class="num">1,841</td>
-          <td>Go</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">9</td>
-          <td class="project-cell">
-            <a href="https://github.com/deepseek-ai/DeepSeek-V3" target="_blank" rel="noopener noreferrer">deepseek-ai/DeepSeek-V3</a>
-            <div class="desc">暂无项目描述</div>
-          </td>
-          <td><span class="tag general">通用 AI 工具</span></td>
-          <td class="num highlight">+81</td>
-          <td class="num">103,104</td>
-          <td>Python</td>
-        </tr>
-        
-          </tbody>
-        </table>
-      </div>
-    </section>
-    
-    <section class="section">
-      <div class="section-head">
-        <h2>深度解读</h2>
-        <p>Top 5 项目逐一拆解：它在解决什么问题，为什么会火</p>
-      </div>
-      <div class="insight-grid">
-        
-        <article class="insight-card">
-          <div class="insight-title-row">
-            <h3><a href="https://github.com/sponsors/mattpocock" target="_blank" rel="noopener noreferrer">sponsors/mattpocock</a></h3>
-          </div>
-          <p class="one-liner">Skills for Real Engineers. Straight …</p>
-          <p class="analysis">这个项目归属于“AI Agent 基础设施”方向，今日新增 5,645 星，说明它在当前开发者讨论中具备明确热度。它解决的问题更偏向具体场景或具体链路，因此更容易在短时间内形成传播。若后续持续上榜，说明其需求不是一时热点，而可能进入稳定的工具或平台层。</p>
-        </article>
-        
-        <article class="insight-card">
-          <div class="insight-title-row">
-            <h3><a href="https://github.com/sponsors/abhigyanpatwari" target="_blank" rel="noopener noreferrer">sponsors/abhigyanpatwari</a></h3>
-          </div>
-          <p class="one-liner">GitNexus: The Zero-Server Code Intel…</p>
-          <p class="analysis">这个项目归属于“AI Agent 基础设施”方向，今日新增 1,102 星，说明它在当前开发者讨论中具备明确热度。它解决的问题更偏向具体场景或具体链路，因此更容易在短时间内形成传播。若后续持续上榜，说明其需求不是一时热点，而可能进入稳定的工具或平台层。</p>
-        </article>
-        
-        <article class="insight-card">
-          <div class="insight-title-row">
-            <h3><a href="https://github.com/Alishahryar1/free-claude-code" target="_blank" rel="noopener noreferrer">Alishahryar1/free-claude-code</a></h3>
-          </div>
-          <p class="one-liner">Use claude-code for free in the term…</p>
-          <p class="analysis">这个项目归属于“AI 开发者效率”方向，今日新增 2,949 星，说明它在当前开发者讨论中具备明确热度。它解决的问题更偏向具体场景或具体链路，因此更容易在短时间内形成传播。若后续持续上榜，说明其需求不是一时热点，而可能进入稳定的工具或平台层。</p>
-        </article>
-        
-        <article class="insight-card">
-          <div class="insight-title-row">
-            <h3><a href="https://github.com/gastownhall/beads" target="_blank" rel="noopener noreferrer">gastownhall/beads</a></h3>
-          </div>
-          <p class="one-liner">Beads - A memory upgrade for your co…</p>
-          <p class="analysis">这个项目归属于“AI Agent 基础设施”方向，今日新增 498 星，说明它在当前开发者讨论中具备明确热度。它解决的问题更偏向具体场景或具体链路，因此更容易在短时间内形成传播。若后续持续上榜，说明其需求不是一时热点，而可能进入稳定的工具或平台层。</p>
-        </article>
-        
-        <article class="insight-card">
-          <div class="insight-title-row">
-            <h3><a href="https://github.com/davila7/claude-code-templates" target="_blank" rel="noopener noreferrer">davila7/claude-code-templates</a></h3>
-          </div>
-          <p class="one-liner">CLI tool for configuring and monitor…</p>
-          <p class="analysis">这个项目归属于“AI 开发者效率”方向，今日新增 154 星，说明它在当前开发者讨论中具备明确热度。它解决的问题更偏向具体场景或具体链路，因此更容易在短时间内形成传播。若后续持续上榜，说明其需求不是一时热点，而可能进入稳定的工具或平台层。</p>
-        </article>
-        
-      </div>
-    </section>
-    
-    <section class="section">
-      <div class="section-head">
-        <h2>投资信号拆解</h2>
-        <p>从榜单热度背后提炼值得持续追踪的方向</p>
-      </div>
-      <div class="signal-grid">
-        
-        <article class="signal-card">
-          <h3>AI Agent 基础设施（今日 AI 热点）</h3>
-          <div class="signal-projects">代表项目：mattpocock、abhigyanpatwari、beads</div>
-          <p>Agent 数量上来之后，核心矛盾会从‘能不能做事’转向‘能不能被组织、复用和治理’。具备任务编排、技能沉淀和流程标准化能力的平台，更可能形成长期护城河。</p>
-        </article>
-        
-        <article class="signal-card">
-          <h3>AI 开发者效率（今日 AI 热点）</h3>
-          <div class="signal-projects">代表项目：free-claude-code、claude-code-templates、ds2api</div>
-          <p>无论模型迭代多快，开发者都会持续为数据清洗、代码协同、提示词规范和内容生产买单。这类项目像 AI 浪潮里的卖铲人，需求广、复用强、迁移成本低。</p>
-        </article>
-        
-        <article class="signal-card">
-          <h3>语音生成与多模态（今日 AI 热点）</h3>
-          <div class="signal-projects">代表项目：VibeVoice</div>
-          <p>语音是天然的人机交互入口，尤其适合车载、硬件和陪伴场景。多语言、低门槛、可克隆的语音能力一旦落地，会迅速成为终端产品差异化竞争点。</p>
-        </article>
-        
-        <article class="signal-card">
-          <h3>通用 AI 工具（今日 AI 热点）</h3>
-          <div class="signal-projects">代表项目：DeepSeek-V3</div>
-          <p>通用工具类项目不一定聚焦单个行业，但胜在覆盖面广、进入门槛低。它们往往是新技术扩散初期最先被验证、也最容易沉淀用户心智的一层。</p>
-        </article>
-        
-      </div>
-    </section>
-    </section>
-    <section id="weekly-full" class="tab-panel">
-    <section class="section">
-      <div class="section-head">
-        <h2>榜单总览</h2>
-        <p>本周 Top 项目一览，可点击跳转 GitHub</p>
-      </div>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>排名</th>
-              <th>项目</th>
-              <th>方向/标签</th>
-              <th>本周新增⭐</th>
-              <th>总⭐</th>
-              <th>编程语言</th>
-            </tr>
-          </thead>
-          <tbody>
-            
-        <tr>
-          <td class="rank">1</td>
-          <td class="project-cell">
-            <a href="https://github.com/Alishahryar1/free-claude-code" target="_blank" rel="noopener noreferrer">Alishahryar1/free-claude-code</a>
-            <div class="desc">Use claude-code for free in the terminal, VSCode extension or via discord like openclaw</div>
-          </td>
-          <td><span class="tag dev">AI 开发者效率</span></td>
-          <td class="num highlight">+13,415</td>
-          <td class="num">16,123</td>
-          <td>Python</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">2</td>
-          <td class="project-cell">
-            <a href="https://github.com/sponsors/Fincept-Corporation" target="_blank" rel="noopener noreferrer">sponsors/Fincept-Corporation</a>
-            <div class="desc">FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.</div>
-          </td>
-          <td><span class="tag finance">AI 垂直金融</span></td>
-          <td class="num highlight">+7,513</td>
-          <td class="num">0</td>
-          <td>Python</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">3</td>
-          <td class="project-cell">
-            <a href="https://github.com/zilliztech/claude-context" target="_blank" rel="noopener noreferrer">zilliztech/claude-context</a>
-            <div class="desc">Code search MCP for Claude Code. Make entire codebase the context for any coding agent.</div>
-          </td>
-          <td><span class="tag agent">AI Agent 基础设施</span></td>
-          <td class="num highlight">+3,725</td>
-          <td class="num">9,864</td>
-          <td>TypeScript</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">4</td>
-          <td class="project-cell">
-            <a href="https://github.com/forrestchang/andrej-karpathy-skills" target="_blank" rel="noopener noreferrer">forrestchang/andrej-karpathy-skills</a>
-            <div class="desc">A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy&#x27;s observations on LLM coding pitfalls.</div>
-          </td>
-          <td><span class="tag agent">AI Agent 基础设施</span></td>
-          <td class="num highlight">+28,522</td>
-          <td class="num">94,116</td>
-          <td>—</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">5</td>
-          <td class="project-cell">
-            <a href="https://github.com/sponsors/mattpocock" target="_blank" rel="noopener noreferrer">sponsors/mattpocock</a>
-            <div class="desc">Skills for Real Engineers. Straight from my .claude directory.</div>
-          </td>
-          <td><span class="tag agent">AI Agent 基础设施</span></td>
-          <td class="num highlight">+10,757</td>
-          <td class="num">0</td>
-          <td>Shell</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">6</td>
-          <td class="project-cell">
-            <a href="https://github.com/Z4nzu/hackingtool" target="_blank" rel="noopener noreferrer">Z4nzu/hackingtool</a>
-            <div class="desc">ALL IN ONE Hacking Tool For Hackers</div>
-          </td>
-          <td><span class="tag general">通用 AI 工具</span></td>
-          <td class="num highlight">+8,378</td>
-          <td class="num">67,115</td>
-          <td>Python</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">7</td>
-          <td class="project-cell">
-            <a href="https://github.com/lsdefine/GenericAgent" target="_blank" rel="noopener noreferrer">lsdefine/GenericAgent</a>
-            <div class="desc">Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption</div>
-          </td>
-          <td><span class="tag agent">AI Agent 基础设施</span></td>
-          <td class="num highlight">+2,832</td>
-          <td class="num">7,743</td>
-          <td>Python</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">8</td>
-          <td class="project-cell">
-            <a href="https://github.com/sponsors/mksglu" target="_blank" rel="noopener noreferrer">sponsors/mksglu</a>
-            <div class="desc">Context window optimization for AI coding agents. Sandboxes tool output, 98% reduction. 14 platforms</div>
-          </td>
-          <td><span class="tag agent">AI Agent 基础设施</span></td>
-          <td class="num highlight">+2,346</td>
-          <td class="num">0</td>
-          <td>TypeScript</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">9</td>
-          <td class="project-cell">
-            <a href="https://github.com/sponsors/thunderbird" target="_blank" rel="noopener noreferrer">sponsors/thunderbird</a>
-            <div class="desc">AI You Control: Choose your models. Own your data. Eliminate vendor lock-in.</div>
-          </td>
-          <td><span class="tag general">通用 AI 工具</span></td>
-          <td class="num highlight">+1,675</td>
-          <td class="num">0</td>
-          <td>TypeScript</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">10</td>
-          <td class="project-cell">
-            <a href="https://github.com/Anil-matcha/Open-Generative-AI" target="_blank" rel="noopener noreferrer">Anil-matcha/Open-Generative-AI</a>
-            <div class="desc">Uncensored, open-source alternative to Higgsfield AI, Freepik AI, Krea AI, Openart AI — Free, unrestricted AI image &amp;amp; video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.</div>
-          </td>
-          <td><span class="tag general">通用 AI 工具</span></td>
-          <td class="num highlight">+3,862</td>
-          <td class="num">9,327</td>
-          <td>JavaScript</td>
-        </tr>
-        
-          </tbody>
-        </table>
-      </div>
-    </section>
-    
-    <section class="section">
-      <div class="section-head">
-        <h2>深度解读</h2>
-        <p>Top 5 项目逐一拆解：它在解决什么问题，为什么会火</p>
-      </div>
-      <div class="insight-grid">
-        
-        <article class="insight-card">
-          <div class="insight-title-row">
-            <h3><a href="https://github.com/Alishahryar1/free-claude-code" target="_blank" rel="noopener noreferrer">Alishahryar1/free-claude-code</a></h3>
-          </div>
-          <p class="one-liner">Use claude-code for free in the term…</p>
-          <p class="analysis">这个项目归属于“AI 开发者效率”方向，本周新增 13,415 星，说明它在当前开发者讨论中具备明确热度。它解决的问题更偏向具体场景或具体链路，因此更容易在短时间内形成传播。若后续持续上榜，说明其需求不是一时热点，而可能进入稳定的工具或平台层。</p>
-        </article>
-        
-        <article class="insight-card">
-          <div class="insight-title-row">
-            <h3><a href="https://github.com/sponsors/Fincept-Corporation" target="_blank" rel="noopener noreferrer">sponsors/Fincept-Corporation</a></h3>
-          </div>
-          <p class="one-liner">FinceptTerminal is a modern finance …</p>
-          <p class="analysis">这个项目归属于“AI 垂直金融”方向，本周新增 7,513 星，说明它在当前开发者讨论中具备明确热度。它解决的问题更偏向具体场景或具体链路，因此更容易在短时间内形成传播。若后续持续上榜，说明其需求不是一时热点，而可能进入稳定的工具或平台层。</p>
-        </article>
-        
-        <article class="insight-card">
-          <div class="insight-title-row">
-            <h3><a href="https://github.com/zilliztech/claude-context" target="_blank" rel="noopener noreferrer">zilliztech/claude-context</a></h3>
-          </div>
-          <p class="one-liner">Code search MCP for Claude Code. Mak…</p>
-          <p class="analysis">这个项目归属于“AI Agent 基础设施”方向，本周新增 3,725 星，说明它在当前开发者讨论中具备明确热度。它解决的问题更偏向具体场景或具体链路，因此更容易在短时间内形成传播。若后续持续上榜，说明其需求不是一时热点，而可能进入稳定的工具或平台层。</p>
-        </article>
-        
-        <article class="insight-card">
-          <div class="insight-title-row">
-            <h3><a href="https://github.com/forrestchang/andrej-karpathy-skills" target="_blank" rel="noopener noreferrer">forrestchang/andrej-karpathy-skills</a></h3>
-          </div>
-          <p class="one-liner">AI 编程方法论开始产品化、模板化。</p>
-          <p class="analysis">这个项目把经验主义的 coding 技巧打包成一份可复用配置，吸引力在于低门槛、高迁移性。它代表的是‘开发规范被 prompt 化’的趋势。</p>
-        </article>
-        
-        <article class="insight-card">
-          <div class="insight-title-row">
-            <h3><a href="https://github.com/sponsors/mattpocock" target="_blank" rel="noopener noreferrer">sponsors/mattpocock</a></h3>
-          </div>
-          <p class="one-liner">Skills for Real Engineers. Straight …</p>
-          <p class="analysis">这个项目归属于“AI Agent 基础设施”方向，本周新增 10,757 星，说明它在当前开发者讨论中具备明确热度。它解决的问题更偏向具体场景或具体链路，因此更容易在短时间内形成传播。若后续持续上榜，说明其需求不是一时热点，而可能进入稳定的工具或平台层。</p>
-        </article>
-        
-      </div>
-    </section>
-    
-    <section class="section">
-      <div class="section-head">
-        <h2>投资信号拆解</h2>
-        <p>从榜单热度背后提炼值得持续追踪的方向</p>
-      </div>
-      <div class="signal-grid">
-        
-        <article class="signal-card">
-          <h3>AI Agent 基础设施（本周重点）</h3>
-          <div class="signal-projects">代表项目：claude-context、andrej-karpathy-skills、mattpocock</div>
-          <p>Agent 数量上来之后，核心矛盾会从‘能不能做事’转向‘能不能被组织、复用和治理’。具备任务编排、技能沉淀和流程标准化能力的平台，更可能形成长期护城河。</p>
-        </article>
-        
-        <article class="signal-card">
-          <h3>通用 AI 工具（本周重点）</h3>
-          <div class="signal-projects">代表项目：hackingtool、thunderbird、Open-Generative-AI</div>
-          <p>通用工具类项目不一定聚焦单个行业，但胜在覆盖面广、进入门槛低。它们往往是新技术扩散初期最先被验证、也最容易沉淀用户心智的一层。</p>
-        </article>
-        
-        <article class="signal-card">
-          <h3>AI 开发者效率（本周重点）</h3>
-          <div class="signal-projects">代表项目：free-claude-code</div>
-          <p>无论模型迭代多快，开发者都会持续为数据清洗、代码协同、提示词规范和内容生产买单。这类项目像 AI 浪潮里的卖铲人，需求广、复用强、迁移成本低。</p>
-        </article>
-        
-        <article class="signal-card">
-          <h3>AI 垂直金融（本周重点）</h3>
-          <div class="signal-projects">代表项目：Fincept-Corporation</div>
-          <p>金融是高价值、强数据壁垒行业，通用模型很难直接吃透具体业务。能够贴近时间序列、投研或交易决策的模型，商业化路径通常更清晰。</p>
-        </article>
-        
-      </div>
-    </section>
-    </section>
-    <section id="weekly-ai" class="tab-panel">
-    <section class="section">
-      <div class="section-head">
-        <h2>榜单总览</h2>
-        <p>本周 Top 项目一览，可点击跳转 GitHub</p>
-      </div>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>排名</th>
-              <th>项目</th>
-              <th>方向/标签</th>
-              <th>本周新增⭐</th>
-              <th>总⭐</th>
-              <th>编程语言</th>
-            </tr>
-          </thead>
-          <tbody>
-            
-        <tr>
-          <td class="rank">1</td>
-          <td class="project-cell">
-            <a href="https://github.com/Alishahryar1/free-claude-code" target="_blank" rel="noopener noreferrer">Alishahryar1/free-claude-code</a>
-            <div class="desc">Use claude-code for free in the terminal, VSCode extension or via discord like openclaw</div>
-          </td>
-          <td><span class="tag dev">AI 开发者效率</span></td>
-          <td class="num highlight">+13,415</td>
-          <td class="num">16,123</td>
-          <td>Python</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">2</td>
-          <td class="project-cell">
-            <a href="https://github.com/zilliztech/claude-context" target="_blank" rel="noopener noreferrer">zilliztech/claude-context</a>
-            <div class="desc">Code search MCP for Claude Code. Make entire codebase the context for any coding agent.</div>
-          </td>
-          <td><span class="tag agent">AI Agent 基础设施</span></td>
-          <td class="num highlight">+3,725</td>
-          <td class="num">9,864</td>
-          <td>TypeScript</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">3</td>
-          <td class="project-cell">
-            <a href="https://github.com/forrestchang/andrej-karpathy-skills" target="_blank" rel="noopener noreferrer">forrestchang/andrej-karpathy-skills</a>
-            <div class="desc">A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy&#x27;s observations on LLM coding pitfalls.</div>
-          </td>
-          <td><span class="tag agent">AI Agent 基础设施</span></td>
-          <td class="num highlight">+28,522</td>
-          <td class="num">94,116</td>
-          <td>—</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">4</td>
-          <td class="project-cell">
-            <a href="https://github.com/sponsors/mattpocock" target="_blank" rel="noopener noreferrer">sponsors/mattpocock</a>
-            <div class="desc">Skills for Real Engineers. Straight from my .claude directory.</div>
-          </td>
-          <td><span class="tag agent">AI Agent 基础设施</span></td>
-          <td class="num highlight">+10,757</td>
-          <td class="num">0</td>
-          <td>Shell</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">5</td>
-          <td class="project-cell">
-            <a href="https://github.com/lsdefine/GenericAgent" target="_blank" rel="noopener noreferrer">lsdefine/GenericAgent</a>
-            <div class="desc">Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption</div>
-          </td>
-          <td><span class="tag agent">AI Agent 基础设施</span></td>
-          <td class="num highlight">+2,832</td>
-          <td class="num">7,743</td>
-          <td>Python</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">6</td>
-          <td class="project-cell">
-            <a href="https://github.com/sponsors/mksglu" target="_blank" rel="noopener noreferrer">sponsors/mksglu</a>
-            <div class="desc">Context window optimization for AI coding agents. Sandboxes tool output, 98% reduction. 14 platforms</div>
-          </td>
-          <td><span class="tag agent">AI Agent 基础设施</span></td>
-          <td class="num highlight">+2,346</td>
-          <td class="num">0</td>
-          <td>TypeScript</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">7</td>
-          <td class="project-cell">
-            <a href="https://github.com/sponsors/thunderbird" target="_blank" rel="noopener noreferrer">sponsors/thunderbird</a>
-            <div class="desc">AI You Control: Choose your models. Own your data. Eliminate vendor lock-in.</div>
-          </td>
-          <td><span class="tag general">通用 AI 工具</span></td>
-          <td class="num highlight">+1,675</td>
-          <td class="num">0</td>
-          <td>TypeScript</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">8</td>
-          <td class="project-cell">
-            <a href="https://github.com/Anil-matcha/Open-Generative-AI" target="_blank" rel="noopener noreferrer">Anil-matcha/Open-Generative-AI</a>
-            <div class="desc">Uncensored, open-source alternative to Higgsfield AI, Freepik AI, Krea AI, Openart AI — Free, unrestricted AI image &amp;amp; video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.</div>
-          </td>
-          <td><span class="tag general">通用 AI 工具</span></td>
-          <td class="num highlight">+3,862</td>
-          <td class="num">9,327</td>
-          <td>JavaScript</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">9</td>
-          <td class="project-cell">
-            <a href="https://github.com/Tracer-Cloud/opensre" target="_blank" rel="noopener noreferrer">Tracer-Cloud/opensre</a>
-            <div class="desc">Build your own AI SRE agents. The open source toolkit for the AI era ✨</div>
-          </td>
-          <td><span class="tag agent">AI Agent 基础设施</span></td>
-          <td class="num highlight">+1,677</td>
-          <td class="num">3,607</td>
-          <td>Python</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">10</td>
-          <td class="project-cell">
-            <a href="https://github.com/HKUDS/RAG-Anything" target="_blank" rel="noopener noreferrer">HKUDS/RAG-Anything</a>
-            <div class="desc">RAG-Anything: All-in-One RAG Framework</div>
-          </td>
-          <td><span class="tag general">通用 AI 工具</span></td>
-          <td class="num highlight">+2,622</td>
-          <td class="num">19,040</td>
-          <td>Python</td>
-        </tr>
-        
-          </tbody>
-        </table>
-      </div>
-    </section>
-    
-    <section class="section">
-      <div class="section-head">
-        <h2>深度解读</h2>
-        <p>Top 5 项目逐一拆解：它在解决什么问题，为什么会火</p>
-      </div>
-      <div class="insight-grid">
-        
-        <article class="insight-card">
-          <div class="insight-title-row">
-            <h3><a href="https://github.com/Alishahryar1/free-claude-code" target="_blank" rel="noopener noreferrer">Alishahryar1/free-claude-code</a></h3>
-          </div>
-          <p class="one-liner">Use claude-code for free in the term…</p>
-          <p class="analysis">这个项目归属于“AI 开发者效率”方向，本周新增 13,415 星，说明它在当前开发者讨论中具备明确热度。它解决的问题更偏向具体场景或具体链路，因此更容易在短时间内形成传播。若后续持续上榜，说明其需求不是一时热点，而可能进入稳定的工具或平台层。</p>
-        </article>
-        
-        <article class="insight-card">
-          <div class="insight-title-row">
-            <h3><a href="https://github.com/zilliztech/claude-context" target="_blank" rel="noopener noreferrer">zilliztech/claude-context</a></h3>
-          </div>
-          <p class="one-liner">Code search MCP for Claude Code. Mak…</p>
-          <p class="analysis">这个项目归属于“AI Agent 基础设施”方向，本周新增 3,725 星，说明它在当前开发者讨论中具备明确热度。它解决的问题更偏向具体场景或具体链路，因此更容易在短时间内形成传播。若后续持续上榜，说明其需求不是一时热点，而可能进入稳定的工具或平台层。</p>
-        </article>
-        
-        <article class="insight-card">
-          <div class="insight-title-row">
-            <h3><a href="https://github.com/forrestchang/andrej-karpathy-skills" target="_blank" rel="noopener noreferrer">forrestchang/andrej-karpathy-skills</a></h3>
-          </div>
-          <p class="one-liner">AI 编程进入“最佳实践模板”时代。</p>
-          <p class="analysis">开发者不满足于让模型会写代码，而开始追求稳定风格、可解释行为和可复制流程。单文件规范之所以受欢迎，是因为它适合作为团队默认配置传播。</p>
-        </article>
-        
-        <article class="insight-card">
-          <div class="insight-title-row">
-            <h3><a href="https://github.com/sponsors/mattpocock" target="_blank" rel="noopener noreferrer">sponsors/mattpocock</a></h3>
-          </div>
-          <p class="one-liner">Skills for Real Engineers. Straight …</p>
-          <p class="analysis">这个项目归属于“AI Agent 基础设施”方向，本周新增 10,757 星，说明它在当前开发者讨论中具备明确热度。它解决的问题更偏向具体场景或具体链路，因此更容易在短时间内形成传播。若后续持续上榜，说明其需求不是一时热点，而可能进入稳定的工具或平台层。</p>
-        </article>
-        
-        <article class="insight-card">
-          <div class="insight-title-row">
-            <h3><a href="https://github.com/lsdefine/GenericAgent" target="_blank" rel="noopener noreferrer">lsdefine/GenericAgent</a></h3>
-          </div>
-          <p class="one-liner">Self-evolving agent: grows skill tre…</p>
-          <p class="analysis">这个项目归属于“AI Agent 基础设施”方向，本周新增 2,832 星，说明它在当前开发者讨论中具备明确热度。它解决的问题更偏向具体场景或具体链路，因此更容易在短时间内形成传播。若后续持续上榜，说明其需求不是一时热点，而可能进入稳定的工具或平台层。</p>
-        </article>
-        
-      </div>
-    </section>
-    
-    <section class="section">
-      <div class="section-head">
-        <h2>投资信号拆解</h2>
-        <p>从榜单热度背后提炼值得持续追踪的方向</p>
-      </div>
-      <div class="signal-grid">
-        
-        <article class="signal-card">
-          <h3>AI Agent 基础设施（本周 AI 热点）</h3>
-          <div class="signal-projects">代表项目：claude-context、andrej-karpathy-skills、mattpocock</div>
-          <p>Agent 数量上来之后，核心矛盾会从‘能不能做事’转向‘能不能被组织、复用和治理’。具备任务编排、技能沉淀和流程标准化能力的平台，更可能形成长期护城河。</p>
-        </article>
-        
-        <article class="signal-card">
-          <h3>通用 AI 工具（本周 AI 热点）</h3>
-          <div class="signal-projects">代表项目：thunderbird、Open-Generative-AI、RAG-Anything</div>
-          <p>通用工具类项目不一定聚焦单个行业，但胜在覆盖面广、进入门槛低。它们往往是新技术扩散初期最先被验证、也最容易沉淀用户心智的一层。</p>
-        </article>
-        
-        <article class="signal-card">
-          <h3>AI 开发者效率（本周 AI 热点）</h3>
-          <div class="signal-projects">代表项目：free-claude-code</div>
-          <p>无论模型迭代多快，开发者都会持续为数据清洗、代码协同、提示词规范和内容生产买单。这类项目像 AI 浪潮里的卖铲人，需求广、复用强、迁移成本低。</p>
-        </article>
-        
-      </div>
-    </section>
-    </section>
+<div class="panel" id="panel-1">
+  <div class="section">
+    <div class="section-header"><span class="section-icon">🤖</span><span class="section-title">AI / ML 今日热榜</span></div>
+    <table><thead><tr><th>#</th><th>项目</th><th>语言</th><th>今日新增 ⭐</th><th>总 ⭐</th><th>Forks</th></tr></thead>
+    <tbody><tr><td class="rank top3">1</td><td><a class="proj-name" href="https://github.com/sponsors/mattpocock" target="_blank">sponsors / mattpocock</a><div class="proj-sub">Sponsor Star mattpocock / skills Agent Skills for real engineers. Straight from my .claude</div></td><td><span class="lang-tag">Shell</span></td><td class="stars-new">+2,519</td><td class="stars">0</td><td>0</td></tr>
+<tr><td class="rank top3">2</td><td><a class="proj-name" href="https://github.com/Alishahryar1/free-claude-code" target="_blank">Alishahryar1 / free-claude-code</a><div class="proj-sub">Star Alishahryar1 / free-claude-code Use claude-code for free in the terminal, VSCode exte</div></td><td><span class="lang-tag lang-Python">Python</span></td><td class="stars-new">+1,701</td><td class="stars">14,008</td><td>1,985</td></tr>
+<tr><td class="rank top3">3</td><td><a class="proj-name" href="https://github.com/sponsors/abhigyanpatwari" target="_blank">sponsors / abhigyanpatwari</a><div class="proj-sub">Sponsor Star abhigyanpatwari / GitNexus GitNexus: The Zero-Server Code Intelligence Engine</div></td><td><span class="lang-tag lang-TypeScript">TypeScript</span></td><td class="stars-new">+700</td><td class="stars">0</td><td>0</td></tr>
+<tr><td class="rank">4</td><td><a class="proj-name" href="https://github.com/PostHog/posthog" target="_blank">PostHog / posthog</a><div class="proj-sub">Star PostHog / posthog 🦔 PostHog is an all-in-one developer platform for building successf</div></td><td><span class="lang-tag lang-Python">Python</span></td><td class="stars-new">+337</td><td class="stars">33,896</td><td>2,638</td></tr>
+<tr><td class="rank">5</td><td><a class="proj-name" href="https://github.com/sponsors/trycua" target="_blank">sponsors / trycua</a><div class="proj-sub">Sponsor Star trycua / cua Open-source infrastructure for Computer-Use Agents. Sandboxes, S</div></td><td><span class="lang-tag">HTML</span></td><td class="stars-new">+182</td><td class="stars">0</td><td>0</td></tr>
+<tr><td class="rank">6</td><td><a class="proj-name" href="https://github.com/gastownhall/beads" target="_blank">gastownhall / beads</a><div class="proj-sub">Star gastownhall / beads Beads - A memory upgrade for your coding agent</div></td><td><span class="lang-tag">Go</span></td><td class="stars-new">+152</td><td class="stars">21,739</td><td>1,442</td></tr>
+<tr><td class="rank">7</td><td><a class="proj-name" href="https://github.com/sponsors/curl" target="_blank">sponsors / curl</a><div class="proj-sub">Sponsor Star curl / curl A command line tool and library for transferring data with URL sy</div></td><td><span class="lang-tag">C</span></td><td class="stars-new">+30</td><td class="stars">0</td><td>0</td></tr>
+<tr><td class="rank">8</td><td><a class="proj-name" href="https://github.com/sponsors/openclaw" target="_blank">sponsors / openclaw</a><div class="proj-sub">Sponsor Star openclaw / openclaw Your own personal AI assistant. Any OS. Any Platform. The</div></td><td><span class="lang-tag lang-TypeScript">TypeScript</span></td><td class="stars-new">+627</td><td class="stars">0</td><td>0</td></tr>
+</tbody></table>
+  </div>
+  <div class="section">
+    <div class="section-header"><span class="section-icon">🔬</span><span class="section-title">AI 视角深度解读 · Top 5</span></div>
+    <div class="insight-list"><div class="insight-item"><div class="insight-repo">#1 mattpocock  · TypeScript教学工具</div><div class="insight-text">这是 TypeScript 教育领域知名开发者 Matt Pocock 的个人技能目录项目，直接来源于其 `.claude` 目录，展示了如何将 AI 编程助手（Claude）的配置与提示词工程化管理的实践方案。随着 Vibe Coding 和 AI 辅助开发的兴起，开发者分享自己的 AI 工作流配置正成为新趋势，该项目因作者在 TypeScript 社区的高影响力而迅速获得关注。所在赛道为 **AI 编程工作流 / 提示词工程**，对希望优化 Claude 使用效率的开发者具有较强的参考价值。</div></div>
+<div class="insight-item"><div class="insight-repo">#2 free-claude-code  · AI编程助手</div><div class="insight-text">通过巧妙的代理转发机制，让用户无需付费即可在终端、VSCode插件或Discord中使用Claude Code编程助手，极大降低了AI编程工具的使用门槛。该项目在短时间内积累大量关注，折射出开发者对高质量AI编程辅助工具强烈的平民化需求。属于AI开发工具与LLM访问代理赛道，是当前"免费/破限使用AI能力"这一热门方向的典型代表。</div></div>
+<div class="insight-item"><div class="insight-repo">#3 abhigyanpatwari  · 代码知识图谱</div><div class="insight-text">一款完全运行在浏览器端的代码智能分析工具，无需服务器即可将 GitHub 仓库或 ZIP 文件转化为交互式知识图谱，并内置 Graph RAG 智能问答代理，极大降低了代码探索与理解的门槛。凭借零服务端架构和隐私友好的纯客户端设计，特别适合开发者快速理解陌生代码库、进行架构梳理或技术评审。该项目处于代码智能（Code Intelligence）与本地 AI 应用的交叉赛道，契合当前开发工具 AI 化和隐私计算的双重趋势，值得密切关注。</div></div>
+<div class="insight-item"><div class="insight-repo">#4 posthog  · 产品分析平台</div><div class="insight-text">面向开发者的一体化产品分析平台，集成了产品分析、会话回放、错误追踪、特性标志、A/B实验、用户调研及数据仓库等功能，让团队无需依赖多个工具即可完整掌握产品数据链路。作为Mixpanel、Amplitude等SaaS工具的开源替代方案，支持私有化部署，数据主权掌握在自己手中，对注重数据安全的企业尤为友好。所在赛道为产品增长与数据基础设施，近期融入AI辅助调试能力使其竞争力进一步提升，值得关注。</div></div>
+<div class="insight-item"><div class="insight-repo">#5 trycua  · 计算机智能体</div><div class="insight-text">为AI智能体提供完整的桌面操控基础设施，支持在macOS、Linux、Windows沙箱环境中训练和评估能够控制完整桌面的Computer-Use Agent。随着多模态大模型推动GUI自动化能力快速演进，这类开源基础设施填补了Agent训练、评测标准化工具链的空白，极具研究和工程价值。所在赛道为AI Agent + 计算机视觉操控（Computer-Use / GUI Automation），是当前最热门的Agent落地方向之一。</div></div>
+</div>
+  </div>
+  <div class="section">
+    <div class="section-header"><span class="section-icon">📡</span><span class="section-title">AI 今日核心信号</span></div>
+    <div class="signal-tags"><span class="signal-tag tag-hot">🔥 TypeScript教学工具</span>
+<span class="signal-tag tag-hot">🔥 AI编程助手</span>
+<span class="signal-tag tag-rising">📈 代码知识图谱</span>
+<span class="signal-tag tag-rising">📈 产品分析平台</span>
+<span class="signal-tag tag-watch">👀 计算机智能体</span>
+</div>
+  </div>
+</div>
 
-    <div class="footer">本页面由 generate_html.py 自动生成 · 风格为浅色产品日报 / 科技资讯简报</div>
-  </main>
-  
-    <script>
-      const buttons = document.querySelectorAll('.tab-btn');
-      const panels = document.querySelectorAll('.tab-panel');
-      buttons.forEach(btn => {
-        btn.addEventListener('click', () => {
-          const target = btn.dataset.tab;
-          buttons.forEach(b => b.classList.remove('active'));
-          panels.forEach(p => p.classList.remove('active'));
-          btn.classList.add('active');
-          document.getElementById(target).classList.add('active');
-        });
-      });
-    </script>
-    
-</body>
-</html>
+<div class="panel" id="panel-2">
+  <div class="section">
+    <div class="section-header"><span class="section-icon">📅</span><span class="section-title">本周全站热榜</span></div>
+    <table><thead><tr><th>#</th><th>项目</th><th>语言</th><th>本周新增 ⭐</th><th>总 ⭐</th><th>Forks</th></tr></thead>
+    <tbody><tr><td class="rank top3">1</td><td><a class="proj-name" href="https://github.com/Alishahryar1/free-claude-code" target="_blank">Alishahryar1 / free-claude-code</a><div class="proj-sub">Star Alishahryar1 / free-claude-code Use claude-code for free in the terminal, VSCode exte</div></td><td><span class="lang-tag lang-Python">Python</span></td><td class="stars-new">+10,335</td><td class="stars">14,008</td><td>1,985</td></tr>
+<tr><td class="rank top3">2</td><td><a class="proj-name" href="https://github.com/sponsors/Fincept-Corporation" target="_blank">sponsors / Fincept-Corporation</a><div class="proj-sub">Sponsor Star Fincept-Corporation / FinceptTerminal FinceptTerminal is a modern finance app</div></td><td><span class="lang-tag lang-Python">Python</span></td><td class="stars-new">+10,070</td><td class="stars">0</td><td>0</td></tr>
+<tr><td class="rank top3">3</td><td><a class="proj-name" href="https://github.com/forrestchang/andrej-karpathy-skills" target="_blank">forrestchang / andrej-karpathy-skills</a><div class="proj-sub">Star forrestchang / andrej-karpathy-skills A single CLAUDE.md file to improve Claude Code </div></td><td><span class="lang-tag">—</span></td><td class="stars-new">+29,944</td><td class="stars">91,212</td><td>8,728</td></tr>
+<tr><td class="rank">4</td><td><a class="proj-name" href="https://github.com/zilliztech/claude-context" target="_blank">zilliztech / claude-context</a><div class="proj-sub">Star zilliztech / claude-context Code search MCP for Claude Code. Make entire codebase the</div></td><td><span class="lang-tag lang-TypeScript">TypeScript</span></td><td class="stars-new">+3,537</td><td class="stars">9,654</td><td>734</td></tr>
+<tr><td class="rank">5</td><td><a class="proj-name" href="https://github.com/sponsors/thunderbird" target="_blank">sponsors / thunderbird</a><div class="proj-sub">Sponsor Star thunderbird / thunderbolt AI You Control: Choose your models. Own your data. </div></td><td><span class="lang-tag lang-TypeScript">TypeScript</span></td><td class="stars-new">+2,244</td><td class="stars">0</td><td>0</td></tr>
+<tr><td class="rank">6</td><td><a class="proj-name" href="https://github.com/Z4nzu/hackingtool" target="_blank">Z4nzu / hackingtool</a><div class="proj-sub">Star Z4nzu / hackingtool ALL IN ONE Hacking Tool For Hackers</div></td><td><span class="lang-tag lang-Python">Python</span></td><td class="stars-new">+6,488</td><td class="stars">65,726</td><td>7,380</td></tr>
+<tr><td class="rank">7</td><td><a class="proj-name" href="https://github.com/lsdefine/GenericAgent" target="_blank">lsdefine / GenericAgent</a><div class="proj-sub">Star lsdefine / GenericAgent Self-evolving agent: grows skill tree from 3.3K-line seed, ac</div></td><td><span class="lang-tag lang-Python">Python</span></td><td class="stars-new">+2,936</td><td class="stars">7,431</td><td>844</td></tr>
+<tr><td class="rank">8</td><td><a class="proj-name" href="https://github.com/SimoneAvogadro/android-reverse-engineering-skill" target="_blank">SimoneAvogadro / android-reverse-engineering-skill</a><div class="proj-sub">Star SimoneAvogadro / android-reverse-engineering-skill Claude Code skill to support Andro</div></td><td><span class="lang-tag">Shell</span></td><td class="stars-new">+1,685</td><td class="stars">5,165</td><td>587</td></tr>
+<tr><td class="rank">9</td><td><a class="proj-name" href="https://github.com/sponsors/mattpocock" target="_blank">sponsors / mattpocock</a><div class="proj-sub">Sponsor Star mattpocock / skills Agent Skills for real engineers. Straight from my .claude</div></td><td><span class="lang-tag">Shell</span></td><td class="stars-new">+5,013</td><td class="stars">0</td><td>0</td></tr>
+<tr><td class="rank">10</td><td><a class="proj-name" href="https://github.com/Tracer-Cloud/opensre" target="_blank">Tracer-Cloud / opensre</a><div class="proj-sub">Star Tracer-Cloud / opensre Build your own AI SRE agents. The open source toolkit for the </div></td><td><span class="lang-tag lang-Python">Python</span></td><td class="stars-new">+1,511</td><td class="stars">3,410</td><td>381</td></tr>
+</tbody></table>
+  </div>
+  <div class="section">
+    <div class="section-header"><span class="section-icon">📝</span><span class="section-title">本周深度解读 · Top 5</span></div>
+    <div class="insight-list"><div class="insight-item"><div class="insight-repo">#1 free-claude-code  · AI编程助手</div><div class="insight-text">通过巧妙的代理转发机制，让用户无需付费即可在终端、VSCode插件或Discord中使用Claude Code编程助手，极大降低了AI编程工具的使用门槛。该项目在短时间内积累大量关注，折射出开发者对高质量AI编程辅助工具强烈的平民化需求。属于AI开发工具与LLM访问代理赛道，是当前"免费/破限使用AI能力"这一热门方向的典型代表。</div></div>
+<div class="insight-item"><div class="insight-repo">#2 Fincept-Corporation  · 金融数据分析</div><div class="insight-text">这是一款面向金融专业人士和投资研究者的现代化终端应用，集成了高级市场分析、投资研究和经济数据工具，主打交互式数据探索与数据驱动决策。项目基于Python构建，在命令行/终端金融工具赛道上与Bloomberg Terminal等商业产品形成开源替代竞争关系，极具实用价值。对量化投资者、金融分析师及个人投资者而言，这类兼顾专业性与易用性的开源金融基础设施工具正获得越来越广泛的关注。</div></div>
+<div class="insight-item"><div class="insight-repo">#3 andrej-karpathy-skills  · Claude 工具链生态</div><div class="insight-text">一个提升 Claude Code 行为的 CLAUDE.md 配置文件，源自 Andrej Karpathy 对 LLM 编码缺陷的观察整理。这类「提示词工程产品化」的项目持续爆发，验证了 Claude Code 等 AI 编程助手的日活用户已经足够大，周边生态正在快速成形。</div></div>
+<div class="insight-item"><div class="insight-repo">#4 claude-context  · 代码检索MCP</div><div class="insight-text">这是一个专为 Claude Code 打造的代码搜索 MCP（Model Context Protocol）工具，能够将整个代码库作为上下文提供给 AI 编程智能体，大幅提升其对复杂项目的理解与代码生成能力。在大型工程场景下，传统 AI 助手受限于上下文窗口无法感知全局代码结构，该项目通过向量检索技术有效突破这一瓶颈，具有很强的实用价值。项目处于 AI 编程工具与 RAG/向量检索融合的热门赛道，与 Zilliz/Milvus 向量数据库生态深度结合，值得关注。</div></div>
+<div class="insight-item"><div class="insight-repo">#5 thunderbird  · 隐私AI助手</div><div class="insight-text">一款强调用户数据主权和模型自由选择的 AI 客户端工具，支持接入多种模型并避免厂商锁定，适合注重隐私和灵活性的开发者与企业用户。在 AI 基础设施与本地化部署赛道中，这类"去中心化 AI 助手"正成为对抗大厂垄断的重要选项。TypeScript 技术栈也保障了良好的跨平台扩展能力，值得关注其在开源 AI 工具链中的发展潜力。</div></div>
+</div>
+  </div>
+  <div class="section">
+    <div class="section-header"><span class="section-icon">💡</span><span class="section-title">本周投资信号拆解</span></div>
+    <div class="invest-cards"><div class="invest-card">
+  <div class="invest-dir">🤖 Claude 工具链生态</div>
+  <div class="invest-proj">代表项目：andrej-karpathy-skills · claude-code-best-practice · seomachine</div>
+  <div class="invest-bar-wrap"><div class="invest-bar bar-strong"></div></div>
+  <div class="invest-strength str-strong">信号强度：强</div>
+</div>
+<div class="invest-card">
+  <div class="invest-dir">🛠️ AI Agent框架</div>
+  <div class="invest-proj">代表项目：obra · GenericAgent · openai-agents-python</div>
+  <div class="invest-bar-wrap"><div class="invest-bar bar-strong"></div></div>
+  <div class="invest-strength str-strong">信号强度：强</div>
+</div>
+<div class="invest-card">
+  <div class="invest-dir">📱 AI编程助手</div>
+  <div class="invest-proj">代表项目：free-claude-code · cline · Roo-Code</div>
+  <div class="invest-bar-wrap"><div class="invest-bar bar-mid"></div></div>
+  <div class="invest-strength str-mid">信号强度：中</div>
+</div>
+<div class="invest-card">
+  <div class="invest-dir">🎓 金融 AI 量化</div>
+  <div class="invest-proj">代表项目：Kronos · ai-hedge-fund</div>
+  <div class="invest-bar-wrap"><div class="invest-bar bar-watch"></div></div>
+  <div class="invest-strength str-watch">信号强度：观察中</div>
+</div>
+</div>
+  </div>
+</div>
+
+<div class="panel" id="panel-3">
+  <div class="section">
+    <div class="section-header"><span class="section-icon">📚</span><span class="section-title">历史解读库 · 按首次上榜时间倒序</span></div>
+    <div class="insight-list"><div class="insight-item"><div class="insight-repo">abhigyanpatwari  · 代码知识图谱  <span class="insight-date">首次上榜 2026-04-27</span></div><div class="insight-text">一款完全运行在浏览器端的代码智能分析工具，无需服务器即可将 GitHub 仓库或 ZIP 文件转化为交互式知识图谱，并内置 Graph RAG 智能问答代理，极大降低了代码探索与理解的门槛。凭借零服务端架构和隐私友好的纯客户端设计，特别适合开发者快速理解陌生代码库、进行架构梳理或技术评审。该项目处于代码智能（Code Intelligence）与本地 AI 应用的交叉赛道，契合当前开发工具 AI 化和隐私计算的双重趋势，值得密切关注。</div></div>
+<div class="insight-item"><div class="insight-repo">typescript-go  · Go语言移植  <span class="insight-date">首次上榜 2026-04-27</span></div><div class="insight-text">微软官方主导的 TypeScript 编译器 Go 语言原生移植项目，旨在通过 Go 重写替代现有 JavaScript 实现，大幅提升编译性能（据测试可达 10 倍以上加速）。对于依赖 TypeScript 工具链的大型前端项目而言，这将显著改善构建体验和 IDE 响应速度，值得所有前端工程师和工具链开发者密切关注。该项目处于编译器工程与前端基础设施优化的核心赛道，代表了微软对下一代开发工具性能的重要押注。</div></div>
+<div class="insight-item"><div class="insight-repo">trycua  · 计算机智能体  <span class="insight-date">首次上榜 2026-04-27</span></div><div class="insight-text">为AI智能体提供完整的桌面操控基础设施，支持在macOS、Linux、Windows沙箱环境中训练和评估能够控制完整桌面的Computer-Use Agent。随着多模态大模型推动GUI自动化能力快速演进，这类开源基础设施填补了Agent训练、评测标准化工具链的空白，极具研究和工程价值。所在赛道为AI Agent + 计算机视觉操控（Computer-Use / GUI Automation），是当前最热门的Agent落地方向之一。</div></div>
+<div class="insight-item"><div class="insight-repo">beads  · AI Agent记忆  <span class="insight-date">首次上榜 2026-04-27</span></div><div class="insight-text">一款专为 AI 编程 Agent 设计的记忆增强工具，通过为代码助手提供持久化上下文记忆能力，解决 LLM 在长期编码任务中"遗忘"历史信息的痛点。在 AI Agent 工具链快速成熟的当下，记忆管理正成为提升 Agent 实用性的关键瓶颈，该项目直击这一核心需求。属于 AI Agent 基础设施赛道，是构建更智能、更连贯编程助手的重要组件。</div></div>
+<div class="insight-item"><div class="insight-repo">curl  · 网络传输工具  <span class="insight-date">首次上榜 2026-04-27</span></div><div class="insight-text">这是互联网基础设施中最重要的网络传输工具之一，支持30余种协议，几乎内嵌于所有主流操作系统和开发环境中，日均调用量以数十亿次计。libcurl 作为底层库被 Python requests、PHP、Node.js 等无数框架依赖，是名副其实的"隐形基础设施"。所在赛道为网络传输与底层系统工具，其稳定性、可移植性和协议覆盖广度使其长期保持不可替代的地位。</div></div>
+<div class="insight-item"><div class="insight-repo">core  · 智能家居自动化  <span class="insight-date">首次上榜 2026-04-27</span></div><div class="insight-text">这是全球最受欢迎的开源智能家居自动化平台，支持数千种设备和服务的本地化集成，将控制权和隐私完全交还给用户，无需依赖云端服务。凭借庞大的社区生态和持续活跃的贡献者群体，它几乎成为智能家居自动化领域的事实标准。所在赛道为 IoT 与智能家居自动化，在隐私优先的本地计算趋势下极具长期价值。</div></div>
+<div class="insight-item"><div class="insight-repo">openclaw  · AI助手  <span class="insight-date">首次上榜 2026-04-27</span></div><div class="insight-text">一款跨平台、跨操作系统的个人AI助手项目，以"龙虾方式"为理念，致力于提供灵活且私有化的AI交互体验。该项目今日单日新增627星，显示出社区对个人AI助手领域的强烈关注与需求。属于**个人AI助手/本地AI客户端**赛道，与Cursor、Copilot等工具形成差异化竞争，值得关注其后续开源进展与功能落地。</div></div>
+<div class="insight-item"><div class="insight-repo">mattpocock  · TypeScript教学工具  <span class="insight-date">首次上榜 2026-04-26</span></div><div class="insight-text">这是 TypeScript 教育领域知名开发者 Matt Pocock 的个人技能目录项目，直接来源于其 `.claude` 目录，展示了如何将 AI 编程助手（Claude）的配置与提示词工程化管理的实践方案。随着 Vibe Coding 和 AI 辅助开发的兴起，开发者分享自己的 AI 工作流配置正成为新趋势，该项目因作者在 TypeScript 社区的高影响力而迅速获得关注。所在赛道为 **AI 编程工作流 / 提示词工程**，对希望优化 Claude 使用效率的开发者具有较强的参考价值。</div></div>
+<div class="insight-item"><div class="insight-repo">claude-code-templates  · AI开发工具  <span class="insight-date">首次上榜 2026-04-26</span></div><div class="insight-text">这是一个用于配置和监控 Claude Code 的 CLI 工具，提供现成的模板和工作流配置，帮助开发者快速搭建基于 Claude 的 AI 编程助手环境。随着 Claude Code 在开发者群体中迅速普及，此类工具能显著降低上手门槛、提升工程化使用体验，具有很强的实用价值。项目处于 AI 编程助手与开发者工具链融合的热门赛道，是当前 LLM 落地开发场景的典型基础设施项目。</div></div>
+<div class="insight-item"><div class="insight-repo">Roo-Code  · AI编程助手  <span class="insight-date">首次上榜 2026-04-26</span></div><div class="insight-text">一款深度集成于代码编辑器的 AI 多智能体开发工具，能够模拟整个开发团队的协作能力，覆盖代码编写、审查、调试等全流程场景。凭借多 Agent 协同架构和编辑器原生集成的体验，相比单一 AI 补全工具具备更强的工程落地价值。属于 AI 编程助手与智能体（Agentic AI）融合的热门赛道，是当前开发者工具领域最值得关注的开源项目之一。</div></div>
+<div class="insight-item"><div class="insight-repo">ds2api  · AI接口转换  <span class="insight-date">首次上榜 2026-04-26</span></div><div class="insight-text">这是一个将 DeepSeek 客户端协议转换为通用 API 的轻量级中间件，支持多账号轮询、Vercel Serverless 及 Docker 部署，并兼容 Google、Claude、OpenAI 等主流 API 格式，极大降低了 DeepSeek 的接入门槛。项目采用 Go 语言构建，具备高性能和易部署的特点，对于需要免费或低成本使用 DeepSeek 能力的开发者而言极具实用价值。处于 AI 网关/API 适配这一当前热门技术赛道，随着国产大模型生态持续扩张，此类工具的需求将持续增长。</div></div>
+<div class="insight-item"><div class="insight-repo">osv-scanner  · 依赖漏洞扫描  <span class="insight-date">首次上榜 2026-04-25</span></div><div class="insight-text">由 Google 开源的漏洞扫描工具，基于 OSV（开源漏洞数据库）提供的数据，支持对项目依赖进行全面的安全漏洞检测，适用于 CI/CD 流水线集成和供应链安全审计场景。凭借 Google 背书和持续更新的漏洞数据库，其准确性和覆盖面在同类工具中具有明显优势，是开发团队落地软件供应链安全合规的实用利器。所在赛道为软件供应链安全（SCA/DevSecOps），是当前云原生安全领域的核心关注方向之一。</div></div>
+<div class="insight-item"><div class="insight-repo">posthog  · 产品分析平台  <span class="insight-date">首次上榜 2026-04-25</span></div><div class="insight-text">面向开发者的一体化产品分析平台，集成了产品分析、会话回放、错误追踪、特性标志、A/B实验、用户调研及数据仓库等功能，让团队无需依赖多个工具即可完整掌握产品数据链路。作为Mixpanel、Amplitude等SaaS工具的开源替代方案，支持私有化部署，数据主权掌握在自己手中，对注重数据安全的企业尤为友好。所在赛道为产品增长与数据基础设施，近期融入AI辅助调试能力使其竞争力进一步提升，值得关注。</div></div>
+<div class="insight-item"><div class="insight-repo">dani-garcia  · 密码管理服务  <span class="insight-date">首次上榜 2026-04-25</span></div><div class="insight-text">Vaultwarden 是用 Rust 编写的非官方 Bitwarden 兼容服务端，允许用户以极低的资源消耗自托管密码管理服务，非常适合个人或小团队替代官方付费方案。它完美兼容所有 Bitwarden 客户端，同时内存占用仅为官方服务器的几分之一，展现了 Rust 在系统级服务领域的性能优势。该项目处于**隐私安全与自托管**技术赛道，是开源密码管理生态中关注度最高的替代方案之一，值得注重数据主权的开发者重点关注。</div></div>
+<div class="insight-item"><div class="insight-repo">build-your-own-x  · 编程教学项目  <span class="insight-date">首次上榜 2026-04-25</span></div><div class="insight-text">通过从零手写实现 Git、Docker、Redis、编译器、操作系统等经典技术，帮助开发者真正理解底层原理而非停留于表面使用。这种"重新造轮子"的学习方式极其高效，能够显著提升系统设计与编程思维，是目前 GitHub 上星标最多的项目之一，本身就说明了其价值。属于编程教育与开发者成长赛道，适合任何想突破技术瓶颈、深入理解计算机基础的工程师收藏学习。</div></div>
+<div class="insight-item"><div class="insight-repo">DeepEP  · 专家并行通信  <span class="insight-date">首次上榜 2026-04-25</span></div><div class="insight-text">专为MoE（混合专家）大模型训练与推理设计的高效专家并行通信库，通过优化GPU间的All-to-All通信原语，显著降低专家并行的通信开销与延迟。随着DeepSeek系列模型的崛起，MoE架构成为大模型扩展的主流路线，该库直接解决了其核心工程瓶颈，具有极高的实际价值。项目位于**大模型基础设施/分布式训练通信优化**赛道，对研究MoE模型或构建高性能推理集群的团队而言是不可忽视的底层利器。</div></div>
+<div class="insight-item"><div class="insight-repo">ml-intern  · AI研究工程师  <span class="insight-date">首次上榜 2026-04-24</span></div><div class="insight-text">这是一个由 Hugging Face 推出的开源"AI ML工程师"项目，能够自主阅读论文、训练模型并部署 ML 模型，相当于用 AI 来自动化机器学习工程师的日常工作流程。该项目代表了 AI Agent 在专业领域落地的重要探索，由顶级 AI 公司背书使其可信度和实用性极高，短期内积累大量星标也印证了社区的高度关注。所在赛道为 **AI Agent / AutoML 自动化**，是当前最热门的 AI 工程化方向之一。</div></div>
+<div class="insight-item"><div class="insight-repo">hackingtool  · 黑客渗透工具  <span class="insight-date">首次上榜 2026-04-24</span></div><div class="insight-text">这是一个集成了渗透测试、信息收集、漏洞利用、社会工程学等多类攻击工具的"瑞士军刀"式黑客工具箱，适合安全研究人员和CTF参赛者快速调用各类工具链。项目以Python构建、操作简便，将数十种分散的安全工具统一整合到一个菜单驱动界面，大幅降低了使用门槛。属于网络安全/渗透测试工具赛道，凭借其一站式集成特性持续积累庞大用户群，是安全学习者入门实战的高频参考项目。</div></div>
+<div class="insight-item"><div class="insight-repo">Open-Generative-AI  · AI创作工具  <span class="insight-date">首次上榜 2026-04-24</span></div><div class="insight-text">这是一个开源的AI图像与视频生成平台，整合了200+主流模型（Flux、Midjourney、Kling、Sora等），主打无内容过滤、可自托管，是Higgsfield、Krea等商业平台的免费替代方案。项目采用MIT协议，适合有隐私需求或希望突破内容限制的开发者和创作者自行部署使用。所在赛道为AIGC多模态生成工具，随着开源生成模型的爆发式增长，此类"模型聚合+无审查"的自托管平台正快速获得社区关注。</div></div>
+<div class="insight-item"><div class="insight-repo">free-claude-code  · AI编程助手  <span class="insight-date">首次上榜 2026-04-24</span></div><div class="insight-text">通过巧妙的代理转发机制，让用户无需付费即可在终端、VSCode插件或Discord中使用Claude Code编程助手，极大降低了AI编程工具的使用门槛。该项目在短时间内积累大量关注，折射出开发者对高质量AI编程辅助工具强烈的平民化需求。属于AI开发工具与LLM访问代理赛道，是当前"免费/破限使用AI能力"这一热门方向的典型代表。</div></div>
+<div class="insight-item"><div class="insight-repo">PowerShell  · 跨平台Shell  <span class="insight-date">首次上榜 2026-04-24</span></div><div class="insight-text">微软开源的跨平台命令行脚本框架，支持 Windows、Linux 和 macOS，广泛应用于系统自动化运维、DevOps 流水线和云资源管理场景。作为企业级 IT 自动化的事实标准工具，其强大的管道机制与丰富的模块生态使其在复杂运维任务中极具优势。该项目处于系统自动化与 DevOps 工具链赛道，是运维工程师和平台工程师的核心基础设施之一。</div></div>
+<div class="insight-item"><div class="insight-repo">cline  · AI编程助手  <span class="insight-date">首次上榜 2026-04-24</span></div><div class="insight-text">这是一款深度集成于IDE的自主编程代理工具，能够在用户授权下自动完成创建/编辑文件、执行命令、操控浏览器等复杂开发任务，极大提升编码效率。凭借"每步征得许可"的设计理念，在保持开发者掌控感的同时实现真正的自动化编程体验，是目前最具实用性的AI编程助手之一。处于AI Agent与开发者工具融合的核心赛道，代表了IDE智能化演进的重要方向。</div></div>
+<div class="insight-item"><div class="insight-repo">onnxruntime  · 跨平台推理  <span class="insight-date">首次上榜 2026-04-24</span></div><div class="insight-text">ONNX Runtime 是微软开源的跨平台高性能机器学习推理与训练加速引擎，支持将 PyTorch、TensorFlow 等主流框架训练的模型统一转换为 ONNX 格式并高效部署，广泛应用于云端、边缘和移动端的 AI 推理场景。作为业界 MLOps 和模型部署的核心基础设施之一，它对硬件加速（CPU/GPU/NPU）有深度优化，是大模型落地工程化不可绕过的关键组件。所在赛道为 AI 推理引擎与模型部署优化，随着端侧 AI 和大模型推理需求爆发，持续保持高度关注价值。</div></div>
+<div class="insight-item"><div class="insight-repo">mksglu  · AI编码优化  <span class="insight-date">首次上榜 2026-04-24</span></div><div class="insight-text">这是一个专为 AI 编程助手设计的上下文窗口优化工具，通过沙箱化工具输出实现高达 98% 的上下文压缩率，并支持 12 个主流平台。在 LLM 上下文窗口成本居高不下的背景下，此类优化方案能显著降低 Token 消耗、提升代理效率，具有很强的实用价值。属于 AI 编程工具链 / LLM 效率优化赛道，随着 Agentic 编程模式的普及，关注度持续攀升。</div></div>
+<div class="insight-item"><div class="insight-repo">coreyhaines31  · AI营销技能  <span class="insight-date">首次上榜 2026-04-24</span></div><div class="insight-text">这是一个为 Claude Code 和 AI Agent 提供营销技能增强的提示词/工具库，涵盖 CRO（转化率优化）、文案写作、SEO、数据分析和增长工程等核心营销能力。随着 AI 编程助手的普及，将专业营销知识注入 AI Agent 的需求正在快速增长，该项目填补了 AI 工具在商业化落地场景中的能力空白。属于 **AI Agent 能力扩展** 与 **营销自动化** 交叉赛道，值得关注。</div></div>
+<div class="insight-item"><div class="insight-repo">langfuse  · LLM可观测性  <span class="insight-date">首次上榜 2026-04-23</span></div><div class="insight-text">面向LLM应用开发的开源工程化平台，覆盖可观测性监控、指标评估、Prompt管理、数据集管理等全链路能力，并深度集成OpenTelemetry、LangChain、OpenAI SDK等主流生态。在AI应用落地愈发复杂的背景下，它填补了LLM从实验到生产环境所需的工程化基础设施空白，是构建可靠AI产品的关键工具链。属于LLMOps赛道的核心项目，YC W23背书且持续高速增长，值得重点关注。</div></div>
+<div class="insight-item"><div class="insight-repo">shannon  · AI渗透测试  <span class="insight-date">首次上榜 2026-04-23</span></div><div class="insight-text">Shannon Lite 是一款面向 Web 应用和 API 的白盒自动化渗透测试工具，通过直接分析源代码来识别攻击向量并执行真实漏洞利用，帮助团队在代码上线前主动发现安全问题。与传统黑盒扫描器不同，其白盒+自主执行的方式大幅提升了漏洞发现的准确性和深度，极具实战价值。这一项目处于 AI Security / DevSecOps 赛道，代表了 AI Agent 在网络安全自动化领域的前沿探索，值得安全工程师和开发团队重点关注。</div></div>
+<div class="insight-item"><div class="insight-repo">open-metadata  · 数据治理平台  <span class="insight-date">首次上榜 2026-04-23</span></div><div class="insight-text">OpenMetadata 是一个统一的元数据管理平台，覆盖数据发现、数据可观测性与数据治理全链路，支持列级别血缘追踪和团队协作，是企业构建数据资产目录的核心基础设施。其集中化的元数据仓库设计使跨系统数据治理变得高效可行，适用于需要管理复杂数据资产的中大型企业和数据团队。项目处于数据治理与数据目录（Data Catalog）赛道，随着数据栈复杂度持续上升，此类工具的需求正快速增长，值得重点关注。</div></div>
+<div class="insight-item"><div class="insight-repo">Pixelle-Video  · 短视频生成  <span class="insight-date">首次上榜 2026-04-23</span></div><div class="insight-text">一款基于AI的全自动短视频生成引擎，能够端到端地完成从内容创作到视频合成的完整流程，大幅降低短视频制作的人力成本。在短视频内容爆炸式增长的当下，自动化生产工具具有极强的商业落地价值，适用于电商营销、自媒体批量创作等场景。项目处于AIGC与视频生成的交叉赛道，是当前最热门的AI内容生产基础设施方向之一，值得重点关注。</div></div>
+<div class="insight-item"><div class="insight-repo">skills  · AI Agent工具  <span class="insight-date">首次上榜 2026-04-23</span></div><div class="insight-text">这是一个由 Vercel 团队开源的 AI Agent 技能工具，允许开发者通过简单的 `npx skills` 命令快速创建、共享和运行可复用的 Agent 能力模块。它将 AI Agent 的功能单元标准化为可分发的技能包，极大降低了构建复合 AI 应用的门槛，是 Vercel AI 生态的重要基础设施。该项目处于 **AI Agent 工具链与开发者工具**赛道，随着 Agent 应用爆发式增长，此类标准化技能生态有望成为 AI 开发的重要范式。</div></div>
+<div class="insight-item"><div class="insight-repo">claude-context  · 代码检索MCP  <span class="insight-date">首次上榜 2026-04-22</span></div><div class="insight-text">这是一个专为 Claude Code 打造的代码搜索 MCP（Model Context Protocol）工具，能够将整个代码库作为上下文提供给 AI 编程智能体，大幅提升其对复杂项目的理解与代码生成能力。在大型工程场景下，传统 AI 助手受限于上下文窗口无法感知全局代码结构，该项目通过向量检索技术有效突破这一瓶颈，具有很强的实用价值。项目处于 AI 编程工具与 RAG/向量检索融合的热门赛道，与 Zilliz/Milvus 向量数据库生态深度结合，值得关注。</div></div>
+<div class="insight-item"><div class="insight-repo">ai-agents-for-beginners  · AI Agent教程  <span class="insight-date">首次上榜 2026-04-22</span></div><div class="insight-text">微软官方出品的 AI Agent 入门课程，以 12 节结构化课程带领开发者从零掌握 AI 智能体的构建方法，涵盖主流框架与实战案例，适合希望快速入局 Agent 开发的工程师和学习者。凭借微软背书与高质量内容，短期内积累近 6 万 Star，是当前最具参考价值的 Agent 学习资源之一。所在赛道为 AI Agent / LLM 应用开发，正处于技术爆发期，值得持续关注。</div></div>
+<div class="insight-item"><div class="insight-repo">dayanch96  · iOS应用增强  <span class="insight-date">首次上榜 2026-04-22</span></div><div class="insight-text">这是一个专为 iOS 平台 YouTube 应用打造的功能增强工具，通过 Logos（越狱插件开发语言）实现去广告、界面定制、下载视频等扩展功能，大幅提升用户体验。该项目面向 iOS 越狱或免越狱侧载用户群体，填补了 YouTube 官方应用功能限制的空白，具有较强的实用价值。所在赛道为 iOS 逆向工程与应用增强，是移动端 Tweak 插件开发领域的典型代表项目。</div></div>
+<div class="insight-item"><div class="insight-repo">RAG-Anything  · 多模态RAG  <span class="insight-date">首次上榜 2026-04-22</span></div><div class="insight-text">一个面向多模态内容的全能RAG框架，支持文本、图像、表格、公式等多种数据类型的统一检索增强生成，适用于企业知识库、文档问答、多源数据融合等复杂场景。短期内积累近1.7万星说明开发者对"一站式RAG解决方案"需求极为迫切，相比单一文本RAG有明显的实用价值跃升。该项目处于RAG工程化与多模态AI融合的核心赛道，是当前大模型落地应用中最受关注的基础设施方向之一。</div></div>
+<div class="insight-item"><div class="insight-repo">TrendRadar  · AI舆情监控  <span class="insight-date">首次上榜 2026-04-22</span></div><div class="insight-text">这是一款基于AI驱动的舆情监控与热点聚合工具，能够整合多平台信息源与RSS订阅，通过AI实现新闻筛选、翻译和分析简报，并推送至微信、飞书、Telegram等主流渠道，极大降低信息过载压力。项目支持MCP架构接入，可实现自然语言对话式分析、情感洞察与趋势预测，兼具个人信息管理和企业级舆情监控的双重价值。在AI Agent与信息聚合赛道上，该项目凭借开箱即用的Docker部署、本地/云端数据自持以及超5万星的社区热度，是目前同类工具中功能覆盖最全面的开源方案之一。</div></div>
+<div class="insight-item"><div class="insight-repo">worldmonitor  · 地缘情报监控  <span class="insight-date">首次上榜 2026-04-21</span></div><div class="insight-text">一个基于AI的实时全球情报监控平台，集成新闻聚合、地缘政治监测与基础设施追踪，提供统一的态势感知界面，适用于政府机构、安全分析师、企业风险管理等场景。凭借50K+星标的强劲社区认可度，其将AI与多源情报整合的能力使其在信息战略与风险预警领域极具竞争力。项目处于AI驱动的情报分析与地缘政治监控技术赛道，契合当前全球局势复杂化背景下对实时信息感知工具的旺盛需求。</div></div>
+<div class="insight-item"><div class="insight-repo">pi-hole  · DNS广告过滤  <span class="insight-date">首次上榜 2026-04-21</span></div><div class="insight-text">这是一款基于 DNS 过滤技术的网络广告拦截工具，可部署在树莓派等设备上作为家庭网关级广告过滤器，覆盖所有连接设备无需单独安装插件。其在网络层面彻底屏蔽广告和追踪器的方案极具实用价值，长期是家庭网络折腾玩家和隐私保护爱好者的首选利器。该项目处于网络隐私安全与自托管（Self-hosted）基础设施赛道，是 DNS 过滤领域的标杆开源项目。</div></div>
+<div class="insight-item"><div class="insight-repo">Xray-core  · 网络代理穿透  <span class="insight-date">首次上榜 2026-04-21</span></div><div class="insight-text">基于 Go 语言构建的高性能网络代理核心框架，支持多种传输协议与混淆技术，广泛应用于隐私保护、网络穿透及流量转发等场景。作为 v2ray-core 的超集，引入了 XTLS 等创新协议优化，在性能和隐蔽性上有显著提升，长期保持活跃开发和社区关注。属于网络代理与隐私安全工具赛道的标杆级开源项目。</div></div>
+<div class="insight-item"><div class="insight-repo">Fincept-Corporation  · 金融数据分析  <span class="insight-date">首次上榜 2026-04-20</span></div><div class="insight-text">这是一款面向金融专业人士和投资研究者的现代化终端应用，集成了高级市场分析、投资研究和经济数据工具，主打交互式数据探索与数据驱动决策。项目基于Python构建，在命令行/终端金融工具赛道上与Bloomberg Terminal等商业产品形成开源替代竞争关系，极具实用价值。对量化投资者、金融分析师及个人投资者而言，这类兼顾专业性与易用性的开源金融基础设施工具正获得越来越广泛的关注。</div></div>
+<div class="insight-item"><div class="insight-repo">t3code  · 代码模板工具  <span class="insight-date">首次上榜 2026-04-20</span></div><div class="insight-text">一个面向 T3 技术栈（Next.js + tRPC + Tailwind + Prisma）的代码片段与最佳实践集合，帮助开发者快速上手和规范化全栈 TypeScript 项目开发。随着 T3 生态在全栈开发社区的持续火热，该项目成为众多开发者的参考标准，具有较高的学习和工程化参考价值。属于 **全栈 TypeScript / 现代 Web 开发工具链** 赛道，适合追求类型安全与开发效率的团队关注。</div></div>
+<div class="insight-item"><div class="insight-repo">paperless-ngx  · 文档管理系统  <span class="insight-date">首次上榜 2026-04-20</span></div><div class="insight-text">一款基于 Python 的开源文档管理系统，支持扫描、OCR识别、自动索引和归档，帮助个人或团队彻底告别纸质文档混乱的困境，实现无纸化办公。项目拥有近4万星且保持活跃社区维护，功能成熟、部署便捷（支持Docker），是自托管文档管理领域的标杆项目。所在赛道为个人/企业知识管理与自托管（Self-hosted）工具，契合当前数据隐私保护和本地化部署的强烈需求。</div></div>
+<div class="insight-item"><div class="insight-repo">RuView  · WiFi人体感知  <span class="insight-date">首次上榜 2026-04-20</span></div><div class="insight-text">利用普通WiFi信号实现实时人体姿态估计、生命体征监测和人员存在检测，完全无需摄像头，彻底解决了视频监控的隐私顾虑。这项技术将WiFi路由器变成无感知的"透视传感器"，在智能家居、医疗看护、安防监控等场景具有极高的商业落地价值。属于无线感知与计算机视觉交叉融合的新兴赛道，代表了隐私保护型人体感知技术的重要发展方向。</div></div>
+<div class="insight-item"><div class="insight-repo">thunderbird  · 隐私AI助手  <span class="insight-date">首次上榜 2026-04-19</span></div><div class="insight-text">一款强调用户数据主权和模型自由选择的 AI 客户端工具，支持接入多种模型并避免厂商锁定，适合注重隐私和灵活性的开发者与企业用户。在 AI 基础设施与本地化部署赛道中，这类"去中心化 AI 助手"正成为对抗大厂垄断的重要选项。TypeScript 技术栈也保障了良好的跨平台扩展能力，值得关注其在开源 AI 工具链中的发展潜力。</div></div>
+<div class="insight-item"><div class="insight-repo">DeepGEMM  · 矩阵乘优化  <span class="insight-date">首次上榜 2026-04-19</span></div><div class="insight-text">专注于FP8精度的矩阵乘法（GEMM）高性能CUDA内核实现，通过细粒度缩放技术在保持数值精度的同时大幅提升计算效率，是DeepSeek大模型训练与推理底层加速的核心组件。FP8训练正成为降低AI算力成本的关键路径，该项目的开源为社区提供了生产级参考实现。属于AI基础设施与GPU算子优化赛道，对LLM训练加速有直接价值。</div></div>
+<div class="insight-item"><div class="insight-repo">aaddrick  · Debian桌面适配  <span class="insight-date">首次上榜 2026-04-19</span></div><div class="insight-text">这是一个将 Claude Desktop 移植到基于 Debian 的 Linux 发行版（如 Ubuntu）的 Shell 脚本项目，填补了 Anthropic 官方未提供 Linux 版本的空白，让 Linux 用户也能原生运行 Claude 桌面客户端。对于大量使用 Linux 作为主力开发环境的工程师来说具有实际价值，无需依赖 Web 端或 Wine 等兼容层。该项目处于 AI 客户端工具与 Linux 桌面适配的交叉赛道，随着 Claude 用户群扩大，此类社区移植方案的关注度持续攀升。</div></div>
+<div class="insight-item"><div class="insight-repo">rustdesk  · 远程桌面  <span class="insight-date">首次上榜 2026-04-19</span></div><div class="insight-text">基于Rust开发的开源远程桌面工具，支持自托管部署，可作为TeamViewer的私有化替代方案，兼顾数据安全与隐私控制。在企业IT运维和个人远程办公场景中极具实用价值，自托管特性让用户完全掌控数据流向，规避第三方服务的隐私风险。该项目处于远程访问与基础设施安全赛道，凭借Rust的高性能与内存安全优势持续吸引开发者关注。</div></div>
+<div class="insight-item"><div class="insight-repo">arc-kit  · 企业架构治理  <span class="insight-date">首次上榜 2026-04-19</span></div><div class="insight-text">一套面向企业架构治理与供应商采购场景的工具包，帮助架构师和采购团队规范化决策流程、评估供应商选型，适合需要建立技术标准体系的中大型组织使用。在AI工具泛滥、企业技术债务与治理挑战日益突出的背景下，这类结构化的架构决策框架显得尤为稀缺和实用。属于企业架构管理（EAM）与IT治理赛道，与TOGAF等框架理念高度契合。</div></div>
+<div class="insight-item"><div class="insight-repo">andrej-karpathy-skills  · AI编码规范  <span class="insight-date">首次上榜 2026-04-19</span></div><div class="insight-text">这是一个将 Andrej Karpathy 对 LLM 编码陷阱的深度洞察浓缩成单一 `CLAUDE.md` 配置文件的实用项目，帮助开发者显著提升 Claude Code 的代码生成质量与行为规范。它的价值在于将顶级 AI 研究者的经验直接转化为可即插即用的工程实践，极大降低了 AI 辅助编程中的常见错误成本。所在赛道为 **AI 编程助手优化 / Prompt Engineering**，在 Vibe Coding 浪潮下，此类"最佳实践配置文件"正成为开发者工作流中不可忽视的生产力杠杆。</div></div>
+<div class="insight-item"><div class="insight-repo">android-reverse-engineering-skill  · Android逆向工程  <span class="insight-date">首次上榜 2026-04-18</span></div><div class="insight-text">这是一个专为 Android 应用逆向工程设计的 Claude Code 技能插件，能够辅助安全研究人员自动化完成 APK 反编译、代码分析等逆向工程任务。将 AI 编程助手与移动安全研究深度结合，大幅降低逆向工程的门槛和重复性工作成本，对渗透测试、漏洞挖掘和恶意软件分析场景极具实用价值。该项目处于 AI 赋能安全工具链的新兴赛道，顺应了 Claude Code 生态快速扩张的趋势，值得安全从业者重点关注。</div></div>
+<div class="insight-item"><div class="insight-repo">BasedHardware  · 穿戴AI助手  <span class="insight-date">首次上榜 2026-04-18</span></div><div class="insight-text">一款基于 AI 的智能助手项目，能够实时分析屏幕内容、监听对话并提供行动建议，结合硬件设备打造沉浸式 AI 伴侣体验。在 AI Agent 与可穿戴硬件融合的赛道上颇具前瞻性，代表了下一代人机交互的发展方向。使用 Dart 开发意味着其具备跨平台移动端能力，适合构建面向消费者的 AI 硬件配套应用，值得关注 AI+硬件生态布局的开发者持续跟踪。</div></div>
+<div class="insight-item"><div class="insight-repo">craft-agents-oss  · AI Agent框架  <span class="insight-date">首次上榜 2026-04-18</span></div><div class="insight-text">这是一个基于 TypeScript 构建的 AI 智能体（Agents）开源框架，专注于帮助开发者快速构建和编排多智能体工作流，适用于自动化任务、代码生成、内容创作等场景。在 AI Agent 工程化浪潮持续升温的背景下，该项目提供了结构清晰的开源实现，对希望深入理解 Agent 架构的开发者极具参考价值。所在赛道为当前最热门的 AI Agent / 多智能体协作领域，与 LangGraph、AutoGen 等框架同台竞技。</div></div>
+<div class="insight-item"><div class="insight-repo">opensre  · AI SRE智能体  <span class="insight-date">首次上榜 2026-04-18</span></div><div class="insight-text">面向AI时代的开源SRE（站点可靠性工程）智能体构建工具包，帮助工程团队快速搭建自己的AI运维代理，实现故障自动检测、诊断与处理。随着AI Native运维成为行业趋势，该项目填补了开源生态中AI SRE工具链的空白，具备较强的工程落地价值。所在赛道为AIOps与AI Agent基础设施，是当前DevOps智能化转型的重要方向之一。</div></div>
+<div class="insight-item"><div class="insight-repo">steipete  · 命令行工具  <span class="insight-date">首次上榜 2026-04-17</span></div><div class="insight-text">这是一个基于 Go 语言开发的 WhatsApp 命令行工具，允许用户通过终端直接发送和管理 WhatsApp 消息，适合自动化脚本、服务器通知推送等场景。其背后的作者 steipete 是知名 iOS 开发者和开源贡献者，项目因其实用性和作者影响力获得大量关注。该项目属于 **即时通讯 CLI 工具** 赛道，契合开发者对轻量级自动化通知方案的需求。</div></div>
+<div class="insight-item"><div class="insight-repo">topoteretes  · AI记忆引擎  <span class="insight-date">首次上榜 2026-04-17</span></div><div class="insight-text">这是一个专为 AI Agent 设计的知识记忆引擎，仅需 6 行代码即可为智能体赋予结构化长期记忆能力，极大降低了 AI 记忆管理的开发门槛。随着 AI Agent 应用爆发式增长，记忆与上下文管理成为核心痛点，该项目提供了轻量且优雅的解决方案值得重点关注。项目处于 AI Agent 基础设施与 RAG/知识图谱技术赛道的交叉地带，是构建复杂多轮对话和持续学习型 Agent 的重要工具。</div></div>
+<div class="insight-item"><div class="insight-repo">dflash  · 扩散推理加速  <span class="insight-date">首次上榜 2026-04-17</span></div><div class="insight-text">DFlash 是一种基于块扩散（Block Diffusion）的推测解码加速技术，专为提升大语言模型推理速度而设计，能够在不损失生成质量的前提下显著降低推理延迟。它将扩散模型的并行生成能力与推测解码的草稿-验证范式相结合，是当前 LLM 推理加速领域的新颖探索方向。随着大模型部署成本持续受到关注，该项目在推理优化赛道具有较高的工程价值和研究前景，值得 AI 基础设施开发者重点关注。</div></div>
+<div class="insight-item"><div class="insight-repo">openai-agents-python  · AI Agent框架  <span class="insight-date">首次上榜 2026-04-17</span></div><div class="insight-text">这是 OpenAI 官方推出的 Python 轻量级多智能体工作流框架，支持构建复杂的 Agent 协作系统，适用于自动化任务编排、多步骤推理及工具调用等场景。作为 OpenAI 亲自维护的官方框架，其与 GPT 系列模型的深度集成和长期维护保障使其极具权威性。项目处于当前最热的 AI Agent 编排赛道，是构建生产级多智能体应用的重要基础设施选择。</div></div>
+<div class="insight-item"><div class="insight-repo">evolver  · AI智能体进化  <span class="insight-date">首次上榜 2026-04-17</span></div><div class="insight-text">这是一个基于基因组进化协议（GEP）的AI智能体自进化引擎，允许AI代理通过类基因演化机制动态优化自身行为与决策逻辑，适用于自适应AI系统、自动化决策优化等场景。项目将生物进化算法与AI Agent架构深度融合，赋予智能体"自我迭代"能力，代表了AI Agent从静态配置向动态自主演化的范式转变。单日新增800+星标的爆发式增长表明该方向正在引发广泛关注，属于AI Agent进化计算与自主学习的前沿技术赛道。</div></div>
+<div class="insight-item"><div class="insight-repo">dive-into-llms  · LLM教学实践  <span class="insight-date">首次上榜 2026-04-16</span></div><div class="insight-text">这是一套面向中文开发者的大模型实战编程教程，通过 Jupyter Notebook 形式系统讲解 LLM 的核心原理与落地应用，极适合从零上手大模型开发的工程师和研究者。项目以"动手实践"为核心理念，内容覆盖预训练、微调、推理等关键环节，兼具教学深度与工程可操作性，是国内 LLM 学习资源中的高质量标杆。处于当前最热门的大语言模型/AIGC 技术赛道，近三万星的体量印证了其在社区中的广泛认可度。</div></div>
+<div class="insight-item"><div class="insight-repo">public-apis  · 公共API集合  <span class="insight-date">首次上榜 2026-04-16</span></div><div class="insight-text">这是一个收录了海量免费公开 API 的精选列表项目，涵盖天气、金融、娱乐、AI等几乎所有主流类别，是开发者构建原型、学习项目或快速集成第三方服务的必备参考手册。凭借超42万星的庞大社区认可度，它已成为 GitHub 上最具影响力的开发者资源库之一，每天仍保持高速增长足见其持久价值。该项目处于开发者工具与API生态赛道，是连接开发者与互联网数据资源的重要入口。</div></div>
+<div class="insight-item"><div class="insight-repo">open-agents  · 云端Agent框架  <span class="insight-date">首次上榜 2026-04-16</span></div><div class="insight-text">这是 Vercel 官方实验室开源的云端 Agent 构建模板，基于 TypeScript 提供了一套标准化的脚手架，帮助开发者快速搭建可部署于云端的 AI Agent 应用。由 Vercel 官方背书使其在工程化和部署体验上具有天然优势，单日近千星的增速也印证了开发者社区对标准化 Agent 开发范式的强烈需求。该项目处于当前最热门的 AI Agent 基础设施赛道，是连接 LLM 能力与生产级云部署的重要桥梁。</div></div>
+<div class="insight-item"><div class="insight-repo">GenericAgent  · AI Agent框架  <span class="insight-date">首次上榜 2026-04-16</span></div><div class="insight-text">一个具备自我进化能力的AI智能体框架，从3300行种子代码出发，通过动态生长技能树来扩展能力边界，可实现对系统的全面控制，且token消耗降低6倍，极具工程效率优势。其"种子生长"的设计理念打破了传统Agent依赖大量预设工具的范式，让Agent真正具备自主学习和能力积累的特性，值得关注。属于AI Agent与自主系统控制赛道，是当前LLM应用落地中最受热议的方向之一。</div></div>
+<div class="insight-item"><div class="insight-repo">magika  · AI文件检测  <span class="insight-date">首次上榜 2026-04-16</span></div><div class="insight-text">由Google开源的AI驱动文件类型检测工具，利用深度学习模型实现对文件内容的高精度识别，准确率和速度均超越传统基于魔数（magic bytes）的检测方案。在安全扫描、文件处理管道、恶意软件分析等场景中具有重要实用价值，已被Google内部大规模部署于VirusTotal等产品。属于AI+网络安全/文件系统工具赛道，凭借Google背书与出色的性能表现，值得安全工程师和基础工具开发者重点关注。</div></div>
+<div class="insight-item"><div class="insight-repo">Donchitos  · AI游戏开发  <span class="insight-date">首次上榜 2026-04-16</span></div><div class="insight-text">将Claude Code转化为一个完整的游戏开发工作室，内置49个AI智能体和72种工作流技能，模拟真实游戏工作室的层级协作体系，覆盖从策划、美术到编程的全流程。这一项目将多智能体协同框架与垂直行业深度结合，为AI辅助游戏开发提供了系统化的工程实践范本。处于AI Agent编排与游戏开发工具链融合的前沿赛道，对探索大模型在复杂创意工程中落地应用的开发者极具参考价值。</div></div>
+<div class="insight-item"><div class="insight-repo">agent-skills  · AI编程智能体  <span class="insight-date">首次上榜 2026-04-16</span></div><div class="insight-text">专为 AI 编程智能体打造的生产级工程技能集合，涵盖代码质量、调试、架构设计等核心开发能力，帮助 AI Agent 在真实工程场景中表现更稳定可靠。由 Chrome DevRel 负责人 Addy Osmani 主导，结合其深厚的工程实践经验，内容权威性极高，短期内爆发式增长说明开发者社区对 AI Agent 落地能力的强烈需求。属于当前最热门的 **AI Agent / LLM 工程化**技术赛道，是构建高质量 AI 编程助手不可忽视的参考资源。</div></div>
+<div class="insight-item"><div class="insight-repo">voicebox  · 语音合成  <span class="insight-date">首次上榜 2026-04-15</span></div><div class="insight-text">一款开源的语音合成工作室工具，支持用户通过可视化界面生成和编辑高质量语音内容，适用于播客制作、有声书、配音等多种场景。在AI语音合成技术快速普及的背景下，其开源特性使开发者可自由部署和定制，极大降低了语音内容生产门槛。项目处于AI语音合成与创意内容生产工具交叉的技术赛道，是TTS（文字转语音）领域值得关注的开源标杆项目。</div></div>
+<div class="insight-item"><div class="insight-repo">editor  · 3D建筑设计  <span class="insight-date">首次上榜 2026-04-15</span></div><div class="insight-text">这是一个基于浏览器的3D建筑项目创作与分享平台，允许用户在线设计、展示和协作建筑方案，无需安装专业软件即可实现3D建模与可视化。凭借820颗今日新增星标的爆发式增长，表明其在建筑设计民主化方向击中了市场痛点，极大降低了3D建筑设计的使用门槛。该项目处于**WebGL/3D可视化与建筑科技（AEC Tech）**的交叉赛道，是将专业设计工具Web化这一趋势的典型代表。</div></div>
+<div class="insight-item"><div class="insight-repo">obra  · AI Agent框架  <span class="insight-date">首次上榜 2026-04-15</span></div><div class="insight-text">这是一个以Shell为核心构建的智能体技能框架，专注于提供真正可落地的软件开发方法论，帮助开发者以结构化的方式赋能AI代理完成复杂编程任务。它在AI辅助开发工具爆发的当下，以"实际可用"为核心卖点切入市场，主打开发工作流与Agentic能力的深度融合，极具实践价值。所在赛道为**AI Coding Agent / 开发者工具**，是当前最热门的技术方向之一，值得密切跟踪。</div></div>
+<div class="insight-item"><div class="insight-repo">chrislgarry  · 航天历史代码  <span class="insight-date">首次上榜 2026-04-15</span></div><div class="insight-text">这是阿波罗11号登月任务中，指令舱与登月舱导航计算机（AGC）的原始汇编源代码归档项目，具有极高的历史与工程价值。对于计算机科学史研究者、嵌入式系统工程师以及航天爱好者而言，这份代码是人类首次登月背后技术智慧的第一手见证。该项目属于**历史计算机科学与底层系统**赛道，其持续受到关注充分说明了开发者社区对经典工程遗产的浓厚兴趣。</div></div>
+<div class="insight-item"><div class="insight-repo">ChinaTextbook  · 教材资源库  <span class="insight-date">首次上榜 2026-04-15</span></div><div class="insight-text">收录了中国中小学及大学阶段全套PDF版教材的开源资源库，覆盖从小学到高校的完整教育体系，为学生、教育工作者及自学者提供免费获取正版教材的渠道。在教育资源数字化和知识普惠的背景下，该项目填补了优质教材获取门槛高的空白，具有显著的公益价值。属于**教育资源开放共享**赛道，契合当前知识开放获取（Open Access）的全球趋势。</div></div>
+<div class="insight-item"><div class="insight-repo">camofox-browser  · 浏览器自动化  <span class="insight-date">首次上榜 2026-04-15</span></div><div class="insight-text">专为 AI 智能体设计的无头浏览器自动化服务器，核心价值在于突破传统爬虫常见的反爬封锁，让 AI Agent 能够顺畅访问通常被屏蔽的网站，适用于数据采集、自动化测试和 AI 工作流集成等场景。随着 AI Agent 生态的爆发式增长，"如何让 Agent 稳定访问真实 Web 环境"成为关键基础设施问题，该项目直击这一痛点。属于 **AI Agent 工具链 + 浏览器自动化**赛道，与 Playwright、Puppeteer 同类但定位更聚焦于 AI Agent 的实际部署需求。</div></div>
+<div class="insight-item"><div class="insight-repo">ralph  · AI Agent自动化  <span class="insight-date">首次上榜 2026-04-14</span></div><div class="insight-text">Ralph 是一个基于 TypeScript 构建的自主 AI 代理循环系统，能够持续运行直到完成产品需求文档（PRD）中的所有任务项，非常适合自动化软件开发流程和需求驱动的任务执行场景。它代表了 AI Agent 从单次对话走向持续自主执行的关键演进方向，对于希望用 AI 替代部分研发流程的团队具有极高实用价值。该项目处于当前最热门的 AI Agent / 自主智能体技术赛道，与 AutoGPT、Devin 等同属新一代自主执行型 AI 工具浪潮。</div></div>
+<div class="insight-item"><div class="insight-repo">claude-cookbooks  · AI应用示例  <span class="insight-date">首次上榜 2026-04-14</span></div><div class="insight-text">这是 Anthropic 官方维护的 Claude API 使用示例合集，通过 Jupyter Notebook 形式展示了各类实用的 AI 应用场景和最佳实践，涵盖代码生成、文档处理、多模态交互等典型用例。对于希望快速上手 Claude API 的开发者而言，这是最权威的参考资料库，可显著降低学习曲线。该项目处于 LLM 应用开发与 Prompt Engineering 赛道的核心位置，随着 Claude 模型能力持续迭代，其参考价值也在不断提升。</div></div>
+<div class="insight-item"><div class="insight-repo">hermes-agent  · AI Agent 基础设施  <span class="insight-date">首次上榜 2026-04-13</span></div><div class="insight-text">今日绝对主角，单日涨星 7454，总星数已逼近 7 万。定位「会成长的 Agent」，底层走自适应工具调用路线，社区把它对标 OpenAI Operator 的开源替代。AI Agent 基础设施的竞争已从模型能力转向「编排可靠性」，hermes 的爆发说明市场对能落地的 Agent 框架极度饥渴。</div></div>
+<div class="insight-item"><div class="insight-repo">markitdown  · 文档 RAG 标准化  <span class="insight-date">首次上榜 2026-04-13</span></div><div class="insight-text">微软出品的文档转 Markdown 工具，总星数突破 10 万大关，今日仍增 2513 星，说明「非结构化文档入 RAG 管道」的需求持续旺盛。随着企业 AI 采购加速，markitdown 成为数据预处理标配工具的概率极高。</div></div>
+<div class="insight-item"><div class="insight-repo">andrej-karpathy-skills  · Claude 工具链生态  <span class="insight-date">首次上榜 2026-04-13</span></div><div class="insight-text">一个提升 Claude Code 行为的 CLAUDE.md 配置文件，源自 Andrej Karpathy 对 LLM 编码缺陷的观察整理。这类「提示词工程产品化」的项目持续爆发，验证了 Claude Code 等 AI 编程助手的日活用户已经足够大，周边生态正在快速成形。</div></div>
+<div class="insight-item"><div class="insight-repo">Kronos  · 金融 AI 量化  <span class="insight-date">首次上榜 2026-04-13</span></div><div class="insight-text">金融市场语言的基础模型，定位「金融领域的 Foundation Model」，今日涨 1985 星。AI + 金融量化的交叉赛道正在从学术走向工程化，Kronos 是这一趋势的典型代表，值得量化研究和 FinTech 产品同学重点关注。</div></div>
+<div class="insight-item"><div class="insight-repo">multica  · AI Agent 管理平台  <span class="insight-date">首次上榜 2026-04-13</span></div><div class="insight-text">开源的 Managed Agents 平台，把 Coding Agent 变成「真正的队友」，支持任务分配、进度追踪、技能复用。这是 AI 编程生态从「单点工具」向「团队协作平台」跃升的标志性项目，商业化潜力极高，可类比为 AI 时代的 Jira + GitHub Actions 合体。</div></div>
+<div class="insight-item"><div class="insight-repo">Archon  · AI 编码可靠性  <span class="insight-date">首次上榜 2026-04-13</span></div><div class="insight-text">让 AI 编码过程「确定性可重复」，本质是 Agent 编排的测试基础设施。随着 AI 代码生成进入生产环境，可靠性和可测性变得和功能同等重要，Archon 填补了这一空白。TypeScript 生态，CI/CD 集成友好。</div></div>
+<div class="insight-item"><div class="insight-repo">claude-code-best-practice  · Claude 工具链生态  <span class="insight-date">首次上榜 2026-04-13</span></div><div class="insight-text">Claude Code 使用最佳实践合集，社区共建的提示词和工作流规范。Claude Code 日活用户体量已足够大，围绕「使用规范 + 工作流」的工具市场正在快速成形，这类项目是生态健康的标志。</div></div>
+<div class="insight-item"><div class="insight-repo">VoxCPM  · 多语言 TTS 无 Tokenizer  <span class="insight-date">首次上榜 2026-04-13</span></div><div class="insight-text">VoxCPM2 走 Tokenizer-Free 路线，直接在语音层面支持多语言生成，避免了传统 TTS 在多语言切换时的分词歧义问题。OpenBMB 出品，工程化成熟度较高，适合对接多语言客服、语音助手场景。</div></div>
+<div class="insight-item"><div class="insight-repo">DeepTutor  · Agent 原生教育  <span class="insight-date">首次上榜 2026-04-13</span></div><div class="insight-text">Agent-Native 个性化学习助手，港大出品，本周增 5873 星。教育 AI 是最早能看到 ROI 的 Agent 应用场景之一，DeepTutor 的特点在于把 Agent 能力融入学习流程而非仅做答疑。商业化路径仍待验证。</div></div>
+<div class="insight-item"><div class="insight-repo">gallery  · 边端推理 On-device AI  <span class="insight-date">首次上榜 2026-04-13</span></div><div class="insight-text">Google 官方展示端侧 ML/GenAI 应用案例的 Gallery，Kotlin 实现，本周增 4148 星。边端 AI 推理的工程化正在提速，Google 持续投入端侧生态说明移动端 AI 应用的基础设施正在换代。</div></div>
+<div class="insight-item"><div class="insight-repo">LiteRT-LM  · 边端推理 On-device AI  <span class="insight-date">首次上榜 2026-04-13</span></div><div class="insight-text">Google LiteRT 的语言模型运行时，TFLite 的继任者方向，C++ 实现，本周增 2164 星。配合 gallery 项目，Google 在端侧 AI 推理上的布局已形成完整工具链，值得移动端和嵌入式 AI 开发者重点关注。</div></div>
+<div class="insight-item"><div class="insight-repo">personaplex  · AI 人格/角色扮演  <span class="insight-date">首次上榜 2026-04-13</span></div><div class="insight-text">NVIDIA 出品的 PersonaPlex，聚焦 AI 角色人格的构建与管理，本周增 2331 星。随着对话 AI 向垂直场景渗透，角色一致性和人格稳定性成为关键能力，NVIDIA 此举意在为企业级 AI 助手提供人格层基础设施。</div></div>
+<div class="insight-item"><div class="insight-repo">rustfs  · 对象存储  <span class="insight-date">首次上榜 2026-04-13</span></div><div class="insight-text">基于Rust语言构建的高性能S3兼容对象存储系统，针对小对象（4KB）场景实现了比MinIO快2.3倍的性能突破，适用于云原生存储、私有化部署及数据密集型应用场景。凭借与MinIO、Ceph等主流平台的无缝迁移兼容能力，大幅降低了企业切换存储方案的成本和风险。处于对象存储与云基础设施赛道，正是Rust语言在系统软件领域替代传统方案的典型代表，值得基础设施工程师重点关注。</div></div>
+<div class="insight-item"><div class="insight-repo">ai-hedge-fund  · 金融 AI 量化  <span class="insight-date">首次上榜 2026-04-13</span></div><div class="insight-text">AI 驱动的对冲基金团队模拟框架，总星超 5 万，Python 实现。作为「AI + 量化金融」方向的代表性开源项目，它已成为该领域的入门标杆，持续吸引金融 + AI 交叉方向的研究者。</div></div>
+<div class="insight-item"><div class="insight-repo">seomachine  · Claude 工具链生态  <span class="insight-date">首次上榜 2026-04-13</span></div><div class="insight-text">基于 Claude Code 的 SEO 长文内容生成工作区，专为企业博客优化设计。Claude Code 生态正在从「编程助手」向「内容生产工具」延伸，seomachine 是这一趋势的典型案例。</div></div>
+<div class="insight-item"><div class="insight-repo">thedotmack  · Claude 工具链生态  <span class="insight-date">首次上榜 2026-04-13</span></div><div class="insight-text">Claude Code 会话记忆插件，自动压缩编码会话上下文并注入未来会话，解决长项目记忆衰减问题。是 Claude Code 生态中「记忆增强」方向的早期探索，有较高实用价值。</div></div>
+</div>
+  </div>
+</div>
+
+</div>
+<div class="footer">数据来源：GitHub Trending · 更新于 2026-04-27 11:27:36 GMT+8 · 由 小R 自动生成</div>
+<script>
+function showTab(idx){
+  document.querySelectorAll(".tab").forEach((t,i)=>t.classList.toggle("active",i===idx));
+  document.querySelectorAll(".panel").forEach((p,i)=>p.classList.toggle("active",i===idx));
+}
+</script>
+</body></html>

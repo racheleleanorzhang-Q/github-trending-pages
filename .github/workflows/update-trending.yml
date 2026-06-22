@@ -1,6 +1,14 @@
 name: Update GitHub Trending
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/update-trending.yml"
+      - "github-trending-source/*.py"
+      - "github-trending-source/run_daily.sh"
+      - "github-trending-source/requirements.txt"
   workflow_dispatch:
   schedule:
     - cron: "20 1 * * *"

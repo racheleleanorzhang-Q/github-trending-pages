@@ -6,6 +6,18 @@ cd /workspace/github-trending
 echo "[$(date '+%Y-%m-%d %H:%M:%S')] 开始抓取 GitHub Trending..."
 python3 fetch_trending.py
 
+echo "[$(date '+%Y-%m-%d %H:%M:%S')] 生成增量解读（Claude 优先，Shell 层回退 GPT）..."
+if python3 diff_and_insight.py; then
+  echo "[$(date '+%Y-%m-%d %H:%M:%S')] Claude 解读生成完成"
+else
+  echo "[$(date '+%Y-%m-%d %H:%M:%S')] [WARN] Claude 解读失败，切换 GPT"
+  if python3 diff_and_insight_gpt.py; then
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] GPT 解读生成完成"
+  else
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] [WARN] GPT 解读也失败，继续生成 HTML"
+  fi
+fi
+
 echo "[$(date '+%Y-%m-%d %H:%M:%S')] 生成 HTML..."
 python3 generate_html.py
 

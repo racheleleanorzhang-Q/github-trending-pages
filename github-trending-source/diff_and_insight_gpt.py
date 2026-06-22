@@ -14,6 +14,10 @@ from insight_runner import run
 
 def ask_llm(prompt):
     try:
+        if not os.environ.get("OPENAI_API_KEY"):
+            print("[WARN] 未配置 OPENAI_API_KEY，跳过 GPT", file=sys.stderr)
+            return ""
+
         client_kwargs = {"api_key": os.environ["OPENAI_API_KEY"]}
         base_url = os.environ.get("OPENAI_BASE_URL")
         if base_url:
@@ -22,7 +26,7 @@ def ask_llm(prompt):
         client = OpenAI(**client_kwargs)
         resp = client.chat.completions.create(
             model=os.environ.get("OPENAI_MODEL", "gpt-4.1-mini"),
-            max_tokens=300,
+            max_tokens=int(os.environ.get("INSIGHT_MAX_TOKENS", "300")),
             messages=[{"role": "user", "content": prompt}],
         )
         return resp.choices[0].message.content.strip()

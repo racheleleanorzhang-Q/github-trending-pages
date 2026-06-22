@@ -1,375 +1,375 @@
 {
-  "updated_at": "2026-04-24 09:34:03 GMT+8",
-  "updated_ts": 1776994443,
+  "updated_at": "2026-06-22 17:13:53 GMT+8",
+  "updated_ts": 1782119633,
   "daily": {
     "top10": [
       {
-        "full_name": "huggingface/ml-intern",
-        "description": "Star huggingface / ml-intern 🤗 ml-intern: an open-source ML engineer that reads papers, trains models, and ships ML models",
+        "full_name": "palmier-io/palmier-pro",
+        "description": "Star palmier-io / palmier-pro macOS video editor built for AI",
+        "language": "Swift",
+        "total_stars": 6248,
+        "period_stars": 1834,
+        "forks": 450,
+        "url": "https://github.com/palmier-io/palmier-pro"
+      },
+      {
+        "full_name": "calesthio/OpenMontage",
+        "description": "Star calesthio / OpenMontage World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
         "language": "Python",
-        "total_stars": 3385,
-        "period_stars": 720,
-        "forks": 290,
-        "url": "https://github.com/huggingface/ml-intern"
+        "total_stars": 10033,
+        "period_stars": 987,
+        "forks": 1388,
+        "url": "https://github.com/calesthio/OpenMontage"
       },
       {
-        "full_name": "zilliztech/claude-context",
-        "description": "Star zilliztech / claude-context Code search MCP for Claude Code. Make entire codebase the context for any coding agent.",
-        "language": "TypeScript",
-        "total_stars": 8444,
-        "period_stars": 1011,
-        "forks": 663,
-        "url": "https://github.com/zilliztech/claude-context"
-      },
-      {
-        "full_name": "HKUDS/RAG-Anything",
-        "description": "Star HKUDS / RAG-Anything \"RAG-Anything: All-in-One RAG Framework\"",
-        "language": "Python",
-        "total_stars": 18185,
-        "period_stars": 590,
-        "forks": 2101,
-        "url": "https://github.com/HKUDS/RAG-Anything"
-      },
-      {
-        "full_name": "Z4nzu/hackingtool",
-        "description": "Star Z4nzu / hackingtool ALL IN ONE Hacking Tool For Hackers",
-        "language": "Python",
-        "total_stars": 61094,
-        "period_stars": 1383,
-        "forks": 6843,
-        "url": "https://github.com/Z4nzu/hackingtool"
-      },
-      {
-        "full_name": "ruvnet/RuView",
-        "description": "Star ruvnet / RuView π RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video.",
+        "full_name": "tursodatabase/turso",
+        "description": "Star tursodatabase / turso Turso is an in-process SQL database, compatible with SQLite.",
         "language": "Rust",
-        "total_stars": 49844,
-        "period_stars": 429,
-        "forks": 6589,
-        "url": "https://github.com/ruvnet/RuView"
+        "total_stars": 21025,
+        "period_stars": 548,
+        "forks": 1074,
+        "url": "https://github.com/tursodatabase/turso"
       },
       {
-        "full_name": "Anil-matcha/Open-Generative-AI",
-        "description": "Star Anil-matcha / Open-Generative-AI Uncensored, open-source alternative to Higgsfield AI, Freepik, Krea, Openart AI — Free, unrestricted AI image &amp; video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
-        "language": "JavaScript",
-        "total_stars": 6972,
-        "period_stars": 316,
-        "forks": 1334,
-        "url": "https://github.com/Anil-matcha/Open-Generative-AI"
+        "full_name": "penpot/penpot",
+        "description": "Star penpot / penpot Penpot: The open-source design tool for design and code collaboration",
+        "language": "Clojure",
+        "total_stars": 52543,
+        "period_stars": 1135,
+        "forks": 3362,
+        "url": "https://github.com/penpot/penpot"
       },
       {
-        "full_name": "Alishahryar1/free-claude-code",
-        "description": "Star Alishahryar1 / free-claude-code Use claude-code for free in the terminal, VSCode extension or via discord like openclaw",
+        "full_name": "ZhuLinsen/daily_stock_analysis",
+        "description": "Star ZhuLinsen / daily_stock_analysis LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
         "language": "Python",
-        "total_stars": 5636,
-        "period_stars": 1962,
-        "forks": 949,
-        "url": "https://github.com/Alishahryar1/free-claude-code"
+        "total_stars": 45242,
+        "period_stars": 568,
+        "forks": 41724,
+        "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
       },
       {
-        "full_name": "sponsors/open-metadata",
-        "description": "Sponsor Star open-metadata / OpenMetadata OpenMetadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team collaboration.",
+        "full_name": "koala73/worldmonitor",
+        "description": "Star koala73 / worldmonitor Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
         "language": "TypeScript",
+        "total_stars": 58397,
+        "period_stars": 163,
+        "forks": 9229,
+        "url": "https://github.com/koala73/worldmonitor"
+      },
+      {
+        "full_name": "bytedance/deer-flow",
+        "description": "Star bytedance / deer-flow An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+        "language": "Python",
+        "total_stars": 72887,
+        "period_stars": 442,
+        "forks": 9863,
+        "url": "https://github.com/bytedance/deer-flow"
+      },
+      {
+        "full_name": "DeusData/codebase-memory-mcp",
+        "description": "Star DeusData / codebase-memory-mcp High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+        "language": "C",
+        "total_stars": 10840,
+        "period_stars": 1032,
+        "forks": 814,
+        "url": "https://github.com/DeusData/codebase-memory-mcp"
+      },
+      {
+        "full_name": "sponsors/mukul975",
+        "description": "Sponsor Star mukul975 / Anthropic-Cybersecurity-Skills 754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&amp;CK, NIST CSF 2.0, MITRE ATLAS, D3FEND &amp; NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI &amp; 20+ platforms · 26 security domains · Apache 2.0",
+        "language": "Python",
         "total_stars": 0,
-        "period_stars": 776,
+        "period_stars": 361,
         "forks": 0,
-        "url": "https://github.com/sponsors/open-metadata"
+        "url": "https://github.com/sponsors/mukul975"
       },
       {
-        "full_name": "microsoft/ai-agents-for-beginners",
-        "description": "Star microsoft / ai-agents-for-beginners 12 Lessons to Get Started Building AI Agents",
-        "language": "Jupyter Notebook",
-        "total_stars": 58812,
-        "period_stars": 208,
-        "forks": 20033,
-        "url": "https://github.com/microsoft/ai-agents-for-beginners"
-      },
-      {
-        "full_name": "PowerShell/PowerShell",
-        "description": "Star PowerShell / PowerShell PowerShell for every system!",
-        "language": "C#",
-        "total_stars": 52793,
+        "full_name": "mikumifa/biliTickerBuy",
+        "description": "Star mikumifa / biliTickerBuy b站会员购购票辅助工具",
+        "language": "Python",
+        "total_stars": 3779,
         "period_stars": 67,
-        "forks": 8275,
-        "url": "https://github.com/PowerShell/PowerShell"
+        "forks": 469,
+        "url": "https://github.com/mikumifa/biliTickerBuy"
       }
     ],
     "ai_top10": [
       {
-        "full_name": "huggingface/ml-intern",
-        "description": "Star huggingface / ml-intern 🤗 ml-intern: an open-source ML engineer that reads papers, trains models, and ships ML models",
+        "full_name": "palmier-io/palmier-pro",
+        "description": "Star palmier-io / palmier-pro macOS video editor built for AI",
+        "language": "Swift",
+        "total_stars": 6248,
+        "period_stars": 1834,
+        "forks": 450,
+        "url": "https://github.com/palmier-io/palmier-pro"
+      },
+      {
+        "full_name": "calesthio/OpenMontage",
+        "description": "Star calesthio / OpenMontage World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
         "language": "Python",
-        "total_stars": 3385,
-        "period_stars": 720,
-        "forks": 290,
-        "url": "https://github.com/huggingface/ml-intern"
+        "total_stars": 10033,
+        "period_stars": 987,
+        "forks": 1388,
+        "url": "https://github.com/calesthio/OpenMontage"
       },
       {
-        "full_name": "zilliztech/claude-context",
-        "description": "Star zilliztech / claude-context Code search MCP for Claude Code. Make entire codebase the context for any coding agent.",
-        "language": "TypeScript",
-        "total_stars": 8444,
-        "period_stars": 1011,
-        "forks": 663,
-        "url": "https://github.com/zilliztech/claude-context"
-      },
-      {
-        "full_name": "HKUDS/RAG-Anything",
-        "description": "Star HKUDS / RAG-Anything \"RAG-Anything: All-in-One RAG Framework\"",
+        "full_name": "ZhuLinsen/daily_stock_analysis",
+        "description": "Star ZhuLinsen / daily_stock_analysis LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
         "language": "Python",
-        "total_stars": 18185,
-        "period_stars": 590,
-        "forks": 2101,
-        "url": "https://github.com/HKUDS/RAG-Anything"
+        "total_stars": 45242,
+        "period_stars": 568,
+        "forks": 41724,
+        "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
       },
       {
-        "full_name": "Anil-matcha/Open-Generative-AI",
-        "description": "Star Anil-matcha / Open-Generative-AI Uncensored, open-source alternative to Higgsfield AI, Freepik, Krea, Openart AI — Free, unrestricted AI image &amp; video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
-        "language": "JavaScript",
-        "total_stars": 6972,
-        "period_stars": 316,
-        "forks": 1334,
-        "url": "https://github.com/Anil-matcha/Open-Generative-AI"
+        "full_name": "koala73/worldmonitor",
+        "description": "Star koala73 / worldmonitor Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+        "language": "TypeScript",
+        "total_stars": 58397,
+        "period_stars": 163,
+        "forks": 9229,
+        "url": "https://github.com/koala73/worldmonitor"
       },
       {
-        "full_name": "Alishahryar1/free-claude-code",
-        "description": "Star Alishahryar1 / free-claude-code Use claude-code for free in the terminal, VSCode extension or via discord like openclaw",
+        "full_name": "bytedance/deer-flow",
+        "description": "Star bytedance / deer-flow An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
         "language": "Python",
-        "total_stars": 5636,
-        "period_stars": 1962,
-        "forks": 949,
-        "url": "https://github.com/Alishahryar1/free-claude-code"
+        "total_stars": 72887,
+        "period_stars": 442,
+        "forks": 9863,
+        "url": "https://github.com/bytedance/deer-flow"
       },
       {
-        "full_name": "microsoft/ai-agents-for-beginners",
-        "description": "Star microsoft / ai-agents-for-beginners 12 Lessons to Get Started Building AI Agents",
-        "language": "Jupyter Notebook",
-        "total_stars": 58812,
-        "period_stars": 208,
-        "forks": 20033,
-        "url": "https://github.com/microsoft/ai-agents-for-beginners"
+        "full_name": "DeusData/codebase-memory-mcp",
+        "description": "Star DeusData / codebase-memory-mcp High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+        "language": "C",
+        "total_stars": 10840,
+        "period_stars": 1032,
+        "forks": 814,
+        "url": "https://github.com/DeusData/codebase-memory-mcp"
       },
       {
-        "full_name": "cline/cline",
-        "description": "Star cline / cline Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way.",
-        "language": "TypeScript",
-        "total_stars": 60828,
-        "period_stars": 123,
-        "forks": 6256,
-        "url": "https://github.com/cline/cline"
-      },
-      {
-        "full_name": "microsoft/onnxruntime",
-        "description": "Star microsoft / onnxruntime ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator",
-        "language": "C++",
-        "total_stars": 20188,
-        "period_stars": 49,
-        "forks": 3855,
-        "url": "https://github.com/microsoft/onnxruntime"
-      },
-      {
-        "full_name": "sponsors/mksglu",
-        "description": "Sponsor Star mksglu / context-mode Context window optimization for AI coding agents. Sandboxes tool output, 98% reduction. 12 platforms",
-        "language": "TypeScript",
+        "full_name": "sponsors/mukul975",
+        "description": "Sponsor Star mukul975 / Anthropic-Cybersecurity-Skills 754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&amp;CK, NIST CSF 2.0, MITRE ATLAS, D3FEND &amp; NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI &amp; 20+ platforms · 26 security domains · Apache 2.0",
+        "language": "Python",
         "total_stars": 0,
-        "period_stars": 238,
+        "period_stars": 361,
         "forks": 0,
-        "url": "https://github.com/sponsors/mksglu"
+        "url": "https://github.com/sponsors/mukul975"
       },
       {
-        "full_name": "sponsors/coreyhaines31",
-        "description": "Sponsor Star coreyhaines31 / marketingskills Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+        "full_name": "sponsors/topoteretes",
+        "description": "Sponsor Star topoteretes / cognee Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.",
+        "language": "Python",
+        "total_stars": 0,
+        "period_stars": 347,
+        "forks": 0,
+        "url": "https://github.com/sponsors/topoteretes"
+      },
+      {
+        "full_name": "sponsors/asgeirtj",
+        "description": "Sponsor Star asgeirtj / system_prompts_leaks Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
         "language": "JavaScript",
         "total_stars": 0,
-        "period_stars": 285,
+        "period_stars": 282,
         "forks": 0,
-        "url": "https://github.com/sponsors/coreyhaines31"
+        "url": "https://github.com/sponsors/asgeirtj"
+      },
+      {
+        "full_name": "sponsors/mattpocock",
+        "description": "Sponsor Star mattpocock / skills Skills for Real Engineers. Straight from my .claude directory.",
+        "language": "Shell",
+        "total_stars": 0,
+        "period_stars": 1443,
+        "forks": 0,
+        "url": "https://github.com/sponsors/mattpocock"
       }
     ]
   },
   "weekly": {
     "top10": [
       {
-        "full_name": "forrestchang/andrej-karpathy-skills",
-        "description": "Star forrestchang / andrej-karpathy-skills A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-        "language": "",
-        "total_stars": 80616,
-        "period_stars": 32115,
-        "forks": 7602,
-        "url": "https://github.com/forrestchang/andrej-karpathy-skills"
+        "full_name": "DeusData/codebase-memory-mcp",
+        "description": "Star DeusData / codebase-memory-mcp High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+        "language": "C",
+        "total_stars": 10840,
+        "period_stars": 6372,
+        "forks": 814,
+        "url": "https://github.com/DeusData/codebase-memory-mcp"
       },
       {
-        "full_name": "SimoneAvogadro/android-reverse-engineering-skill",
-        "description": "Star SimoneAvogadro / android-reverse-engineering-skill Claude Code skill to support Android app's reverse engineering",
-        "language": "Shell",
-        "total_stars": 4744,
-        "period_stars": 2702,
-        "forks": 546,
-        "url": "https://github.com/SimoneAvogadro/android-reverse-engineering-skill"
-      },
-      {
-        "full_name": "EvoMap/evolver",
-        "description": "Star EvoMap / evolver The GEP-powered self-evolving engine for AI agents. Auditable evolution with Genes, Capsules, and Events. | evomap.ai",
-        "language": "JavaScript",
-        "total_stars": 6681,
-        "period_stars": 3759,
-        "forks": 656,
-        "url": "https://github.com/EvoMap/evolver"
-      },
-      {
-        "full_name": "openai/openai-agents-python",
-        "description": "Star openai / openai-agents-python A lightweight, powerful framework for multi-agent workflows",
+        "full_name": "Panniantong/Agent-Reach",
+        "description": "Star Panniantong / Agent-Reach Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
         "language": "Python",
-        "total_stars": 24861,
-        "period_stars": 3842,
-        "forks": 3799,
-        "url": "https://github.com/openai/openai-agents-python"
+        "total_stars": 37352,
+        "period_stars": 8233,
+        "forks": 2969,
+        "url": "https://github.com/Panniantong/Agent-Reach"
       },
       {
-        "full_name": "jamiepine/voicebox",
-        "description": "Star jamiepine / voicebox The open-source AI voice studio. Clone, dictate, create.",
+        "full_name": "iptv-org/iptv",
+        "description": "Star iptv-org / iptv Collection of publicly available IPTV channels from all over the world",
         "language": "TypeScript",
-        "total_stars": 22854,
-        "period_stars": 3969,
-        "forks": 2673,
-        "url": "https://github.com/jamiepine/voicebox"
+        "total_stars": 127279,
+        "period_stars": 7266,
+        "forks": 6990,
+        "url": "https://github.com/iptv-org/iptv"
       },
       {
-        "full_name": "sponsors/thedotmack",
-        "description": "Sponsor Star thedotmack / claude-mem A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+        "full_name": "n0-computer/iroh",
+        "description": "Star n0-computer / iroh IP addresses break, dial keys instead. Modular networking stack in Rust.",
+        "language": "Rust",
+        "total_stars": 10491,
+        "period_stars": 1712,
+        "forks": 478,
+        "url": "https://github.com/n0-computer/iroh"
+      },
+      {
+        "full_name": "google-research/timesfm",
+        "description": "Star google-research / timesfm TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+        "language": "Python",
+        "total_stars": 24994,
+        "period_stars": 4114,
+        "forks": 2379,
+        "url": "https://github.com/google-research/timesfm"
+      },
+      {
+        "full_name": "NVIDIA/SkillSpector",
+        "description": "Star NVIDIA / SkillSpector Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+        "language": "Python",
+        "total_stars": 9200,
+        "period_stars": 4055,
+        "forks": 720,
+        "url": "https://github.com/NVIDIA/SkillSpector"
+      },
+      {
+        "full_name": "sponsors/asgeirtj",
+        "description": "Sponsor Star asgeirtj / system_prompts_leaks Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+        "language": "JavaScript",
+        "total_stars": 0,
+        "period_stars": 1984,
+        "forks": 0,
+        "url": "https://github.com/sponsors/asgeirtj"
+      },
+      {
+        "full_name": "calesthio/OpenMontage",
+        "description": "Star calesthio / OpenMontage World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+        "language": "Python",
+        "total_stars": 10033,
+        "period_stars": 2867,
+        "forks": 1388,
+        "url": "https://github.com/calesthio/OpenMontage"
+      },
+      {
+        "full_name": "sponsors/withastro",
+        "description": "Sponsor Star withastro / flue The sandbox agent framework.",
         "language": "TypeScript",
         "total_stars": 0,
-        "period_stars": 7562,
+        "period_stars": 1272,
         "forks": 0,
-        "url": "https://github.com/sponsors/thedotmack"
+        "url": "https://github.com/sponsors/withastro"
       },
       {
-        "full_name": "NousResearch/hermes-agent",
-        "description": "Star NousResearch / hermes-agent The agent that grows with you",
-        "language": "Python",
-        "total_stars": 113233,
-        "period_stars": 20316,
-        "forks": 16496,
-        "url": "https://github.com/NousResearch/hermes-agent"
-      },
-      {
-        "full_name": "multica-ai/multica",
-        "description": "Star multica-ai / multica The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
-        "language": "TypeScript",
-        "total_stars": 20203,
-        "period_stars": 5741,
-        "forks": 2450,
-        "url": "https://github.com/multica-ai/multica"
-      },
-      {
-        "full_name": "Lordog/dive-into-llms",
-        "description": "Star Lordog / dive-into-llms 《动手学大模型Dive into LLMs》系列编程实践教程",
-        "language": "Jupyter Notebook",
-        "total_stars": 34009,
-        "period_stars": 3561,
-        "forks": 4169,
-        "url": "https://github.com/Lordog/dive-into-llms"
-      },
-      {
-        "full_name": "Tracer-Cloud/opensre",
-        "description": "Star Tracer-Cloud / opensre Build your own AI SRE agents. The open source toolkit for the AI era ✨",
-        "language": "Python",
-        "total_stars": 2674,
-        "period_stars": 1614,
-        "forks": 293,
-        "url": "https://github.com/Tracer-Cloud/opensre"
+        "full_name": "addyosmani/agent-skills",
+        "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
+        "language": "Shell",
+        "total_stars": 65045,
+        "period_stars": 5610,
+        "forks": 7023,
+        "url": "https://github.com/addyosmani/agent-skills"
       }
     ],
     "ai_top10": [
       {
-        "full_name": "forrestchang/andrej-karpathy-skills",
-        "description": "Star forrestchang / andrej-karpathy-skills A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-        "language": "",
-        "total_stars": 80616,
-        "period_stars": 32115,
-        "forks": 7602,
-        "url": "https://github.com/forrestchang/andrej-karpathy-skills"
+        "full_name": "DeusData/codebase-memory-mcp",
+        "description": "Star DeusData / codebase-memory-mcp High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+        "language": "C",
+        "total_stars": 10840,
+        "period_stars": 6372,
+        "forks": 814,
+        "url": "https://github.com/DeusData/codebase-memory-mcp"
       },
       {
-        "full_name": "SimoneAvogadro/android-reverse-engineering-skill",
-        "description": "Star SimoneAvogadro / android-reverse-engineering-skill Claude Code skill to support Android app's reverse engineering",
-        "language": "Shell",
-        "total_stars": 4744,
-        "period_stars": 2702,
-        "forks": 546,
-        "url": "https://github.com/SimoneAvogadro/android-reverse-engineering-skill"
-      },
-      {
-        "full_name": "EvoMap/evolver",
-        "description": "Star EvoMap / evolver The GEP-powered self-evolving engine for AI agents. Auditable evolution with Genes, Capsules, and Events. | evomap.ai",
-        "language": "JavaScript",
-        "total_stars": 6681,
-        "period_stars": 3759,
-        "forks": 656,
-        "url": "https://github.com/EvoMap/evolver"
-      },
-      {
-        "full_name": "openai/openai-agents-python",
-        "description": "Star openai / openai-agents-python A lightweight, powerful framework for multi-agent workflows",
+        "full_name": "Panniantong/Agent-Reach",
+        "description": "Star Panniantong / Agent-Reach Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
         "language": "Python",
-        "total_stars": 24861,
-        "period_stars": 3842,
-        "forks": 3799,
-        "url": "https://github.com/openai/openai-agents-python"
+        "total_stars": 37352,
+        "period_stars": 8233,
+        "forks": 2969,
+        "url": "https://github.com/Panniantong/Agent-Reach"
       },
       {
-        "full_name": "jamiepine/voicebox",
-        "description": "Star jamiepine / voicebox The open-source AI voice studio. Clone, dictate, create.",
+        "full_name": "iptv-org/iptv",
+        "description": "Star iptv-org / iptv Collection of publicly available IPTV channels from all over the world",
         "language": "TypeScript",
-        "total_stars": 22854,
-        "period_stars": 3969,
-        "forks": 2673,
-        "url": "https://github.com/jamiepine/voicebox"
+        "total_stars": 127279,
+        "period_stars": 7266,
+        "forks": 6990,
+        "url": "https://github.com/iptv-org/iptv"
       },
       {
-        "full_name": "sponsors/thedotmack",
-        "description": "Sponsor Star thedotmack / claude-mem A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+        "full_name": "google-research/timesfm",
+        "description": "Star google-research / timesfm TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+        "language": "Python",
+        "total_stars": 24994,
+        "period_stars": 4114,
+        "forks": 2379,
+        "url": "https://github.com/google-research/timesfm"
+      },
+      {
+        "full_name": "NVIDIA/SkillSpector",
+        "description": "Star NVIDIA / SkillSpector Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+        "language": "Python",
+        "total_stars": 9200,
+        "period_stars": 4055,
+        "forks": 720,
+        "url": "https://github.com/NVIDIA/SkillSpector"
+      },
+      {
+        "full_name": "sponsors/asgeirtj",
+        "description": "Sponsor Star asgeirtj / system_prompts_leaks Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+        "language": "JavaScript",
+        "total_stars": 0,
+        "period_stars": 1984,
+        "forks": 0,
+        "url": "https://github.com/sponsors/asgeirtj"
+      },
+      {
+        "full_name": "calesthio/OpenMontage",
+        "description": "Star calesthio / OpenMontage World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+        "language": "Python",
+        "total_stars": 10033,
+        "period_stars": 2867,
+        "forks": 1388,
+        "url": "https://github.com/calesthio/OpenMontage"
+      },
+      {
+        "full_name": "sponsors/withastro",
+        "description": "Sponsor Star withastro / flue The sandbox agent framework.",
         "language": "TypeScript",
         "total_stars": 0,
-        "period_stars": 7562,
+        "period_stars": 1272,
         "forks": 0,
-        "url": "https://github.com/sponsors/thedotmack"
+        "url": "https://github.com/sponsors/withastro"
       },
       {
-        "full_name": "NousResearch/hermes-agent",
-        "description": "Star NousResearch / hermes-agent The agent that grows with you",
-        "language": "Python",
-        "total_stars": 113233,
-        "period_stars": 20316,
-        "forks": 16496,
-        "url": "https://github.com/NousResearch/hermes-agent"
+        "full_name": "addyosmani/agent-skills",
+        "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
+        "language": "Shell",
+        "total_stars": 65045,
+        "period_stars": 5610,
+        "forks": 7023,
+        "url": "https://github.com/addyosmani/agent-skills"
       },
       {
-        "full_name": "multica-ai/multica",
-        "description": "Star multica-ai / multica The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+        "full_name": "Kong/insomnia",
+        "description": "Star Kong / insomnia The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, Local and Git storage.",
         "language": "TypeScript",
-        "total_stars": 20203,
-        "period_stars": 5741,
-        "forks": 2450,
-        "url": "https://github.com/multica-ai/multica"
-      },
-      {
-        "full_name": "Lordog/dive-into-llms",
-        "description": "Star Lordog / dive-into-llms 《动手学大模型Dive into LLMs》系列编程实践教程",
-        "language": "Jupyter Notebook",
-        "total_stars": 34009,
-        "period_stars": 3561,
-        "forks": 4169,
-        "url": "https://github.com/Lordog/dive-into-llms"
-      },
-      {
-        "full_name": "Tracer-Cloud/opensre",
-        "description": "Star Tracer-Cloud / opensre Build your own AI SRE agents. The open source toolkit for the AI era ✨",
-        "language": "Python",
-        "total_stars": 2674,
-        "period_stars": 1614,
-        "forks": 293,
-        "url": "https://github.com/Tracer-Cloud/opensre"
+        "total_stars": 39535,
+        "period_stars": 1006,
+        "forks": 2340,
+        "url": "https://github.com/Kong/insomnia"
       }
     ]
   }

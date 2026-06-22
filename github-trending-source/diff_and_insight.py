@@ -8,13 +8,18 @@ from insight_runner import run
 
 def ask_llm(prompt):
     try:
+        api_key = os.environ.get("ANTHROPIC_AUTH_TOKEN") or os.environ.get("ANTHROPIC_API_KEY")
+        if not api_key:
+            print("[WARN] 未配置 ANTHROPIC_AUTH_TOKEN/ANTHROPIC_API_KEY，跳过 Claude", file=sys.stderr)
+            return ""
+
         client = anthropic.Anthropic(
             base_url=os.environ.get("ANTHROPIC_BASE_URL", "https://llm-gateway-proxy.inner.chj.cloud/llm-gateway"),
-            api_key=os.environ.get("ANTHROPIC_AUTH_TOKEN", "123456")
+            api_key=api_key
         )
         msg = client.messages.create(
-            model="aws-claude-sonnet-4-6",
-            max_tokens=300,
+            model=os.environ.get("ANTHROPIC_MODEL", "aws-claude-sonnet-4-6"),
+            max_tokens=int(os.environ.get("INSIGHT_MAX_TOKENS", "300")),
             messages=[{"role": "user", "content": prompt}]
         )
         return msg.content[0].text.strip()

@@ -10,6 +10,7 @@ import re
 import sys
 import time
 import subprocess
+from pathlib import Path
 from datetime import datetime, timezone, timedelta
 
 AI_KEYWORDS = [
@@ -24,6 +25,9 @@ AI_KEYWORDS = [
     "image generation", "speech recognition", "language model",
     "agentic", "autonomous", "reasoning", "deepseek", "qwen", "kimi"
 ]
+
+BASE_DIR = Path(__file__).resolve().parent
+DATA_FILE = BASE_DIR / "data.json"
 
 def fetch_url(url, retries=3):
     for i in range(retries):
@@ -159,8 +163,8 @@ def fetch_trending_data():
         }
     }
 
-    out_path = "/workspace/github-trending/data.json"
-    with open(out_path, "w", encoding="utf-8") as f:
+    out_path = DATA_FILE
+    with out_path.open("w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     print(f"[INFO] Data saved to {out_path}", file=sys.stderr)
     return data

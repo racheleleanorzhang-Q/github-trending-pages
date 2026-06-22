@@ -7,10 +7,12 @@
 
 import json
 from datetime import date
+from pathlib import Path
 
-DATA_FILE = "/workspace/github-trending/data.json"
-SEEN_FILE = "/workspace/github-trending/seen_repos.json"
-INSIGHTS_FILE = "/workspace/github-trending/insights.json"
+BASE_DIR = Path(__file__).resolve().parent
+DATA_FILE = BASE_DIR / "data.json"
+SEEN_FILE = BASE_DIR / "seen_repos.json"
+INSIGHTS_FILE = BASE_DIR / "insights.json"
 TODAY = str(date.today())
 
 

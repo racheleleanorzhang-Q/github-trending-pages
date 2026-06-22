@@ -7,10 +7,12 @@ GitHub Trending 日报 HTML 生成脚本
 """
 import json, re
 from datetime import datetime
+from pathlib import Path
 
-DATA_FILE     = "/workspace/github-trending/data.json"
-INSIGHTS_FILE = "/workspace/github-trending/insights.json"
-OUTPUT_FILE   = "/workspace/github-trending/github_trending.html"
+BASE_DIR = Path(__file__).resolve().parent
+DATA_FILE     = BASE_DIR / "data.json"
+INSIGHTS_FILE = BASE_DIR / "insights.json"
+OUTPUT_FILE   = BASE_DIR / "github_trending.html"
 
 def load(path, default={}):
     try:

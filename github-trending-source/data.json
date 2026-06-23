@@ -1,33 +1,33 @@
 {
-  "updated_at": "2026-06-23 11:09:39 GMT+8",
-  "updated_ts": 1782184179,
+  "updated_at": "2026-06-23 13:15:12 GMT+8",
+  "updated_ts": 1782191712,
   "daily": {
     "top10": [
       {
         "full_name": "calesthio/OpenMontage",
         "description": "Star calesthio / OpenMontage World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
         "language": "Python",
-        "total_stars": 12503,
+        "total_stars": 12805,
         "period_stars": 2938,
-        "forks": 1576,
+        "forks": 1602,
         "url": "https://github.com/calesthio/OpenMontage"
       },
       {
         "full_name": "palmier-io/palmier-pro",
         "description": "Star palmier-io / palmier-pro macOS video editor built for AI",
         "language": "Swift",
-        "total_stars": 7557,
+        "total_stars": 7688,
         "period_stars": 2463,
-        "forks": 511,
+        "forks": 517,
         "url": "https://github.com/palmier-io/palmier-pro"
       },
       {
         "full_name": "jamiepine/voicebox",
         "description": "Star jamiepine / voicebox The open-source AI voice studio. Clone, dictate, create.",
         "language": "TypeScript",
-        "total_stars": 32388,
+        "total_stars": 32470,
         "period_stars": 529,
-        "forks": 3944,
+        "forks": 3947,
         "url": "https://github.com/jamiepine/voicebox"
       },
       {
@@ -43,9 +43,9 @@
         "full_name": "penpot/penpot",
         "description": "Star penpot / penpot Penpot: The open-source design tool for design and code collaboration",
         "language": "Clojure",
-        "total_stars": 52935,
+        "total_stars": 52977,
         "period_stars": 728,
-        "forks": 3387,
+        "forks": 3389,
         "url": "https://github.com/penpot/penpot"
       },
       {
@@ -61,36 +61,36 @@
         "full_name": "garrytan/gstack",
         "description": "Star garrytan / gstack Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
         "language": "TypeScript",
-        "total_stars": 113256,
+        "total_stars": 113341,
         "period_stars": 573,
-        "forks": 16806,
+        "forks": 16816,
         "url": "https://github.com/garrytan/gstack"
       },
       {
         "full_name": "heygen-com/hyperframes",
         "description": "Star heygen-com / hyperframes Write HTML. Render video. Built for agents.",
         "language": "TypeScript",
-        "total_stars": 30118,
+        "total_stars": 30194,
         "period_stars": 395,
-        "forks": 2827,
+        "forks": 2832,
         "url": "https://github.com/heygen-com/hyperframes"
       },
       {
         "full_name": "tursodatabase/turso",
         "description": "Star tursodatabase / turso Turso is an in-process SQL database, compatible with SQLite.",
         "language": "Rust",
-        "total_stars": 21546,
+        "total_stars": 21587,
         "period_stars": 540,
-        "forks": 1090,
+        "forks": 1092,
         "url": "https://github.com/tursodatabase/turso"
       },
       {
         "full_name": "bytedance/deer-flow",
         "description": "Star bytedance / deer-flow An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
         "language": "Python",
-        "total_stars": 73348,
+        "total_stars": 73416,
         "period_stars": 738,
-        "forks": 9912,
+        "forks": 9919,
         "url": "https://github.com/bytedance/deer-flow"
       }
     ],
@@ -99,27 +99,27 @@
         "full_name": "calesthio/OpenMontage",
         "description": "Star calesthio / OpenMontage World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
         "language": "Python",
-        "total_stars": 12503,
+        "total_stars": 12805,
         "period_stars": 2938,
-        "forks": 1576,
+        "forks": 1602,
         "url": "https://github.com/calesthio/OpenMontage"
       },
       {
         "full_name": "palmier-io/palmier-pro",
         "description": "Star palmier-io / palmier-pro macOS video editor built for AI",
         "language": "Swift",
-        "total_stars": 7557,
+        "total_stars": 7688,
         "period_stars": 2463,
-        "forks": 511,
+        "forks": 517,
         "url": "https://github.com/palmier-io/palmier-pro"
       },
       {
         "full_name": "jamiepine/voicebox",
         "description": "Star jamiepine / voicebox The open-source AI voice studio. Clone, dictate, create.",
         "language": "TypeScript",
-        "total_stars": 32388,
+        "total_stars": 32470,
         "period_stars": 529,
-        "forks": 3944,
+        "forks": 3947,
         "url": "https://github.com/jamiepine/voicebox"
       },
       {
@@ -135,54 +135,54 @@
         "full_name": "garrytan/gstack",
         "description": "Star garrytan / gstack Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
         "language": "TypeScript",
-        "total_stars": 113256,
+        "total_stars": 113341,
         "period_stars": 573,
-        "forks": 16806,
+        "forks": 16816,
         "url": "https://github.com/garrytan/gstack"
       },
       {
         "full_name": "heygen-com/hyperframes",
         "description": "Star heygen-com / hyperframes Write HTML. Render video. Built for agents.",
         "language": "TypeScript",
-        "total_stars": 30118,
+        "total_stars": 30194,
         "period_stars": 395,
-        "forks": 2827,
+        "forks": 2832,
         "url": "https://github.com/heygen-com/hyperframes"
       },
       {
         "full_name": "bytedance/deer-flow",
         "description": "Star bytedance / deer-flow An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
         "language": "Python",
-        "total_stars": 73348,
+        "total_stars": 73416,
         "period_stars": 738,
-        "forks": 9912,
+        "forks": 9919,
         "url": "https://github.com/bytedance/deer-flow"
       },
       {
         "full_name": "DeusData/codebase-memory-mcp",
         "description": "Star DeusData / codebase-memory-mcp High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
         "language": "C",
-        "total_stars": 11753,
+        "total_stars": 11866,
         "period_stars": 1185,
-        "forks": 862,
+        "forks": 873,
         "url": "https://github.com/DeusData/codebase-memory-mcp"
       },
       {
         "full_name": "ZhuLinsen/daily_stock_analysis",
         "description": "Star ZhuLinsen / daily_stock_analysis LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
         "language": "Python",
-        "total_stars": 45990,
+        "total_stars": 46087,
         "period_stars": 1557,
-        "forks": 41978,
+        "forks": 42021,
         "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
       },
       {
         "full_name": "JCodesMore/ai-website-cloner-template",
         "description": "Star JCodesMore / ai-website-cloner-template Clone any website with one command using AI coding agents",
         "language": "TypeScript",
-        "total_stars": 17871,
+        "total_stars": 17938,
         "period_stars": 100,
-        "forks": 2756,
+        "forks": 2758,
         "url": "https://github.com/JCodesMore/ai-website-cloner-template"
       }
     ]
@@ -193,34 +193,34 @@
         "full_name": "DeusData/codebase-memory-mcp",
         "description": "Star DeusData / codebase-memory-mcp High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
         "language": "C",
-        "total_stars": 11753,
+        "total_stars": 11866,
         "period_stars": 7560,
-        "forks": 862,
+        "forks": 873,
         "url": "https://github.com/DeusData/codebase-memory-mcp"
       },
       {
         "full_name": "calesthio/OpenMontage",
         "description": "Star calesthio / OpenMontage World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
         "language": "Python",
-        "total_stars": 12503,
+        "total_stars": 12805,
         "period_stars": 6089,
-        "forks": 1576,
+        "forks": 1602,
         "url": "https://github.com/calesthio/OpenMontage"
       },
       {
         "full_name": "Panniantong/Agent-Reach",
         "description": "Star Panniantong / Agent-Reach Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
         "language": "Python",
-        "total_stars": 37929,
+        "total_stars": 38012,
         "period_stars": 8108,
-        "forks": 3006,
+        "forks": 3011,
         "url": "https://github.com/Panniantong/Agent-Reach"
       },
       {
         "full_name": "n0-computer/iroh",
         "description": "Star n0-computer / iroh IP addresses break, dial keys instead. Modular networking stack in Rust.",
         "language": "Rust",
-        "total_stars": 10551,
+        "total_stars": 10560,
         "period_stars": 1806,
         "forks": 481,
         "url": "https://github.com/n0-computer/iroh"
@@ -229,18 +229,18 @@
         "full_name": "google-research/timesfm",
         "description": "Star google-research / timesfm TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
         "language": "Python",
-        "total_stars": 25163,
+        "total_stars": 25177,
         "period_stars": 4259,
-        "forks": 2397,
+        "forks": 2398,
         "url": "https://github.com/google-research/timesfm"
       },
       {
         "full_name": "iptv-org/iptv",
         "description": "Star iptv-org / iptv Collection of publicly available IPTV channels from all over the world",
         "language": "TypeScript",
-        "total_stars": 127617,
+        "total_stars": 127698,
         "period_stars": 5017,
-        "forks": 7015,
+        "forks": 7024,
         "url": "https://github.com/iptv-org/iptv"
       },
       {
@@ -265,16 +265,16 @@
         "full_name": "NVIDIA/SkillSpector",
         "description": "Star NVIDIA / SkillSpector Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
         "language": "Python",
-        "total_stars": 9437,
+        "total_stars": 9451,
         "period_stars": 3302,
-        "forks": 738,
+        "forks": 741,
         "url": "https://github.com/NVIDIA/SkillSpector"
       },
       {
         "full_name": "teslamate-org/teslamate",
         "description": "Star teslamate-org / teslamate A self-hosted data logger for your Tesla 🚘 [main maintainer=@JakobLichterfeld]",
         "language": "Elixir",
-        "total_stars": 8573,
+        "total_stars": 8575,
         "period_stars": 401,
         "forks": 967,
         "url": "https://github.com/teslamate-org/teslamate"
@@ -285,45 +285,45 @@
         "full_name": "DeusData/codebase-memory-mcp",
         "description": "Star DeusData / codebase-memory-mcp High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
         "language": "C",
-        "total_stars": 11753,
+        "total_stars": 11866,
         "period_stars": 7560,
-        "forks": 862,
+        "forks": 873,
         "url": "https://github.com/DeusData/codebase-memory-mcp"
       },
       {
         "full_name": "calesthio/OpenMontage",
         "description": "Star calesthio / OpenMontage World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
         "language": "Python",
-        "total_stars": 12503,
+        "total_stars": 12805,
         "period_stars": 6089,
-        "forks": 1576,
+        "forks": 1602,
         "url": "https://github.com/calesthio/OpenMontage"
       },
       {
         "full_name": "Panniantong/Agent-Reach",
         "description": "Star Panniantong / Agent-Reach Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
         "language": "Python",
-        "total_stars": 37929,
+        "total_stars": 38012,
         "period_stars": 8108,
-        "forks": 3006,
+        "forks": 3011,
         "url": "https://github.com/Panniantong/Agent-Reach"
       },
       {
         "full_name": "google-research/timesfm",
         "description": "Star google-research / timesfm TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
         "language": "Python",
-        "total_stars": 25163,
+        "total_stars": 25177,
         "period_stars": 4259,
-        "forks": 2397,
+        "forks": 2398,
         "url": "https://github.com/google-research/timesfm"
       },
       {
         "full_name": "iptv-org/iptv",
         "description": "Star iptv-org / iptv Collection of publicly available IPTV channels from all over the world",
         "language": "TypeScript",
-        "total_stars": 127617,
+        "total_stars": 127698,
         "period_stars": 5017,
-        "forks": 7015,
+        "forks": 7024,
         "url": "https://github.com/iptv-org/iptv"
       },
       {
@@ -348,16 +348,16 @@
         "full_name": "NVIDIA/SkillSpector",
         "description": "Star NVIDIA / SkillSpector Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
         "language": "Python",
-        "total_stars": 9437,
+        "total_stars": 9451,
         "period_stars": 3302,
-        "forks": 738,
+        "forks": 741,
         "url": "https://github.com/NVIDIA/SkillSpector"
       },
       {
         "full_name": "teslamate-org/teslamate",
         "description": "Star teslamate-org / teslamate A self-hosted data logger for your Tesla 🚘 [main maintainer=@JakobLichterfeld]",
         "language": "Elixir",
-        "total_stars": 8573,
+        "total_stars": 8575,
         "period_stars": 401,
         "forks": 967,
         "url": "https://github.com/teslamate-org/teslamate"
@@ -366,7 +366,7 @@
         "full_name": "Kong/insomnia",
         "description": "Star Kong / insomnia The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, Local and Git storage.",
         "language": "TypeScript",
-        "total_stars": 39560,
+        "total_stars": 39565,
         "period_stars": 1074,
         "forks": 2344,
         "url": "https://github.com/Kong/insomnia"

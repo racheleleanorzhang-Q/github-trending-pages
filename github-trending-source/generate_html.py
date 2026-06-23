@@ -5,14 +5,16 @@ GitHub Trending 日报 HTML 生成脚本
 读取 data.json + insights.json -> 生成 github_trending.html
 解读按项目首次出现时间倒序排列
 """
-import json, re
-from datetime import datetime
+import json, os, re, html, subprocess
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
+REPO_ROOT = BASE_DIR.parent
 DATA_FILE     = BASE_DIR / "data.json"
 INSIGHTS_FILE = BASE_DIR / "insights.json"
 OUTPUT_FILE   = BASE_DIR / "github_trending.html"
+HISTORY_HTML_FALLBACK = Path(os.environ.get("HISTORY_HTML_FALLBACK", REPO_ROOT / "index.html"))
+GIT_HISTORY_FALLBACK_LIMIT = int(os.environ.get("GIT_HISTORY_FALLBACK_LIMIT", "12"))
 
 def load(path, default={}):
     try:
@@ -24,6 +26,150 @@ def load(path, default={}):
 def clean(s):
     s = re.sub(r"Star [A-Za-z0-9_.\-]+/[A-Za-z0-9_.\-]+ ", "", s or "")
     return s.strip()[:90]
+
+def repo_short_name(name, info=None):
+    if info and info.get("repo_short"):
+        return info["repo_short"]
+    return name.split("/")[1] if "/" in name else name
+
+def normalize_insight(info):
+    if not isinstance(info, dict):
+        return {"first_seen": "", "signal": "", "insight": str(info), "repo_short": ""}
+    return {
+        "first_seen": info.get("first_seen") or info.get("first_seen_at") or "",
+        "signal": info.get("signal") or info.get("category") or "",
+        "insight": info.get("insight") or info.get("text") or "",
+        "repo_short": info.get("repo_short") or "",
+    }
+
+def strip_tags(s):
+    return re.sub(r"<[^>]+>", "", s or "")
+
+def load_history_from_text(html_text):
+    if not html_text:
+        return {}
+
+    m = re.search(r'<div class="panel" id="panel-3"[^>]*>(.*?)</div>\s*<div class="footer">', html_text, re.S)
+    if not m:
+        return {}
+
+    history = {}
+    pattern = re.compile(
+        r'<div class="insight-item"><div class="insight-repo">(.*?)<span class="insight-date">首次上榜\s*([^<]+)</span></div><div class="insight-text">(.*?)</div></div>',
+        re.S,
+    )
+    for raw_header, first_seen, raw_text in pattern.findall(m.group(1)):
+        header = html.unescape(re.sub(r"\s+", " ", strip_tags(raw_header)).strip())
+        text = html.unescape(re.sub(r"\s+", " ", strip_tags(raw_text)).strip())
+        if not header or not text or not first_seen:
+            continue
+        if "·" in header:
+            repo_short, signal = [part.strip() for part in header.split("·", 1)]
+        else:
+            repo_short, signal = header.strip(), ""
+        history[f"legacy/{repo_short}"] = {
+            "first_seen": first_seen.strip(),
+            "signal": signal,
+            "insight": text,
+            "repo_short": repo_short,
+        }
+
+    legacy_pattern = re.compile(
+        r'<div class="insight-item"><div class="insight-text"><strong>(.*?)</strong>.*?<span class="insight-date">首次上榜\s*([^<]+)</span><br><br>(.*?)</div></div>',
+        re.S,
+    )
+    for raw_header, first_seen, raw_text in legacy_pattern.findall(m.group(1)):
+        header = html.unescape(re.sub(r"\s+", " ", strip_tags(raw_header)).strip())
+        text = html.unescape(re.sub(r"\s+", " ", strip_tags(raw_text)).strip())
+        if not header or not text or not first_seen:
+            continue
+        if "·" in header:
+            repo_short, signal = [part.strip() for part in header.split("·", 1)]
+        else:
+            repo_short, signal = header.strip(), ""
+        history.setdefault(
+            f"legacy/{repo_short}",
+            {
+                "first_seen": first_seen.strip(),
+                "signal": signal,
+                "insight": text,
+                "repo_short": repo_short,
+            },
+        )
+    return history
+
+def load_history_from_html(path):
+    if not path or not Path(path).exists():
+        return {}
+    try:
+        html_text = Path(path).read_text(encoding="utf-8")
+    except Exception:
+        return {}
+    return load_history_from_text(html_text)
+
+def load_history_from_git(limit=GIT_HISTORY_FALLBACK_LIMIT):
+    git_dir = REPO_ROOT / ".git"
+    if not git_dir.exists():
+        return {}
+    try:
+        log = subprocess.run(
+            ["git", "-C", str(REPO_ROOT), "log", "--format=%H", "--", "index.html"],
+            check=True,
+            capture_output=True,
+            text=True,
+        )
+    except Exception:
+        return {}
+
+    history = {}
+    shas = [sha.strip() for sha in log.stdout.splitlines() if sha.strip()]
+    for sha in shas[1:limit + 1]:
+        try:
+            show = subprocess.run(
+                ["git", "-C", str(REPO_ROOT), "show", f"{sha}:index.html"],
+                check=True,
+                capture_output=True,
+                text=True,
+            )
+        except Exception:
+            continue
+        history = merge_insights(history, load_history_from_text(show.stdout))
+    return history
+
+def merge_insights(current_insights, history_insights):
+    merged = {}
+    current_by_short = {}
+    for name, info in current_insights.items():
+        norm = normalize_insight(info)
+        merged[name] = norm
+        current_by_short[repo_short_name(name, norm)] = name
+
+    for name, info in history_insights.items():
+        repo_short = repo_short_name(name, info)
+        current_name = current_by_short.get(repo_short)
+        if current_name:
+            cur = merged[current_name]
+            if not cur.get("first_seen"):
+                cur["first_seen"] = info.get("first_seen", "")
+            if not cur.get("signal"):
+                cur["signal"] = info.get("signal", "")
+            if not cur.get("insight"):
+                cur["insight"] = info.get("insight", "")
+            if not cur.get("repo_short"):
+                cur["repo_short"] = repo_short
+        else:
+            merged[name] = normalize_insight(info)
+    return merged
+
+def get_insight_for_repo(name, insights):
+    info = insights.get(name)
+    if info:
+        return info
+    repo_short = repo_short_name(name)
+    for key, candidate in insights.items():
+        if repo_short_name(key, candidate) == repo_short:
+            return candidate
+    return None
 
 def lc(lang):
     return " lang-"+lang if lang in ["Python","TypeScript","Rust","Kotlin","C++"] else ""
@@ -51,8 +197,8 @@ def insight_list(repos, insights):
     out = ""
     for i, r in enumerate(repos[:5], 1):
         name = r["full_name"]
-        repo_short = name.split("/")[1] if "/" in name else name
-        info = insights.get(name)
+        repo_short = repo_short_name(name)
+        info = get_insight_for_repo(name, insights)
         if not info:
             continue
         signal = info.get("signal", "")
@@ -65,7 +211,7 @@ def signal_tags_from(repos, insights):
     signals = []
     seen_s = set()
     for r in repos:
-        info = insights.get(r["full_name"])
+        info = get_insight_for_repo(r["full_name"], insights)
         if info and info.get("signal"):
             s = info["signal"]
             if s not in seen_s:
@@ -106,8 +252,9 @@ def invest_cards(insights):
 
 
 # ── 主程序 ──────────────────────────────────────────────
-data     = load(DATA_FILE)
-insights = load(INSIGHTS_FILE)
+data = load(DATA_FILE)
+history_insights = merge_insights(load_history_from_html(HISTORY_HTML_FALLBACK), load_history_from_git())
+insights = merge_insights(load(INSIGHTS_FILE), history_insights)
 
 updated  = data.get("updated_at", "")
 parts    = updated[:10].split("-") if updated else ["","",""]
@@ -130,7 +277,7 @@ sorted_insights = sorted(insights.items(), key=lambda x: x[1].get("first_seen","
 
 insight_all_html = ""
 for name, info in sorted_insights:
-    repo_short = name.split("/")[1] if "/" in name else name
+    repo_short = repo_short_name(name, info)
     signal = info.get("signal","")
     text   = info.get("insight","")
     first  = info.get("first_seen","")

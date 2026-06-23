@@ -1,189 +1,189 @@
 {
-  "updated_at": "2026-06-22 17:26:04 GMT+8",
-  "updated_ts": 1782120364,
+  "updated_at": "2026-06-23 11:09:39 GMT+8",
+  "updated_ts": 1782184179,
   "daily": {
     "top10": [
-      {
-        "full_name": "palmier-io/palmier-pro",
-        "description": "Star palmier-io / palmier-pro macOS video editor built for AI",
-        "language": "Swift",
-        "total_stars": 6283,
-        "period_stars": 1834,
-        "forks": 452,
-        "url": "https://github.com/palmier-io/palmier-pro"
-      },
       {
         "full_name": "calesthio/OpenMontage",
         "description": "Star calesthio / OpenMontage World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
         "language": "Python",
-        "total_stars": 10069,
-        "period_stars": 987,
-        "forks": 1393,
+        "total_stars": 12503,
+        "period_stars": 2938,
+        "forks": 1576,
         "url": "https://github.com/calesthio/OpenMontage"
       },
       {
-        "full_name": "tursodatabase/turso",
-        "description": "Star tursodatabase / turso Turso is an in-process SQL database, compatible with SQLite.",
-        "language": "Rust",
-        "total_stars": 21028,
-        "period_stars": 548,
-        "forks": 1074,
-        "url": "https://github.com/tursodatabase/turso"
+        "full_name": "palmier-io/palmier-pro",
+        "description": "Star palmier-io / palmier-pro macOS video editor built for AI",
+        "language": "Swift",
+        "total_stars": 7557,
+        "period_stars": 2463,
+        "forks": 511,
+        "url": "https://github.com/palmier-io/palmier-pro"
+      },
+      {
+        "full_name": "jamiepine/voicebox",
+        "description": "Star jamiepine / voicebox The open-source AI voice studio. Clone, dictate, create.",
+        "language": "TypeScript",
+        "total_stars": 32388,
+        "period_stars": 529,
+        "forks": 3944,
+        "url": "https://github.com/jamiepine/voicebox"
+      },
+      {
+        "full_name": "sponsors/mukul975",
+        "description": "Sponsor Star mukul975 / Anthropic-Cybersecurity-Skills 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&amp;CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF &amp; MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI &amp; 20+ platforms · 29 security domains · Apache 2.0",
+        "language": "Python",
+        "total_stars": 0,
+        "period_stars": 956,
+        "forks": 0,
+        "url": "https://github.com/sponsors/mukul975"
       },
       {
         "full_name": "penpot/penpot",
         "description": "Star penpot / penpot Penpot: The open-source design tool for design and code collaboration",
         "language": "Clojure",
-        "total_stars": 52551,
-        "period_stars": 1135,
-        "forks": 3363,
+        "total_stars": 52935,
+        "period_stars": 728,
+        "forks": 3387,
         "url": "https://github.com/penpot/penpot"
       },
       {
-        "full_name": "ZhuLinsen/daily_stock_analysis",
-        "description": "Star ZhuLinsen / daily_stock_analysis LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-        "language": "Python",
-        "total_stars": 45264,
-        "period_stars": 568,
-        "forks": 41731,
-        "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
+        "full_name": "sponsors/Stirling-Tools",
+        "description": "Sponsor Star Stirling-Tools / Stirling-PDF #1 PDF Application on GitHub that lets you edit PDFs on any device anywhere",
+        "language": "TypeScript",
+        "total_stars": 0,
+        "period_stars": 547,
+        "forks": 0,
+        "url": "https://github.com/sponsors/Stirling-Tools"
       },
       {
-        "full_name": "koala73/worldmonitor",
-        "description": "Star koala73 / worldmonitor Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+        "full_name": "garrytan/gstack",
+        "description": "Star garrytan / gstack Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
         "language": "TypeScript",
-        "total_stars": 58410,
-        "period_stars": 163,
-        "forks": 9229,
-        "url": "https://github.com/koala73/worldmonitor"
+        "total_stars": 113256,
+        "period_stars": 573,
+        "forks": 16806,
+        "url": "https://github.com/garrytan/gstack"
+      },
+      {
+        "full_name": "heygen-com/hyperframes",
+        "description": "Star heygen-com / hyperframes Write HTML. Render video. Built for agents.",
+        "language": "TypeScript",
+        "total_stars": 30118,
+        "period_stars": 395,
+        "forks": 2827,
+        "url": "https://github.com/heygen-com/hyperframes"
+      },
+      {
+        "full_name": "tursodatabase/turso",
+        "description": "Star tursodatabase / turso Turso is an in-process SQL database, compatible with SQLite.",
+        "language": "Rust",
+        "total_stars": 21546,
+        "period_stars": 540,
+        "forks": 1090,
+        "url": "https://github.com/tursodatabase/turso"
       },
       {
         "full_name": "bytedance/deer-flow",
         "description": "Star bytedance / deer-flow An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
         "language": "Python",
-        "total_stars": 72896,
-        "period_stars": 442,
-        "forks": 9863,
+        "total_stars": 73348,
+        "period_stars": 738,
+        "forks": 9912,
         "url": "https://github.com/bytedance/deer-flow"
-      },
-      {
-        "full_name": "DeusData/codebase-memory-mcp",
-        "description": "Star DeusData / codebase-memory-mcp High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-        "language": "C",
-        "total_stars": 10854,
-        "period_stars": 1032,
-        "forks": 815,
-        "url": "https://github.com/DeusData/codebase-memory-mcp"
-      },
-      {
-        "full_name": "sponsors/mukul975",
-        "description": "Sponsor Star mukul975 / Anthropic-Cybersecurity-Skills 754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&amp;CK, NIST CSF 2.0, MITRE ATLAS, D3FEND &amp; NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI &amp; 20+ platforms · 26 security domains · Apache 2.0",
-        "language": "Python",
-        "total_stars": 0,
-        "period_stars": 361,
-        "forks": 0,
-        "url": "https://github.com/sponsors/mukul975"
-      },
-      {
-        "full_name": "mikumifa/biliTickerBuy",
-        "description": "Star mikumifa / biliTickerBuy b站会员购购票辅助工具",
-        "language": "Python",
-        "total_stars": 3780,
-        "period_stars": 67,
-        "forks": 469,
-        "url": "https://github.com/mikumifa/biliTickerBuy"
       }
     ],
     "ai_top10": [
       {
-        "full_name": "palmier-io/palmier-pro",
-        "description": "Star palmier-io / palmier-pro macOS video editor built for AI",
-        "language": "Swift",
-        "total_stars": 6283,
-        "period_stars": 1834,
-        "forks": 452,
-        "url": "https://github.com/palmier-io/palmier-pro"
-      },
-      {
         "full_name": "calesthio/OpenMontage",
         "description": "Star calesthio / OpenMontage World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
         "language": "Python",
-        "total_stars": 10069,
-        "period_stars": 987,
-        "forks": 1393,
+        "total_stars": 12503,
+        "period_stars": 2938,
+        "forks": 1576,
         "url": "https://github.com/calesthio/OpenMontage"
       },
       {
-        "full_name": "ZhuLinsen/daily_stock_analysis",
-        "description": "Star ZhuLinsen / daily_stock_analysis LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-        "language": "Python",
-        "total_stars": 45264,
-        "period_stars": 568,
-        "forks": 41731,
-        "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
+        "full_name": "palmier-io/palmier-pro",
+        "description": "Star palmier-io / palmier-pro macOS video editor built for AI",
+        "language": "Swift",
+        "total_stars": 7557,
+        "period_stars": 2463,
+        "forks": 511,
+        "url": "https://github.com/palmier-io/palmier-pro"
       },
       {
-        "full_name": "koala73/worldmonitor",
-        "description": "Star koala73 / worldmonitor Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+        "full_name": "jamiepine/voicebox",
+        "description": "Star jamiepine / voicebox The open-source AI voice studio. Clone, dictate, create.",
         "language": "TypeScript",
-        "total_stars": 58410,
-        "period_stars": 163,
-        "forks": 9229,
-        "url": "https://github.com/koala73/worldmonitor"
+        "total_stars": 32388,
+        "period_stars": 529,
+        "forks": 3944,
+        "url": "https://github.com/jamiepine/voicebox"
+      },
+      {
+        "full_name": "sponsors/mukul975",
+        "description": "Sponsor Star mukul975 / Anthropic-Cybersecurity-Skills 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&amp;CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF &amp; MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI &amp; 20+ platforms · 29 security domains · Apache 2.0",
+        "language": "Python",
+        "total_stars": 0,
+        "period_stars": 956,
+        "forks": 0,
+        "url": "https://github.com/sponsors/mukul975"
+      },
+      {
+        "full_name": "garrytan/gstack",
+        "description": "Star garrytan / gstack Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+        "language": "TypeScript",
+        "total_stars": 113256,
+        "period_stars": 573,
+        "forks": 16806,
+        "url": "https://github.com/garrytan/gstack"
+      },
+      {
+        "full_name": "heygen-com/hyperframes",
+        "description": "Star heygen-com / hyperframes Write HTML. Render video. Built for agents.",
+        "language": "TypeScript",
+        "total_stars": 30118,
+        "period_stars": 395,
+        "forks": 2827,
+        "url": "https://github.com/heygen-com/hyperframes"
       },
       {
         "full_name": "bytedance/deer-flow",
         "description": "Star bytedance / deer-flow An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
         "language": "Python",
-        "total_stars": 72896,
-        "period_stars": 442,
-        "forks": 9863,
+        "total_stars": 73348,
+        "period_stars": 738,
+        "forks": 9912,
         "url": "https://github.com/bytedance/deer-flow"
       },
       {
         "full_name": "DeusData/codebase-memory-mcp",
         "description": "Star DeusData / codebase-memory-mcp High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
         "language": "C",
-        "total_stars": 10854,
-        "period_stars": 1032,
-        "forks": 815,
+        "total_stars": 11753,
+        "period_stars": 1185,
+        "forks": 862,
         "url": "https://github.com/DeusData/codebase-memory-mcp"
       },
       {
-        "full_name": "sponsors/mukul975",
-        "description": "Sponsor Star mukul975 / Anthropic-Cybersecurity-Skills 754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&amp;CK, NIST CSF 2.0, MITRE ATLAS, D3FEND &amp; NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI &amp; 20+ platforms · 26 security domains · Apache 2.0",
+        "full_name": "ZhuLinsen/daily_stock_analysis",
+        "description": "Star ZhuLinsen / daily_stock_analysis LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
         "language": "Python",
-        "total_stars": 0,
-        "period_stars": 361,
-        "forks": 0,
-        "url": "https://github.com/sponsors/mukul975"
+        "total_stars": 45990,
+        "period_stars": 1557,
+        "forks": 41978,
+        "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
       },
       {
-        "full_name": "sponsors/topoteretes",
-        "description": "Sponsor Star topoteretes / cognee Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.",
-        "language": "Python",
-        "total_stars": 0,
-        "period_stars": 347,
-        "forks": 0,
-        "url": "https://github.com/sponsors/topoteretes"
-      },
-      {
-        "full_name": "sponsors/asgeirtj",
-        "description": "Sponsor Star asgeirtj / system_prompts_leaks Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
-        "language": "JavaScript",
-        "total_stars": 0,
-        "period_stars": 282,
-        "forks": 0,
-        "url": "https://github.com/sponsors/asgeirtj"
-      },
-      {
-        "full_name": "sponsors/mattpocock",
-        "description": "Sponsor Star mattpocock / skills Skills for Real Engineers. Straight from my .claude directory.",
-        "language": "Shell",
-        "total_stars": 0,
-        "period_stars": 1443,
-        "forks": 0,
-        "url": "https://github.com/sponsors/mattpocock"
+        "full_name": "JCodesMore/ai-website-cloner-template",
+        "description": "Star JCodesMore / ai-website-cloner-template Clone any website with one command using AI coding agents",
+        "language": "TypeScript",
+        "total_stars": 17871,
+        "period_stars": 100,
+        "forks": 2756,
+        "url": "https://github.com/JCodesMore/ai-website-cloner-template"
       }
     ]
   },
@@ -193,91 +193,91 @@
         "full_name": "DeusData/codebase-memory-mcp",
         "description": "Star DeusData / codebase-memory-mcp High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
         "language": "C",
-        "total_stars": 10854,
-        "period_stars": 6372,
-        "forks": 815,
+        "total_stars": 11753,
+        "period_stars": 7560,
+        "forks": 862,
         "url": "https://github.com/DeusData/codebase-memory-mcp"
+      },
+      {
+        "full_name": "calesthio/OpenMontage",
+        "description": "Star calesthio / OpenMontage World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+        "language": "Python",
+        "total_stars": 12503,
+        "period_stars": 6089,
+        "forks": 1576,
+        "url": "https://github.com/calesthio/OpenMontage"
       },
       {
         "full_name": "Panniantong/Agent-Reach",
         "description": "Star Panniantong / Agent-Reach Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
         "language": "Python",
-        "total_stars": 37361,
-        "period_stars": 8233,
-        "forks": 2969,
+        "total_stars": 37929,
+        "period_stars": 8108,
+        "forks": 3006,
         "url": "https://github.com/Panniantong/Agent-Reach"
-      },
-      {
-        "full_name": "iptv-org/iptv",
-        "description": "Star iptv-org / iptv Collection of publicly available IPTV channels from all over the world",
-        "language": "TypeScript",
-        "total_stars": 127286,
-        "period_stars": 7266,
-        "forks": 6990,
-        "url": "https://github.com/iptv-org/iptv"
       },
       {
         "full_name": "n0-computer/iroh",
         "description": "Star n0-computer / iroh IP addresses break, dial keys instead. Modular networking stack in Rust.",
         "language": "Rust",
-        "total_stars": 10493,
-        "period_stars": 1712,
-        "forks": 478,
+        "total_stars": 10551,
+        "period_stars": 1806,
+        "forks": 481,
         "url": "https://github.com/n0-computer/iroh"
       },
       {
         "full_name": "google-research/timesfm",
         "description": "Star google-research / timesfm TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
         "language": "Python",
-        "total_stars": 24999,
-        "period_stars": 4114,
-        "forks": 2380,
+        "total_stars": 25163,
+        "period_stars": 4259,
+        "forks": 2397,
         "url": "https://github.com/google-research/timesfm"
       },
       {
-        "full_name": "NVIDIA/SkillSpector",
-        "description": "Star NVIDIA / SkillSpector Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
-        "language": "Python",
-        "total_stars": 9203,
-        "period_stars": 4055,
-        "forks": 720,
-        "url": "https://github.com/NVIDIA/SkillSpector"
+        "full_name": "iptv-org/iptv",
+        "description": "Star iptv-org / iptv Collection of publicly available IPTV channels from all over the world",
+        "language": "TypeScript",
+        "total_stars": 127617,
+        "period_stars": 5017,
+        "forks": 7015,
+        "url": "https://github.com/iptv-org/iptv"
       },
       {
         "full_name": "sponsors/asgeirtj",
         "description": "Sponsor Star asgeirtj / system_prompts_leaks Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
         "language": "JavaScript",
         "total_stars": 0,
-        "period_stars": 1984,
+        "period_stars": 2612,
         "forks": 0,
         "url": "https://github.com/sponsors/asgeirtj"
-      },
-      {
-        "full_name": "calesthio/OpenMontage",
-        "description": "Star calesthio / OpenMontage World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-        "language": "Python",
-        "total_stars": 10070,
-        "period_stars": 2867,
-        "forks": 1393,
-        "url": "https://github.com/calesthio/OpenMontage"
       },
       {
         "full_name": "sponsors/withastro",
         "description": "Sponsor Star withastro / flue The sandbox agent framework.",
         "language": "TypeScript",
         "total_stars": 0,
-        "period_stars": 1272,
+        "period_stars": 1413,
         "forks": 0,
         "url": "https://github.com/sponsors/withastro"
       },
       {
-        "full_name": "addyosmani/agent-skills",
-        "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
-        "language": "Shell",
-        "total_stars": 65051,
-        "period_stars": 5610,
-        "forks": 7023,
-        "url": "https://github.com/addyosmani/agent-skills"
+        "full_name": "NVIDIA/SkillSpector",
+        "description": "Star NVIDIA / SkillSpector Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+        "language": "Python",
+        "total_stars": 9437,
+        "period_stars": 3302,
+        "forks": 738,
+        "url": "https://github.com/NVIDIA/SkillSpector"
+      },
+      {
+        "full_name": "teslamate-org/teslamate",
+        "description": "Star teslamate-org / teslamate A self-hosted data logger for your Tesla 🚘 [main maintainer=@JakobLichterfeld]",
+        "language": "Elixir",
+        "total_stars": 8573,
+        "period_stars": 401,
+        "forks": 967,
+        "url": "https://github.com/teslamate-org/teslamate"
       }
     ],
     "ai_top10": [
@@ -285,90 +285,90 @@
         "full_name": "DeusData/codebase-memory-mcp",
         "description": "Star DeusData / codebase-memory-mcp High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
         "language": "C",
-        "total_stars": 10854,
-        "period_stars": 6372,
-        "forks": 815,
+        "total_stars": 11753,
+        "period_stars": 7560,
+        "forks": 862,
         "url": "https://github.com/DeusData/codebase-memory-mcp"
+      },
+      {
+        "full_name": "calesthio/OpenMontage",
+        "description": "Star calesthio / OpenMontage World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+        "language": "Python",
+        "total_stars": 12503,
+        "period_stars": 6089,
+        "forks": 1576,
+        "url": "https://github.com/calesthio/OpenMontage"
       },
       {
         "full_name": "Panniantong/Agent-Reach",
         "description": "Star Panniantong / Agent-Reach Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
         "language": "Python",
-        "total_stars": 37361,
-        "period_stars": 8233,
-        "forks": 2969,
+        "total_stars": 37929,
+        "period_stars": 8108,
+        "forks": 3006,
         "url": "https://github.com/Panniantong/Agent-Reach"
-      },
-      {
-        "full_name": "iptv-org/iptv",
-        "description": "Star iptv-org / iptv Collection of publicly available IPTV channels from all over the world",
-        "language": "TypeScript",
-        "total_stars": 127286,
-        "period_stars": 7266,
-        "forks": 6990,
-        "url": "https://github.com/iptv-org/iptv"
       },
       {
         "full_name": "google-research/timesfm",
         "description": "Star google-research / timesfm TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
         "language": "Python",
-        "total_stars": 24999,
-        "period_stars": 4114,
-        "forks": 2380,
+        "total_stars": 25163,
+        "period_stars": 4259,
+        "forks": 2397,
         "url": "https://github.com/google-research/timesfm"
       },
       {
-        "full_name": "NVIDIA/SkillSpector",
-        "description": "Star NVIDIA / SkillSpector Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
-        "language": "Python",
-        "total_stars": 9203,
-        "period_stars": 4055,
-        "forks": 720,
-        "url": "https://github.com/NVIDIA/SkillSpector"
+        "full_name": "iptv-org/iptv",
+        "description": "Star iptv-org / iptv Collection of publicly available IPTV channels from all over the world",
+        "language": "TypeScript",
+        "total_stars": 127617,
+        "period_stars": 5017,
+        "forks": 7015,
+        "url": "https://github.com/iptv-org/iptv"
       },
       {
         "full_name": "sponsors/asgeirtj",
         "description": "Sponsor Star asgeirtj / system_prompts_leaks Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
         "language": "JavaScript",
         "total_stars": 0,
-        "period_stars": 1984,
+        "period_stars": 2612,
         "forks": 0,
         "url": "https://github.com/sponsors/asgeirtj"
-      },
-      {
-        "full_name": "calesthio/OpenMontage",
-        "description": "Star calesthio / OpenMontage World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-        "language": "Python",
-        "total_stars": 10070,
-        "period_stars": 2867,
-        "forks": 1393,
-        "url": "https://github.com/calesthio/OpenMontage"
       },
       {
         "full_name": "sponsors/withastro",
         "description": "Sponsor Star withastro / flue The sandbox agent framework.",
         "language": "TypeScript",
         "total_stars": 0,
-        "period_stars": 1272,
+        "period_stars": 1413,
         "forks": 0,
         "url": "https://github.com/sponsors/withastro"
       },
       {
-        "full_name": "addyosmani/agent-skills",
-        "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
-        "language": "Shell",
-        "total_stars": 65051,
-        "period_stars": 5610,
-        "forks": 7023,
-        "url": "https://github.com/addyosmani/agent-skills"
+        "full_name": "NVIDIA/SkillSpector",
+        "description": "Star NVIDIA / SkillSpector Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+        "language": "Python",
+        "total_stars": 9437,
+        "period_stars": 3302,
+        "forks": 738,
+        "url": "https://github.com/NVIDIA/SkillSpector"
+      },
+      {
+        "full_name": "teslamate-org/teslamate",
+        "description": "Star teslamate-org / teslamate A self-hosted data logger for your Tesla 🚘 [main maintainer=@JakobLichterfeld]",
+        "language": "Elixir",
+        "total_stars": 8573,
+        "period_stars": 401,
+        "forks": 967,
+        "url": "https://github.com/teslamate-org/teslamate"
       },
       {
         "full_name": "Kong/insomnia",
         "description": "Star Kong / insomnia The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, Local and Git storage.",
         "language": "TypeScript",
-        "total_stars": 39535,
-        "period_stars": 1006,
-        "forks": 2340,
+        "total_stars": 39560,
+        "period_stars": 1074,
+        "forks": 2344,
         "url": "https://github.com/Kong/insomnia"
       }
     ]

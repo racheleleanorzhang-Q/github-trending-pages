@@ -1,97 +1,97 @@
 {
-  "updated_at": "2026-06-26 13:38:50 GMT+8",
-  "updated_ts": 1782452330,
+  "updated_at": "2026-06-27 13:05:05 GMT+8",
+  "updated_ts": 1782536705,
   "daily": {
     "top10": [
+      {
+        "full_name": "sponsors/simplex-chat",
+        "description": "Sponsor Star simplex-chat / simplex-chat SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
+        "language": "Haskell",
+        "total_stars": 0,
+        "period_stars": 432,
+        "forks": 0,
+        "url": "https://github.com/sponsors/simplex-chat"
+      },
       {
         "full_name": "google-labs-code/design.md",
         "description": "Star google-labs-code / design.md A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
         "language": "TypeScript",
-        "total_stars": 19725,
-        "period_stars": 1475,
-        "forks": 1672,
+        "total_stars": 21511,
+        "period_stars": 2407,
+        "forks": 1737,
         "url": "https://github.com/google-labs-code/design.md"
       },
       {
-        "full_name": "sponsors/calesthio",
-        "description": "Sponsor Star calesthio / OpenMontage World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+        "full_name": "commaai/openpilot",
+        "description": "Star commaai / openpilot openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
         "language": "Python",
-        "total_stars": 0,
-        "period_stars": 3434,
-        "forks": 0,
-        "url": "https://github.com/sponsors/calesthio"
+        "total_stars": 61840,
+        "period_stars": 80,
+        "forks": 11051,
+        "url": "https://github.com/commaai/openpilot"
       },
       {
-        "full_name": "xbtlin/ai-berkshire",
-        "description": "Star xbtlin / ai-berkshire AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built on Claude Code. 4 masters' methodologies + multi-agent adversarial analysis.",
+        "full_name": "kunchenguid/no-mistakes",
+        "description": "Star kunchenguid / no-mistakes git push no-mistakes",
+        "language": "Go",
+        "total_stars": 3530,
+        "period_stars": 398,
+        "forks": 210,
+        "url": "https://github.com/kunchenguid/no-mistakes"
+      },
+      {
+        "full_name": "grafana/grafana",
+        "description": "Star grafana / grafana The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more.",
+        "language": "TypeScript",
+        "total_stars": 74967,
+        "period_stars": 32,
+        "forks": 14130,
+        "url": "https://github.com/grafana/grafana"
+      },
+      {
+        "full_name": "ripienaar/free-for-dev",
+        "description": "Star ripienaar / free-for-dev A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+        "language": "HTML",
+        "total_stars": 123803,
+        "period_stars": 90,
+        "forks": 13054,
+        "url": "https://github.com/ripienaar/free-for-dev"
+      },
+      {
+        "full_name": "opendatalab/MinerU",
+        "description": "Star opendatalab / MinerU Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
         "language": "Python",
-        "total_stars": 2261,
-        "period_stars": 309,
-        "forks": 338,
-        "url": "https://github.com/xbtlin/ai-berkshire"
+        "total_stars": 70546,
+        "period_stars": 960,
+        "forks": 5941,
+        "url": "https://github.com/opendatalab/MinerU"
+      },
+      {
+        "full_name": "alchaincyf/zhangxuefeng-skill",
+        "description": "Star alchaincyf / zhangxuefeng-skill 张雪峰.skill — 张雪峰的认知操作系统。高考志愿/考研/职业规划的实战思维框架。由女娲.skill生成。",
+        "language": "",
+        "total_stars": 9312,
+        "period_stars": 160,
+        "forks": 2569,
+        "url": "https://github.com/alchaincyf/zhangxuefeng-skill"
       },
       {
         "full_name": "mauriceboe/TREK",
         "description": "Star mauriceboe / TREK A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more.",
         "language": "TypeScript",
-        "total_stars": 6907,
-        "period_stars": 241,
-        "forks": 620,
+        "total_stars": 7769,
+        "period_stars": 1060,
+        "forks": 657,
         "url": "https://github.com/mauriceboe/TREK"
       },
       {
-        "full_name": "apple/container",
-        "description": "Star apple / container A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
-        "language": "Swift",
-        "total_stars": 43330,
-        "period_stars": 1351,
-        "forks": 1274,
-        "url": "https://github.com/apple/container"
-      },
-      {
-        "full_name": "JCodesMore/ai-website-cloner-template",
-        "description": "Star JCodesMore / ai-website-cloner-template Clone any website with one command using AI coding agents",
-        "language": "TypeScript",
-        "total_stars": 20693,
-        "period_stars": 1024,
-        "forks": 3036,
-        "url": "https://github.com/JCodesMore/ai-website-cloner-template"
-      },
-      {
-        "full_name": "every-app/open-seo",
-        "description": "Star every-app / open-seo Open source alternative to Semrush and Ahrefs",
-        "language": "TypeScript",
-        "total_stars": 2655,
-        "period_stars": 57,
-        "forks": 304,
-        "url": "https://github.com/every-app/open-seo"
-      },
-      {
-        "full_name": "garrytan/gstack",
-        "description": "Star garrytan / gstack Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
-        "language": "TypeScript",
-        "total_stars": 115976,
-        "period_stars": 767,
-        "forks": 17185,
-        "url": "https://github.com/garrytan/gstack"
-      },
-      {
-        "full_name": "aws/agent-toolkit-for-aws",
-        "description": "Star aws / agent-toolkit-for-aws Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
+        "full_name": "xbtlin/ai-berkshire",
+        "description": "Star xbtlin / ai-berkshire AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built on Claude Code. 4 masters' methodologies + multi-agent adversarial analysis.",
         "language": "Python",
-        "total_stars": 1188,
-        "period_stars": 47,
-        "forks": 115,
-        "url": "https://github.com/aws/agent-toolkit-for-aws"
-      },
-      {
-        "full_name": "sponsors/mukul975",
-        "description": "Sponsor Star mukul975 / Anthropic-Cybersecurity-Skills 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&amp;CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF &amp; MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI &amp; 20+ platforms · 29 security domains · Apache 2.0",
-        "language": "Python",
-        "total_stars": 0,
-        "period_stars": 571,
-        "forks": 0,
-        "url": "https://github.com/sponsors/mukul975"
+        "total_stars": 3235,
+        "period_stars": 1274,
+        "forks": 482,
+        "url": "https://github.com/xbtlin/ai-berkshire"
       }
     ],
     "ai_top10": [
@@ -99,91 +99,91 @@
         "full_name": "google-labs-code/design.md",
         "description": "Star google-labs-code / design.md A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
         "language": "TypeScript",
-        "total_stars": 19725,
-        "period_stars": 1475,
-        "forks": 1672,
+        "total_stars": 21511,
+        "period_stars": 2407,
+        "forks": 1737,
         "url": "https://github.com/google-labs-code/design.md"
+      },
+      {
+        "full_name": "commaai/openpilot",
+        "description": "Star commaai / openpilot openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
+        "language": "Python",
+        "total_stars": 61840,
+        "period_stars": 80,
+        "forks": 11051,
+        "url": "https://github.com/commaai/openpilot"
+      },
+      {
+        "full_name": "opendatalab/MinerU",
+        "description": "Star opendatalab / MinerU Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
+        "language": "Python",
+        "total_stars": 70546,
+        "period_stars": 960,
+        "forks": 5941,
+        "url": "https://github.com/opendatalab/MinerU"
+      },
+      {
+        "full_name": "alchaincyf/zhangxuefeng-skill",
+        "description": "Star alchaincyf / zhangxuefeng-skill 张雪峰.skill — 张雪峰的认知操作系统。高考志愿/考研/职业规划的实战思维框架。由女娲.skill生成。",
+        "language": "",
+        "total_stars": 9312,
+        "period_stars": 160,
+        "forks": 2569,
+        "url": "https://github.com/alchaincyf/zhangxuefeng-skill"
+      },
+      {
+        "full_name": "xbtlin/ai-berkshire",
+        "description": "Star xbtlin / ai-berkshire AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built on Claude Code. 4 masters' methodologies + multi-agent adversarial analysis.",
+        "language": "Python",
+        "total_stars": 3235,
+        "period_stars": 1274,
+        "forks": 482,
+        "url": "https://github.com/xbtlin/ai-berkshire"
       },
       {
         "full_name": "sponsors/calesthio",
         "description": "Sponsor Star calesthio / OpenMontage World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 3434,
+        "period_stars": 1754,
         "forks": 0,
         "url": "https://github.com/sponsors/calesthio"
-      },
-      {
-        "full_name": "xbtlin/ai-berkshire",
-        "description": "Star xbtlin / ai-berkshire AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built on Claude Code. 4 masters' methodologies + multi-agent adversarial analysis.",
-        "language": "Python",
-        "total_stars": 2261,
-        "period_stars": 309,
-        "forks": 338,
-        "url": "https://github.com/xbtlin/ai-berkshire"
-      },
-      {
-        "full_name": "apple/container",
-        "description": "Star apple / container A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
-        "language": "Swift",
-        "total_stars": 43330,
-        "period_stars": 1351,
-        "forks": 1274,
-        "url": "https://github.com/apple/container"
-      },
-      {
-        "full_name": "JCodesMore/ai-website-cloner-template",
-        "description": "Star JCodesMore / ai-website-cloner-template Clone any website with one command using AI coding agents",
-        "language": "TypeScript",
-        "total_stars": 20693,
-        "period_stars": 1024,
-        "forks": 3036,
-        "url": "https://github.com/JCodesMore/ai-website-cloner-template"
-      },
-      {
-        "full_name": "garrytan/gstack",
-        "description": "Star garrytan / gstack Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
-        "language": "TypeScript",
-        "total_stars": 115976,
-        "period_stars": 767,
-        "forks": 17185,
-        "url": "https://github.com/garrytan/gstack"
       },
       {
         "full_name": "aws/agent-toolkit-for-aws",
         "description": "Star aws / agent-toolkit-for-aws Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
         "language": "Python",
-        "total_stars": 1188,
-        "period_stars": 47,
-        "forks": 115,
+        "total_stars": 1390,
+        "period_stars": 243,
+        "forks": 123,
         "url": "https://github.com/aws/agent-toolkit-for-aws"
       },
       {
-        "full_name": "sponsors/mukul975",
-        "description": "Sponsor Star mukul975 / Anthropic-Cybersecurity-Skills 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&amp;CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF &amp; MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI &amp; 20+ platforms · 29 security domains · Apache 2.0",
-        "language": "Python",
-        "total_stars": 0,
-        "period_stars": 571,
-        "forks": 0,
-        "url": "https://github.com/sponsors/mukul975"
-      },
-      {
-        "full_name": "alibaba/page-agent",
-        "description": "Star alibaba / page-agent JavaScript in-page GUI agent. Control web interfaces with natural language.",
+        "full_name": "garrytan/gstack",
+        "description": "Star garrytan / gstack Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
         "language": "TypeScript",
-        "total_stars": 19967,
-        "period_stars": 163,
-        "forks": 1713,
-        "url": "https://github.com/alibaba/page-agent"
+        "total_stars": 116713,
+        "period_stars": 950,
+        "forks": 17320,
+        "url": "https://github.com/garrytan/gstack"
       },
       {
-        "full_name": "opendatalab/MinerU",
-        "description": "Star opendatalab / MinerU Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
+        "full_name": "JCodesMore/ai-website-cloner-template",
+        "description": "Star JCodesMore / ai-website-cloner-template Clone any website with one command using AI coding agents",
+        "language": "TypeScript",
+        "total_stars": 21467,
+        "period_stars": 1088,
+        "forks": 3108,
+        "url": "https://github.com/JCodesMore/ai-website-cloner-template"
+      },
+      {
+        "full_name": "Panniantong/Agent-Reach",
+        "description": "Star Panniantong / Agent-Reach Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
         "language": "Python",
-        "total_stars": 69786,
-        "period_stars": 644,
-        "forks": 5900,
-        "url": "https://github.com/opendatalab/MinerU"
+        "total_stars": 42564,
+        "period_stars": 1194,
+        "forks": 3384,
+        "url": "https://github.com/Panniantong/Agent-Reach"
       }
     ]
   },
@@ -194,7 +194,7 @@
         "description": "Sponsor Star calesthio / OpenMontage World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 15793,
+        "period_stars": 17249,
         "forks": 0,
         "url": "https://github.com/sponsors/calesthio"
       },
@@ -202,82 +202,82 @@
         "full_name": "DeusData/codebase-memory-mcp",
         "description": "Star DeusData / codebase-memory-mcp High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
         "language": "C",
-        "total_stars": 14915,
-        "period_stars": 8024,
-        "forks": 1094,
+        "total_stars": 15903,
+        "period_stars": 7592,
+        "forks": 1173,
         "url": "https://github.com/DeusData/codebase-memory-mcp"
       },
       {
-        "full_name": "google-research/timesfm",
-        "description": "Star google-research / timesfm TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
-        "language": "Python",
-        "total_stars": 25593,
-        "period_stars": 3040,
-        "forks": 2431,
-        "url": "https://github.com/google-research/timesfm"
+        "full_name": "BuilderIO/agent-native",
+        "description": "Star BuilderIO / agent-native A framework for building agent-native applications.",
+        "language": "TypeScript",
+        "total_stars": 2575,
+        "period_stars": 1569,
+        "forks": 255,
+        "url": "https://github.com/BuilderIO/agent-native"
       },
       {
-        "full_name": "koala73/worldmonitor",
-        "description": "Star koala73 / worldmonitor Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-        "language": "TypeScript",
-        "total_stars": 59903,
-        "period_stars": 3059,
-        "forks": 9352,
-        "url": "https://github.com/koala73/worldmonitor"
+        "full_name": "kunchenguid/no-mistakes",
+        "description": "Star kunchenguid / no-mistakes git push no-mistakes",
+        "language": "Go",
+        "total_stars": 3530,
+        "period_stars": 1744,
+        "forks": 210,
+        "url": "https://github.com/kunchenguid/no-mistakes"
       },
       {
         "full_name": "penpot/penpot",
         "description": "Star penpot / penpot Penpot: The open-source design tool for design and code collaboration",
         "language": "Clojure",
-        "total_stars": 53746,
-        "period_stars": 3379,
-        "forks": 3464,
+        "total_stars": 54007,
+        "period_stars": 3560,
+        "forks": 3496,
         "url": "https://github.com/penpot/penpot"
-      },
-      {
-        "full_name": "jamiepine/voicebox",
-        "description": "Star jamiepine / voicebox The open-source AI voice studio. Clone, dictate, create.",
-        "language": "TypeScript",
-        "total_stars": 34272,
-        "period_stars": 3688,
-        "forks": 4124,
-        "url": "https://github.com/jamiepine/voicebox"
-      },
-      {
-        "full_name": "sponsors/asgeirtj",
-        "description": "Sponsor Star asgeirtj / system_prompts_leaks Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
-        "language": "JavaScript",
-        "total_stars": 0,
-        "period_stars": 2720,
-        "forks": 0,
-        "url": "https://github.com/sponsors/asgeirtj"
-      },
-      {
-        "full_name": "Panniantong/Agent-Reach",
-        "description": "Star Panniantong / Agent-Reach Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-        "language": "Python",
-        "total_stars": 41484,
-        "period_stars": 6830,
-        "forks": 3292,
-        "url": "https://github.com/Panniantong/Agent-Reach"
       },
       {
         "full_name": "ZhuLinsen/daily_stock_analysis",
         "description": "Star ZhuLinsen / daily_stock_analysis LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
         "language": "Python",
-        "total_stars": 49697,
-        "period_stars": 6383,
-        "forks": 43573,
+        "total_stars": 50195,
+        "period_stars": 6919,
+        "forks": 43857,
         "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
       },
       {
-        "full_name": "OpenCut-app/OpenCut",
-        "description": "Star OpenCut-app / OpenCut The open-source CapCut alternative",
+        "full_name": "jamiepine/voicebox",
+        "description": "Star jamiepine / voicebox The open-source AI voice studio. Clone, dictate, create.",
         "language": "TypeScript",
-        "total_stars": 59844,
-        "period_stars": 2801,
-        "forks": 6497,
-        "url": "https://github.com/OpenCut-app/OpenCut"
+        "total_stars": 34561,
+        "period_stars": 3819,
+        "forks": 4159,
+        "url": "https://github.com/jamiepine/voicebox"
+      },
+      {
+        "full_name": "Panniantong/Agent-Reach",
+        "description": "Star Panniantong / Agent-Reach Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+        "language": "Python",
+        "total_stars": 42564,
+        "period_stars": 7199,
+        "forks": 3384,
+        "url": "https://github.com/Panniantong/Agent-Reach"
+      },
+      {
+        "full_name": "koala73/worldmonitor",
+        "description": "Star koala73 / worldmonitor Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+        "language": "TypeScript",
+        "total_stars": 60166,
+        "period_stars": 3170,
+        "forks": 9381,
+        "url": "https://github.com/koala73/worldmonitor"
+      },
+      {
+        "full_name": "stablyai/orca",
+        "description": "Star stablyai / orca Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
+        "language": "TypeScript",
+        "total_stars": 7979,
+        "period_stars": 2398,
+        "forks": 560,
+        "url": "https://github.com/stablyai/orca"
       }
     ],
     "ai_top10": [
@@ -286,7 +286,7 @@
         "description": "Sponsor Star calesthio / OpenMontage World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 15793,
+        "period_stars": 17249,
         "forks": 0,
         "url": "https://github.com/sponsors/calesthio"
       },
@@ -294,82 +294,82 @@
         "full_name": "DeusData/codebase-memory-mcp",
         "description": "Star DeusData / codebase-memory-mcp High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
         "language": "C",
-        "total_stars": 14915,
-        "period_stars": 8024,
-        "forks": 1094,
+        "total_stars": 15903,
+        "period_stars": 7592,
+        "forks": 1173,
         "url": "https://github.com/DeusData/codebase-memory-mcp"
       },
       {
-        "full_name": "google-research/timesfm",
-        "description": "Star google-research / timesfm TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
-        "language": "Python",
-        "total_stars": 25593,
-        "period_stars": 3040,
-        "forks": 2431,
-        "url": "https://github.com/google-research/timesfm"
-      },
-      {
-        "full_name": "koala73/worldmonitor",
-        "description": "Star koala73 / worldmonitor Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+        "full_name": "BuilderIO/agent-native",
+        "description": "Star BuilderIO / agent-native A framework for building agent-native applications.",
         "language": "TypeScript",
-        "total_stars": 59903,
-        "period_stars": 3059,
-        "forks": 9352,
-        "url": "https://github.com/koala73/worldmonitor"
-      },
-      {
-        "full_name": "jamiepine/voicebox",
-        "description": "Star jamiepine / voicebox The open-source AI voice studio. Clone, dictate, create.",
-        "language": "TypeScript",
-        "total_stars": 34272,
-        "period_stars": 3688,
-        "forks": 4124,
-        "url": "https://github.com/jamiepine/voicebox"
-      },
-      {
-        "full_name": "sponsors/asgeirtj",
-        "description": "Sponsor Star asgeirtj / system_prompts_leaks Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
-        "language": "JavaScript",
-        "total_stars": 0,
-        "period_stars": 2720,
-        "forks": 0,
-        "url": "https://github.com/sponsors/asgeirtj"
-      },
-      {
-        "full_name": "Panniantong/Agent-Reach",
-        "description": "Star Panniantong / Agent-Reach Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-        "language": "Python",
-        "total_stars": 41484,
-        "period_stars": 6830,
-        "forks": 3292,
-        "url": "https://github.com/Panniantong/Agent-Reach"
+        "total_stars": 2575,
+        "period_stars": 1569,
+        "forks": 255,
+        "url": "https://github.com/BuilderIO/agent-native"
       },
       {
         "full_name": "ZhuLinsen/daily_stock_analysis",
         "description": "Star ZhuLinsen / daily_stock_analysis LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
         "language": "Python",
-        "total_stars": 49697,
-        "period_stars": 6383,
-        "forks": 43573,
+        "total_stars": 50195,
+        "period_stars": 6919,
+        "forks": 43857,
         "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
       },
       {
-        "full_name": "sponsors/withastro",
-        "description": "Sponsor Star withastro / flue The sandbox agent framework.",
+        "full_name": "jamiepine/voicebox",
+        "description": "Star jamiepine / voicebox The open-source AI voice studio. Clone, dictate, create.",
         "language": "TypeScript",
-        "total_stars": 0,
-        "period_stars": 1327,
-        "forks": 0,
-        "url": "https://github.com/sponsors/withastro"
+        "total_stars": 34561,
+        "period_stars": 3819,
+        "forks": 4159,
+        "url": "https://github.com/jamiepine/voicebox"
+      },
+      {
+        "full_name": "Panniantong/Agent-Reach",
+        "description": "Star Panniantong / Agent-Reach Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+        "language": "Python",
+        "total_stars": 42564,
+        "period_stars": 7199,
+        "forks": 3384,
+        "url": "https://github.com/Panniantong/Agent-Reach"
+      },
+      {
+        "full_name": "koala73/worldmonitor",
+        "description": "Star koala73 / worldmonitor Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+        "language": "TypeScript",
+        "total_stars": 60166,
+        "period_stars": 3170,
+        "forks": 9381,
+        "url": "https://github.com/koala73/worldmonitor"
+      },
+      {
+        "full_name": "stablyai/orca",
+        "description": "Star stablyai / orca Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
+        "language": "TypeScript",
+        "total_stars": 7979,
+        "period_stars": 2398,
+        "forks": 560,
+        "url": "https://github.com/stablyai/orca"
       },
       {
         "full_name": "sponsors/mukul975",
         "description": "Sponsor Star mukul975 / Anthropic-Cybersecurity-Skills 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&amp;CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF &amp; MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI &amp; 20+ platforms · 29 security domains · Apache 2.0",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 4596,
+        "period_stars": 5109,
         "forks": 0,
         "url": "https://github.com/sponsors/mukul975"
+      },
+      {
+        "full_name": "sponsors/asgeirtj",
+        "description": "Sponsor Star asgeirtj / system_prompts_leaks Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+        "language": "JavaScript",
+        "total_stars": 0,
+        "period_stars": 2864,
+        "forks": 0,
+        "url": "https://github.com/sponsors/asgeirtj"
       }
     ]
   }

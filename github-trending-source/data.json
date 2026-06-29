@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-28 13:46:22 GMT+8",
-  "updated_ts": 1782625582,
+  "updated_at": "2026-06-29 14:07:55 GMT+8",
+  "updated_ts": 1782713275,
   "daily": {
     "top10": [
       {
@@ -8,182 +8,173 @@
         "description": "Sponsor Star simplex-chat / simplex-chat SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
         "language": "Haskell",
         "total_stars": 0,
-        "period_stars": 1469,
+        "period_stars": 1180,
         "forks": 0,
         "url": "https://github.com/sponsors/simplex-chat"
-      },
-      {
-        "full_name": "xbtlin/ai-berkshire",
-        "description": "Star xbtlin / ai-berkshire AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
-        "language": "Python",
-        "total_stars": 4449,
-        "period_stars": 685,
-        "forks": 616,
-        "url": "https://github.com/xbtlin/ai-berkshire"
-      },
-      {
-        "full_name": "commaai/openpilot",
-        "description": "Star commaai / openpilot openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
-        "language": "Python",
-        "total_stars": 62119,
-        "period_stars": 322,
-        "forks": 11070,
-        "url": "https://github.com/commaai/openpilot"
-      },
-      {
-        "full_name": "IceWhaleTech/CasaOS",
-        "description": "Star IceWhaleTech / CasaOS CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.",
-        "language": "Go",
-        "total_stars": 35858,
-        "period_stars": 502,
-        "forks": 2045,
-        "url": "https://github.com/IceWhaleTech/CasaOS"
       },
       {
         "full_name": "ripienaar/free-for-dev",
         "description": "Star ripienaar / free-for-dev A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
         "language": "HTML",
-        "total_stars": 124247,
-        "period_stars": 459,
-        "forks": 13087,
+        "total_stars": 125719,
+        "period_stars": 495,
+        "forks": 13198,
         "url": "https://github.com/ripienaar/free-for-dev"
-      },
-      {
-        "full_name": "google-labs-code/design.md",
-        "description": "Star google-labs-code / design.md A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
-        "language": "TypeScript",
-        "total_stars": 22477,
-        "period_stars": 1541,
-        "forks": 1795,
-        "url": "https://github.com/google-labs-code/design.md"
-      },
-      {
-        "full_name": "microsoft/PowerToys",
-        "description": "Star microsoft / PowerToys Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
-        "language": "C",
-        "total_stars": 135751,
-        "period_stars": 57,
-        "forks": 8168,
-        "url": "https://github.com/microsoft/PowerToys"
-      },
-      {
-        "full_name": "hugohe3/ppt-master",
-        "description": "Star hugohe3 / ppt-master AI generates a real, editable PowerPoint from any document — native shapes &amp; animations, speaker notes voiced as audio narration, and the option to follow your own .pptx template, not slide images · by Hugo He",
-        "language": "Python",
-        "total_stars": 33260,
-        "period_stars": 589,
-        "forks": 2824,
-        "url": "https://github.com/hugohe3/ppt-master"
-      },
-      {
-        "full_name": "JCodesMore/ai-website-cloner-template",
-        "description": "Star JCodesMore / ai-website-cloner-template Clone any website with one command using AI coding agents",
-        "language": "TypeScript",
-        "total_stars": 22269,
-        "period_stars": 750,
-        "forks": 3188,
-        "url": "https://github.com/JCodesMore/ai-website-cloner-template"
-      },
-      {
-        "full_name": "garrytan/gstack",
-        "description": "Star garrytan / gstack Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
-        "language": "TypeScript",
-        "total_stars": 117377,
-        "period_stars": 674,
-        "forks": 17439,
-        "url": "https://github.com/garrytan/gstack"
-      }
-    ],
-    "ai_top10": [
-      {
-        "full_name": "xbtlin/ai-berkshire",
-        "description": "Star xbtlin / ai-berkshire AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
-        "language": "Python",
-        "total_stars": 4449,
-        "period_stars": 685,
-        "forks": 616,
-        "url": "https://github.com/xbtlin/ai-berkshire"
       },
       {
         "full_name": "commaai/openpilot",
         "description": "Star commaai / openpilot openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
         "language": "Python",
-        "total_stars": 62119,
-        "period_stars": 322,
-        "forks": 11070,
+        "total_stars": 62533,
+        "period_stars": 266,
+        "forks": 11098,
         "url": "https://github.com/commaai/openpilot"
       },
       {
-        "full_name": "google-labs-code/design.md",
-        "description": "Star google-labs-code / design.md A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
-        "language": "TypeScript",
-        "total_stars": 22477,
-        "period_stars": 1541,
-        "forks": 1795,
-        "url": "https://github.com/google-labs-code/design.md"
-      },
-      {
-        "full_name": "hugohe3/ppt-master",
-        "description": "Star hugohe3 / ppt-master AI generates a real, editable PowerPoint from any document — native shapes &amp; animations, speaker notes voiced as audio narration, and the option to follow your own .pptx template, not slide images · by Hugo He",
+        "full_name": "xbtlin/ai-berkshire",
+        "description": "Star xbtlin / ai-berkshire AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
         "language": "Python",
-        "total_stars": 33260,
-        "period_stars": 589,
-        "forks": 2824,
-        "url": "https://github.com/hugohe3/ppt-master"
+        "total_stars": 5751,
+        "period_stars": 1445,
+        "forks": 774,
+        "url": "https://github.com/xbtlin/ai-berkshire"
       },
       {
-        "full_name": "JCodesMore/ai-website-cloner-template",
-        "description": "Star JCodesMore / ai-website-cloner-template Clone any website with one command using AI coding agents",
-        "language": "TypeScript",
-        "total_stars": 22269,
-        "period_stars": 750,
-        "forks": 3188,
-        "url": "https://github.com/JCodesMore/ai-website-cloner-template"
+        "full_name": "Robbyant/lingbot-map",
+        "description": "Star Robbyant / lingbot-map A feed-forward 3D foundation model for reconstructing scenes from streaming data",
+        "language": "Python",
+        "total_stars": 8342,
+        "period_stars": 372,
+        "forks": 813,
+        "url": "https://github.com/Robbyant/lingbot-map"
       },
       {
-        "full_name": "garrytan/gstack",
-        "description": "Star garrytan / gstack Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
-        "language": "TypeScript",
-        "total_stars": 117377,
-        "period_stars": 674,
-        "forks": 17439,
-        "url": "https://github.com/garrytan/gstack"
+        "full_name": "DeusData/codebase-memory-mcp",
+        "description": "Star DeusData / codebase-memory-mcp High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+        "language": "C",
+        "total_stars": 20210,
+        "period_stars": 2190,
+        "forks": 1456,
+        "url": "https://github.com/DeusData/codebase-memory-mcp"
       },
       {
-        "full_name": "Anil-matcha/Open-Generative-AI",
-        "description": "Star Anil-matcha / Open-Generative-AI Unrestricted Open-source alternative to AI video platforms — Free AI image &amp; video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
-        "language": "JavaScript",
-        "total_stars": 21470,
-        "period_stars": 255,
-        "forks": 3650,
-        "url": "https://github.com/Anil-matcha/Open-Generative-AI"
-      },
-      {
-        "full_name": "sponsors/topoteretes",
-        "description": "Sponsor Star topoteretes / cognee Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.",
+        "full_name": "sponsors/cupy",
+        "description": "Sponsor Star cupy / cupy NumPy &amp; SciPy for GPU",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 780,
+        "period_stars": 174,
         "forks": 0,
-        "url": "https://github.com/sponsors/topoteretes"
+        "url": "https://github.com/sponsors/cupy"
       },
       {
-        "full_name": "sponsors/luongnv89",
-        "description": "Sponsor Star luongnv89 / claude-howto A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+        "full_name": "sponsors/altic-dev",
+        "description": "Sponsor Star altic-dev / FluidVoice FluidVoice - Fastest macOS Offline Dictation app - Voice to Text fully Local. One ⭐ takes us a long way :))",
+        "language": "Swift",
+        "total_stars": 0,
+        "period_stars": 365,
+        "forks": 0,
+        "url": "https://github.com/sponsors/altic-dev"
+      },
+      {
+        "full_name": "opendatalab/MinerU",
+        "description": "Star opendatalab / MinerU Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
         "language": "Python",
-        "total_stars": 0,
-        "period_stars": 141,
-        "forks": 0,
-        "url": "https://github.com/sponsors/luongnv89"
+        "total_stars": 71874,
+        "period_stars": 380,
+        "forks": 6029,
+        "url": "https://github.com/opendatalab/MinerU"
       },
       {
-        "full_name": "sponsors/anomalyco",
-        "description": "Sponsor Star anomalyco / opencode The open source coding agent.",
-        "language": "TypeScript",
-        "total_stars": 0,
-        "period_stars": 392,
-        "forks": 0,
-        "url": "https://github.com/sponsors/anomalyco"
+        "full_name": "HKUDS/Vibe-Trading",
+        "description": "Star HKUDS / Vibe-Trading \"Vibe-Trading: Your Personal Trading Agent\"",
+        "language": "Python",
+        "total_stars": 14531,
+        "period_stars": 492,
+        "forks": 2649,
+        "url": "https://github.com/HKUDS/Vibe-Trading"
+      }
+    ],
+    "ai_top10": [
+      {
+        "full_name": "commaai/openpilot",
+        "description": "Star commaai / openpilot openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
+        "language": "Python",
+        "total_stars": 62533,
+        "period_stars": 266,
+        "forks": 11098,
+        "url": "https://github.com/commaai/openpilot"
+      },
+      {
+        "full_name": "xbtlin/ai-berkshire",
+        "description": "Star xbtlin / ai-berkshire AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
+        "language": "Python",
+        "total_stars": 5751,
+        "period_stars": 1445,
+        "forks": 774,
+        "url": "https://github.com/xbtlin/ai-berkshire"
+      },
+      {
+        "full_name": "Robbyant/lingbot-map",
+        "description": "Star Robbyant / lingbot-map A feed-forward 3D foundation model for reconstructing scenes from streaming data",
+        "language": "Python",
+        "total_stars": 8342,
+        "period_stars": 372,
+        "forks": 813,
+        "url": "https://github.com/Robbyant/lingbot-map"
+      },
+      {
+        "full_name": "DeusData/codebase-memory-mcp",
+        "description": "Star DeusData / codebase-memory-mcp High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+        "language": "C",
+        "total_stars": 20210,
+        "period_stars": 2190,
+        "forks": 1456,
+        "url": "https://github.com/DeusData/codebase-memory-mcp"
+      },
+      {
+        "full_name": "opendatalab/MinerU",
+        "description": "Star opendatalab / MinerU Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
+        "language": "Python",
+        "total_stars": 71874,
+        "period_stars": 380,
+        "forks": 6029,
+        "url": "https://github.com/opendatalab/MinerU"
+      },
+      {
+        "full_name": "HKUDS/Vibe-Trading",
+        "description": "Star HKUDS / Vibe-Trading \"Vibe-Trading: Your Personal Trading Agent\"",
+        "language": "Python",
+        "total_stars": 14531,
+        "period_stars": 492,
+        "forks": 2649,
+        "url": "https://github.com/HKUDS/Vibe-Trading"
+      },
+      {
+        "full_name": "ByteByteGoHq/system-design-101",
+        "description": "Star ByteByteGoHq / system-design-101 Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.",
+        "language": "",
+        "total_stars": 84698,
+        "period_stars": 250,
+        "forks": 9368,
+        "url": "https://github.com/ByteByteGoHq/system-design-101"
+      },
+      {
+        "full_name": "usestrix/strix",
+        "description": "Star usestrix / strix Open-source AI hackers to find and fix your app’s vulnerabilities.",
+        "language": "Python",
+        "total_stars": 26915,
+        "period_stars": 122,
+        "forks": 2997,
+        "url": "https://github.com/usestrix/strix"
+      },
+      {
+        "full_name": "browser-use/video-use",
+        "description": "Star browser-use / video-use Edit videos with coding agents",
+        "language": "Python",
+        "total_stars": 11312,
+        "period_stars": 196,
+        "forks": 1535,
+        "url": "https://github.com/browser-use/video-use"
       }
     ]
   },
@@ -194,7 +185,7 @@
         "description": "Sponsor Star calesthio / OpenMontage World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 18000,
+        "period_stars": 18703,
         "forks": 0,
         "url": "https://github.com/sponsors/calesthio"
       },
@@ -202,82 +193,82 @@
         "full_name": "DeusData/codebase-memory-mcp",
         "description": "Star DeusData / codebase-memory-mcp High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
         "language": "C",
-        "total_stars": 18017,
-        "period_stars": 7674,
-        "forks": 1318,
+        "total_stars": 20211,
+        "period_stars": 8926,
+        "forks": 1456,
         "url": "https://github.com/DeusData/codebase-memory-mcp"
       },
       {
         "full_name": "kunchenguid/no-mistakes",
         "description": "Star kunchenguid / no-mistakes git push no-mistakes",
         "language": "Go",
-        "total_stars": 3853,
-        "period_stars": 2229,
-        "forks": 220,
+        "total_stars": 4131,
+        "period_stars": 2449,
+        "forks": 232,
         "url": "https://github.com/kunchenguid/no-mistakes"
+      },
+      {
+        "full_name": "palmier-io/palmier-pro",
+        "description": "Star palmier-io / palmier-pro macOS video editor built for AI",
+        "language": "Swift",
+        "total_stars": 9352,
+        "period_stars": 5034,
+        "forks": 660,
+        "url": "https://github.com/palmier-io/palmier-pro"
       },
       {
         "full_name": "google-labs-code/design.md",
         "description": "Star google-labs-code / design.md A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
         "language": "TypeScript",
-        "total_stars": 22477,
-        "period_stars": 6014,
-        "forks": 1795,
+        "total_stars": 22963,
+        "period_stars": 6728,
+        "forks": 1823,
         "url": "https://github.com/google-labs-code/design.md"
-      },
-      {
-        "full_name": "ZhuLinsen/daily_stock_analysis",
-        "description": "Star ZhuLinsen / daily_stock_analysis LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-        "language": "Python",
-        "total_stars": 50649,
-        "period_stars": 7137,
-        "forks": 44128,
-        "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
-      },
-      {
-        "full_name": "penpot/penpot",
-        "description": "Star penpot / penpot Penpot: The open-source design tool for design and code collaboration",
-        "language": "Clojure",
-        "total_stars": 54238,
-        "period_stars": 3343,
-        "forks": 3519,
-        "url": "https://github.com/penpot/penpot"
-      },
-      {
-        "full_name": "Panniantong/Agent-Reach",
-        "description": "Star Panniantong / Agent-Reach Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-        "language": "Python",
-        "total_stars": 43657,
-        "period_stars": 7676,
-        "forks": 3470,
-        "url": "https://github.com/Panniantong/Agent-Reach"
-      },
-      {
-        "full_name": "interviewstreet/hiring-agent",
-        "description": "Star interviewstreet / hiring-agent AI agent to evaluate and score resumes.",
-        "language": "Python",
-        "total_stars": 3078,
-        "period_stars": 1836,
-        "forks": 690,
-        "url": "https://github.com/interviewstreet/hiring-agent"
       },
       {
         "full_name": "JCodesMore/ai-website-cloner-template",
         "description": "Star JCodesMore / ai-website-cloner-template Clone any website with one command using AI coding agents",
         "language": "TypeScript",
-        "total_stars": 22269,
-        "period_stars": 4565,
-        "forks": 3188,
+        "total_stars": 23103,
+        "period_stars": 5317,
+        "forks": 3299,
         "url": "https://github.com/JCodesMore/ai-website-cloner-template"
       },
       {
-        "full_name": "jamiepine/voicebox",
-        "description": "Star jamiepine / voicebox The open-source AI voice studio. Clone, dictate, create.",
+        "full_name": "sponsors/simplex-chat",
+        "description": "Sponsor Star simplex-chat / simplex-chat SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
+        "language": "Haskell",
+        "total_stars": 0,
+        "period_stars": 3218,
+        "forks": 0,
+        "url": "https://github.com/sponsors/simplex-chat"
+      },
+      {
+        "full_name": "interviewstreet/hiring-agent",
+        "description": "Star interviewstreet / hiring-agent AI agent to evaluate and score resumes.",
+        "language": "Python",
+        "total_stars": 3261,
+        "period_stars": 1973,
+        "forks": 709,
+        "url": "https://github.com/interviewstreet/hiring-agent"
+      },
+      {
+        "full_name": "ZhuLinsen/daily_stock_analysis",
+        "description": "Star ZhuLinsen / daily_stock_analysis LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+        "language": "Python",
+        "total_stars": 51320,
+        "period_stars": 7045,
+        "forks": 44579,
+        "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
+      },
+      {
+        "full_name": "stablyai/orca",
+        "description": "Star stablyai / orca Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
         "language": "TypeScript",
-        "total_stars": 35004,
-        "period_stars": 3965,
-        "forks": 4214,
-        "url": "https://github.com/jamiepine/voicebox"
+        "total_stars": 8752,
+        "period_stars": 2769,
+        "forks": 605,
+        "url": "https://github.com/stablyai/orca"
       }
     ],
     "ai_top10": [
@@ -286,7 +277,7 @@
         "description": "Sponsor Star calesthio / OpenMontage World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 18000,
+        "period_stars": 18703,
         "forks": 0,
         "url": "https://github.com/sponsors/calesthio"
       },
@@ -294,82 +285,82 @@
         "full_name": "DeusData/codebase-memory-mcp",
         "description": "Star DeusData / codebase-memory-mcp High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
         "language": "C",
-        "total_stars": 18017,
-        "period_stars": 7674,
-        "forks": 1318,
+        "total_stars": 20211,
+        "period_stars": 8926,
+        "forks": 1456,
         "url": "https://github.com/DeusData/codebase-memory-mcp"
+      },
+      {
+        "full_name": "palmier-io/palmier-pro",
+        "description": "Star palmier-io / palmier-pro macOS video editor built for AI",
+        "language": "Swift",
+        "total_stars": 9352,
+        "period_stars": 5034,
+        "forks": 660,
+        "url": "https://github.com/palmier-io/palmier-pro"
       },
       {
         "full_name": "google-labs-code/design.md",
         "description": "Star google-labs-code / design.md A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
         "language": "TypeScript",
-        "total_stars": 22477,
-        "period_stars": 6014,
-        "forks": 1795,
+        "total_stars": 22963,
+        "period_stars": 6728,
+        "forks": 1823,
         "url": "https://github.com/google-labs-code/design.md"
-      },
-      {
-        "full_name": "ZhuLinsen/daily_stock_analysis",
-        "description": "Star ZhuLinsen / daily_stock_analysis LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-        "language": "Python",
-        "total_stars": 50649,
-        "period_stars": 7137,
-        "forks": 44128,
-        "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
-      },
-      {
-        "full_name": "Panniantong/Agent-Reach",
-        "description": "Star Panniantong / Agent-Reach Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-        "language": "Python",
-        "total_stars": 43657,
-        "period_stars": 7676,
-        "forks": 3470,
-        "url": "https://github.com/Panniantong/Agent-Reach"
-      },
-      {
-        "full_name": "interviewstreet/hiring-agent",
-        "description": "Star interviewstreet / hiring-agent AI agent to evaluate and score resumes.",
-        "language": "Python",
-        "total_stars": 3078,
-        "period_stars": 1836,
-        "forks": 690,
-        "url": "https://github.com/interviewstreet/hiring-agent"
       },
       {
         "full_name": "JCodesMore/ai-website-cloner-template",
         "description": "Star JCodesMore / ai-website-cloner-template Clone any website with one command using AI coding agents",
         "language": "TypeScript",
-        "total_stars": 22269,
-        "period_stars": 4565,
-        "forks": 3188,
+        "total_stars": 23103,
+        "period_stars": 5317,
+        "forks": 3299,
         "url": "https://github.com/JCodesMore/ai-website-cloner-template"
       },
       {
-        "full_name": "jamiepine/voicebox",
-        "description": "Star jamiepine / voicebox The open-source AI voice studio. Clone, dictate, create.",
-        "language": "TypeScript",
-        "total_stars": 35004,
-        "period_stars": 3965,
-        "forks": 4214,
-        "url": "https://github.com/jamiepine/voicebox"
+        "full_name": "interviewstreet/hiring-agent",
+        "description": "Star interviewstreet / hiring-agent AI agent to evaluate and score resumes.",
+        "language": "Python",
+        "total_stars": 3261,
+        "period_stars": 1973,
+        "forks": 709,
+        "url": "https://github.com/interviewstreet/hiring-agent"
+      },
+      {
+        "full_name": "ZhuLinsen/daily_stock_analysis",
+        "description": "Star ZhuLinsen / daily_stock_analysis LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+        "language": "Python",
+        "total_stars": 51320,
+        "period_stars": 7045,
+        "forks": 44579,
+        "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
       },
       {
         "full_name": "stablyai/orca",
         "description": "Star stablyai / orca Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
         "language": "TypeScript",
-        "total_stars": 8398,
-        "period_stars": 2554,
-        "forks": 584,
+        "total_stars": 8752,
+        "period_stars": 2769,
+        "forks": 605,
         "url": "https://github.com/stablyai/orca"
       },
       {
-        "full_name": "BuilderIO/agent-native",
-        "description": "Star BuilderIO / agent-native A framework for building agent-native applications.",
-        "language": "TypeScript",
-        "total_stars": 2758,
-        "period_stars": 1474,
-        "forks": 271,
-        "url": "https://github.com/BuilderIO/agent-native"
+        "full_name": "Panniantong/Agent-Reach",
+        "description": "Star Panniantong / Agent-Reach Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+        "language": "Python",
+        "total_stars": 44812,
+        "period_stars": 7692,
+        "forks": 3558,
+        "url": "https://github.com/Panniantong/Agent-Reach"
+      },
+      {
+        "full_name": "sponsors/mukul975",
+        "description": "Sponsor Star mukul975 / Anthropic-Cybersecurity-Skills 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&amp;CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF &amp; MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI &amp; 20+ platforms · 29 security domains · Apache 2.0",
+        "language": "Python",
+        "total_stars": 0,
+        "period_stars": 5212,
+        "forks": 0,
+        "url": "https://github.com/sponsors/mukul975"
       }
     ]
   }

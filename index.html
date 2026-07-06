@@ -1,1074 +1,174 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GitHub Trending 日报</title>
-  <style>
-    :root { --bg:#f8f9fa; --paper:#fff; --text:#1a1a1a; --muted:#5f6b76; --line:#e6e8eb; --blue:#0969da; --orange:#e36209; --soft-orange:#fff1e8; --shadow:0 8px 24px rgba(16,24,40,.05); }
-    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;line-height:1.7}
-    a{color:var(--blue);text-decoration:none} a:hover{text-decoration:underline}
-    .container{max-width:1180px;margin:0 auto;padding:0 20px 48px}.hero{background:linear-gradient(180deg,#fff 0%,#fcfcfd 100%);border-bottom:1px solid var(--line);margin-bottom:24px}.hero-inner{max-width:1180px;margin:0 auto;padding:36px 20px 28px}
-    .eyebrow{display:inline-block;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--orange);background:var(--soft-orange);padding:6px 10px;border-radius:999px;margin-bottom:14px;font-weight:700}
-    h1{margin:0;font-size:38px;line-height:1.2;letter-spacing:-.02em}.subtitle{margin-top:10px;color:var(--muted);font-size:16px;max-width:860px}
-    .hero-meta{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:16px;margin-top:24px}.meta-card{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:16px 18px;box-shadow:var(--shadow)}.meta-label{color:var(--muted);font-size:13px;margin-bottom:8px}.meta-value{font-size:24px;font-weight:800}.meta-sub{margin-top:6px;color:var(--muted);font-size:14px}
-    .tabs,.subtabs{display:flex;flex-wrap:wrap;gap:10px}.tabs{margin:18px 0 20px;position:sticky;top:0;background:rgba(248,249,250,.92);backdrop-filter:blur(10px);padding:12px 0;z-index:20}.subtabs{margin:0 0 16px}
-    .tab-btn,.subtab-btn{border:1px solid var(--line);background:#fff;color:var(--muted);border-radius:999px;padding:10px 16px;font-size:14px;font-weight:700;cursor:pointer;transition:.2s ease}
-    .tab-btn.active,.subtab-btn.active{background:var(--blue);color:#fff;border-color:var(--blue);box-shadow:0 6px 18px rgba(9,105,218,.18)}
-    .tab-panel,.subtab-panel{display:none}.tab-panel.active,.subtab-panel.active{display:block}
-    .section{background:var(--paper);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);margin-bottom:22px;overflow:hidden}.section-head{padding:22px 24px 10px;border-bottom:1px solid #f0f1f3}.section-head h2{margin:0;font-size:24px}.section-head p{margin:8px 0 0;color:var(--muted);font-size:14px}
-    .table-wrap{overflow-x:auto} table{width:100%;border-collapse:collapse;min-width:960px} th,td{padding:14px 16px;border-bottom:1px solid #eef1f4;vertical-align:top} th{font-size:13px;color:var(--muted);background:#fbfbfc;text-align:left;font-weight:700;white-space:nowrap} td{font-size:14px} tbody tr:hover{background:#fcfdff}
-    .rank{font-weight:800;color:var(--orange);width:56px}.project-cell a{display:inline-block;font-weight:800;font-size:15px;margin-bottom:4px}.desc{color:var(--muted);font-size:13px;max-width:460px}.num{font-variant-numeric:tabular-nums;white-space:nowrap}.highlight{color:var(--orange);font-weight:800}
-    .tag{display:inline-block;padding:4px 10px;border-radius:999px;font-size:12px;font-weight:700;white-space:nowrap}.tag.embodied{background:#f3efff;color:#6f42c1}.tag.agent{background:#eaf3ff;color:#0969da}.tag.dev{background:#eefaf1;color:#1a7f37}.tag.media{background:#fff0f6;color:#bf3989}.tag.finance{background:#fff1e8;color:#bc4c00}.tag.general{background:#f6f8fa;color:#57606a}
-    .insight-grid,.signal-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;padding:22px 24px 24px}.insight-card,.signal-card{border:1px solid var(--line);border-radius:14px;padding:18px;background:linear-gradient(180deg,#fff 0%,#fcfcfd 100%)}
-    .insight-title-row h3,.signal-card h3{margin:0 0 8px;font-size:18px;line-height:1.35}.one-liner{margin:0 0 10px;color:var(--blue);font-weight:700;font-size:14px}.analysis,.signal-card p{margin:0;font-size:14px;color:#2f3439}.signal-projects{font-size:13px;color:var(--muted);margin-bottom:10px;font-weight:700}.footer{text-align:center;color:var(--muted);font-size:13px;margin-top:10px;padding-top:14px}
-    @media (max-width: 900px){.hero-meta{grid-template-columns:1fr}.insight-grid,.signal-grid{grid-template-columns:1fr}h1{font-size:30px}}
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>GitHub Trending 日报</title>
+<style>*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;background:#f5f5f0;color:#1a1a1a;line-height:1.7;}
+.header{background:#fff;border-bottom:3px solid #1a1a1a;padding:24px 0 16px;text-align:center;}
+.header-inner{max-width:960px;margin:0 auto;padding:0 24px;}
+.header-top{display:flex;align-items:baseline;justify-content:center;gap:16px;margin-bottom:8px;}
+.logo{font-size:28px;font-weight:900;letter-spacing:-1px;color:#1a1a1a;}
+.logo span{color:#e63946;}
+.date{font-size:14px;color:#666;border-left:1px solid #ccc;padding-left:16px;}
+.summary{font-size:14px;color:#444;background:#fffbf0;border:1px solid #f0d060;border-radius:4px;padding:8px 16px;display:inline-block;margin-top:8px;}
+.tabs{background:#fff;border-bottom:2px solid #eee;position:sticky;top:0;z-index:10;}
+.tabs-inner{max-width:960px;margin:0 auto;padding:0 24px;display:flex;}
+.tab{padding:14px 24px;font-size:15px;font-weight:600;color:#666;cursor:pointer;border-bottom:3px solid transparent;margin-bottom:-2px;transition:all .2s;}
+.tab:hover{color:#1a1a1a;}
+.tab.active{color:#e63946;border-bottom-color:#e63946;}
+.content{max-width:960px;margin:0 auto;padding:32px 24px;}
+.panel{display:none;}
+.panel.active{display:block;}
+.section{background:#fff;border:1px solid #e8e8e8;border-radius:4px;margin-bottom:24px;overflow:hidden;}
+.section-header{padding:16px 20px;border-bottom:1px solid #f0f0f0;display:flex;align-items:center;gap:8px;}
+.section-title{font-size:17px;font-weight:700;}
+.section-icon{font-size:18px;}
+table{width:100%;border-collapse:collapse;}
+th{background:#fafafa;padding:10px 14px;text-align:left;font-size:13px;font-weight:600;color:#666;border-bottom:1px solid #eee;}
+td{padding:12px 14px;font-size:14px;border-bottom:1px solid #f5f5f5;vertical-align:middle;}
+tr:last-child td{border-bottom:none;}
+tr:hover td{background:#fafffe;}
+.rank{font-weight:700;color:#999;font-size:13px;width:36px;}
+.rank.top3{color:#e63946;}
+.proj-name{font-weight:600;color:#0066cc;text-decoration:none;}
+.proj-name:hover{text-decoration:underline;}
+.proj-sub{font-size:12px;color:#999;margin-top:2px;}
+.lang-tag{display:inline-block;padding:2px 8px;border-radius:10px;font-size:12px;font-weight:500;background:#f0f0f0;color:#555;}
+.lang-Python{background:#e8f4fd;color:#2980b9;}
+.lang-TypeScript{background:#e8f8f0;color:#27ae60;}
+.lang-Rust{background:#fdf0e8;color:#e67e22;}
+.lang-Kotlin{background:#f0e8fd;color:#8e44ad;}
+.stars{font-weight:600;color:#f39c12;}
+.stars-new{color:#e63946;font-weight:700;}
+.insight-list{padding:20px;}
+.insight-item{margin-bottom:20px;padding-bottom:20px;border-bottom:1px solid #f5f5f5;}
+.insight-item:last-child{border-bottom:none;margin-bottom:0;padding-bottom:0;}
+.insight-repo{font-size:13px;font-weight:700;color:#e63946;margin-bottom:6px;}
+.insight-date{font-weight:400;color:#aaa;font-size:12px;}
+.insight-text{font-size:14px;color:#333;line-height:1.8;}
+.signal-tags{padding:20px;display:flex;flex-wrap:wrap;gap:10px;}
+.signal-tag{padding:6px 14px;border-radius:20px;font-size:13px;font-weight:600;}
+.tag-hot{background:#ffeef0;color:#e63946;border:1px solid #ffcdd2;}
+.tag-rising{background:#fff8e1;color:#f57c00;border:1px solid #ffe082;}
+.tag-watch{background:#e8f5e9;color:#2e7d32;border:1px solid #c8e6c9;}
+.invest-cards{padding:20px;display:grid;grid-template-columns:repeat(2,1fr);gap:16px;}
+.invest-card{border:1px solid #e8e8e8;border-radius:6px;padding:16px;}
+.invest-dir{font-size:15px;font-weight:700;margin-bottom:8px;}
+.invest-proj{font-size:12px;color:#666;margin-bottom:8px;}
+.invest-bar-wrap{background:#f0f0f0;border-radius:4px;height:6px;margin-bottom:10px;}
+.invest-bar{height:6px;border-radius:4px;}
+.bar-strong{background:#e63946;width:90%;}
+.bar-mid{background:#f39c12;width:60%;}
+.bar-watch{background:#27ae60;width:35%;}
+.invest-strength{font-size:12px;margin-bottom:4px;}
+.str-strong{color:#e63946;font-weight:700;}
+.str-mid{color:#f39c12;font-weight:700;}
+.str-watch{color:#27ae60;font-weight:700;}
+.footer{text-align:center;padding:24px;color:#aaa;font-size:12px;border-top:1px solid #eee;margin-top:8px;}
+@media(max-width:640px){.invest-cards{grid-template-columns:1fr;}.tab{padding:10px 14px;font-size:13px;}}</style>
+
+<style>
+.category-badge{display:inline-flex;align-items:center;padding:4px 10px;border-radius:999px;font-size:12px;font-weight:600;line-height:1;white-space:nowrap}
+.category-badge.cat-ai{background:#e8f4ff;color:#1677ff}
+.category-badge.cat-embodied{background:#f3ecff;color:#722ed1}
+.category-badge.cat-other{background:#f5f5f5;color:#8c8c8c}
+.mini-tabs{display:flex;gap:10px;padding:20px 24px 0;flex-wrap:wrap}
+.mini-tab{padding:8px 14px;border:1px solid #e5e5e5;border-radius:999px;background:#fff;color:#666;font-size:13px;font-weight:600;cursor:pointer}
+.mini-tab.active{color:#e63946;border-color:#e63946;background:#fff7f7}
+</style>
+
 </head>
 <body>
-  <header class="hero">
-    <div class="hero-inner">
-      <div class="eyebrow">GitHub Trending Daily Brief</div>
-      <h1>GitHub Trending 日报</h1>
-      <div class="subtitle">支持按周期与可配置分类切换：默认显示今日榜单，每个分类只展示 Top 10，并联动刷新榜单、深度解读与投资信号。</div>
-      <div class="hero-meta">
-        <div class="meta-card">
-          <div class="meta-label">今日头条项目</div>
-          <div class="meta-value">codex-plugin-cc</div>
-          <div class="meta-sub">今日新增 ⭐ 1,532 · Use Codex from Claude Code to review code or delegate tasks.</div>
-        </div>
-        <div class="meta-card">
-          <div class="meta-label">更新时间</div>
-          <div class="meta-value" style="font-size:20px;">2026-07-06 10:13:33 GMT+8</div>
-          <div class="meta-sub">数据源：/workspace/github-trending/data.json</div>
-        </div>
-        <div class="meta-card">
-          <div class="meta-label">当前能力</div>
-          <div class="meta-value" style="font-size:20px;">周期 + 分类双切换</div>
-          <div class="meta-sub">榜单总览 / 深度解读 / 投资信号拆解</div>
-        </div>
-      </div>
-    </div>
-  </header>
-  <main class="container">
-    
-    <div class="tabs">
-      <button class="tab-btn active" data-tab="daily">今日趋势 & 投资信号</button>
-      <button class="tab-btn" data-tab="weekly">本周趋势 & 投资信号</button>
-    </div>
-    
-    <section id="daily" class="tab-panel active">
-      <div class="subtabs"><button class="subtab-btn active" data-parent="daily" data-subtab="daily-all">全站热榜</button><button class="subtab-btn" data-parent="daily" data-subtab="daily-ai">AI 热榜</button><button class="subtab-btn" data-parent="daily" data-subtab="daily-embodied">具身热榜</button></div>
-      <section id="daily-all" class="subtab-panel active">
-    <section class="section">
-      <div class="section-head">
-        <h2>今日全站热榜</h2>
-        <p>仅展示 Top 10，切换分类后榜单、深度解读与投资信号会一起变化</p>
-      </div>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>项目</th>
-              <th>方向/标签</th>
-              <th>语言</th>
-              <th>今日新增⭐</th>
-              <th>总 ⭐</th>
-              <th>Forks</th>
-            </tr>
-          </thead>
-          <tbody>
-        <tr>
-          <td class="rank">1</td>
-          <td class="project-cell">
-            <a href="https://github.com/openai/codex-plugin-cc" target="_blank" rel="noopener noreferrer">openai/codex-plugin-cc</a>
-            <div class="desc">Use Codex from Claude Code to review code or delegate tasks.</div>
-          </td>
-          <td><span class="tag agent">AI Agent / 智能体</span></td>
-          <td>JavaScript</td>
-          <td class="num highlight">+1,532</td>
-          <td class="num">25,536</td>
-          <td class="num">1,543</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">2</td>
-          <td class="project-cell">
-            <a href="https://github.com/sponsors/Zackriya-Solutions" target="_blank" rel="noopener noreferrer">sponsors/Zackriya-Solutions</a>
-            <div class="desc">Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS &amp;amp; Windows.</div>
-          </td>
-          <td><span class="tag media">多模态 / 语音视频</span></td>
-          <td>Rust</td>
-          <td class="num highlight">+1,409</td>
-          <td class="num">0</td>
-          <td class="num">0</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">3</td>
-          <td class="project-cell">
-            <a href="https://github.com/usestrix/strix" target="_blank" rel="noopener noreferrer">usestrix/strix</a>
-            <div class="desc">Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.</div>
-          </td>
-          <td><span class="tag dev">开发工具 / 工程效率</span></td>
-          <td>Python</td>
-          <td class="num highlight">+1,114</td>
-          <td class="num">37,187</td>
-          <td class="num">3,777</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">4</td>
-          <td class="project-cell">
-            <a href="https://github.com/sponsors/JuliusBrussee" target="_blank" rel="noopener noreferrer">sponsors/JuliusBrussee</a>
-            <div class="desc">🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman</div>
-          </td>
-          <td><span class="tag agent">AI Agent / 智能体</span></td>
-          <td>JavaScript</td>
-          <td class="num highlight">+1,052</td>
-          <td class="num">0</td>
-          <td class="num">0</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">5</td>
-          <td class="project-cell">
-            <a href="https://github.com/sponsors/asgeirtj" target="_blank" rel="noopener noreferrer">sponsors/asgeirtj</a>
-            <div class="desc">Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.</div>
-          </td>
-          <td><span class="tag agent">AI Agent / 智能体</span></td>
-          <td>JavaScript</td>
-          <td class="num highlight">+981</td>
-          <td class="num">0</td>
-          <td class="num">0</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">6</td>
-          <td class="project-cell">
-            <a href="https://github.com/sponsors/Leonxlnx" target="_blank" rel="noopener noreferrer">sponsors/Leonxlnx</a>
-            <div class="desc">Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop</div>
-          </td>
-          <td><span class="tag agent">AI Agent / 智能体</span></td>
-          <td>JavaScript</td>
-          <td class="num highlight">+863</td>
-          <td class="num">0</td>
-          <td class="num">0</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">7</td>
-          <td class="project-cell">
-            <a href="https://github.com/alibaba/page-agent" target="_blank" rel="noopener noreferrer">alibaba/page-agent</a>
-            <div class="desc">JavaScript in-page GUI agent. Control web interfaces with natural language.</div>
-          </td>
-          <td><span class="tag agent">AI Agent / 智能体</span></td>
-          <td>TypeScript</td>
-          <td class="num highlight">+805</td>
-          <td class="num">23,961</td>
-          <td class="num">2,063</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">8</td>
-          <td class="project-cell">
-            <a href="https://github.com/sponsors/ogulcancelik" target="_blank" rel="noopener noreferrer">sponsors/ogulcancelik</a>
-            <div class="desc">agent multiplexer that lives in your terminal.</div>
-          </td>
-          <td><span class="tag agent">AI Agent / 智能体</span></td>
-          <td>Rust</td>
-          <td class="num highlight">+651</td>
-          <td class="num">0</td>
-          <td class="num">0</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">9</td>
-          <td class="project-cell">
-            <a href="https://github.com/facebook/astryx" target="_blank" rel="noopener noreferrer">facebook/astryx</a>
-            <div class="desc">An open source design system that&#x27;s fully customizable and agent ready</div>
-          </td>
-          <td><span class="tag agent">AI Agent / 智能体</span></td>
-          <td>TypeScript</td>
-          <td class="num highlight">+522</td>
-          <td class="num">5,936</td>
-          <td class="num">376</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">10</td>
-          <td class="project-cell">
-            <a href="https://github.com/immich-app/immich" target="_blank" rel="noopener noreferrer">immich-app/immich</a>
-            <div class="desc">High performance self-hosted photo and video management solution.</div>
-          </td>
-          <td><span class="tag media">多模态 / 语音视频</span></td>
-          <td>TypeScript</td>
-          <td class="num highlight">+470</td>
-          <td class="num">106,140</td>
-          <td class="num">6,061</td>
-        </tr>
-        </tbody>
-        </table>
-      </div>
-    </section>
-    
-    <section class="section">
-      <div class="section-head">
-        <h2>深度解读</h2>
-        <p>Top 5 项目逐一拆解：为什么上榜、代表什么方向</p>
-      </div>
-      <div class="insight-grid">
-        <article class="insight-card">
-          <div class="insight-title-row"><h3><a href="https://github.com/openai/codex-plugin-cc" target="_blank" rel="noopener noreferrer">openai/codex-plugin-cc</a></h3></div>
-          <p class="one-liner">Use Codex from Claude Code to review code …</p>
-          <p class="analysis">这个项目当前归属于“AI Agent / 智能体”方向，在今日榜单里新增 1,532 星，说明它在“全站热榜”这个筛选视角下具备明显关注度。它反映的不是单点偶然热度，而是当前开发者正在集中讨论的一类问题。</p>
-        </article>
-        
-        <article class="insight-card">
-          <div class="insight-title-row"><h3><a href="https://github.com/sponsors/Zackriya-Solutions" target="_blank" rel="noopener noreferrer">sponsors/Zackriya-Solutions</a></h3></div>
-          <p class="one-liner">Privacy first, AI meeting assistant with 4…</p>
-          <p class="analysis">这个项目当前归属于“多模态 / 语音视频”方向，在今日榜单里新增 1,409 星，说明它在“全站热榜”这个筛选视角下具备明显关注度。它反映的不是单点偶然热度，而是当前开发者正在集中讨论的一类问题。</p>
-        </article>
-        
-        <article class="insight-card">
-          <div class="insight-title-row"><h3><a href="https://github.com/usestrix/strix" target="_blank" rel="noopener noreferrer">usestrix/strix</a></h3></div>
-          <p class="one-liner">Open-source AI penetration testing tool to…</p>
-          <p class="analysis">这个项目当前归属于“开发工具 / 工程效率”方向，在今日榜单里新增 1,114 星，说明它在“全站热榜”这个筛选视角下具备明显关注度。它反映的不是单点偶然热度，而是当前开发者正在集中讨论的一类问题。</p>
-        </article>
-        
-        <article class="insight-card">
-          <div class="insight-title-row"><h3><a href="https://github.com/sponsors/JuliusBrussee" target="_blank" rel="noopener noreferrer">sponsors/JuliusBrussee</a></h3></div>
-          <p class="one-liner">🪨 why use many token when few token do tri…</p>
-          <p class="analysis">这个项目当前归属于“AI Agent / 智能体”方向，在今日榜单里新增 1,052 星，说明它在“全站热榜”这个筛选视角下具备明显关注度。它反映的不是单点偶然热度，而是当前开发者正在集中讨论的一类问题。</p>
-        </article>
-        
-        <article class="insight-card">
-          <div class="insight-title-row"><h3><a href="https://github.com/sponsors/asgeirtj" target="_blank" rel="noopener noreferrer">sponsors/asgeirtj</a></h3></div>
-          <p class="one-liner">Extracted system prompts from Anthropic - …</p>
-          <p class="analysis">这个项目当前归属于“AI Agent / 智能体”方向，在今日榜单里新增 981 星，说明它在“全站热榜”这个筛选视角下具备明显关注度。它反映的不是单点偶然热度，而是当前开发者正在集中讨论的一类问题。</p>
-        </article>
-        </div>
-    </section>
-    
-    <section class="section">
-      <div class="section-head">
-        <h2>投资信号拆解</h2>
-        <p>从当前分类榜单里提炼值得持续关注的主题</p>
-      </div>
-      <div class="signal-grid">
-        <article class="signal-card">
-          <h3>AI Agent / 智能体（今日信号）</h3>
-          <div class="signal-projects">代表项目：codex-plugin-cc、JuliusBrussee、asgeirtj</div>
-          <p>在“全站热榜”筛选下，AI Agent / 智能体方向出现多次上榜，说明这个主题在今日维度有持续讨论度。若后续连续多期出现，值得继续跟踪是否形成稳定趋势。</p>
-        </article>
-        
-        <article class="signal-card">
-          <h3>多模态 / 语音视频（今日信号）</h3>
-          <div class="signal-projects">代表项目：Zackriya-Solutions、immich</div>
-          <p>在“全站热榜”筛选下，多模态 / 语音视频方向出现多次上榜，说明这个主题在今日维度有持续讨论度。若后续连续多期出现，值得继续跟踪是否形成稳定趋势。</p>
-        </article>
-        
-        <article class="signal-card">
-          <h3>开发工具 / 工程效率（今日信号）</h3>
-          <div class="signal-projects">代表项目：strix</div>
-          <p>在“全站热榜”筛选下，开发工具 / 工程效率方向出现多次上榜，说明这个主题在今日维度有持续讨论度。若后续连续多期出现，值得继续跟踪是否形成稳定趋势。</p>
-        </article>
-        </div>
-    </section>
-    </section><section id="daily-ai" class="subtab-panel">
-    <section class="section">
-      <div class="section-head">
-        <h2>今日AI 热榜</h2>
-        <p>仅展示 Top 10，切换分类后榜单、深度解读与投资信号会一起变化</p>
-      </div>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>项目</th>
-              <th>方向/标签</th>
-              <th>语言</th>
-              <th>今日新增⭐</th>
-              <th>总 ⭐</th>
-              <th>Forks</th>
-            </tr>
-          </thead>
-          <tbody>
-        <tr>
-          <td class="rank">1</td>
-          <td class="project-cell">
-            <a href="https://github.com/openai/codex-plugin-cc" target="_blank" rel="noopener noreferrer">openai/codex-plugin-cc</a>
-            <div class="desc">Use Codex from Claude Code to review code or delegate tasks.</div>
-          </td>
-          <td><span class="tag agent">AI Agent / 智能体</span></td>
-          <td>JavaScript</td>
-          <td class="num highlight">+1,532</td>
-          <td class="num">25,536</td>
-          <td class="num">1,543</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">2</td>
-          <td class="project-cell">
-            <a href="https://github.com/sponsors/Zackriya-Solutions" target="_blank" rel="noopener noreferrer">sponsors/Zackriya-Solutions</a>
-            <div class="desc">Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS &amp;amp; Windows.</div>
-          </td>
-          <td><span class="tag media">多模态 / 语音视频</span></td>
-          <td>Rust</td>
-          <td class="num highlight">+1,409</td>
-          <td class="num">0</td>
-          <td class="num">0</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">3</td>
-          <td class="project-cell">
-            <a href="https://github.com/usestrix/strix" target="_blank" rel="noopener noreferrer">usestrix/strix</a>
-            <div class="desc">Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.</div>
-          </td>
-          <td><span class="tag dev">开发工具 / 工程效率</span></td>
-          <td>Python</td>
-          <td class="num highlight">+1,114</td>
-          <td class="num">37,187</td>
-          <td class="num">3,777</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">4</td>
-          <td class="project-cell">
-            <a href="https://github.com/sponsors/JuliusBrussee" target="_blank" rel="noopener noreferrer">sponsors/JuliusBrussee</a>
-            <div class="desc">🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman</div>
-          </td>
-          <td><span class="tag agent">AI Agent / 智能体</span></td>
-          <td>JavaScript</td>
-          <td class="num highlight">+1,052</td>
-          <td class="num">0</td>
-          <td class="num">0</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">5</td>
-          <td class="project-cell">
-            <a href="https://github.com/sponsors/asgeirtj" target="_blank" rel="noopener noreferrer">sponsors/asgeirtj</a>
-            <div class="desc">Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.</div>
-          </td>
-          <td><span class="tag agent">AI Agent / 智能体</span></td>
-          <td>JavaScript</td>
-          <td class="num highlight">+981</td>
-          <td class="num">0</td>
-          <td class="num">0</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">6</td>
-          <td class="project-cell">
-            <a href="https://github.com/sponsors/Leonxlnx" target="_blank" rel="noopener noreferrer">sponsors/Leonxlnx</a>
-            <div class="desc">Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop</div>
-          </td>
-          <td><span class="tag agent">AI Agent / 智能体</span></td>
-          <td>JavaScript</td>
-          <td class="num highlight">+863</td>
-          <td class="num">0</td>
-          <td class="num">0</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">7</td>
-          <td class="project-cell">
-            <a href="https://github.com/alibaba/page-agent" target="_blank" rel="noopener noreferrer">alibaba/page-agent</a>
-            <div class="desc">JavaScript in-page GUI agent. Control web interfaces with natural language.</div>
-          </td>
-          <td><span class="tag agent">AI Agent / 智能体</span></td>
-          <td>TypeScript</td>
-          <td class="num highlight">+805</td>
-          <td class="num">23,961</td>
-          <td class="num">2,063</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">8</td>
-          <td class="project-cell">
-            <a href="https://github.com/sponsors/ogulcancelik" target="_blank" rel="noopener noreferrer">sponsors/ogulcancelik</a>
-            <div class="desc">agent multiplexer that lives in your terminal.</div>
-          </td>
-          <td><span class="tag agent">AI Agent / 智能体</span></td>
-          <td>Rust</td>
-          <td class="num highlight">+651</td>
-          <td class="num">0</td>
-          <td class="num">0</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">9</td>
-          <td class="project-cell">
-            <a href="https://github.com/facebook/astryx" target="_blank" rel="noopener noreferrer">facebook/astryx</a>
-            <div class="desc">An open source design system that&#x27;s fully customizable and agent ready</div>
-          </td>
-          <td><span class="tag agent">AI Agent / 智能体</span></td>
-          <td>TypeScript</td>
-          <td class="num highlight">+522</td>
-          <td class="num">5,936</td>
-          <td class="num">376</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">10</td>
-          <td class="project-cell">
-            <a href="https://github.com/sponsors/CoplayDev" target="_blank" rel="noopener noreferrer">sponsors/CoplayDev</a>
-            <div class="desc">Unity MCP acts as a bridge between AI assistants and your Unity Editor. Give your LLM tools to manage assets, control scenes, edit scripts, and automate tasks within Unity.</div>
-          </td>
-          <td><span class="tag agent">AI Agent / 智能体</span></td>
-          <td>C#</td>
-          <td class="num highlight">+414</td>
-          <td class="num">0</td>
-          <td class="num">0</td>
-        </tr>
-        </tbody>
-        </table>
-      </div>
-    </section>
-    
-    <section class="section">
-      <div class="section-head">
-        <h2>深度解读</h2>
-        <p>Top 5 项目逐一拆解：为什么上榜、代表什么方向</p>
-      </div>
-      <div class="insight-grid">
-        <article class="insight-card">
-          <div class="insight-title-row"><h3><a href="https://github.com/openai/codex-plugin-cc" target="_blank" rel="noopener noreferrer">openai/codex-plugin-cc</a></h3></div>
-          <p class="one-liner">Use Codex from Claude Code to review code …</p>
-          <p class="analysis">这个项目当前归属于“AI Agent / 智能体”方向，在今日榜单里新增 1,532 星，说明它在“AI 热榜”这个筛选视角下具备明显关注度。它反映的不是单点偶然热度，而是当前开发者正在集中讨论的一类问题。</p>
-        </article>
-        
-        <article class="insight-card">
-          <div class="insight-title-row"><h3><a href="https://github.com/sponsors/Zackriya-Solutions" target="_blank" rel="noopener noreferrer">sponsors/Zackriya-Solutions</a></h3></div>
-          <p class="one-liner">Privacy first, AI meeting assistant with 4…</p>
-          <p class="analysis">这个项目当前归属于“多模态 / 语音视频”方向，在今日榜单里新增 1,409 星，说明它在“AI 热榜”这个筛选视角下具备明显关注度。它反映的不是单点偶然热度，而是当前开发者正在集中讨论的一类问题。</p>
-        </article>
-        
-        <article class="insight-card">
-          <div class="insight-title-row"><h3><a href="https://github.com/usestrix/strix" target="_blank" rel="noopener noreferrer">usestrix/strix</a></h3></div>
-          <p class="one-liner">Open-source AI penetration testing tool to…</p>
-          <p class="analysis">这个项目当前归属于“开发工具 / 工程效率”方向，在今日榜单里新增 1,114 星，说明它在“AI 热榜”这个筛选视角下具备明显关注度。它反映的不是单点偶然热度，而是当前开发者正在集中讨论的一类问题。</p>
-        </article>
-        
-        <article class="insight-card">
-          <div class="insight-title-row"><h3><a href="https://github.com/sponsors/JuliusBrussee" target="_blank" rel="noopener noreferrer">sponsors/JuliusBrussee</a></h3></div>
-          <p class="one-liner">🪨 why use many token when few token do tri…</p>
-          <p class="analysis">这个项目当前归属于“AI Agent / 智能体”方向，在今日榜单里新增 1,052 星，说明它在“AI 热榜”这个筛选视角下具备明显关注度。它反映的不是单点偶然热度，而是当前开发者正在集中讨论的一类问题。</p>
-        </article>
-        
-        <article class="insight-card">
-          <div class="insight-title-row"><h3><a href="https://github.com/sponsors/asgeirtj" target="_blank" rel="noopener noreferrer">sponsors/asgeirtj</a></h3></div>
-          <p class="one-liner">Extracted system prompts from Anthropic - …</p>
-          <p class="analysis">这个项目当前归属于“AI Agent / 智能体”方向，在今日榜单里新增 981 星，说明它在“AI 热榜”这个筛选视角下具备明显关注度。它反映的不是单点偶然热度，而是当前开发者正在集中讨论的一类问题。</p>
-        </article>
-        </div>
-    </section>
-    
-    <section class="section">
-      <div class="section-head">
-        <h2>投资信号拆解</h2>
-        <p>从当前分类榜单里提炼值得持续关注的主题</p>
-      </div>
-      <div class="signal-grid">
-        <article class="signal-card">
-          <h3>AI Agent / 智能体（今日信号）</h3>
-          <div class="signal-projects">代表项目：codex-plugin-cc、JuliusBrussee、asgeirtj</div>
-          <p>在“AI 热榜”筛选下，AI Agent / 智能体方向出现多次上榜，说明这个主题在今日维度有持续讨论度。若后续连续多期出现，值得继续跟踪是否形成稳定趋势。</p>
-        </article>
-        
-        <article class="signal-card">
-          <h3>多模态 / 语音视频（今日信号）</h3>
-          <div class="signal-projects">代表项目：Zackriya-Solutions</div>
-          <p>在“AI 热榜”筛选下，多模态 / 语音视频方向出现多次上榜，说明这个主题在今日维度有持续讨论度。若后续连续多期出现，值得继续跟踪是否形成稳定趋势。</p>
-        </article>
-        
-        <article class="signal-card">
-          <h3>开发工具 / 工程效率（今日信号）</h3>
-          <div class="signal-projects">代表项目：strix</div>
-          <p>在“AI 热榜”筛选下，开发工具 / 工程效率方向出现多次上榜，说明这个主题在今日维度有持续讨论度。若后续连续多期出现，值得继续跟踪是否形成稳定趋势。</p>
-        </article>
-        </div>
-    </section>
-    </section><section id="daily-embodied" class="subtab-panel">
-    <section class="section">
-      <div class="section-head">
-        <h2>今日具身热榜</h2>
-        <p>仅展示 Top 10，切换分类后榜单、深度解读与投资信号会一起变化</p>
-      </div>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>项目</th>
-              <th>方向/标签</th>
-              <th>语言</th>
-              <th>今日新增⭐</th>
-              <th>总 ⭐</th>
-              <th>Forks</th>
-            </tr>
-          </thead>
-          <tbody></tbody>
-        </table>
-      </div>
-    </section>
-    
-    <section class="section">
-      <div class="section-head">
-        <h2>深度解读</h2>
-        <p>Top 5 项目逐一拆解：为什么上榜、代表什么方向</p>
-      </div>
-      <div class="insight-grid"></div>
-    </section>
-    
-    <section class="section">
-      <div class="section-head">
-        <h2>投资信号拆解</h2>
-        <p>从当前分类榜单里提炼值得持续关注的主题</p>
-      </div>
-      <div class="signal-grid">
-        <article class="signal-card">
-          <h3>具身热榜（今日信号）</h3>
-          <div class="signal-projects">代表项目：—</div>
-          <p>当前该分类下项目较少，暂未形成明显聚类信号，建议继续观察后续几期变化。</p>
-        </article>
-        </div>
-    </section>
-    </section>
-    </section>
-    <section id="weekly" class="tab-panel">
-      <div class="subtabs"><button class="subtab-btn active" data-parent="weekly" data-subtab="weekly-all">全站热榜</button><button class="subtab-btn" data-parent="weekly" data-subtab="weekly-ai">AI 热榜</button><button class="subtab-btn" data-parent="weekly" data-subtab="weekly-embodied">具身热榜</button></div>
-      <section id="weekly-all" class="subtab-panel active">
-    <section class="section">
-      <div class="section-head">
-        <h2>本周全站热榜</h2>
-        <p>仅展示 Top 10，切换分类后榜单、深度解读与投资信号会一起变化</p>
-      </div>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>项目</th>
-              <th>方向/标签</th>
-              <th>语言</th>
-              <th>本周新增⭐</th>
-              <th>总 ⭐</th>
-              <th>Forks</th>
-            </tr>
-          </thead>
-          <tbody>
-        <tr>
-          <td class="rank">1</td>
-          <td class="project-cell">
-            <a href="https://github.com/sponsors/msitarzewski" target="_blank" rel="noopener noreferrer">sponsors/msitarzewski</a>
-            <div class="desc">A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.</div>
-          </td>
-          <td><span class="tag agent">AI Agent / 智能体</span></td>
-          <td>Shell</td>
-          <td class="num highlight">+10,637</td>
-          <td class="num">0</td>
-          <td class="num">0</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">2</td>
-          <td class="project-cell">
-            <a href="https://github.com/usestrix/strix" target="_blank" rel="noopener noreferrer">usestrix/strix</a>
-            <div class="desc">Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.</div>
-          </td>
-          <td><span class="tag dev">开发工具 / 工程效率</span></td>
-          <td>Python</td>
-          <td class="num highlight">+10,338</td>
-          <td class="num">37,187</td>
-          <td class="num">3,777</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">3</td>
-          <td class="project-cell">
-            <a href="https://github.com/DeusData/codebase-memory-mcp" target="_blank" rel="noopener noreferrer">DeusData/codebase-memory-mcp</a>
-            <div class="desc">High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.</div>
-          </td>
-          <td><span class="tag agent">AI Agent / 智能体</span></td>
-          <td>C</td>
-          <td class="num highlight">+7,945</td>
-          <td class="num">26,768</td>
-          <td class="num">1,987</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">4</td>
-          <td class="project-cell">
-            <a href="https://github.com/sponsors/calesthio" target="_blank" rel="noopener noreferrer">sponsors/calesthio</a>
-            <div class="desc">World&#x27;s first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.</div>
-          </td>
-          <td><span class="tag agent">AI Agent / 智能体</span></td>
-          <td>Python</td>
-          <td class="num highlight">+7,353</td>
-          <td class="num">0</td>
-          <td class="num">0</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">5</td>
-          <td class="project-cell">
-            <a href="https://github.com/xbtlin/ai-berkshire" target="_blank" rel="noopener noreferrer">xbtlin/ai-berkshire</a>
-            <div class="desc">AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters&#x27; methodologies + multi-agent adversarial analysis.</div>
-          </td>
-          <td><span class="tag agent">AI Agent / 智能体</span></td>
-          <td>Python</td>
-          <td class="num highlight">+5,038</td>
-          <td class="num">10,357</td>
-          <td class="num">1,320</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">6</td>
-          <td class="project-cell">
-            <a href="https://github.com/sponsors/diegosouzapw" target="_blank" rel="noopener noreferrer">sponsors/diegosouzapw</a>
-            <div class="desc">Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline &amp;amp; Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.</div>
-          </td>
-          <td><span class="tag agent">AI Agent / 智能体</span></td>
-          <td>TypeScript</td>
-          <td class="num highlight">+4,411</td>
-          <td class="num">0</td>
-          <td class="num">0</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">7</td>
-          <td class="project-cell">
-            <a href="https://github.com/browser-use/video-use" target="_blank" rel="noopener noreferrer">browser-use/video-use</a>
-            <div class="desc">Edit videos with coding agents</div>
-          </td>
-          <td><span class="tag agent">AI Agent / 智能体</span></td>
-          <td>Python</td>
-          <td class="num highlight">+4,288</td>
-          <td class="num">15,051</td>
-          <td class="num">1,779</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">8</td>
-          <td class="project-cell">
-            <a href="https://github.com/sponsors/ogulcancelik" target="_blank" rel="noopener noreferrer">sponsors/ogulcancelik</a>
-            <div class="desc">agent multiplexer that lives in your terminal.</div>
-          </td>
-          <td><span class="tag agent">AI Agent / 智能体</span></td>
-          <td>Rust</td>
-          <td class="num highlight">+3,937</td>
-          <td class="num">0</td>
-          <td class="num">0</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">9</td>
-          <td class="project-cell">
-            <a href="https://github.com/ZhuLinsen/daily_stock_analysis" target="_blank" rel="noopener noreferrer">ZhuLinsen/daily_stock_analysis</a>
-            <div class="desc">LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.</div>
-          </td>
-          <td><span class="tag finance">金融 / 投研</span></td>
-          <td>Python</td>
-          <td class="num highlight">+3,806</td>
-          <td class="num">54,731</td>
-          <td class="num">47,372</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">10</td>
-          <td class="project-cell">
-            <a href="https://github.com/stablyai/orca" target="_blank" rel="noopener noreferrer">stablyai/orca</a>
-            <div class="desc">Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.</div>
-          </td>
-          <td><span class="tag agent">AI Agent / 智能体</span></td>
-          <td>TypeScript</td>
-          <td class="num highlight">+3,783</td>
-          <td class="num">12,410</td>
-          <td class="num">838</td>
-        </tr>
-        </tbody>
-        </table>
-      </div>
-    </section>
-    
-    <section class="section">
-      <div class="section-head">
-        <h2>深度解读</h2>
-        <p>Top 5 项目逐一拆解：为什么上榜、代表什么方向</p>
-      </div>
-      <div class="insight-grid">
-        <article class="insight-card">
-          <div class="insight-title-row"><h3><a href="https://github.com/sponsors/msitarzewski" target="_blank" rel="noopener noreferrer">sponsors/msitarzewski</a></h3></div>
-          <p class="one-liner">A complete AI agency at your fingertips - …</p>
-          <p class="analysis">这个项目当前归属于“AI Agent / 智能体”方向，在本周榜单里新增 10,637 星，说明它在“全站热榜”这个筛选视角下具备明显关注度。它反映的不是单点偶然热度，而是当前开发者正在集中讨论的一类问题。</p>
-        </article>
-        
-        <article class="insight-card">
-          <div class="insight-title-row"><h3><a href="https://github.com/usestrix/strix" target="_blank" rel="noopener noreferrer">usestrix/strix</a></h3></div>
-          <p class="one-liner">Open-source AI penetration testing tool to…</p>
-          <p class="analysis">这个项目当前归属于“开发工具 / 工程效率”方向，在本周榜单里新增 10,338 星，说明它在“全站热榜”这个筛选视角下具备明显关注度。它反映的不是单点偶然热度，而是当前开发者正在集中讨论的一类问题。</p>
-        </article>
-        
-        <article class="insight-card">
-          <div class="insight-title-row"><h3><a href="https://github.com/DeusData/codebase-memory-mcp" target="_blank" rel="noopener noreferrer">DeusData/codebase-memory-mcp</a></h3></div>
-          <p class="one-liner">High-performance code intelligence MCP ser…</p>
-          <p class="analysis">这个项目当前归属于“AI Agent / 智能体”方向，在本周榜单里新增 7,945 星，说明它在“全站热榜”这个筛选视角下具备明显关注度。它反映的不是单点偶然热度，而是当前开发者正在集中讨论的一类问题。</p>
-        </article>
-        
-        <article class="insight-card">
-          <div class="insight-title-row"><h3><a href="https://github.com/sponsors/calesthio" target="_blank" rel="noopener noreferrer">sponsors/calesthio</a></h3></div>
-          <p class="one-liner">World&#x27;s first open-source, agentic video p…</p>
-          <p class="analysis">这个项目当前归属于“AI Agent / 智能体”方向，在本周榜单里新增 7,353 星，说明它在“全站热榜”这个筛选视角下具备明显关注度。它反映的不是单点偶然热度，而是当前开发者正在集中讨论的一类问题。</p>
-        </article>
-        
-        <article class="insight-card">
-          <div class="insight-title-row"><h3><a href="https://github.com/xbtlin/ai-berkshire" target="_blank" rel="noopener noreferrer">xbtlin/ai-berkshire</a></h3></div>
-          <p class="one-liner">AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框…</p>
-          <p class="analysis">这个项目当前归属于“AI Agent / 智能体”方向，在本周榜单里新增 5,038 星，说明它在“全站热榜”这个筛选视角下具备明显关注度。它反映的不是单点偶然热度，而是当前开发者正在集中讨论的一类问题。</p>
-        </article>
-        </div>
-    </section>
-    
-    <section class="section">
-      <div class="section-head">
-        <h2>投资信号拆解</h2>
-        <p>从当前分类榜单里提炼值得持续关注的主题</p>
-      </div>
-      <div class="signal-grid">
-        <article class="signal-card">
-          <h3>AI Agent / 智能体（本周信号）</h3>
-          <div class="signal-projects">代表项目：msitarzewski、codebase-memory-mcp、calesthio</div>
-          <p>在“全站热榜”筛选下，AI Agent / 智能体方向出现多次上榜，说明这个主题在本周维度有持续讨论度。若后续连续多期出现，值得继续跟踪是否形成稳定趋势。</p>
-        </article>
-        
-        <article class="signal-card">
-          <h3>开发工具 / 工程效率（本周信号）</h3>
-          <div class="signal-projects">代表项目：strix</div>
-          <p>在“全站热榜”筛选下，开发工具 / 工程效率方向出现多次上榜，说明这个主题在本周维度有持续讨论度。若后续连续多期出现，值得继续跟踪是否形成稳定趋势。</p>
-        </article>
-        
-        <article class="signal-card">
-          <h3>金融 / 投研（本周信号）</h3>
-          <div class="signal-projects">代表项目：daily_stock_analysis</div>
-          <p>在“全站热榜”筛选下，金融 / 投研方向出现多次上榜，说明这个主题在本周维度有持续讨论度。若后续连续多期出现，值得继续跟踪是否形成稳定趋势。</p>
-        </article>
-        </div>
-    </section>
-    </section><section id="weekly-ai" class="subtab-panel">
-    <section class="section">
-      <div class="section-head">
-        <h2>本周AI 热榜</h2>
-        <p>仅展示 Top 10，切换分类后榜单、深度解读与投资信号会一起变化</p>
-      </div>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>项目</th>
-              <th>方向/标签</th>
-              <th>语言</th>
-              <th>本周新增⭐</th>
-              <th>总 ⭐</th>
-              <th>Forks</th>
-            </tr>
-          </thead>
-          <tbody>
-        <tr>
-          <td class="rank">1</td>
-          <td class="project-cell">
-            <a href="https://github.com/sponsors/msitarzewski" target="_blank" rel="noopener noreferrer">sponsors/msitarzewski</a>
-            <div class="desc">A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.</div>
-          </td>
-          <td><span class="tag agent">AI Agent / 智能体</span></td>
-          <td>Shell</td>
-          <td class="num highlight">+10,637</td>
-          <td class="num">0</td>
-          <td class="num">0</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">2</td>
-          <td class="project-cell">
-            <a href="https://github.com/usestrix/strix" target="_blank" rel="noopener noreferrer">usestrix/strix</a>
-            <div class="desc">Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.</div>
-          </td>
-          <td><span class="tag dev">开发工具 / 工程效率</span></td>
-          <td>Python</td>
-          <td class="num highlight">+10,338</td>
-          <td class="num">37,187</td>
-          <td class="num">3,777</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">3</td>
-          <td class="project-cell">
-            <a href="https://github.com/DeusData/codebase-memory-mcp" target="_blank" rel="noopener noreferrer">DeusData/codebase-memory-mcp</a>
-            <div class="desc">High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.</div>
-          </td>
-          <td><span class="tag agent">AI Agent / 智能体</span></td>
-          <td>C</td>
-          <td class="num highlight">+7,945</td>
-          <td class="num">26,768</td>
-          <td class="num">1,987</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">4</td>
-          <td class="project-cell">
-            <a href="https://github.com/sponsors/calesthio" target="_blank" rel="noopener noreferrer">sponsors/calesthio</a>
-            <div class="desc">World&#x27;s first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.</div>
-          </td>
-          <td><span class="tag agent">AI Agent / 智能体</span></td>
-          <td>Python</td>
-          <td class="num highlight">+7,353</td>
-          <td class="num">0</td>
-          <td class="num">0</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">5</td>
-          <td class="project-cell">
-            <a href="https://github.com/xbtlin/ai-berkshire" target="_blank" rel="noopener noreferrer">xbtlin/ai-berkshire</a>
-            <div class="desc">AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters&#x27; methodologies + multi-agent adversarial analysis.</div>
-          </td>
-          <td><span class="tag agent">AI Agent / 智能体</span></td>
-          <td>Python</td>
-          <td class="num highlight">+5,038</td>
-          <td class="num">10,357</td>
-          <td class="num">1,320</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">6</td>
-          <td class="project-cell">
-            <a href="https://github.com/sponsors/diegosouzapw" target="_blank" rel="noopener noreferrer">sponsors/diegosouzapw</a>
-            <div class="desc">Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline &amp;amp; Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.</div>
-          </td>
-          <td><span class="tag agent">AI Agent / 智能体</span></td>
-          <td>TypeScript</td>
-          <td class="num highlight">+4,411</td>
-          <td class="num">0</td>
-          <td class="num">0</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">7</td>
-          <td class="project-cell">
-            <a href="https://github.com/browser-use/video-use" target="_blank" rel="noopener noreferrer">browser-use/video-use</a>
-            <div class="desc">Edit videos with coding agents</div>
-          </td>
-          <td><span class="tag agent">AI Agent / 智能体</span></td>
-          <td>Python</td>
-          <td class="num highlight">+4,288</td>
-          <td class="num">15,051</td>
-          <td class="num">1,779</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">8</td>
-          <td class="project-cell">
-            <a href="https://github.com/sponsors/ogulcancelik" target="_blank" rel="noopener noreferrer">sponsors/ogulcancelik</a>
-            <div class="desc">agent multiplexer that lives in your terminal.</div>
-          </td>
-          <td><span class="tag agent">AI Agent / 智能体</span></td>
-          <td>Rust</td>
-          <td class="num highlight">+3,937</td>
-          <td class="num">0</td>
-          <td class="num">0</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">9</td>
-          <td class="project-cell">
-            <a href="https://github.com/ZhuLinsen/daily_stock_analysis" target="_blank" rel="noopener noreferrer">ZhuLinsen/daily_stock_analysis</a>
-            <div class="desc">LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.</div>
-          </td>
-          <td><span class="tag finance">金融 / 投研</span></td>
-          <td>Python</td>
-          <td class="num highlight">+3,806</td>
-          <td class="num">54,731</td>
-          <td class="num">47,372</td>
-        </tr>
-        
-        <tr>
-          <td class="rank">10</td>
-          <td class="project-cell">
-            <a href="https://github.com/stablyai/orca" target="_blank" rel="noopener noreferrer">stablyai/orca</a>
-            <div class="desc">Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.</div>
-          </td>
-          <td><span class="tag agent">AI Agent / 智能体</span></td>
-          <td>TypeScript</td>
-          <td class="num highlight">+3,783</td>
-          <td class="num">12,410</td>
-          <td class="num">838</td>
-        </tr>
-        </tbody>
-        </table>
-      </div>
-    </section>
-    
-    <section class="section">
-      <div class="section-head">
-        <h2>深度解读</h2>
-        <p>Top 5 项目逐一拆解：为什么上榜、代表什么方向</p>
-      </div>
-      <div class="insight-grid">
-        <article class="insight-card">
-          <div class="insight-title-row"><h3><a href="https://github.com/sponsors/msitarzewski" target="_blank" rel="noopener noreferrer">sponsors/msitarzewski</a></h3></div>
-          <p class="one-liner">A complete AI agency at your fingertips - …</p>
-          <p class="analysis">这个项目当前归属于“AI Agent / 智能体”方向，在本周榜单里新增 10,637 星，说明它在“AI 热榜”这个筛选视角下具备明显关注度。它反映的不是单点偶然热度，而是当前开发者正在集中讨论的一类问题。</p>
-        </article>
-        
-        <article class="insight-card">
-          <div class="insight-title-row"><h3><a href="https://github.com/usestrix/strix" target="_blank" rel="noopener noreferrer">usestrix/strix</a></h3></div>
-          <p class="one-liner">Open-source AI penetration testing tool to…</p>
-          <p class="analysis">这个项目当前归属于“开发工具 / 工程效率”方向，在本周榜单里新增 10,338 星，说明它在“AI 热榜”这个筛选视角下具备明显关注度。它反映的不是单点偶然热度，而是当前开发者正在集中讨论的一类问题。</p>
-        </article>
-        
-        <article class="insight-card">
-          <div class="insight-title-row"><h3><a href="https://github.com/DeusData/codebase-memory-mcp" target="_blank" rel="noopener noreferrer">DeusData/codebase-memory-mcp</a></h3></div>
-          <p class="one-liner">High-performance code intelligence MCP ser…</p>
-          <p class="analysis">这个项目当前归属于“AI Agent / 智能体”方向，在本周榜单里新增 7,945 星，说明它在“AI 热榜”这个筛选视角下具备明显关注度。它反映的不是单点偶然热度，而是当前开发者正在集中讨论的一类问题。</p>
-        </article>
-        
-        <article class="insight-card">
-          <div class="insight-title-row"><h3><a href="https://github.com/sponsors/calesthio" target="_blank" rel="noopener noreferrer">sponsors/calesthio</a></h3></div>
-          <p class="one-liner">World&#x27;s first open-source, agentic video p…</p>
-          <p class="analysis">这个项目当前归属于“AI Agent / 智能体”方向，在本周榜单里新增 7,353 星，说明它在“AI 热榜”这个筛选视角下具备明显关注度。它反映的不是单点偶然热度，而是当前开发者正在集中讨论的一类问题。</p>
-        </article>
-        
-        <article class="insight-card">
-          <div class="insight-title-row"><h3><a href="https://github.com/xbtlin/ai-berkshire" target="_blank" rel="noopener noreferrer">xbtlin/ai-berkshire</a></h3></div>
-          <p class="one-liner">AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框…</p>
-          <p class="analysis">这个项目当前归属于“AI Agent / 智能体”方向，在本周榜单里新增 5,038 星，说明它在“AI 热榜”这个筛选视角下具备明显关注度。它反映的不是单点偶然热度，而是当前开发者正在集中讨论的一类问题。</p>
-        </article>
-        </div>
-    </section>
-    
-    <section class="section">
-      <div class="section-head">
-        <h2>投资信号拆解</h2>
-        <p>从当前分类榜单里提炼值得持续关注的主题</p>
-      </div>
-      <div class="signal-grid">
-        <article class="signal-card">
-          <h3>AI Agent / 智能体（本周信号）</h3>
-          <div class="signal-projects">代表项目：msitarzewski、codebase-memory-mcp、calesthio</div>
-          <p>在“AI 热榜”筛选下，AI Agent / 智能体方向出现多次上榜，说明这个主题在本周维度有持续讨论度。若后续连续多期出现，值得继续跟踪是否形成稳定趋势。</p>
-        </article>
-        
-        <article class="signal-card">
-          <h3>开发工具 / 工程效率（本周信号）</h3>
-          <div class="signal-projects">代表项目：strix</div>
-          <p>在“AI 热榜”筛选下，开发工具 / 工程效率方向出现多次上榜，说明这个主题在本周维度有持续讨论度。若后续连续多期出现，值得继续跟踪是否形成稳定趋势。</p>
-        </article>
-        
-        <article class="signal-card">
-          <h3>金融 / 投研（本周信号）</h3>
-          <div class="signal-projects">代表项目：daily_stock_analysis</div>
-          <p>在“AI 热榜”筛选下，金融 / 投研方向出现多次上榜，说明这个主题在本周维度有持续讨论度。若后续连续多期出现，值得继续跟踪是否形成稳定趋势。</p>
-        </article>
-        </div>
-    </section>
-    </section><section id="weekly-embodied" class="subtab-panel">
-    <section class="section">
-      <div class="section-head">
-        <h2>本周具身热榜</h2>
-        <p>仅展示 Top 10，切换分类后榜单、深度解读与投资信号会一起变化</p>
-      </div>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>项目</th>
-              <th>方向/标签</th>
-              <th>语言</th>
-              <th>本周新增⭐</th>
-              <th>总 ⭐</th>
-              <th>Forks</th>
-            </tr>
-          </thead>
-          <tbody>
-        <tr>
-          <td class="rank">1</td>
-          <td class="project-cell">
-            <a href="https://github.com/sponsors/topoteretes" target="_blank" rel="noopener noreferrer">sponsors/topoteretes</a>
-            <div class="desc">Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.</div>
-          </td>
-          <td><span class="tag embodied">具身智能 / 机器人</span></td>
-          <td>Python</td>
-          <td class="num highlight">+2,699</td>
-          <td class="num">0</td>
-          <td class="num">0</td>
-        </tr>
-        </tbody>
-        </table>
-      </div>
-    </section>
-    
-    <section class="section">
-      <div class="section-head">
-        <h2>深度解读</h2>
-        <p>Top 5 项目逐一拆解：为什么上榜、代表什么方向</p>
-      </div>
-      <div class="insight-grid">
-        <article class="insight-card">
-          <div class="insight-title-row"><h3><a href="https://github.com/sponsors/topoteretes" target="_blank" rel="noopener noreferrer">sponsors/topoteretes</a></h3></div>
-          <p class="one-liner">Cognee is the open-source AI memory platfo…</p>
-          <p class="analysis">这个项目当前归属于“具身智能 / 机器人”方向，在本周榜单里新增 2,699 星，说明它在“具身热榜”这个筛选视角下具备明显关注度。它反映的不是单点偶然热度，而是当前开发者正在集中讨论的一类问题。</p>
-        </article>
-        </div>
-    </section>
-    
-    <section class="section">
-      <div class="section-head">
-        <h2>投资信号拆解</h2>
-        <p>从当前分类榜单里提炼值得持续关注的主题</p>
-      </div>
-      <div class="signal-grid">
-        <article class="signal-card">
-          <h3>具身智能 / 机器人（本周信号）</h3>
-          <div class="signal-projects">代表项目：topoteretes</div>
-          <p>在“具身热榜”筛选下，具身智能 / 机器人方向出现多次上榜，说明这个主题在本周维度有持续讨论度。若后续连续多期出现，值得继续跟踪是否形成稳定趋势。</p>
-        </article>
-        </div>
-    </section>
-    </section>
-    </section>
-    <div class="footer">本页面由 generate_html.py 自动生成 · 分类由 data.json / fetch_trending.py 配置驱动</div>
-  </main>
+<div class="header">
+<div class="header-inner">
+  <div class="header-top">
+    <div class="logo">GitHub <span>Trending</span> 日报</div>
+    <div class="date">2026年07月06日 · 数据更新于 10:13</div>
+  </div>
+  <div class="summary">📌 今日热榜：codex-plugin-cc、Zackriya-Solutions、strix 领衔，codex-plugin-cc 单日涨星 1,532</div>
+</div>
+</div>
+
+<div class="tabs">
+<div class="tabs-inner">
+  <div class="tab active" onclick="showTab(0)">📊 今日趋势 &amp; 投资信号</div>
+  <div class="tab" onclick="showTab(1)">📈 本周趋势 &amp; 投资信号</div>
+  <div class="tab" onclick="showTab(2)">📚 历史解读库</div>
+</div>
+</div>
+<div class="content">
+
+<div class="panel active" id="panel-0" style="display:block;">
   
-    <script>
-      const topButtons = document.querySelectorAll('.tab-btn');
-      const topPanels = document.querySelectorAll('.tab-panel');
-      topButtons.forEach(btn => {
-        btn.addEventListener('click', () => {
-          const target = btn.dataset.tab;
-          topButtons.forEach(b => b.classList.remove('active'));
-          topPanels.forEach(p => p.classList.remove('active'));
-          btn.classList.add('active');
-          document.getElementById(target).classList.add('active');
-        });
-      });
-      const subButtons = document.querySelectorAll('.subtab-btn');
-      subButtons.forEach(btn => {
-        btn.addEventListener('click', () => {
-          const parent = btn.dataset.parent;
-          const target = btn.dataset.subtab;
-          document.querySelectorAll(`.subtab-btn[data-parent="${parent}"]`).forEach(b => b.classList.remove('active'));
-          document.querySelectorAll(`#${parent} .subtab-panel`).forEach(p => p.classList.remove('active'));
-          btn.classList.add('active');
-          document.getElementById(target).classList.add('active');
-        });
-      });
-    </script>
+    <div class="mini-tabs">
+      <div class="mini-tab active" onclick="showMiniTab('daily',0)">全站热榜</div>
+      <div class="mini-tab" onclick="showMiniTab('daily',1)">AI 热榜</div>
+      <div class="mini-tab" onclick="showMiniTab('daily',2)">具身热榜</div>
+    </div>
     
-</body>
-</html>
+  <div class="mini-panel active" id="daily-mini-0" style="display:block;">
+    <div class="section"><div class="section-header"><span class="section-icon">🏆</span><span class="section-title">今日全站热榜</span></div><table><thead><tr><th>#</th><th>项目</th><th>分类</th><th>语言</th><th>今日新增 ⭐</th><th>总 ⭐</th><th>Forks</th></tr></thead><tbody><tr><td class="rank top3">1</td><td><a class="proj-name" href="https://github.com/openai/codex-plugin-cc" target="_blank">openai / codex-plugin-cc</a><div class="proj-sub">Use Codex from Claude Code to review code or delegate tasks.</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-JavaScript">JavaScript</span></td><td class="stars-new">+1,532</td><td class="stars">25,536</td><td>1,543</td></tr><tr><td class="rank top3">2</td><td><a class="proj-name" href="https://github.com/sponsors/Zackriya-Solutions" target="_blank">sponsors / Zackriya-Solutions</a><div class="proj-sub">Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diar</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-Rust">Rust</span></td><td class="stars-new">+1,409</td><td class="stars">0</td><td>0</td></tr><tr><td class="rank top3">3</td><td><a class="proj-name" href="https://github.com/usestrix/strix" target="_blank">usestrix / strix</a><div class="proj-sub">Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-Python">Python</span></td><td class="stars-new">+1,114</td><td class="stars">37,187</td><td>3,777</td></tr><tr><td class="rank ">4</td><td><a class="proj-name" href="https://github.com/sponsors/JuliusBrussee" target="_blank">sponsors / JuliusBrussee</a><div class="proj-sub">🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking </div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-JavaScript">JavaScript</span></td><td class="stars-new">+1,052</td><td class="stars">0</td><td>0</td></tr><tr><td class="rank ">5</td><td><a class="proj-name" href="https://github.com/sponsors/asgeirtj" target="_blank">sponsors / asgeirtj</a><div class="proj-sub">Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. Open</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-JavaScript">JavaScript</span></td><td class="stars-new">+981</td><td class="stars">0</td><td>0</td></tr><tr><td class="rank ">6</td><td><a class="proj-name" href="https://github.com/sponsors/Leonxlnx" target="_blank">sponsors / Leonxlnx</a><div class="proj-sub">Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-JavaScript">JavaScript</span></td><td class="stars-new">+863</td><td class="stars">0</td><td>0</td></tr><tr><td class="rank ">7</td><td><a class="proj-name" href="https://github.com/alibaba/page-agent" target="_blank">alibaba / page-agent</a><div class="proj-sub">JavaScript in-page GUI agent. Control web interfaces with natural language.</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-TypeScript">TypeScript</span></td><td class="stars-new">+805</td><td class="stars">23,961</td><td>2,063</td></tr><tr><td class="rank ">8</td><td><a class="proj-name" href="https://github.com/sponsors/ogulcancelik" target="_blank">sponsors / ogulcancelik</a><div class="proj-sub">agent multiplexer that lives in your terminal.</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-Rust">Rust</span></td><td class="stars-new">+651</td><td class="stars">0</td><td>0</td></tr><tr><td class="rank ">9</td><td><a class="proj-name" href="https://github.com/facebook/astryx" target="_blank">facebook / astryx</a><div class="proj-sub">An open source design system that's fully customizable and agent ready</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-TypeScript">TypeScript</span></td><td class="stars-new">+522</td><td class="stars">5,936</td><td>376</td></tr><tr><td class="rank ">10</td><td><a class="proj-name" href="https://github.com/immich-app/immich" target="_blank">immich-app / immich</a><div class="proj-sub">High performance self-hosted photo and video management solution.</div></td><td><span class="category-badge cat-other">⚪ Other</span></td><td><span class="lang-tag lang-TypeScript">TypeScript</span></td><td class="stars-new">+470</td><td class="stars">106,140</td><td>6,061</td></tr></tbody></table></div>
+    <div class="section"><div class="section-header"><span class="section-icon">📝</span><span class="section-title">今日深度解读 · Top 5</span></div><div class="insight-list"><div class="insight-item"><div class="insight-repo">#1 codex-plugin-cc · AI代码审查插件工具</div><div class="insight-text">这是一个将 OpenAI Codex 能力集成到 Claude Code 环境中的插件，允许开发者在 Claude Code 工作流内直接调用 Codex 进行代码审查或任务委托，实现两大 AI 编程助手的协同使用。它打破了单一 AI 工具的边界，让开发者可以根据场景灵活切换和组合不同模型的优势，极大提升编程效率。该项目处于 AI 编程辅助与 IDE 插件集成赛道，代表了多 AI Agent 协作的前沿探索方向，值得关注。</div></div><div class="insight-item"><div class="insight-repo">#2 Zackriya-Solutions · AI会议助手本地化处理</div><div class="insight-text">一款基于 Rust 构建的本地优先 AI 会议助手，支持实时语音转文字（Parakeet/Whisper 加速4倍）、说话人识别及 Ollama 本地大模型摘要，全程 100% 本地处理，零云端依赖，完美保护会议隐私。对于企业和个人用户而言，既解决了敏感会议内容泄露的合规风险，又提供了媲美商业产品的智能笔记体验。该项目处于 **本地化 AI 生产力工具** 赛道，是自托管 AI 应用快速崛起趋势下的典型代表。</div></div><div class="insight-item"><div class="insight-repo">#3 strix · AI安全渗透测试工具</div><div class="insight-text">开源AI驱动的渗透测试工具，能够自动化发现并修复应用程序中的安全漏洞，适用于开发团队在上线前进行安全评估和红队测试场景。将AI能力与安全审计深度结合，大幅降低了专业渗透测试的门槛，让中小团队也能获得企业级安全检测能力。该项目处于AI安全工具（AI for Security）赛道的核心位置，是当前最热门的方向之一。</div></div><div class="insight-item"><div class="insight-repo">#4 JuliusBrussee · 提示词压缩优化</div><div class="insight-text">这是一个专为 Claude Code 设计的提示词优化技巧，通过&quot;穴居人说话风格&quot;（极度精简语法）将 Token 消耗降低 65%，在 AI 编程助手日益普及、API 成本备受关注的背景下，提供了一种低成本、高实用价值的 Prompt 工程方案。单日新增 926 星的爆发式增长说明开发者对降低 AI 使用成本有强烈需求，值得关注其背后的 Token 压缩方法论。所在赛道为 **Prompt Engineering / AI 成本优化**。</div></div><div class="insight-item"><div class="insight-repo">#5 asgeirtj · AI系统提示词泄露收集</div><div class="insight-text">该项目持续收集并公开各大AI厂商（Anthropic、OpenAI、Google、xAI等）旗下模型的系统提示词泄露内容，涵盖Claude、GPT、Gemini、Grok等主流产品，为研究人员和开发者提供了难得的&quot;黑盒窥视&quot;视角。通过分析这些系统提示词，可以深入理解顶级AI产品的行为边界设计、安全护栏机制和产品策略，对逆向工程AI产品设计极具参考价值。该项目处于AI安全与提示工程赛道，在大模型高速迭代的当下，凭借持续更新和覆盖广度，短期内引发大量关注。</div></div></div></div>
+    <div class="section"><div class="section-header"><span class="section-icon">📡</span><span class="section-title">投资信号拆解</span></div><div class="signal-tags"><span class="signal-tag tag-rising">AI代码审查插件工具</span><span class="signal-tag tag-rising">AI会议助手本地化处理</span><span class="signal-tag tag-rising">AI安全渗透测试工具</span><span class="signal-tag tag-rising">提示词压缩优化</span><span class="signal-tag tag-rising">AI系统提示词泄露收集</span></div></div>
+  </div>
+  <div class="mini-panel" id="daily-mini-1" style="display:none;">
+    <div class="section"><div class="section-header"><span class="section-icon">🤖</span><span class="section-title">今日 AI 热榜</span></div><table><thead><tr><th>#</th><th>项目</th><th>分类</th><th>语言</th><th>今日新增 ⭐</th><th>总 ⭐</th><th>Forks</th></tr></thead><tbody><tr><td class="rank top3">1</td><td><a class="proj-name" href="https://github.com/openai/codex-plugin-cc" target="_blank">openai / codex-plugin-cc</a><div class="proj-sub">Use Codex from Claude Code to review code or delegate tasks.</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-JavaScript">JavaScript</span></td><td class="stars-new">+1,532</td><td class="stars">25,536</td><td>1,543</td></tr><tr><td class="rank top3">2</td><td><a class="proj-name" href="https://github.com/sponsors/Zackriya-Solutions" target="_blank">sponsors / Zackriya-Solutions</a><div class="proj-sub">Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diar</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-Rust">Rust</span></td><td class="stars-new">+1,409</td><td class="stars">0</td><td>0</td></tr><tr><td class="rank top3">3</td><td><a class="proj-name" href="https://github.com/usestrix/strix" target="_blank">usestrix / strix</a><div class="proj-sub">Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-Python">Python</span></td><td class="stars-new">+1,114</td><td class="stars">37,187</td><td>3,777</td></tr><tr><td class="rank ">4</td><td><a class="proj-name" href="https://github.com/sponsors/JuliusBrussee" target="_blank">sponsors / JuliusBrussee</a><div class="proj-sub">🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking </div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-JavaScript">JavaScript</span></td><td class="stars-new">+1,052</td><td class="stars">0</td><td>0</td></tr><tr><td class="rank ">5</td><td><a class="proj-name" href="https://github.com/sponsors/asgeirtj" target="_blank">sponsors / asgeirtj</a><div class="proj-sub">Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. Open</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-JavaScript">JavaScript</span></td><td class="stars-new">+981</td><td class="stars">0</td><td>0</td></tr><tr><td class="rank ">6</td><td><a class="proj-name" href="https://github.com/sponsors/Leonxlnx" target="_blank">sponsors / Leonxlnx</a><div class="proj-sub">Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-JavaScript">JavaScript</span></td><td class="stars-new">+863</td><td class="stars">0</td><td>0</td></tr><tr><td class="rank ">7</td><td><a class="proj-name" href="https://github.com/alibaba/page-agent" target="_blank">alibaba / page-agent</a><div class="proj-sub">JavaScript in-page GUI agent. Control web interfaces with natural language.</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-TypeScript">TypeScript</span></td><td class="stars-new">+805</td><td class="stars">23,961</td><td>2,063</td></tr><tr><td class="rank ">8</td><td><a class="proj-name" href="https://github.com/sponsors/ogulcancelik" target="_blank">sponsors / ogulcancelik</a><div class="proj-sub">agent multiplexer that lives in your terminal.</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-Rust">Rust</span></td><td class="stars-new">+651</td><td class="stars">0</td><td>0</td></tr><tr><td class="rank ">9</td><td><a class="proj-name" href="https://github.com/facebook/astryx" target="_blank">facebook / astryx</a><div class="proj-sub">An open source design system that's fully customizable and agent ready</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-TypeScript">TypeScript</span></td><td class="stars-new">+522</td><td class="stars">5,936</td><td>376</td></tr><tr><td class="rank ">10</td><td><a class="proj-name" href="https://github.com/sponsors/CoplayDev" target="_blank">sponsors / CoplayDev</a><div class="proj-sub">Unity MCP acts as a bridge between AI assistants and your Unity Editor. Give your LLM tools to manag</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-C#">C#</span></td><td class="stars-new">+414</td><td class="stars">0</td><td>0</td></tr></tbody></table></div>
+    <div class="section"><div class="section-header"><span class="section-icon">📝</span><span class="section-title">AI 深度解读 · Top 5</span></div><div class="insight-list"><div class="insight-item"><div class="insight-repo">#1 codex-plugin-cc · AI代码审查插件工具</div><div class="insight-text">这是一个将 OpenAI Codex 能力集成到 Claude Code 环境中的插件，允许开发者在 Claude Code 工作流内直接调用 Codex 进行代码审查或任务委托，实现两大 AI 编程助手的协同使用。它打破了单一 AI 工具的边界，让开发者可以根据场景灵活切换和组合不同模型的优势，极大提升编程效率。该项目处于 AI 编程辅助与 IDE 插件集成赛道，代表了多 AI Agent 协作的前沿探索方向，值得关注。</div></div><div class="insight-item"><div class="insight-repo">#2 Zackriya-Solutions · AI会议助手本地化处理</div><div class="insight-text">一款基于 Rust 构建的本地优先 AI 会议助手，支持实时语音转文字（Parakeet/Whisper 加速4倍）、说话人识别及 Ollama 本地大模型摘要，全程 100% 本地处理，零云端依赖，完美保护会议隐私。对于企业和个人用户而言，既解决了敏感会议内容泄露的合规风险，又提供了媲美商业产品的智能笔记体验。该项目处于 **本地化 AI 生产力工具** 赛道，是自托管 AI 应用快速崛起趋势下的典型代表。</div></div><div class="insight-item"><div class="insight-repo">#3 strix · AI安全渗透测试工具</div><div class="insight-text">开源AI驱动的渗透测试工具，能够自动化发现并修复应用程序中的安全漏洞，适用于开发团队在上线前进行安全评估和红队测试场景。将AI能力与安全审计深度结合，大幅降低了专业渗透测试的门槛，让中小团队也能获得企业级安全检测能力。该项目处于AI安全工具（AI for Security）赛道的核心位置，是当前最热门的方向之一。</div></div><div class="insight-item"><div class="insight-repo">#4 JuliusBrussee · 提示词压缩优化</div><div class="insight-text">这是一个专为 Claude Code 设计的提示词优化技巧，通过&quot;穴居人说话风格&quot;（极度精简语法）将 Token 消耗降低 65%，在 AI 编程助手日益普及、API 成本备受关注的背景下，提供了一种低成本、高实用价值的 Prompt 工程方案。单日新增 926 星的爆发式增长说明开发者对降低 AI 使用成本有强烈需求，值得关注其背后的 Token 压缩方法论。所在赛道为 **Prompt Engineering / AI 成本优化**。</div></div><div class="insight-item"><div class="insight-repo">#5 asgeirtj · AI系统提示词泄露收集</div><div class="insight-text">该项目持续收集并公开各大AI厂商（Anthropic、OpenAI、Google、xAI等）旗下模型的系统提示词泄露内容，涵盖Claude、GPT、Gemini、Grok等主流产品，为研究人员和开发者提供了难得的&quot;黑盒窥视&quot;视角。通过分析这些系统提示词，可以深入理解顶级AI产品的行为边界设计、安全护栏机制和产品策略，对逆向工程AI产品设计极具参考价值。该项目处于AI安全与提示工程赛道，在大模型高速迭代的当下，凭借持续更新和覆盖广度，短期内引发大量关注。</div></div></div></div>
+    <div class="section"><div class="section-header"><span class="section-icon">📡</span><span class="section-title">投资信号拆解</span></div><div class="signal-tags"><span class="signal-tag tag-rising">AI代码审查插件工具</span><span class="signal-tag tag-rising">AI会议助手本地化处理</span><span class="signal-tag tag-rising">AI安全渗透测试工具</span><span class="signal-tag tag-rising">提示词压缩优化</span><span class="signal-tag tag-rising">AI系统提示词泄露收集</span></div></div>
+  </div>
+  <div class="mini-panel" id="daily-mini-2" style="display:none;">
+    <div class="section"><div class="section-header"><span class="section-icon">🦾</span><span class="section-title">今日具身热榜</span></div><table><thead><tr><th>#</th><th>项目</th><th>分类</th><th>语言</th><th>今日新增 ⭐</th><th>总 ⭐</th><th>Forks</th></tr></thead><tbody></tbody></table></div>
+    <div class="section"><div class="section-header"><span class="section-icon">📝</span><span class="section-title">具身深度解读 · Top 5</span></div><div class="insight-list"><div class="insight-item"><div class="insight-text">暂无解读数据</div></div></div></div>
+    <div class="section"><div class="section-header"><span class="section-icon">📡</span><span class="section-title">投资信号拆解</span></div><div class="signal-tags"><span class="signal-tag tag-watch">暂无信号标签</span></div></div>
+  </div>
+</div>
+
+<div class="panel" id="panel-1" style="display:none;">
+  
+    <div class="mini-tabs">
+      <div class="mini-tab active" onclick="showMiniTab('weekly',0)">全站热榜</div>
+      <div class="mini-tab" onclick="showMiniTab('weekly',1)">AI 热榜</div>
+      <div class="mini-tab" onclick="showMiniTab('weekly',2)">具身热榜</div>
+    </div>
+    
+  <div class="mini-panel active" id="weekly-mini-0" style="display:block;">
+    <div class="section"><div class="section-header"><span class="section-icon">🏆</span><span class="section-title">本周全站热榜</span></div><table><thead><tr><th>#</th><th>项目</th><th>分类</th><th>语言</th><th>本周新增 ⭐</th><th>总 ⭐</th><th>Forks</th></tr></thead><tbody><tr><td class="rank top3">1</td><td><a class="proj-name" href="https://github.com/sponsors/msitarzewski" target="_blank">sponsors / msitarzewski</a><div class="proj-sub">A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whi</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-Shell">Shell</span></td><td class="stars-new">+10,637</td><td class="stars">0</td><td>0</td></tr><tr><td class="rank top3">2</td><td><a class="proj-name" href="https://github.com/usestrix/strix" target="_blank">usestrix / strix</a><div class="proj-sub">Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-Python">Python</span></td><td class="stars-new">+10,338</td><td class="stars">37,187</td><td>3,777</td></tr><tr><td class="rank top3">3</td><td><a class="proj-name" href="https://github.com/DeusData/codebase-memory-mcp" target="_blank">DeusData / codebase-memory-mcp</a><div class="proj-sub">High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph —</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-C">C</span></td><td class="stars-new">+7,945</td><td class="stars">26,768</td><td>1,987</td></tr><tr><td class="rank ">4</td><td><a class="proj-name" href="https://github.com/sponsors/calesthio" target="_blank">sponsors / calesthio</a><div class="proj-sub">World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skill</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-Python">Python</span></td><td class="stars-new">+7,353</td><td class="stars">0</td><td>0</td></tr><tr><td class="rank ">5</td><td><a class="proj-name" href="https://github.com/xbtlin/ai-berkshire" target="_blank">xbtlin / ai-berkshire</a><div class="proj-sub">AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a v</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-Python">Python</span></td><td class="stars-new">+5,038</td><td class="stars">10,357</td><td>1,320</td></tr><tr><td class="rank ">6</td><td><a class="proj-name" href="https://github.com/sponsors/diegosouzapw" target="_blank">sponsors / diegosouzapw</a><div class="proj-sub">Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Co</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-TypeScript">TypeScript</span></td><td class="stars-new">+4,411</td><td class="stars">0</td><td>0</td></tr><tr><td class="rank ">7</td><td><a class="proj-name" href="https://github.com/browser-use/video-use" target="_blank">browser-use / video-use</a><div class="proj-sub">Edit videos with coding agents</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-Python">Python</span></td><td class="stars-new">+4,288</td><td class="stars">15,051</td><td>1,779</td></tr><tr><td class="rank ">8</td><td><a class="proj-name" href="https://github.com/sponsors/ogulcancelik" target="_blank">sponsors / ogulcancelik</a><div class="proj-sub">agent multiplexer that lives in your terminal.</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-Rust">Rust</span></td><td class="stars-new">+3,937</td><td class="stars">0</td><td>0</td></tr><tr><td class="rank ">9</td><td><a class="proj-name" href="https://github.com/ZhuLinsen/daily_stock_analysis" target="_blank">ZhuLinsen / daily_stock_analysis</a><div class="proj-sub">LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system wit</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-Python">Python</span></td><td class="stars-new">+3,806</td><td class="stars">54,731</td><td>47,372</td></tr><tr><td class="rank ">10</td><td><a class="proj-name" href="https://github.com/stablyai/orca" target="_blank">stablyai / orca</a><div class="proj-sub">Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subs</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-TypeScript">TypeScript</span></td><td class="stars-new">+3,783</td><td class="stars">12,410</td><td>838</td></tr></tbody></table></div>
+    <div class="section"><div class="section-header"><span class="section-icon">📝</span><span class="section-title">本周深度解读 · Top 5</span></div><div class="insight-list"><div class="insight-item"><div class="insight-repo">#1 msitarzewski · AI Agent框架</div><div class="insight-text">这是一个构建完整AI代理团队的开源项目，涵盖前端开发、社区运营、内容创作等多种专业角色代理，每个Agent都具备独特的人格设定、工作流程和可交付成果，打造出一个&quot;AI数字员工机构&quot;的概念。对于希望通过AI实现业务自动化或探索Multi-Agent协作的开发者和创业团队而言，这套完整的Agency框架具有极高的参考与复用价值。项目处于当前最热门的AI Agent / Multi-Agent Systems技术赛道，代表了从单一LLM调用向专业化团队协作AI进化的重要趋势。</div></div><div class="insight-item"><div class="insight-repo">#2 strix · AI安全渗透测试工具</div><div class="insight-text">开源AI驱动的渗透测试工具，能够自动化发现并修复应用程序中的安全漏洞，适用于开发团队在上线前进行安全评估和红队测试场景。将AI能力与安全审计深度结合，大幅降低了专业渗透测试的门槛，让中小团队也能获得企业级安全检测能力。该项目处于AI安全工具（AI for Security）赛道的核心位置，是当前最热门的方向之一。</div></div><div class="insight-item"><div class="insight-repo">#3 codebase-memory-mcp · 代码库智能索引MCP服务</div><div class="insight-text">这是一个高性能的代码库智能 MCP 服务器，能将代码仓库索引为持久化知识图谱，支持158种编程语言，实现毫秒级查询并减少99%的Token消耗，极大提升AI编程助手的上下文效率。对于需要在大型代码库上运行AI代理的开发者而言，其单静态二进制、零依赖的部署方式以及超低延迟特性具有极高的实用价值。该项目处于AI编程工具与MCP生态的核心赛道，是当前IDE智能化与代码理解基础设施的重要组成部分。</div></div><div class="insight-item"><div class="insight-repo">#4 calesthio · AI视频智能体生产系统</div><div class="insight-text">OpenMontage 是全球首个开源的智能体视频制作系统，集成12条流水线、52个工具和500+智能体技能，能将AI编码助手转变为完整的视频制作工作室。该项目将Agentic AI与专业视频生产流程深度融合，大幅降低视频内容创作的技术门槛，适用于自动化影视制作、内容批量生成等场景。处于AI Agent与AIGC视频生成的交叉赛道，代表了下一代智能化内容生产工具的发展方向，极具关注价值。</div></div><div class="insight-item"><div class="insight-repo">#5 ai-berkshire · AI驱动价值投资研究</div><div class="insight-text">将巴菲特、芒格、段永平、李录四位价值投资大师的方法论融入 AI 框架，借助 Claude Code / Codex 和多 Agent 并行分析来辅助股票研究与投资决策，极大降低了个人投资者进行深度基本面研究的门槛。项目将传统价值投资哲学与现代 LLM Agent 技术深度结合，提供了一套可复现、可扩展的研究工作流，对量化投研和 AI 赋能金融领域极具参考价值。属于 AI Agent + 金融投研 赛道，是当前 LLM 落地垂直行业的典型实践案例。</div></div></div></div>
+    <div class="section"><div class="section-header"><span class="section-icon">📡</span><span class="section-title">投资信号拆解</span></div><div class="signal-tags"><span class="signal-tag tag-hot">AI Agent框架</span><span class="signal-tag tag-hot">AI安全渗透测试工具</span><span class="signal-tag tag-hot">代码库智能索引MCP服务</span><span class="signal-tag tag-hot">AI视频智能体生产系统</span><span class="signal-tag tag-hot">AI驱动价值投资研究</span></div></div>
+  </div>
+  <div class="mini-panel" id="weekly-mini-1" style="display:none;">
+    <div class="section"><div class="section-header"><span class="section-icon">🤖</span><span class="section-title">本周 AI 热榜</span></div><table><thead><tr><th>#</th><th>项目</th><th>分类</th><th>语言</th><th>本周新增 ⭐</th><th>总 ⭐</th><th>Forks</th></tr></thead><tbody><tr><td class="rank top3">1</td><td><a class="proj-name" href="https://github.com/sponsors/msitarzewski" target="_blank">sponsors / msitarzewski</a><div class="proj-sub">A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whi</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-Shell">Shell</span></td><td class="stars-new">+10,637</td><td class="stars">0</td><td>0</td></tr><tr><td class="rank top3">2</td><td><a class="proj-name" href="https://github.com/usestrix/strix" target="_blank">usestrix / strix</a><div class="proj-sub">Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-Python">Python</span></td><td class="stars-new">+10,338</td><td class="stars">37,187</td><td>3,777</td></tr><tr><td class="rank top3">3</td><td><a class="proj-name" href="https://github.com/DeusData/codebase-memory-mcp" target="_blank">DeusData / codebase-memory-mcp</a><div class="proj-sub">High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph —</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-C">C</span></td><td class="stars-new">+7,945</td><td class="stars">26,768</td><td>1,987</td></tr><tr><td class="rank ">4</td><td><a class="proj-name" href="https://github.com/sponsors/calesthio" target="_blank">sponsors / calesthio</a><div class="proj-sub">World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skill</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-Python">Python</span></td><td class="stars-new">+7,353</td><td class="stars">0</td><td>0</td></tr><tr><td class="rank ">5</td><td><a class="proj-name" href="https://github.com/xbtlin/ai-berkshire" target="_blank">xbtlin / ai-berkshire</a><div class="proj-sub">AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a v</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-Python">Python</span></td><td class="stars-new">+5,038</td><td class="stars">10,357</td><td>1,320</td></tr><tr><td class="rank ">6</td><td><a class="proj-name" href="https://github.com/sponsors/diegosouzapw" target="_blank">sponsors / diegosouzapw</a><div class="proj-sub">Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Co</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-TypeScript">TypeScript</span></td><td class="stars-new">+4,411</td><td class="stars">0</td><td>0</td></tr><tr><td class="rank ">7</td><td><a class="proj-name" href="https://github.com/browser-use/video-use" target="_blank">browser-use / video-use</a><div class="proj-sub">Edit videos with coding agents</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-Python">Python</span></td><td class="stars-new">+4,288</td><td class="stars">15,051</td><td>1,779</td></tr><tr><td class="rank ">8</td><td><a class="proj-name" href="https://github.com/sponsors/ogulcancelik" target="_blank">sponsors / ogulcancelik</a><div class="proj-sub">agent multiplexer that lives in your terminal.</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-Rust">Rust</span></td><td class="stars-new">+3,937</td><td class="stars">0</td><td>0</td></tr><tr><td class="rank ">9</td><td><a class="proj-name" href="https://github.com/ZhuLinsen/daily_stock_analysis" target="_blank">ZhuLinsen / daily_stock_analysis</a><div class="proj-sub">LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system wit</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-Python">Python</span></td><td class="stars-new">+3,806</td><td class="stars">54,731</td><td>47,372</td></tr><tr><td class="rank ">10</td><td><a class="proj-name" href="https://github.com/stablyai/orca" target="_blank">stablyai / orca</a><div class="proj-sub">Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subs</div></td><td><span class="category-badge cat-ai">🤖 AI</span></td><td><span class="lang-tag lang-TypeScript">TypeScript</span></td><td class="stars-new">+3,783</td><td class="stars">12,410</td><td>838</td></tr></tbody></table></div>
+    <div class="section"><div class="section-header"><span class="section-icon">📝</span><span class="section-title">AI 深度解读 · Top 5</span></div><div class="insight-list"><div class="insight-item"><div class="insight-repo">#1 msitarzewski · AI Agent框架</div><div class="insight-text">这是一个构建完整AI代理团队的开源项目，涵盖前端开发、社区运营、内容创作等多种专业角色代理，每个Agent都具备独特的人格设定、工作流程和可交付成果，打造出一个&quot;AI数字员工机构&quot;的概念。对于希望通过AI实现业务自动化或探索Multi-Agent协作的开发者和创业团队而言，这套完整的Agency框架具有极高的参考与复用价值。项目处于当前最热门的AI Agent / Multi-Agent Systems技术赛道，代表了从单一LLM调用向专业化团队协作AI进化的重要趋势。</div></div><div class="insight-item"><div class="insight-repo">#2 strix · AI安全渗透测试工具</div><div class="insight-text">开源AI驱动的渗透测试工具，能够自动化发现并修复应用程序中的安全漏洞，适用于开发团队在上线前进行安全评估和红队测试场景。将AI能力与安全审计深度结合，大幅降低了专业渗透测试的门槛，让中小团队也能获得企业级安全检测能力。该项目处于AI安全工具（AI for Security）赛道的核心位置，是当前最热门的方向之一。</div></div><div class="insight-item"><div class="insight-repo">#3 codebase-memory-mcp · 代码库智能索引MCP服务</div><div class="insight-text">这是一个高性能的代码库智能 MCP 服务器，能将代码仓库索引为持久化知识图谱，支持158种编程语言，实现毫秒级查询并减少99%的Token消耗，极大提升AI编程助手的上下文效率。对于需要在大型代码库上运行AI代理的开发者而言，其单静态二进制、零依赖的部署方式以及超低延迟特性具有极高的实用价值。该项目处于AI编程工具与MCP生态的核心赛道，是当前IDE智能化与代码理解基础设施的重要组成部分。</div></div><div class="insight-item"><div class="insight-repo">#4 calesthio · AI视频智能体生产系统</div><div class="insight-text">OpenMontage 是全球首个开源的智能体视频制作系统，集成12条流水线、52个工具和500+智能体技能，能将AI编码助手转变为完整的视频制作工作室。该项目将Agentic AI与专业视频生产流程深度融合，大幅降低视频内容创作的技术门槛，适用于自动化影视制作、内容批量生成等场景。处于AI Agent与AIGC视频生成的交叉赛道，代表了下一代智能化内容生产工具的发展方向，极具关注价值。</div></div><div class="insight-item"><div class="insight-repo">#5 ai-berkshire · AI驱动价值投资研究</div><div class="insight-text">将巴菲特、芒格、段永平、李录四位价值投资大师的方法论融入 AI 框架，借助 Claude Code / Codex 和多 Agent 并行分析来辅助股票研究与投资决策，极大降低了个人投资者进行深度基本面研究的门槛。项目将传统价值投资哲学与现代 LLM Agent 技术深度结合，提供了一套可复现、可扩展的研究工作流，对量化投研和 AI 赋能金融领域极具参考价值。属于 AI Agent + 金融投研 赛道，是当前 LLM 落地垂直行业的典型实践案例。</div></div></div></div>
+    <div class="section"><div class="section-header"><span class="section-icon">📡</span><span class="section-title">投资信号拆解</span></div><div class="signal-tags"><span class="signal-tag tag-hot">AI Agent框架</span><span class="signal-tag tag-hot">AI安全渗透测试工具</span><span class="signal-tag tag-hot">代码库智能索引MCP服务</span><span class="signal-tag tag-hot">AI视频智能体生产系统</span><span class="signal-tag tag-hot">AI驱动价值投资研究</span></div></div>
+  </div>
+  <div class="mini-panel" id="weekly-mini-2" style="display:none;">
+    <div class="section"><div class="section-header"><span class="section-icon">🦾</span><span class="section-title">本周具身热榜</span></div><table><thead><tr><th>#</th><th>项目</th><th>分类</th><th>语言</th><th>本周新增 ⭐</th><th>总 ⭐</th><th>Forks</th></tr></thead><tbody><tr><td class="rank top3">1</td><td><a class="proj-name" href="https://github.com/sponsors/topoteretes" target="_blank">sponsors / topoteretes</a><div class="proj-sub">Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term me</div></td><td><span class="category-badge cat-embodied">🦾 Embodied</span></td><td><span class="lang-tag lang-Python">Python</span></td><td class="stars-new">+2,699</td><td class="stars">0</td><td>0</td></tr></tbody></table></div>
+    <div class="section"><div class="section-header"><span class="section-icon">📝</span><span class="section-title">具身深度解读 · Top 5</span></div><div class="insight-list"><div class="insight-item"><div class="insight-repo">#1 topoteretes · AI记忆引擎</div><div class="insight-text">这是一个专为 AI Agent 设计的知识记忆引擎，仅需 6 行代码即可为智能体赋予结构化长期记忆能力，极大降低了 AI 记忆管理的开发门槛。随着 AI Agent 应用爆发式增长，记忆与上下文管理成为核心痛点，该项目提供了轻量且优雅的解决方案值得重点关注。项目处于 AI Agent 基础设施与 RAG/知识图谱技术赛道的交叉地带，是构建复杂多轮对话和持续学习型 Agent 的重要工具。</div></div></div></div>
+    <div class="section"><div class="section-header"><span class="section-icon">📡</span><span class="section-title">投资信号拆解</span></div><div class="signal-tags"><span class="signal-tag tag-rising">AI记忆引擎</span></div></div>
+  </div>
+</div>
+
+<div class="panel" id="panel-2" style="display:none;">
+  <div class="section">
+    <div class="section-header"><span class="section-icon">📚</span><span class="section-title">历史解读库 · 按首次上榜时间倒序</span></div>
+    <div class="insight-list"><div class="insight-item"><div class="insight-text">历史解读库保留原逻辑，后续如需联动分类可再细化。</div></div></div>
+  </div>
+</div>
+
+</div>
+<div class="footer">数据来源：GitHub Trending · 更新于 2026-07-06 10:13:33 GMT+8 GMT+8 · 由 小R 自动生成</div>
+
+<script>
+function showTab(idx){
+  document.querySelectorAll('.tab').forEach((t,i)=>t.classList.toggle('active',i===idx));
+  document.querySelectorAll('.panel').forEach((p,i)=>{ const active=i===idx; p.classList.toggle('active',active); p.style.display=active?'block':'none'; });
+}
+function showMiniTab(group, idx){
+  document.querySelectorAll(`#panel-${group==='daily'?0:1} .mini-tab`).forEach((t,i)=>t.classList.toggle('active',i===idx));
+  document.querySelectorAll(`#panel-${group==='daily'?0:1} .mini-panel`).forEach((p,i)=>{ const active=i===idx; p.classList.toggle('active',active); p.style.display=active?'block':'none'; });
+}
+document.addEventListener('DOMContentLoaded', ()=>{ showTab(0); showMiniTab('daily',0); showMiniTab('weekly',0); });
+</script>
+</body></html>

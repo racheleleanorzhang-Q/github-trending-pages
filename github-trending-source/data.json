@@ -1,189 +1,189 @@
 {
-  "updated_at": "2026-07-07 13:10:35 GMT+8",
-  "updated_ts": 1783401035,
+  "updated_at": "2026-07-08 12:36:43 GMT+8",
+  "updated_ts": 1783485403,
   "daily": {
     "top10": [
       {
-        "full_name": "sponsors/asgeirtj",
-        "description": "Sponsor Star asgeirtj / system_prompts_leaks Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
-        "language": "JavaScript",
-        "total_stars": 0,
-        "period_stars": 1378,
-        "forks": 0,
-        "url": "https://github.com/sponsors/asgeirtj"
-      },
-      {
-        "full_name": "addyosmani/agent-skills",
-        "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
-        "language": "JavaScript",
-        "total_stars": 71078,
-        "period_stars": 1112,
-        "forks": 7694,
-        "url": "https://github.com/addyosmani/agent-skills"
+        "full_name": "MadsLorentzen/ai-job-search",
+        "description": "Star MadsLorentzen / ai-job-search AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews.",
+        "language": "TypeScript",
+        "total_stars": 11657,
+        "period_stars": 2514,
+        "forks": 3815,
+        "url": "https://github.com/MadsLorentzen/ai-job-search"
       },
       {
         "full_name": "sponsors/Zackriya-Solutions",
         "description": "Sponsor Star Zackriya-Solutions / meetily Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS &amp; Windows.",
         "language": "Rust",
         "total_stars": 0,
-        "period_stars": 2494,
+        "period_stars": 1777,
         "forks": 0,
         "url": "https://github.com/sponsors/Zackriya-Solutions"
+      },
+      {
+        "full_name": "addyosmani/agent-skills",
+        "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
+        "language": "JavaScript",
+        "total_stars": 72345,
+        "period_stars": 1317,
+        "forks": 7830,
+        "url": "https://github.com/addyosmani/agent-skills"
       },
       {
         "full_name": "ruvnet/RuView",
         "description": "Star ruvnet / RuView π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
         "language": "Rust",
-        "total_stars": 77706,
-        "period_stars": 470,
-        "forks": 10437,
+        "total_stars": 78610,
+        "period_stars": 1129,
+        "forks": 10580,
         "url": "https://github.com/ruvnet/RuView"
       },
-      {
-        "full_name": "sponsors/Leonxlnx",
-        "description": "Sponsor Star Leonxlnx / taste-skill Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
-        "language": "JavaScript",
-        "total_stars": 0,
-        "period_stars": 1458,
-        "forks": 0,
-        "url": "https://github.com/sponsors/Leonxlnx"
-      },
-      {
-        "full_name": "alirezarezvani/claude-skills",
-        "description": "Star alirezarezvani / claude-skills 345 Claude Code skills &amp; agent skills &amp; plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial &amp; finance, and your daily productivity skills.",
-        "language": "Python",
-        "total_stars": 21267,
-        "period_stars": 610,
-        "forks": 2849,
-        "url": "https://github.com/alirezarezvani/claude-skills"
-      },
-      {
-        "full_name": "openai/codex-plugin-cc",
-        "description": "Star openai / codex-plugin-cc Use Codex from Claude Code to review code or delegate tasks.",
-        "language": "JavaScript",
-        "total_stars": 26382,
-        "period_stars": 906,
-        "forks": 1582,
-        "url": "https://github.com/openai/codex-plugin-cc"
-      },
-      {
-        "full_name": "mvanhorn/last30days-skill",
-        "description": "Star mvanhorn / last30days-skill AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-        "language": "Python",
-        "total_stars": 49915,
-        "period_stars": 458,
-        "forks": 4160,
-        "url": "https://github.com/mvanhorn/last30days-skill"
-      },
-      {
-        "full_name": "sponsors/ogulcancelik",
-        "description": "Sponsor Star ogulcancelik / herdr agent multiplexer that lives in your terminal.",
-        "language": "Rust",
-        "total_stars": 0,
-        "period_stars": 779,
-        "forks": 0,
-        "url": "https://github.com/sponsors/ogulcancelik"
-      },
-      {
-        "full_name": "bradautomates/claude-video",
-        "description": "Star bradautomates / claude-video Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
-        "language": "Python",
-        "total_stars": 4431,
-        "period_stars": 427,
-        "forks": 616,
-        "url": "https://github.com/bradautomates/claude-video"
-      }
-    ],
-    "ai_top10": [
       {
         "full_name": "sponsors/asgeirtj",
         "description": "Sponsor Star asgeirtj / system_prompts_leaks Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
         "language": "JavaScript",
         "total_stars": 0,
-        "period_stars": 1378,
+        "period_stars": 1691,
         "forks": 0,
         "url": "https://github.com/sponsors/asgeirtj"
       },
       {
-        "full_name": "addyosmani/agent-skills",
-        "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
-        "language": "JavaScript",
-        "total_stars": 71078,
-        "period_stars": 1112,
-        "forks": 7694,
-        "url": "https://github.com/addyosmani/agent-skills"
+        "full_name": "TencentCloud/CubeSandbox",
+        "description": "Star TencentCloud / CubeSandbox Instant, Concurrent, Secure &amp; Lightweight Sandbox for AI Agents.",
+        "language": "Rust",
+        "total_stars": 8544,
+        "period_stars": 664,
+        "forks": 718,
+        "url": "https://github.com/TencentCloud/CubeSandbox"
+      },
+      {
+        "full_name": "sponsors/AhmadIbrahiim",
+        "description": "Sponsor Star AhmadIbrahiim / Website-downloader 💡 Download the complete source code of any website (including all assets). [ Javascripts, Stylesheets, Images ] using Node.js",
+        "language": "HTML",
+        "total_stars": 0,
+        "period_stars": 140,
+        "forks": 0,
+        "url": "https://github.com/sponsors/AhmadIbrahiim"
+      },
+      {
+        "full_name": "sponsors/steipete",
+        "description": "Sponsor Star steipete / CodexBar Show usage stats for OpenAI Codex and Claude Code, without having to login.",
+        "language": "Swift",
+        "total_stars": 0,
+        "period_stars": 376,
+        "forks": 0,
+        "url": "https://github.com/sponsors/steipete"
+      },
+      {
+        "full_name": "dotnet/skills",
+        "description": "Star dotnet / skills Repository for skills to assist AI coding agents with .NET and C#",
+        "language": "C#",
+        "total_stars": 4347,
+        "period_stars": 64,
+        "forks": 324,
+        "url": "https://github.com/dotnet/skills"
+      },
+      {
+        "full_name": "iOfficeAI/OfficeCLI",
+        "description": "Star iOfficeAI / OfficeCLI OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+        "language": "C#",
+        "total_stars": 10331,
+        "period_stars": 893,
+        "forks": 697,
+        "url": "https://github.com/iOfficeAI/OfficeCLI"
+      }
+    ],
+    "ai_top10": [
+      {
+        "full_name": "MadsLorentzen/ai-job-search",
+        "description": "Star MadsLorentzen / ai-job-search AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews.",
+        "language": "TypeScript",
+        "total_stars": 11657,
+        "period_stars": 2514,
+        "forks": 3815,
+        "url": "https://github.com/MadsLorentzen/ai-job-search"
       },
       {
         "full_name": "sponsors/Zackriya-Solutions",
         "description": "Sponsor Star Zackriya-Solutions / meetily Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS &amp; Windows.",
         "language": "Rust",
         "total_stars": 0,
-        "period_stars": 2494,
+        "period_stars": 1777,
         "forks": 0,
         "url": "https://github.com/sponsors/Zackriya-Solutions"
       },
       {
-        "full_name": "sponsors/Leonxlnx",
-        "description": "Sponsor Star Leonxlnx / taste-skill Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+        "full_name": "addyosmani/agent-skills",
+        "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
+        "language": "JavaScript",
+        "total_stars": 72345,
+        "period_stars": 1317,
+        "forks": 7830,
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      {
+        "full_name": "sponsors/asgeirtj",
+        "description": "Sponsor Star asgeirtj / system_prompts_leaks Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
         "language": "JavaScript",
         "total_stars": 0,
-        "period_stars": 1458,
+        "period_stars": 1691,
         "forks": 0,
-        "url": "https://github.com/sponsors/Leonxlnx"
+        "url": "https://github.com/sponsors/asgeirtj"
       },
       {
-        "full_name": "alirezarezvani/claude-skills",
-        "description": "Star alirezarezvani / claude-skills 345 Claude Code skills &amp; agent skills &amp; plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial &amp; finance, and your daily productivity skills.",
-        "language": "Python",
-        "total_stars": 21267,
-        "period_stars": 610,
-        "forks": 2849,
-        "url": "https://github.com/alirezarezvani/claude-skills"
-      },
-      {
-        "full_name": "openai/codex-plugin-cc",
-        "description": "Star openai / codex-plugin-cc Use Codex from Claude Code to review code or delegate tasks.",
-        "language": "JavaScript",
-        "total_stars": 26382,
-        "period_stars": 906,
-        "forks": 1582,
-        "url": "https://github.com/openai/codex-plugin-cc"
-      },
-      {
-        "full_name": "mvanhorn/last30days-skill",
-        "description": "Star mvanhorn / last30days-skill AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-        "language": "Python",
-        "total_stars": 49915,
-        "period_stars": 458,
-        "forks": 4160,
-        "url": "https://github.com/mvanhorn/last30days-skill"
-      },
-      {
-        "full_name": "sponsors/ogulcancelik",
-        "description": "Sponsor Star ogulcancelik / herdr agent multiplexer that lives in your terminal.",
+        "full_name": "TencentCloud/CubeSandbox",
+        "description": "Star TencentCloud / CubeSandbox Instant, Concurrent, Secure &amp; Lightweight Sandbox for AI Agents.",
         "language": "Rust",
+        "total_stars": 8544,
+        "period_stars": 664,
+        "forks": 718,
+        "url": "https://github.com/TencentCloud/CubeSandbox"
+      },
+      {
+        "full_name": "sponsors/steipete",
+        "description": "Sponsor Star steipete / CodexBar Show usage stats for OpenAI Codex and Claude Code, without having to login.",
+        "language": "Swift",
         "total_stars": 0,
-        "period_stars": 779,
+        "period_stars": 376,
         "forks": 0,
-        "url": "https://github.com/sponsors/ogulcancelik"
+        "url": "https://github.com/sponsors/steipete"
+      },
+      {
+        "full_name": "dotnet/skills",
+        "description": "Star dotnet / skills Repository for skills to assist AI coding agents with .NET and C#",
+        "language": "C#",
+        "total_stars": 4347,
+        "period_stars": 64,
+        "forks": 324,
+        "url": "https://github.com/dotnet/skills"
+      },
+      {
+        "full_name": "iOfficeAI/OfficeCLI",
+        "description": "Star iOfficeAI / OfficeCLI OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+        "language": "C#",
+        "total_stars": 10331,
+        "period_stars": 893,
+        "forks": 697,
+        "url": "https://github.com/iOfficeAI/OfficeCLI"
       },
       {
         "full_name": "bradautomates/claude-video",
         "description": "Star bradautomates / claude-video Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
         "language": "Python",
-        "total_stars": 4431,
-        "period_stars": 427,
-        "forks": 616,
+        "total_stars": 5339,
+        "period_stars": 965,
+        "forks": 672,
         "url": "https://github.com/bradautomates/claude-video"
       },
       {
-        "full_name": "karakeep-app/karakeep",
-        "description": "Star karakeep-app / karakeep A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search",
-        "language": "TypeScript",
-        "total_stars": 26979,
-        "period_stars": 199,
-        "forks": 1326,
-        "url": "https://github.com/karakeep-app/karakeep"
+        "full_name": "kyutai-labs/pocket-tts",
+        "description": "Star kyutai-labs / pocket-tts A TTS that fits in your CPU (and pocket)",
+        "language": "Python",
+        "total_stars": 6299,
+        "period_stars": 531,
+        "forks": 654,
+        "url": "https://github.com/kyutai-labs/pocket-tts"
       }
     ]
   },
@@ -193,91 +193,91 @@
         "full_name": "usestrix/strix",
         "description": "Star usestrix / strix Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
         "language": "Python",
-        "total_stars": 38087,
-        "period_stars": 10759,
-        "forks": 3865,
+        "total_stars": 38673,
+        "period_stars": 10741,
+        "forks": 3927,
         "url": "https://github.com/usestrix/strix"
-      },
-      {
-        "full_name": "hasaneyldrm/exercises-dataset",
-        "description": "Star hasaneyldrm / exercises-dataset A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.",
-        "language": "HTML",
-        "total_stars": 10249,
-        "period_stars": 5665,
-        "forks": 1158,
-        "url": "https://github.com/hasaneyldrm/exercises-dataset"
-      },
-      {
-        "full_name": "sponsors/diegosouzapw",
-        "description": "Sponsor Star diegosouzapw / OmniRoute Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline &amp; Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
-        "language": "TypeScript",
-        "total_stars": 0,
-        "period_stars": 4594,
-        "forks": 0,
-        "url": "https://github.com/sponsors/diegosouzapw"
       },
       {
         "full_name": "sponsors/Zackriya-Solutions",
         "description": "Sponsor Star Zackriya-Solutions / meetily Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS &amp; Windows.",
         "language": "Rust",
         "total_stars": 0,
-        "period_stars": 5769,
+        "period_stars": 7349,
         "forks": 0,
         "url": "https://github.com/sponsors/Zackriya-Solutions"
       },
       {
-        "full_name": "sponsors/altic-dev",
-        "description": "Sponsor Star altic-dev / FluidVoice Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. ⭐ helps a ton :) Windows &amp; iOS waitlist open. Linux soon.",
-        "language": "Swift",
-        "total_stars": 0,
-        "period_stars": 2127,
-        "forks": 0,
-        "url": "https://github.com/sponsors/altic-dev"
+        "full_name": "hasaneyldrm/exercises-dataset",
+        "description": "Star hasaneyldrm / exercises-dataset A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.",
+        "language": "HTML",
+        "total_stars": 10817,
+        "period_stars": 4950,
+        "forks": 1219,
+        "url": "https://github.com/hasaneyldrm/exercises-dataset"
       },
       {
         "full_name": "sponsors/ogulcancelik",
         "description": "Sponsor Star ogulcancelik / herdr agent multiplexer that lives in your terminal.",
         "language": "Rust",
         "total_stars": 0,
-        "period_stars": 4348,
+        "period_stars": 4557,
         "forks": 0,
         "url": "https://github.com/sponsors/ogulcancelik"
       },
       {
-        "full_name": "xbtlin/ai-berkshire",
-        "description": "Star xbtlin / ai-berkshire AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
-        "language": "Python",
-        "total_stars": 11291,
-        "period_stars": 4616,
-        "forks": 1466,
-        "url": "https://github.com/xbtlin/ai-berkshire"
+        "full_name": "sponsors/diegosouzapw",
+        "description": "Sponsor Star diegosouzapw / OmniRoute Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline &amp; Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
+        "language": "TypeScript",
+        "total_stars": 0,
+        "period_stars": 4797,
+        "forks": 0,
+        "url": "https://github.com/sponsors/diegosouzapw"
       },
       {
         "full_name": "alibaba/page-agent",
         "description": "Star alibaba / page-agent JavaScript in-page GUI agent. Control web interfaces with natural language.",
         "language": "TypeScript",
-        "total_stars": 24688,
-        "period_stars": 3989,
-        "forks": 2114,
+        "total_stars": 24982,
+        "period_stars": 4163,
+        "forks": 2140,
         "url": "https://github.com/alibaba/page-agent"
       },
       {
-        "full_name": "browser-use/video-use",
-        "description": "Star browser-use / video-use Edit videos with coding agents",
-        "language": "Python",
-        "total_stars": 15555,
-        "period_stars": 3706,
-        "forks": 1819,
-        "url": "https://github.com/browser-use/video-use"
+        "full_name": "openai/codex-plugin-cc",
+        "description": "Star openai / codex-plugin-cc Use Codex from Claude Code to review code or delegate tasks.",
+        "language": "JavaScript",
+        "total_stars": 26670,
+        "period_stars": 4725,
+        "forks": 1603,
+        "url": "https://github.com/openai/codex-plugin-cc"
       },
       {
-        "full_name": "Robbyant/lingbot-map",
-        "description": "Star Robbyant / lingbot-map A feed-forward 3D foundation model for reconstructing scenes from streaming data",
-        "language": "Python",
-        "total_stars": 10092,
-        "period_stars": 1525,
-        "forks": 1000,
-        "url": "https://github.com/Robbyant/lingbot-map"
+        "full_name": "MadsLorentzen/ai-job-search",
+        "description": "Star MadsLorentzen / ai-job-search AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews.",
+        "language": "TypeScript",
+        "total_stars": 11657,
+        "period_stars": 5363,
+        "forks": 3815,
+        "url": "https://github.com/MadsLorentzen/ai-job-search"
+      },
+      {
+        "full_name": "sponsors/altic-dev",
+        "description": "Sponsor Star altic-dev / FluidVoice Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. ⭐ helps a ton :) Windows &amp; iOS waitlist open. Linux soon.",
+        "language": "Swift",
+        "total_stars": 0,
+        "period_stars": 1865,
+        "forks": 0,
+        "url": "https://github.com/sponsors/altic-dev"
+      },
+      {
+        "full_name": "TencentCloud/CubeSandbox",
+        "description": "Star TencentCloud / CubeSandbox Instant, Concurrent, Secure &amp; Lightweight Sandbox for AI Agents.",
+        "language": "Rust",
+        "total_stars": 8544,
+        "period_stars": 1692,
+        "forks": 718,
+        "url": "https://github.com/TencentCloud/CubeSandbox"
       }
     ],
     "ai_top10": [
@@ -285,91 +285,91 @@
         "full_name": "usestrix/strix",
         "description": "Star usestrix / strix Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
         "language": "Python",
-        "total_stars": 38087,
-        "period_stars": 10759,
-        "forks": 3865,
+        "total_stars": 38673,
+        "period_stars": 10741,
+        "forks": 3927,
         "url": "https://github.com/usestrix/strix"
-      },
-      {
-        "full_name": "hasaneyldrm/exercises-dataset",
-        "description": "Star hasaneyldrm / exercises-dataset A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.",
-        "language": "HTML",
-        "total_stars": 10249,
-        "period_stars": 5665,
-        "forks": 1158,
-        "url": "https://github.com/hasaneyldrm/exercises-dataset"
-      },
-      {
-        "full_name": "sponsors/diegosouzapw",
-        "description": "Sponsor Star diegosouzapw / OmniRoute Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline &amp; Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
-        "language": "TypeScript",
-        "total_stars": 0,
-        "period_stars": 4594,
-        "forks": 0,
-        "url": "https://github.com/sponsors/diegosouzapw"
       },
       {
         "full_name": "sponsors/Zackriya-Solutions",
         "description": "Sponsor Star Zackriya-Solutions / meetily Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS &amp; Windows.",
         "language": "Rust",
         "total_stars": 0,
-        "period_stars": 5769,
+        "period_stars": 7349,
         "forks": 0,
         "url": "https://github.com/sponsors/Zackriya-Solutions"
       },
       {
-        "full_name": "sponsors/altic-dev",
-        "description": "Sponsor Star altic-dev / FluidVoice Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. ⭐ helps a ton :) Windows &amp; iOS waitlist open. Linux soon.",
-        "language": "Swift",
-        "total_stars": 0,
-        "period_stars": 2127,
-        "forks": 0,
-        "url": "https://github.com/sponsors/altic-dev"
+        "full_name": "hasaneyldrm/exercises-dataset",
+        "description": "Star hasaneyldrm / exercises-dataset A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.",
+        "language": "HTML",
+        "total_stars": 10817,
+        "period_stars": 4950,
+        "forks": 1219,
+        "url": "https://github.com/hasaneyldrm/exercises-dataset"
       },
       {
         "full_name": "sponsors/ogulcancelik",
         "description": "Sponsor Star ogulcancelik / herdr agent multiplexer that lives in your terminal.",
         "language": "Rust",
         "total_stars": 0,
-        "period_stars": 4348,
+        "period_stars": 4557,
         "forks": 0,
         "url": "https://github.com/sponsors/ogulcancelik"
       },
       {
-        "full_name": "xbtlin/ai-berkshire",
-        "description": "Star xbtlin / ai-berkshire AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
-        "language": "Python",
-        "total_stars": 11291,
-        "period_stars": 4616,
-        "forks": 1466,
-        "url": "https://github.com/xbtlin/ai-berkshire"
+        "full_name": "sponsors/diegosouzapw",
+        "description": "Sponsor Star diegosouzapw / OmniRoute Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline &amp; Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
+        "language": "TypeScript",
+        "total_stars": 0,
+        "period_stars": 4797,
+        "forks": 0,
+        "url": "https://github.com/sponsors/diegosouzapw"
       },
       {
         "full_name": "alibaba/page-agent",
         "description": "Star alibaba / page-agent JavaScript in-page GUI agent. Control web interfaces with natural language.",
         "language": "TypeScript",
-        "total_stars": 24688,
-        "period_stars": 3989,
-        "forks": 2114,
+        "total_stars": 24982,
+        "period_stars": 4163,
+        "forks": 2140,
         "url": "https://github.com/alibaba/page-agent"
       },
       {
-        "full_name": "browser-use/video-use",
-        "description": "Star browser-use / video-use Edit videos with coding agents",
-        "language": "Python",
-        "total_stars": 15555,
-        "period_stars": 3706,
-        "forks": 1819,
-        "url": "https://github.com/browser-use/video-use"
+        "full_name": "openai/codex-plugin-cc",
+        "description": "Star openai / codex-plugin-cc Use Codex from Claude Code to review code or delegate tasks.",
+        "language": "JavaScript",
+        "total_stars": 26670,
+        "period_stars": 4725,
+        "forks": 1603,
+        "url": "https://github.com/openai/codex-plugin-cc"
       },
       {
-        "full_name": "Robbyant/lingbot-map",
-        "description": "Star Robbyant / lingbot-map A feed-forward 3D foundation model for reconstructing scenes from streaming data",
-        "language": "Python",
-        "total_stars": 10092,
-        "period_stars": 1525,
-        "forks": 1000,
-        "url": "https://github.com/Robbyant/lingbot-map"
+        "full_name": "MadsLorentzen/ai-job-search",
+        "description": "Star MadsLorentzen / ai-job-search AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews.",
+        "language": "TypeScript",
+        "total_stars": 11657,
+        "period_stars": 5363,
+        "forks": 3815,
+        "url": "https://github.com/MadsLorentzen/ai-job-search"
+      },
+      {
+        "full_name": "sponsors/altic-dev",
+        "description": "Sponsor Star altic-dev / FluidVoice Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. ⭐ helps a ton :) Windows &amp; iOS waitlist open. Linux soon.",
+        "language": "Swift",
+        "total_stars": 0,
+        "period_stars": 1865,
+        "forks": 0,
+        "url": "https://github.com/sponsors/altic-dev"
+      },
+      {
+        "full_name": "TencentCloud/CubeSandbox",
+        "description": "Star TencentCloud / CubeSandbox Instant, Concurrent, Secure &amp; Lightweight Sandbox for AI Agents.",
+        "language": "Rust",
+        "total_stars": 8544,
+        "period_stars": 1692,
+        "forks": 718,
+        "url": "https://github.com/TencentCloud/CubeSandbox"
       }
     ]
   }

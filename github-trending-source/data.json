@@ -1,227 +1,245 @@
 {
-  "updated_at": "2026-07-08 12:36:43 GMT+8",
-  "updated_ts": 1783485403,
+  "updated_at": "2026-07-09 13:11:58 GMT+8",
+  "updated_ts": 1783573918,
   "daily": {
     "top10": [
-      {
-        "full_name": "MadsLorentzen/ai-job-search",
-        "description": "Star MadsLorentzen / ai-job-search AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews.",
-        "language": "TypeScript",
-        "total_stars": 11657,
-        "period_stars": 2514,
-        "forks": 3815,
-        "url": "https://github.com/MadsLorentzen/ai-job-search"
-      },
-      {
-        "full_name": "sponsors/Zackriya-Solutions",
-        "description": "Sponsor Star Zackriya-Solutions / meetily Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS &amp; Windows.",
-        "language": "Rust",
-        "total_stars": 0,
-        "period_stars": 1777,
-        "forks": 0,
-        "url": "https://github.com/sponsors/Zackriya-Solutions"
-      },
       {
         "full_name": "addyosmani/agent-skills",
         "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
         "language": "JavaScript",
-        "total_stars": 72345,
-        "period_stars": 1317,
-        "forks": 7830,
+        "total_stars": 74601,
+        "period_stars": 1297,
+        "forks": 8047,
         "url": "https://github.com/addyosmani/agent-skills"
       },
       {
         "full_name": "ruvnet/RuView",
         "description": "Star ruvnet / RuView π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
         "language": "Rust",
-        "total_stars": 78610,
-        "period_stars": 1129,
-        "forks": 10580,
+        "total_stars": 79273,
+        "period_stars": 799,
+        "forks": 10661,
         "url": "https://github.com/ruvnet/RuView"
+      },
+      {
+        "full_name": "TencentCloud/TencentDB-Agent-Memory",
+        "description": "Star TencentCloud / TencentDB-Agent-Memory TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.",
+        "language": "TypeScript",
+        "total_stars": 7781,
+        "period_stars": 318,
+        "forks": 719,
+        "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
+      },
+      {
+        "full_name": "prisma/prisma",
+        "description": "Star prisma / prisma Next-generation ORM for Node.js &amp; TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB",
+        "language": "TypeScript",
+        "total_stars": 46634,
+        "period_stars": 46,
+        "forks": 2286,
+        "url": "https://github.com/prisma/prisma"
+      },
+      {
+        "full_name": "mvanhorn/last30days-skill",
+        "description": "Star mvanhorn / last30days-skill AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+        "language": "Python",
+        "total_stars": 50909,
+        "period_stars": 352,
+        "forks": 4252,
+        "url": "https://github.com/mvanhorn/last30days-skill"
+      },
+      {
+        "full_name": "argoproj/argo-cd",
+        "description": "Star argoproj / argo-cd Declarative Continuous Deployment for Kubernetes",
+        "language": "Go",
+        "total_stars": 23465,
+        "period_stars": 29,
+        "forks": 7427,
+        "url": "https://github.com/argoproj/argo-cd"
+      },
+      {
+        "full_name": "iOfficeAI/OfficeCLI",
+        "description": "Star iOfficeAI / OfficeCLI OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+        "language": "C#",
+        "total_stars": 12271,
+        "period_stars": 1717,
+        "forks": 830,
+        "url": "https://github.com/iOfficeAI/OfficeCLI"
       },
       {
         "full_name": "sponsors/asgeirtj",
         "description": "Sponsor Star asgeirtj / system_prompts_leaks Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
         "language": "JavaScript",
         "total_stars": 0,
-        "period_stars": 1691,
+        "period_stars": 1218,
         "forks": 0,
         "url": "https://github.com/sponsors/asgeirtj"
       },
       {
-        "full_name": "TencentCloud/CubeSandbox",
-        "description": "Star TencentCloud / CubeSandbox Instant, Concurrent, Secure &amp; Lightweight Sandbox for AI Agents.",
-        "language": "Rust",
-        "total_stars": 8544,
-        "period_stars": 664,
-        "forks": 718,
-        "url": "https://github.com/TencentCloud/CubeSandbox"
-      },
-      {
-        "full_name": "sponsors/AhmadIbrahiim",
-        "description": "Sponsor Star AhmadIbrahiim / Website-downloader 💡 Download the complete source code of any website (including all assets). [ Javascripts, Stylesheets, Images ] using Node.js",
-        "language": "HTML",
+        "full_name": "sponsors/obra",
+        "description": "Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works.",
+        "language": "Shell",
         "total_stars": 0,
-        "period_stars": 140,
+        "period_stars": 1116,
         "forks": 0,
-        "url": "https://github.com/sponsors/AhmadIbrahiim"
+        "url": "https://github.com/sponsors/obra"
       },
       {
-        "full_name": "sponsors/steipete",
-        "description": "Sponsor Star steipete / CodexBar Show usage stats for OpenAI Codex and Claude Code, without having to login.",
-        "language": "Swift",
-        "total_stars": 0,
-        "period_stars": 376,
-        "forks": 0,
-        "url": "https://github.com/sponsors/steipete"
-      },
-      {
-        "full_name": "dotnet/skills",
-        "description": "Star dotnet / skills Repository for skills to assist AI coding agents with .NET and C#",
-        "language": "C#",
-        "total_stars": 4347,
-        "period_stars": 64,
-        "forks": 324,
-        "url": "https://github.com/dotnet/skills"
-      },
-      {
-        "full_name": "iOfficeAI/OfficeCLI",
-        "description": "Star iOfficeAI / OfficeCLI OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
-        "language": "C#",
-        "total_stars": 10331,
-        "period_stars": 893,
-        "forks": 697,
-        "url": "https://github.com/iOfficeAI/OfficeCLI"
+        "full_name": "alibaba/zvec",
+        "description": "Star alibaba / zvec A lightweight, lightning-fast, in-process vector database",
+        "language": "C++",
+        "total_stars": 14497,
+        "period_stars": 395,
+        "forks": 896,
+        "url": "https://github.com/alibaba/zvec"
       }
     ],
     "ai_top10": [
       {
-        "full_name": "MadsLorentzen/ai-job-search",
-        "description": "Star MadsLorentzen / ai-job-search AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews.",
-        "language": "TypeScript",
-        "total_stars": 11657,
-        "period_stars": 2514,
-        "forks": 3815,
-        "url": "https://github.com/MadsLorentzen/ai-job-search"
-      },
-      {
-        "full_name": "sponsors/Zackriya-Solutions",
-        "description": "Sponsor Star Zackriya-Solutions / meetily Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS &amp; Windows.",
-        "language": "Rust",
-        "total_stars": 0,
-        "period_stars": 1777,
-        "forks": 0,
-        "url": "https://github.com/sponsors/Zackriya-Solutions"
-      },
-      {
         "full_name": "addyosmani/agent-skills",
         "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
         "language": "JavaScript",
-        "total_stars": 72345,
-        "period_stars": 1317,
-        "forks": 7830,
+        "total_stars": 74601,
+        "period_stars": 1297,
+        "forks": 8047,
         "url": "https://github.com/addyosmani/agent-skills"
+      },
+      {
+        "full_name": "TencentCloud/TencentDB-Agent-Memory",
+        "description": "Star TencentCloud / TencentDB-Agent-Memory TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.",
+        "language": "TypeScript",
+        "total_stars": 7781,
+        "period_stars": 318,
+        "forks": 719,
+        "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
+      },
+      {
+        "full_name": "mvanhorn/last30days-skill",
+        "description": "Star mvanhorn / last30days-skill AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+        "language": "Python",
+        "total_stars": 50909,
+        "period_stars": 352,
+        "forks": 4252,
+        "url": "https://github.com/mvanhorn/last30days-skill"
+      },
+      {
+        "full_name": "iOfficeAI/OfficeCLI",
+        "description": "Star iOfficeAI / OfficeCLI OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+        "language": "C#",
+        "total_stars": 12271,
+        "period_stars": 1717,
+        "forks": 830,
+        "url": "https://github.com/iOfficeAI/OfficeCLI"
       },
       {
         "full_name": "sponsors/asgeirtj",
         "description": "Sponsor Star asgeirtj / system_prompts_leaks Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
         "language": "JavaScript",
         "total_stars": 0,
-        "period_stars": 1691,
+        "period_stars": 1218,
         "forks": 0,
         "url": "https://github.com/sponsors/asgeirtj"
       },
       {
-        "full_name": "TencentCloud/CubeSandbox",
-        "description": "Star TencentCloud / CubeSandbox Instant, Concurrent, Secure &amp; Lightweight Sandbox for AI Agents.",
-        "language": "Rust",
-        "total_stars": 8544,
-        "period_stars": 664,
-        "forks": 718,
-        "url": "https://github.com/TencentCloud/CubeSandbox"
-      },
-      {
-        "full_name": "sponsors/steipete",
-        "description": "Sponsor Star steipete / CodexBar Show usage stats for OpenAI Codex and Claude Code, without having to login.",
-        "language": "Swift",
+        "full_name": "sponsors/obra",
+        "description": "Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works.",
+        "language": "Shell",
         "total_stars": 0,
-        "period_stars": 376,
+        "period_stars": 1116,
         "forks": 0,
-        "url": "https://github.com/sponsors/steipete"
+        "url": "https://github.com/sponsors/obra"
       },
       {
-        "full_name": "dotnet/skills",
-        "description": "Star dotnet / skills Repository for skills to assist AI coding agents with .NET and C#",
-        "language": "C#",
-        "total_stars": 4347,
-        "period_stars": 64,
-        "forks": 324,
-        "url": "https://github.com/dotnet/skills"
+        "full_name": "alibaba/zvec",
+        "description": "Star alibaba / zvec A lightweight, lightning-fast, in-process vector database",
+        "language": "C++",
+        "total_stars": 14497,
+        "period_stars": 395,
+        "forks": 896,
+        "url": "https://github.com/alibaba/zvec"
       },
       {
-        "full_name": "iOfficeAI/OfficeCLI",
-        "description": "Star iOfficeAI / OfficeCLI OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
-        "language": "C#",
-        "total_stars": 10331,
-        "period_stars": 893,
-        "forks": 697,
-        "url": "https://github.com/iOfficeAI/OfficeCLI"
+        "full_name": "sponsors/wonderwhy-er",
+        "description": "Sponsor Star wonderwhy-er / DesktopCommanderMCP This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+        "language": "TypeScript",
+        "total_stars": 0,
+        "period_stars": 28,
+        "forks": 0,
+        "url": "https://github.com/sponsors/wonderwhy-er"
       },
       {
         "full_name": "bradautomates/claude-video",
         "description": "Star bradautomates / claude-video Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
         "language": "Python",
-        "total_stars": 5339,
-        "period_stars": 965,
-        "forks": 672,
+        "total_stars": 6184,
+        "period_stars": 951,
+        "forks": 733,
         "url": "https://github.com/bradautomates/claude-video"
       },
       {
-        "full_name": "kyutai-labs/pocket-tts",
-        "description": "Star kyutai-labs / pocket-tts A TTS that fits in your CPU (and pocket)",
-        "language": "Python",
-        "total_stars": 6299,
-        "period_stars": 531,
-        "forks": 654,
-        "url": "https://github.com/kyutai-labs/pocket-tts"
+        "full_name": "TencentCloud/CubeSandbox",
+        "description": "Star TencentCloud / CubeSandbox Instant, Concurrent, Secure &amp; Lightweight Sandbox for AI Agents.",
+        "language": "Rust",
+        "total_stars": 9035,
+        "period_stars": 564,
+        "forks": 743,
+        "url": "https://github.com/TencentCloud/CubeSandbox"
       }
     ]
   },
   "weekly": {
     "top10": [
       {
-        "full_name": "usestrix/strix",
-        "description": "Star usestrix / strix Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
-        "language": "Python",
-        "total_stars": 38673,
-        "period_stars": 10741,
-        "forks": 3927,
-        "url": "https://github.com/usestrix/strix"
-      },
-      {
         "full_name": "sponsors/Zackriya-Solutions",
         "description": "Sponsor Star Zackriya-Solutions / meetily Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS &amp; Windows.",
         "language": "Rust",
         "total_stars": 0,
-        "period_stars": 7349,
+        "period_stars": 8366,
         "forks": 0,
         "url": "https://github.com/sponsors/Zackriya-Solutions"
       },
       {
-        "full_name": "hasaneyldrm/exercises-dataset",
-        "description": "Star hasaneyldrm / exercises-dataset A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.",
-        "language": "HTML",
-        "total_stars": 10817,
-        "period_stars": 4950,
-        "forks": 1219,
-        "url": "https://github.com/hasaneyldrm/exercises-dataset"
+        "full_name": "usestrix/strix",
+        "description": "Star usestrix / strix Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+        "language": "Python",
+        "total_stars": 39187,
+        "period_stars": 10274,
+        "forks": 3980,
+        "url": "https://github.com/usestrix/strix"
+      },
+      {
+        "full_name": "facebook/astryx",
+        "description": "Star facebook / astryx An open source design system that's fully customizable and agent ready",
+        "language": "TypeScript",
+        "total_stars": 7243,
+        "period_stars": 4943,
+        "forks": 482,
+        "url": "https://github.com/facebook/astryx"
+      },
+      {
+        "full_name": "openai/codex-plugin-cc",
+        "description": "Star openai / codex-plugin-cc Use Codex from Claude Code to review code or delegate tasks.",
+        "language": "JavaScript",
+        "total_stars": 26978,
+        "period_stars": 4890,
+        "forks": 1625,
+        "url": "https://github.com/openai/codex-plugin-cc"
+      },
+      {
+        "full_name": "alibaba/page-agent",
+        "description": "Star alibaba / page-agent JavaScript in-page GUI agent. Control web interfaces with natural language.",
+        "language": "TypeScript",
+        "total_stars": 25273,
+        "period_stars": 4295,
+        "forks": 2173,
+        "url": "https://github.com/alibaba/page-agent"
       },
       {
         "full_name": "sponsors/ogulcancelik",
         "description": "Sponsor Star ogulcancelik / herdr agent multiplexer that lives in your terminal.",
         "language": "Rust",
         "total_stars": 0,
-        "period_stars": 4557,
+        "period_stars": 4754,
         "forks": 0,
         "url": "https://github.com/sponsors/ogulcancelik"
       },
@@ -230,90 +248,90 @@
         "description": "Sponsor Star diegosouzapw / OmniRoute Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline &amp; Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
         "language": "TypeScript",
         "total_stars": 0,
-        "period_stars": 4797,
+        "period_stars": 4424,
         "forks": 0,
         "url": "https://github.com/sponsors/diegosouzapw"
       },
       {
-        "full_name": "alibaba/page-agent",
-        "description": "Star alibaba / page-agent JavaScript in-page GUI agent. Control web interfaces with natural language.",
-        "language": "TypeScript",
-        "total_stars": 24982,
-        "period_stars": 4163,
-        "forks": 2140,
-        "url": "https://github.com/alibaba/page-agent"
-      },
-      {
-        "full_name": "openai/codex-plugin-cc",
-        "description": "Star openai / codex-plugin-cc Use Codex from Claude Code to review code or delegate tasks.",
+        "full_name": "sponsors/asgeirtj",
+        "description": "Sponsor Star asgeirtj / system_prompts_leaks Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
         "language": "JavaScript",
-        "total_stars": 26670,
-        "period_stars": 4725,
-        "forks": 1603,
-        "url": "https://github.com/openai/codex-plugin-cc"
-      },
-      {
-        "full_name": "MadsLorentzen/ai-job-search",
-        "description": "Star MadsLorentzen / ai-job-search AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews.",
-        "language": "TypeScript",
-        "total_stars": 11657,
-        "period_stars": 5363,
-        "forks": 3815,
-        "url": "https://github.com/MadsLorentzen/ai-job-search"
-      },
-      {
-        "full_name": "sponsors/altic-dev",
-        "description": "Sponsor Star altic-dev / FluidVoice Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. ⭐ helps a ton :) Windows &amp; iOS waitlist open. Linux soon.",
-        "language": "Swift",
         "total_stars": 0,
-        "period_stars": 1865,
+        "period_stars": 6182,
         "forks": 0,
-        "url": "https://github.com/sponsors/altic-dev"
+        "url": "https://github.com/sponsors/asgeirtj"
       },
       {
         "full_name": "TencentCloud/CubeSandbox",
         "description": "Star TencentCloud / CubeSandbox Instant, Concurrent, Secure &amp; Lightweight Sandbox for AI Agents.",
         "language": "Rust",
-        "total_stars": 8544,
-        "period_stars": 1692,
-        "forks": 718,
+        "total_stars": 9035,
+        "period_stars": 2106,
+        "forks": 743,
         "url": "https://github.com/TencentCloud/CubeSandbox"
+      },
+      {
+        "full_name": "huggingface/speech-to-speech",
+        "description": "Star huggingface / speech-to-speech Build local voice agents with open-source models",
+        "language": "Python",
+        "total_stars": 5735,
+        "period_stars": 736,
+        "forks": 690,
+        "url": "https://github.com/huggingface/speech-to-speech"
       }
     ],
     "ai_top10": [
       {
-        "full_name": "usestrix/strix",
-        "description": "Star usestrix / strix Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
-        "language": "Python",
-        "total_stars": 38673,
-        "period_stars": 10741,
-        "forks": 3927,
-        "url": "https://github.com/usestrix/strix"
-      },
-      {
         "full_name": "sponsors/Zackriya-Solutions",
         "description": "Sponsor Star Zackriya-Solutions / meetily Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS &amp; Windows.",
         "language": "Rust",
         "total_stars": 0,
-        "period_stars": 7349,
+        "period_stars": 8366,
         "forks": 0,
         "url": "https://github.com/sponsors/Zackriya-Solutions"
       },
       {
-        "full_name": "hasaneyldrm/exercises-dataset",
-        "description": "Star hasaneyldrm / exercises-dataset A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.",
-        "language": "HTML",
-        "total_stars": 10817,
-        "period_stars": 4950,
-        "forks": 1219,
-        "url": "https://github.com/hasaneyldrm/exercises-dataset"
+        "full_name": "usestrix/strix",
+        "description": "Star usestrix / strix Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+        "language": "Python",
+        "total_stars": 39187,
+        "period_stars": 10274,
+        "forks": 3980,
+        "url": "https://github.com/usestrix/strix"
+      },
+      {
+        "full_name": "facebook/astryx",
+        "description": "Star facebook / astryx An open source design system that's fully customizable and agent ready",
+        "language": "TypeScript",
+        "total_stars": 7243,
+        "period_stars": 4943,
+        "forks": 482,
+        "url": "https://github.com/facebook/astryx"
+      },
+      {
+        "full_name": "openai/codex-plugin-cc",
+        "description": "Star openai / codex-plugin-cc Use Codex from Claude Code to review code or delegate tasks.",
+        "language": "JavaScript",
+        "total_stars": 26978,
+        "period_stars": 4890,
+        "forks": 1625,
+        "url": "https://github.com/openai/codex-plugin-cc"
+      },
+      {
+        "full_name": "alibaba/page-agent",
+        "description": "Star alibaba / page-agent JavaScript in-page GUI agent. Control web interfaces with natural language.",
+        "language": "TypeScript",
+        "total_stars": 25273,
+        "period_stars": 4295,
+        "forks": 2173,
+        "url": "https://github.com/alibaba/page-agent"
       },
       {
         "full_name": "sponsors/ogulcancelik",
         "description": "Sponsor Star ogulcancelik / herdr agent multiplexer that lives in your terminal.",
         "language": "Rust",
         "total_stars": 0,
-        "period_stars": 4557,
+        "period_stars": 4754,
         "forks": 0,
         "url": "https://github.com/sponsors/ogulcancelik"
       },
@@ -322,54 +340,36 @@
         "description": "Sponsor Star diegosouzapw / OmniRoute Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline &amp; Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
         "language": "TypeScript",
         "total_stars": 0,
-        "period_stars": 4797,
+        "period_stars": 4424,
         "forks": 0,
         "url": "https://github.com/sponsors/diegosouzapw"
       },
       {
-        "full_name": "alibaba/page-agent",
-        "description": "Star alibaba / page-agent JavaScript in-page GUI agent. Control web interfaces with natural language.",
-        "language": "TypeScript",
-        "total_stars": 24982,
-        "period_stars": 4163,
-        "forks": 2140,
-        "url": "https://github.com/alibaba/page-agent"
-      },
-      {
-        "full_name": "openai/codex-plugin-cc",
-        "description": "Star openai / codex-plugin-cc Use Codex from Claude Code to review code or delegate tasks.",
+        "full_name": "sponsors/asgeirtj",
+        "description": "Sponsor Star asgeirtj / system_prompts_leaks Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
         "language": "JavaScript",
-        "total_stars": 26670,
-        "period_stars": 4725,
-        "forks": 1603,
-        "url": "https://github.com/openai/codex-plugin-cc"
-      },
-      {
-        "full_name": "MadsLorentzen/ai-job-search",
-        "description": "Star MadsLorentzen / ai-job-search AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews.",
-        "language": "TypeScript",
-        "total_stars": 11657,
-        "period_stars": 5363,
-        "forks": 3815,
-        "url": "https://github.com/MadsLorentzen/ai-job-search"
-      },
-      {
-        "full_name": "sponsors/altic-dev",
-        "description": "Sponsor Star altic-dev / FluidVoice Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. ⭐ helps a ton :) Windows &amp; iOS waitlist open. Linux soon.",
-        "language": "Swift",
         "total_stars": 0,
-        "period_stars": 1865,
+        "period_stars": 6182,
         "forks": 0,
-        "url": "https://github.com/sponsors/altic-dev"
+        "url": "https://github.com/sponsors/asgeirtj"
       },
       {
         "full_name": "TencentCloud/CubeSandbox",
         "description": "Star TencentCloud / CubeSandbox Instant, Concurrent, Secure &amp; Lightweight Sandbox for AI Agents.",
         "language": "Rust",
-        "total_stars": 8544,
-        "period_stars": 1692,
-        "forks": 718,
+        "total_stars": 9035,
+        "period_stars": 2106,
+        "forks": 743,
         "url": "https://github.com/TencentCloud/CubeSandbox"
+      },
+      {
+        "full_name": "huggingface/speech-to-speech",
+        "description": "Star huggingface / speech-to-speech Build local voice agents with open-source models",
+        "language": "Python",
+        "total_stars": 5735,
+        "period_stars": 736,
+        "forks": 690,
+        "url": "https://github.com/huggingface/speech-to-speech"
       }
     ]
   }

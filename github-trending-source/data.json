@@ -1,189 +1,180 @@
 {
-  "updated_at": "2026-07-11 12:32:02 GMT+8",
-  "updated_ts": 1783744322,
+  "updated_at": "2026-07-12 12:43:23 GMT+8",
+  "updated_ts": 1783831403,
   "daily": {
     "top10": [
       {
-        "full_name": "sponsors/wonderwhy-er",
-        "description": "Sponsor Star wonderwhy-er / DesktopCommanderMCP This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
-        "language": "TypeScript",
-        "total_stars": 0,
-        "period_stars": 328,
-        "forks": 0,
-        "url": "https://github.com/sponsors/wonderwhy-er"
-      },
-      {
-        "full_name": "oven-sh/bun",
-        "description": "Star oven-sh / bun Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
-        "language": "Rust",
-        "total_stars": 94312,
-        "period_stars": 209,
-        "forks": 4940,
-        "url": "https://github.com/oven-sh/bun"
+        "full_name": "catchorg/Catch2",
+        "description": "Star catchorg / Catch2 A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)",
+        "language": "C++",
+        "total_stars": 21115,
+        "period_stars": 113,
+        "forks": 3428,
+        "url": "https://github.com/catchorg/Catch2"
       },
       {
         "full_name": "abseil/abseil-cpp",
         "description": "Star abseil / abseil-cpp Abseil Common Libraries (C++)",
         "language": "C++",
-        "total_stars": 17539,
-        "period_stars": 89,
-        "forks": 3195,
+        "total_stars": 17840,
+        "period_stars": 118,
+        "forks": 3209,
         "url": "https://github.com/abseil/abseil-cpp"
-      },
-      {
-        "full_name": "addyosmani/agent-skills",
-        "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
-        "language": "JavaScript",
-        "total_stars": 76924,
-        "period_stars": 1116,
-        "forks": 8263,
-        "url": "https://github.com/addyosmani/agent-skills"
-      },
-      {
-        "full_name": "jbeder/yaml-cpp",
-        "description": "Star jbeder / yaml-cpp A YAML parser and emitter in C++",
-        "language": "C++",
-        "total_stars": 6093,
-        "period_stars": 69,
-        "forks": 2257,
-        "url": "https://github.com/jbeder/yaml-cpp"
-      },
-      {
-        "full_name": "sponsors/mattpocock",
-        "description": "Sponsor Star mattpocock / skills Skills for Real Engineers. Straight from my .claude directory.",
-        "language": "Shell",
-        "total_stars": 0,
-        "period_stars": 1712,
-        "forks": 0,
-        "url": "https://github.com/sponsors/mattpocock"
-      },
-      {
-        "full_name": "sponsors/obra",
-        "description": "Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works.",
-        "language": "Shell",
-        "total_stars": 0,
-        "period_stars": 1013,
-        "forks": 0,
-        "url": "https://github.com/sponsors/obra"
-      },
-      {
-        "full_name": "microsoft/TypeScript",
-        "description": "Star microsoft / TypeScript TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
-        "language": "TypeScript",
-        "total_stars": 109803,
-        "period_stars": 177,
-        "forks": 13634,
-        "url": "https://github.com/microsoft/TypeScript"
-      },
-      {
-        "full_name": "catchorg/Catch2",
-        "description": "Star catchorg / Catch2 A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)",
-        "language": "C++",
-        "total_stars": 20625,
-        "period_stars": 76,
-        "forks": 3409,
-        "url": "https://github.com/catchorg/Catch2"
-      },
-      {
-        "full_name": "chriskohlhoff/asio",
-        "description": "Star chriskohlhoff / asio Asio C++ Library",
-        "language": "C++",
-        "total_stars": 6080,
-        "period_stars": 92,
-        "forks": 1500,
-        "url": "https://github.com/chriskohlhoff/asio"
-      }
-    ],
-    "ai_top10": [
-      {
-        "full_name": "sponsors/wonderwhy-er",
-        "description": "Sponsor Star wonderwhy-er / DesktopCommanderMCP This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
-        "language": "TypeScript",
-        "total_stars": 0,
-        "period_stars": 328,
-        "forks": 0,
-        "url": "https://github.com/sponsors/wonderwhy-er"
-      },
-      {
-        "full_name": "addyosmani/agent-skills",
-        "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
-        "language": "JavaScript",
-        "total_stars": 76924,
-        "period_stars": 1116,
-        "forks": 8263,
-        "url": "https://github.com/addyosmani/agent-skills"
-      },
-      {
-        "full_name": "sponsors/mattpocock",
-        "description": "Sponsor Star mattpocock / skills Skills for Real Engineers. Straight from my .claude directory.",
-        "language": "Shell",
-        "total_stars": 0,
-        "period_stars": 1712,
-        "forks": 0,
-        "url": "https://github.com/sponsors/mattpocock"
-      },
-      {
-        "full_name": "sponsors/obra",
-        "description": "Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works.",
-        "language": "Shell",
-        "total_stars": 0,
-        "period_stars": 1013,
-        "forks": 0,
-        "url": "https://github.com/sponsors/obra"
-      },
-      {
-        "full_name": "TencentCloud/TencentDB-Agent-Memory",
-        "description": "Star TencentCloud / TencentDB-Agent-Memory TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.",
-        "language": "TypeScript",
-        "total_stars": 8286,
-        "period_stars": 123,
-        "forks": 762,
-        "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
       },
       {
         "full_name": "davila7/claude-code-templates",
         "description": "Star davila7 / claude-code-templates CLI tool for configuring and monitoring Claude Code",
         "language": "Python",
-        "total_stars": 28796,
-        "period_stars": 118,
-        "forks": 3161,
+        "total_stars": 29061,
+        "period_stars": 232,
+        "forks": 3187,
         "url": "https://github.com/davila7/claude-code-templates"
-      },
-      {
-        "full_name": "tailscale/tailscale",
-        "description": "Star tailscale / tailscale The easiest, most secure way to use WireGuard and 2FA.",
-        "language": "Go",
-        "total_stars": 33705,
-        "period_stars": 143,
-        "forks": 2913,
-        "url": "https://github.com/tailscale/tailscale"
       },
       {
         "full_name": "google-labs-code/stitch-skills",
         "description": "Star google-labs-code / stitch-skills A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
         "language": "TypeScript",
-        "total_stars": 6796,
-        "period_stars": 117,
-        "forks": 931,
+        "total_stars": 7119,
+        "period_stars": 340,
+        "forks": 947,
         "url": "https://github.com/google-labs-code/stitch-skills"
-      },
-      {
-        "full_name": "iOfficeAI/OfficeCLI",
-        "description": "Star iOfficeAI / OfficeCLI OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
-        "language": "C#",
-        "total_stars": 14548,
-        "period_stars": 1224,
-        "forks": 992,
-        "url": "https://github.com/iOfficeAI/OfficeCLI"
       },
       {
         "full_name": "hashicorp/terraform",
         "description": "Star hashicorp / terraform Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
         "language": "Go",
-        "total_stars": 49202,
-        "period_stars": 172,
-        "forks": 10675,
+        "total_stars": 49389,
+        "period_stars": 229,
+        "forks": 10682,
         "url": "https://github.com/hashicorp/terraform"
+      },
+      {
+        "full_name": "zeux/meshoptimizer",
+        "description": "Star zeux / meshoptimizer Mesh optimization library that makes meshes smaller and faster to render",
+        "language": "C++",
+        "total_stars": 8153,
+        "period_stars": 110,
+        "forks": 786,
+        "url": "https://github.com/zeux/meshoptimizer"
+      },
+      {
+        "full_name": "openai/plugins",
+        "description": "Star openai / plugins OpenAI Plugins",
+        "language": "JavaScript",
+        "total_stars": 4448,
+        "period_stars": 29,
+        "forks": 659,
+        "url": "https://github.com/openai/plugins"
+      },
+      {
+        "full_name": "sponsors/wonderwhy-er",
+        "description": "Sponsor Star wonderwhy-er / DesktopCommanderMCP This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+        "language": "TypeScript",
+        "total_stars": 0,
+        "period_stars": 909,
+        "forks": 0,
+        "url": "https://github.com/sponsors/wonderwhy-er"
+      },
+      {
+        "full_name": "chriskohlhoff/asio",
+        "description": "Star chriskohlhoff / asio Asio C++ Library",
+        "language": "C++",
+        "total_stars": 6147,
+        "period_stars": 76,
+        "forks": 1507,
+        "url": "https://github.com/chriskohlhoff/asio"
+      },
+      {
+        "full_name": "oven-sh/bun",
+        "description": "Star oven-sh / bun Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+        "language": "Rust",
+        "total_stars": 94583,
+        "period_stars": 658,
+        "forks": 4955,
+        "url": "https://github.com/oven-sh/bun"
+      }
+    ],
+    "ai_top10": [
+      {
+        "full_name": "davila7/claude-code-templates",
+        "description": "Star davila7 / claude-code-templates CLI tool for configuring and monitoring Claude Code",
+        "language": "Python",
+        "total_stars": 29061,
+        "period_stars": 232,
+        "forks": 3187,
+        "url": "https://github.com/davila7/claude-code-templates"
+      },
+      {
+        "full_name": "google-labs-code/stitch-skills",
+        "description": "Star google-labs-code / stitch-skills A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+        "language": "TypeScript",
+        "total_stars": 7119,
+        "period_stars": 340,
+        "forks": 947,
+        "url": "https://github.com/google-labs-code/stitch-skills"
+      },
+      {
+        "full_name": "hashicorp/terraform",
+        "description": "Star hashicorp / terraform Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
+        "language": "Go",
+        "total_stars": 49389,
+        "period_stars": 229,
+        "forks": 10682,
+        "url": "https://github.com/hashicorp/terraform"
+      },
+      {
+        "full_name": "openai/plugins",
+        "description": "Star openai / plugins OpenAI Plugins",
+        "language": "JavaScript",
+        "total_stars": 4448,
+        "period_stars": 29,
+        "forks": 659,
+        "url": "https://github.com/openai/plugins"
+      },
+      {
+        "full_name": "sponsors/wonderwhy-er",
+        "description": "Sponsor Star wonderwhy-er / DesktopCommanderMCP This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+        "language": "TypeScript",
+        "total_stars": 0,
+        "period_stars": 909,
+        "forks": 0,
+        "url": "https://github.com/sponsors/wonderwhy-er"
+      },
+      {
+        "full_name": "sponsors/DayuanJiang",
+        "description": "Sponsor Star DayuanJiang / next-ai-draw-io A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.",
+        "language": "TypeScript",
+        "total_stars": 0,
+        "period_stars": 81,
+        "forks": 0,
+        "url": "https://github.com/sponsors/DayuanJiang"
+      },
+      {
+        "full_name": "anthropics/claude-cookbooks",
+        "description": "Star anthropics / claude-cookbooks A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+        "language": "Jupyter Notebook",
+        "total_stars": 48002,
+        "period_stars": 219,
+        "forks": 5679,
+        "url": "https://github.com/anthropics/claude-cookbooks"
+      },
+      {
+        "full_name": "sponsors/obra",
+        "description": "Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works.",
+        "language": "Shell",
+        "total_stars": 0,
+        "period_stars": 740,
+        "forks": 0,
+        "url": "https://github.com/sponsors/obra"
+      },
+      {
+        "full_name": "ansible/ansible",
+        "description": "Star ansible / ansible Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.",
+        "language": "Python",
+        "total_stars": 69611,
+        "period_stars": 24,
+        "forks": 24277,
+        "url": "https://github.com/ansible/ansible"
       }
     ]
   },
@@ -191,91 +182,91 @@
     "top10": [
       {
         "full_name": "sponsors/Zackriya-Solutions",
-        "description": "Sponsor Star Zackriya-Solutions / meetily Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS &amp; Windows. The #1 Ai Meeting Minutes generator.",
+        "description": "Sponsor Star Zackriya-Solutions / meetily Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS &amp; Windows. Understand How to write meeting minutes",
         "language": "Rust",
         "total_stars": 0,
-        "period_stars": 8795,
+        "period_stars": 8579,
         "forks": 0,
         "url": "https://github.com/sponsors/Zackriya-Solutions"
+      },
+      {
+        "full_name": "openai/codex-plugin-cc",
+        "description": "Star openai / codex-plugin-cc Use Codex from Claude Code to review code or delegate tasks.",
+        "language": "JavaScript",
+        "total_stars": 27704,
+        "period_stars": 4030,
+        "forks": 1806,
+        "url": "https://github.com/openai/codex-plugin-cc"
+      },
+      {
+        "full_name": "sponsors/wonderwhy-er",
+        "description": "Sponsor Star wonderwhy-er / DesktopCommanderMCP This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+        "language": "TypeScript",
+        "total_stars": 0,
+        "period_stars": 1451,
+        "forks": 0,
+        "url": "https://github.com/sponsors/wonderwhy-er"
       },
       {
         "full_name": "sponsors/asgeirtj",
         "description": "Sponsor Star asgeirtj / system_prompts_leaks Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT GPT-5.6, Codex GPT-5.6, GPT-5.5. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
         "language": "JavaScript",
         "total_stars": 0,
-        "period_stars": 7765,
+        "period_stars": 7731,
         "forks": 0,
         "url": "https://github.com/sponsors/asgeirtj"
-      },
-      {
-        "full_name": "usestrix/strix",
-        "description": "Star usestrix / strix Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
-        "language": "Python",
-        "total_stars": 40217,
-        "period_stars": 6443,
-        "forks": 4216,
-        "url": "https://github.com/usestrix/strix"
-      },
-      {
-        "full_name": "openai/codex-plugin-cc",
-        "description": "Star openai / codex-plugin-cc Use Codex from Claude Code to review code or delegate tasks.",
-        "language": "JavaScript",
-        "total_stars": 27461,
-        "period_stars": 4484,
-        "forks": 1780,
-        "url": "https://github.com/openai/codex-plugin-cc"
       },
       {
         "full_name": "sponsors/ogulcancelik",
         "description": "Sponsor Star ogulcancelik / herdr agent multiplexer that lives in your terminal.",
         "language": "Rust",
         "total_stars": 0,
-        "period_stars": 4714,
+        "period_stars": 4349,
         "forks": 0,
         "url": "https://github.com/sponsors/ogulcancelik"
-      },
-      {
-        "full_name": "bradautomates/claude-video",
-        "description": "Star bradautomates / claude-video Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
-        "language": "Python",
-        "total_stars": 7262,
-        "period_stars": 4093,
-        "forks": 809,
-        "url": "https://github.com/bradautomates/claude-video"
-      },
-      {
-        "full_name": "facebook/astryx",
-        "description": "Star facebook / astryx An open source design system that's fully customizable and agent ready",
-        "language": "TypeScript",
-        "total_stars": 7773,
-        "period_stars": 3582,
-        "forks": 651,
-        "url": "https://github.com/facebook/astryx"
-      },
-      {
-        "full_name": "alibaba/page-agent",
-        "description": "Star alibaba / page-agent JavaScript in-page GUI agent. Control web interfaces with natural language.",
-        "language": "TypeScript",
-        "total_stars": 25869,
-        "period_stars": 3799,
-        "forks": 2376,
-        "url": "https://github.com/alibaba/page-agent"
       },
       {
         "full_name": "TencentCloud/CubeSandbox",
         "description": "Star TencentCloud / CubeSandbox Instant, Concurrent, Secure &amp; Lightweight Sandbox for AI Agents.",
         "language": "Rust",
-        "total_stars": 9601,
-        "period_stars": 2514,
-        "forks": 939,
+        "total_stars": 9709,
+        "period_stars": 2416,
+        "forks": 953,
         "url": "https://github.com/TencentCloud/CubeSandbox"
+      },
+      {
+        "full_name": "facebook/astryx",
+        "description": "Star facebook / astryx An open source design system that's fully customizable and agent ready",
+        "language": "TypeScript",
+        "total_stars": 7957,
+        "period_stars": 2779,
+        "forks": 677,
+        "url": "https://github.com/facebook/astryx"
+      },
+      {
+        "full_name": "usestrix/strix",
+        "description": "Star usestrix / strix Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+        "language": "Python",
+        "total_stars": 40608,
+        "period_stars": 4987,
+        "forks": 4275,
+        "url": "https://github.com/usestrix/strix"
+      },
+      {
+        "full_name": "bradautomates/claude-video",
+        "description": "Star bradautomates / claude-video Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+        "language": "Python",
+        "total_stars": 7609,
+        "period_stars": 4399,
+        "forks": 853,
+        "url": "https://github.com/bradautomates/claude-video"
       },
       {
         "full_name": "sponsors/diegosouzapw",
         "description": "Sponsor Star diegosouzapw / OmniRoute Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline &amp; Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
         "language": "TypeScript",
         "total_stars": 0,
-        "period_stars": 4268,
+        "period_stars": 4375,
         "forks": 0,
         "url": "https://github.com/sponsors/diegosouzapw"
       }
@@ -283,91 +274,91 @@
     "ai_top10": [
       {
         "full_name": "sponsors/Zackriya-Solutions",
-        "description": "Sponsor Star Zackriya-Solutions / meetily Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS &amp; Windows. The #1 Ai Meeting Minutes generator.",
+        "description": "Sponsor Star Zackriya-Solutions / meetily Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS &amp; Windows. Understand How to write meeting minutes",
         "language": "Rust",
         "total_stars": 0,
-        "period_stars": 8795,
+        "period_stars": 8579,
         "forks": 0,
         "url": "https://github.com/sponsors/Zackriya-Solutions"
+      },
+      {
+        "full_name": "openai/codex-plugin-cc",
+        "description": "Star openai / codex-plugin-cc Use Codex from Claude Code to review code or delegate tasks.",
+        "language": "JavaScript",
+        "total_stars": 27704,
+        "period_stars": 4030,
+        "forks": 1806,
+        "url": "https://github.com/openai/codex-plugin-cc"
+      },
+      {
+        "full_name": "sponsors/wonderwhy-er",
+        "description": "Sponsor Star wonderwhy-er / DesktopCommanderMCP This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+        "language": "TypeScript",
+        "total_stars": 0,
+        "period_stars": 1451,
+        "forks": 0,
+        "url": "https://github.com/sponsors/wonderwhy-er"
       },
       {
         "full_name": "sponsors/asgeirtj",
         "description": "Sponsor Star asgeirtj / system_prompts_leaks Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT GPT-5.6, Codex GPT-5.6, GPT-5.5. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
         "language": "JavaScript",
         "total_stars": 0,
-        "period_stars": 7765,
+        "period_stars": 7731,
         "forks": 0,
         "url": "https://github.com/sponsors/asgeirtj"
-      },
-      {
-        "full_name": "usestrix/strix",
-        "description": "Star usestrix / strix Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
-        "language": "Python",
-        "total_stars": 40217,
-        "period_stars": 6443,
-        "forks": 4216,
-        "url": "https://github.com/usestrix/strix"
-      },
-      {
-        "full_name": "openai/codex-plugin-cc",
-        "description": "Star openai / codex-plugin-cc Use Codex from Claude Code to review code or delegate tasks.",
-        "language": "JavaScript",
-        "total_stars": 27461,
-        "period_stars": 4484,
-        "forks": 1780,
-        "url": "https://github.com/openai/codex-plugin-cc"
       },
       {
         "full_name": "sponsors/ogulcancelik",
         "description": "Sponsor Star ogulcancelik / herdr agent multiplexer that lives in your terminal.",
         "language": "Rust",
         "total_stars": 0,
-        "period_stars": 4714,
+        "period_stars": 4349,
         "forks": 0,
         "url": "https://github.com/sponsors/ogulcancelik"
-      },
-      {
-        "full_name": "bradautomates/claude-video",
-        "description": "Star bradautomates / claude-video Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
-        "language": "Python",
-        "total_stars": 7262,
-        "period_stars": 4093,
-        "forks": 809,
-        "url": "https://github.com/bradautomates/claude-video"
-      },
-      {
-        "full_name": "facebook/astryx",
-        "description": "Star facebook / astryx An open source design system that's fully customizable and agent ready",
-        "language": "TypeScript",
-        "total_stars": 7773,
-        "period_stars": 3582,
-        "forks": 651,
-        "url": "https://github.com/facebook/astryx"
-      },
-      {
-        "full_name": "alibaba/page-agent",
-        "description": "Star alibaba / page-agent JavaScript in-page GUI agent. Control web interfaces with natural language.",
-        "language": "TypeScript",
-        "total_stars": 25869,
-        "period_stars": 3799,
-        "forks": 2376,
-        "url": "https://github.com/alibaba/page-agent"
       },
       {
         "full_name": "TencentCloud/CubeSandbox",
         "description": "Star TencentCloud / CubeSandbox Instant, Concurrent, Secure &amp; Lightweight Sandbox for AI Agents.",
         "language": "Rust",
-        "total_stars": 9601,
-        "period_stars": 2514,
-        "forks": 939,
+        "total_stars": 9709,
+        "period_stars": 2416,
+        "forks": 953,
         "url": "https://github.com/TencentCloud/CubeSandbox"
+      },
+      {
+        "full_name": "facebook/astryx",
+        "description": "Star facebook / astryx An open source design system that's fully customizable and agent ready",
+        "language": "TypeScript",
+        "total_stars": 7957,
+        "period_stars": 2779,
+        "forks": 677,
+        "url": "https://github.com/facebook/astryx"
+      },
+      {
+        "full_name": "usestrix/strix",
+        "description": "Star usestrix / strix Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+        "language": "Python",
+        "total_stars": 40608,
+        "period_stars": 4987,
+        "forks": 4275,
+        "url": "https://github.com/usestrix/strix"
+      },
+      {
+        "full_name": "bradautomates/claude-video",
+        "description": "Star bradautomates / claude-video Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+        "language": "Python",
+        "total_stars": 7609,
+        "period_stars": 4399,
+        "forks": 853,
+        "url": "https://github.com/bradautomates/claude-video"
       },
       {
         "full_name": "sponsors/diegosouzapw",
         "description": "Sponsor Star diegosouzapw / OmniRoute Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline &amp; Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
         "language": "TypeScript",
         "total_stars": 0,
-        "period_stars": 4268,
+        "period_stars": 4375,
         "forks": 0,
         "url": "https://github.com/sponsors/diegosouzapw"
       }

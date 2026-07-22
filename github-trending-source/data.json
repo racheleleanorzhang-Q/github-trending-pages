@@ -1,189 +1,189 @@
 {
-  "updated_at": "2026-07-21 12:36:47 GMT+8",
-  "updated_ts": 1784608607,
+  "updated_at": "2026-07-22 12:38:30 GMT+8",
+  "updated_ts": 1784695110,
   "daily": {
     "top10": [
+      {
+        "full_name": "koala73/worldmonitor",
+        "description": "Star koala73 / worldmonitor Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+        "language": "TypeScript",
+        "total_stars": 66070,
+        "period_stars": 1295,
+        "forks": 10255,
+        "url": "https://github.com/koala73/worldmonitor"
+      },
+      {
+        "full_name": "bojieli/ai-agent-book",
+        "description": "Star bojieli / ai-agent-book 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+        "language": "Python",
+        "total_stars": 15413,
+        "period_stars": 4624,
+        "forks": 1450,
+        "url": "https://github.com/bojieli/ai-agent-book"
+      },
       {
         "full_name": "sponsors/tirth8205",
         "description": "Sponsor Star tirth8205 / code-review-graph Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 1833,
+        "period_stars": 1925,
         "forks": 0,
         "url": "https://github.com/sponsors/tirth8205"
+      },
+      {
+        "full_name": "ayghri/i-have-adhd",
+        "description": "Star ayghri / i-have-adhd A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.",
+        "language": "",
+        "total_stars": 7139,
+        "period_stars": 1866,
+        "forks": 302,
+        "url": "https://github.com/ayghri/i-have-adhd"
+      },
+      {
+        "full_name": "earthtojake/text-to-cad",
+        "description": "Star earthtojake / text-to-cad A collection of agent skills for CAD, robotics and hardware design",
+        "language": "JavaScript",
+        "total_stars": 9257,
+        "period_stars": 291,
+        "forks": 1033,
+        "url": "https://github.com/earthtojake/text-to-cad"
       },
       {
         "full_name": "1jehuang/jcode",
         "description": "Star 1jehuang / jcode The most intelligent agent harness for code",
         "language": "Rust",
-        "total_stars": 9777,
-        "period_stars": 568,
-        "forks": 1090,
+        "total_stars": 10433,
+        "period_stars": 843,
+        "forks": 1144,
         "url": "https://github.com/1jehuang/jcode"
       },
       {
-        "full_name": "sponsors/diegosouzapw",
-        "description": "Sponsor Star diegosouzapw / OmniRoute Never stop coding. Free MIT AI gateway: one endpoint, 268+ providers (50+ free), 500+ models — Claude, GPT, Gemini, Kimi K3, GLM, DeepSeek. Works with Claude Code, Codex, Cursor, Cline &amp; Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, multimodal, Desktop/PWA. Built by 500+ contributors.",
+        "full_name": "oblien/openship",
+        "description": "Star oblien / openship Self-hosted deployment platform",
         "language": "TypeScript",
-        "total_stars": 0,
-        "period_stars": 1107,
-        "forks": 0,
-        "url": "https://github.com/sponsors/diegosouzapw"
+        "total_stars": 6411,
+        "period_stars": 1562,
+        "forks": 460,
+        "url": "https://github.com/oblien/openship"
       },
       {
-        "full_name": "sponsors/rohitg00",
-        "description": "Sponsor Star rohitg00 / ai-engineering-from-scratch Learn it. Build it. Ship it for others.",
+        "full_name": "AstrBotDevs/AstrBot",
+        "description": "Star AstrBotDevs / AstrBot AI Agent Assistant &amp; development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
         "language": "Python",
-        "total_stars": 0,
-        "period_stars": 823,
-        "forks": 0,
-        "url": "https://github.com/sponsors/rohitg00"
-      },
-      {
-        "full_name": "sponsors/msitarzewski",
-        "description": "Sponsor Star msitarzewski / agency-agents A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-        "language": "Shell",
-        "total_stars": 0,
-        "period_stars": 862,
-        "forks": 0,
-        "url": "https://github.com/sponsors/msitarzewski"
-      },
-      {
-        "full_name": "kvcache-ai/ktransformers",
-        "description": "Star kvcache-ai / ktransformers A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations",
-        "language": "Python",
-        "total_stars": 18770,
-        "period_stars": 458,
-        "forks": 1463,
-        "url": "https://github.com/kvcache-ai/ktransformers"
-      },
-      {
-        "full_name": "jamiepine/voicebox",
-        "description": "Star jamiepine / voicebox The open-source AI voice studio. Clone, dictate, create.",
-        "language": "TypeScript",
-        "total_stars": 44351,
-        "period_stars": 821,
-        "forks": 5398,
-        "url": "https://github.com/jamiepine/voicebox"
-      },
-      {
-        "full_name": "sponsors/topoteretes",
-        "description": "Sponsor Star topoteretes / cognee Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.",
-        "language": "Python",
-        "total_stars": 0,
-        "period_stars": 234,
-        "forks": 0,
-        "url": "https://github.com/sponsors/topoteretes"
-      },
-      {
-        "full_name": "Robbyant/lingbot-map",
-        "description": "Star Robbyant / lingbot-map A feed-forward 3D foundation model for reconstructing scenes from streaming data",
-        "language": "Python",
-        "total_stars": 14351,
-        "period_stars": 565,
-        "forks": 1488,
-        "url": "https://github.com/Robbyant/lingbot-map"
+        "total_stars": 37558,
+        "period_stars": 416,
+        "forks": 2617,
+        "url": "https://github.com/AstrBotDevs/AstrBot"
       },
       {
         "full_name": "every-app/open-seo",
         "description": "Star every-app / open-seo Open source alternative to Semrush and Ahrefs",
         "language": "TypeScript",
-        "total_stars": 6007,
-        "period_stars": 939,
-        "forks": 659,
+        "total_stars": 6668,
+        "period_stars": 849,
+        "forks": 718,
         "url": "https://github.com/every-app/open-seo"
+      },
+      {
+        "full_name": "tradesdontlie/tradingview-mcp",
+        "description": "Star tradesdontlie / tradingview-mcp AI-assisted TradingView chart analysis — connect Claude Code to your TradingView Desktop for personal workflow automation",
+        "language": "JavaScript",
+        "total_stars": 4912,
+        "period_stars": 114,
+        "forks": 2179,
+        "url": "https://github.com/tradesdontlie/tradingview-mcp"
       }
     ],
     "ai_top10": [
+      {
+        "full_name": "koala73/worldmonitor",
+        "description": "Star koala73 / worldmonitor Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+        "language": "TypeScript",
+        "total_stars": 66070,
+        "period_stars": 1295,
+        "forks": 10255,
+        "url": "https://github.com/koala73/worldmonitor"
+      },
+      {
+        "full_name": "bojieli/ai-agent-book",
+        "description": "Star bojieli / ai-agent-book 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+        "language": "Python",
+        "total_stars": 15413,
+        "period_stars": 4624,
+        "forks": 1450,
+        "url": "https://github.com/bojieli/ai-agent-book"
+      },
       {
         "full_name": "sponsors/tirth8205",
         "description": "Sponsor Star tirth8205 / code-review-graph Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 1833,
+        "period_stars": 1925,
         "forks": 0,
         "url": "https://github.com/sponsors/tirth8205"
+      },
+      {
+        "full_name": "ayghri/i-have-adhd",
+        "description": "Star ayghri / i-have-adhd A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.",
+        "language": "",
+        "total_stars": 7139,
+        "period_stars": 1866,
+        "forks": 302,
+        "url": "https://github.com/ayghri/i-have-adhd"
+      },
+      {
+        "full_name": "earthtojake/text-to-cad",
+        "description": "Star earthtojake / text-to-cad A collection of agent skills for CAD, robotics and hardware design",
+        "language": "JavaScript",
+        "total_stars": 9257,
+        "period_stars": 291,
+        "forks": 1033,
+        "url": "https://github.com/earthtojake/text-to-cad"
       },
       {
         "full_name": "1jehuang/jcode",
         "description": "Star 1jehuang / jcode The most intelligent agent harness for code",
         "language": "Rust",
-        "total_stars": 9777,
-        "period_stars": 568,
-        "forks": 1090,
+        "total_stars": 10433,
+        "period_stars": 843,
+        "forks": 1144,
         "url": "https://github.com/1jehuang/jcode"
       },
       {
-        "full_name": "sponsors/diegosouzapw",
-        "description": "Sponsor Star diegosouzapw / OmniRoute Never stop coding. Free MIT AI gateway: one endpoint, 268+ providers (50+ free), 500+ models — Claude, GPT, Gemini, Kimi K3, GLM, DeepSeek. Works with Claude Code, Codex, Cursor, Cline &amp; Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, multimodal, Desktop/PWA. Built by 500+ contributors.",
-        "language": "TypeScript",
+        "full_name": "AstrBotDevs/AstrBot",
+        "description": "Star AstrBotDevs / AstrBot AI Agent Assistant &amp; development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
+        "language": "Python",
+        "total_stars": 37558,
+        "period_stars": 416,
+        "forks": 2617,
+        "url": "https://github.com/AstrBotDevs/AstrBot"
+      },
+      {
+        "full_name": "tradesdontlie/tradingview-mcp",
+        "description": "Star tradesdontlie / tradingview-mcp AI-assisted TradingView chart analysis — connect Claude Code to your TradingView Desktop for personal workflow automation",
+        "language": "JavaScript",
+        "total_stars": 4912,
+        "period_stars": 114,
+        "forks": 2179,
+        "url": "https://github.com/tradesdontlie/tradingview-mcp"
+      },
+      {
+        "full_name": "sponsors/AlexsJones",
+        "description": "Sponsor Star AlexsJones / llmfit Hundreds of models &amp; providers. One command to find what runs on your hardware.",
+        "language": "Rust",
         "total_stars": 0,
-        "period_stars": 1107,
+        "period_stars": 129,
         "forks": 0,
-        "url": "https://github.com/sponsors/diegosouzapw"
+        "url": "https://github.com/sponsors/AlexsJones"
       },
       {
-        "full_name": "sponsors/rohitg00",
-        "description": "Sponsor Star rohitg00 / ai-engineering-from-scratch Learn it. Build it. Ship it for others.",
+        "full_name": "langchain-ai/open_deep_research",
+        "description": "",
         "language": "Python",
-        "total_stars": 0,
-        "period_stars": 823,
-        "forks": 0,
-        "url": "https://github.com/sponsors/rohitg00"
-      },
-      {
-        "full_name": "sponsors/msitarzewski",
-        "description": "Sponsor Star msitarzewski / agency-agents A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-        "language": "Shell",
-        "total_stars": 0,
-        "period_stars": 862,
-        "forks": 0,
-        "url": "https://github.com/sponsors/msitarzewski"
-      },
-      {
-        "full_name": "kvcache-ai/ktransformers",
-        "description": "Star kvcache-ai / ktransformers A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations",
-        "language": "Python",
-        "total_stars": 18770,
-        "period_stars": 458,
-        "forks": 1463,
-        "url": "https://github.com/kvcache-ai/ktransformers"
-      },
-      {
-        "full_name": "jamiepine/voicebox",
-        "description": "Star jamiepine / voicebox The open-source AI voice studio. Clone, dictate, create.",
-        "language": "TypeScript",
-        "total_stars": 44351,
-        "period_stars": 821,
-        "forks": 5398,
-        "url": "https://github.com/jamiepine/voicebox"
-      },
-      {
-        "full_name": "sponsors/topoteretes",
-        "description": "Sponsor Star topoteretes / cognee Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.",
-        "language": "Python",
-        "total_stars": 0,
-        "period_stars": 234,
-        "forks": 0,
-        "url": "https://github.com/sponsors/topoteretes"
-      },
-      {
-        "full_name": "Robbyant/lingbot-map",
-        "description": "Star Robbyant / lingbot-map A feed-forward 3D foundation model for reconstructing scenes from streaming data",
-        "language": "Python",
-        "total_stars": 14351,
-        "period_stars": 565,
-        "forks": 1488,
-        "url": "https://github.com/Robbyant/lingbot-map"
-      },
-      {
-        "full_name": "MoonshotAI/kimi-cli",
-        "description": "Star MoonshotAI / kimi-cli Kimi Code CLI is your next CLI agent.",
-        "language": "Python",
-        "total_stars": 10301,
-        "period_stars": 410,
-        "forks": 1223,
-        "url": "https://github.com/MoonshotAI/kimi-cli"
+        "total_stars": 12286,
+        "period_stars": 23,
+        "forks": 1744,
+        "url": "https://github.com/langchain-ai/open_deep_research"
       }
     ]
   },
@@ -193,9 +193,9 @@
         "full_name": "Nutlope/hallmark",
         "description": "Star Nutlope / hallmark Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
         "language": "CSS",
-        "total_stars": 14356,
-        "period_stars": 9173,
-        "forks": 712,
+        "total_stars": 15067,
+        "period_stars": 8948,
+        "forks": 753,
         "url": "https://github.com/Nutlope/hallmark"
       },
       {
@@ -203,81 +203,81 @@
         "description": "Sponsor Star OpenCut-app / OpenCut The open-source CapCut alternative",
         "language": "TypeScript",
         "total_stars": 0,
-        "period_stars": 11676,
+        "period_stars": 8341,
         "forks": 0,
         "url": "https://github.com/sponsors/OpenCut-app"
-      },
-      {
-        "full_name": "Shubhamsaboo/awesome-llm-apps",
-        "description": "Star Shubhamsaboo / awesome-llm-apps 100+ AI Agent &amp; RAG apps you can actually run — clone, customize, ship.",
-        "language": "Python",
-        "total_stars": 125275,
-        "period_stars": 5857,
-        "forks": 18483,
-        "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
       },
       {
         "full_name": "HKUDS/DeepTutor",
         "description": "Star HKUDS / DeepTutor DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
         "language": "Python",
-        "total_stars": 28509,
-        "period_stars": 2754,
-        "forks": 3764,
+        "total_stars": 28893,
+        "period_stars": 2908,
+        "forks": 3808,
         "url": "https://github.com/HKUDS/DeepTutor"
-      },
-      {
-        "full_name": "sponsors/Dicklesworthstone",
-        "description": "Sponsor Star Dicklesworthstone / destructive_command_guard The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
-        "language": "Rust",
-        "total_stars": 0,
-        "period_stars": 1410,
-        "forks": 0,
-        "url": "https://github.com/sponsors/Dicklesworthstone"
-      },
-      {
-        "full_name": "HKUDS/Vibe-Trading",
-        "description": "Star HKUDS / Vibe-Trading \"Vibe-Trading: Your Personal Trading Agent\"",
-        "language": "Python",
-        "total_stars": 25799,
-        "period_stars": 4387,
-        "forks": 4227,
-        "url": "https://github.com/HKUDS/Vibe-Trading"
       },
       {
         "full_name": "sponsors/tirth8205",
         "description": "Sponsor Star tirth8205 / code-review-graph Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 3073,
+        "period_stars": 4791,
         "forks": 0,
         "url": "https://github.com/sponsors/tirth8205"
+      },
+      {
+        "full_name": "Shubhamsaboo/awesome-llm-apps",
+        "description": "Star Shubhamsaboo / awesome-llm-apps 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+        "language": "Python",
+        "total_stars": 125883,
+        "period_stars": 5385,
+        "forks": 18576,
+        "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
+      },
+      {
+        "full_name": "MoonshotAI/kimi-cli",
+        "description": "Star MoonshotAI / kimi-cli Kimi Code CLI is your next CLI agent.",
+        "language": "Python",
+        "total_stars": 10537,
+        "period_stars": 1294,
+        "forks": 1233,
+        "url": "https://github.com/MoonshotAI/kimi-cli"
       },
       {
         "full_name": "sponsors/ibelick",
         "description": "Sponsor Star ibelick / ui-skills Skills for Design Engineers",
         "language": "TypeScript",
         "total_stars": 0,
-        "period_stars": 1925,
+        "period_stars": 2094,
         "forks": 0,
         "url": "https://github.com/sponsors/ibelick"
       },
       {
-        "full_name": "sponsors/mattpocock",
-        "description": "Sponsor Star mattpocock / skills Skills for Real Engineers. Straight from my .agents directory.",
-        "language": "Shell",
-        "total_stars": 0,
-        "period_stars": 10872,
-        "forks": 0,
-        "url": "https://github.com/sponsors/mattpocock"
+        "full_name": "1jehuang/jcode",
+        "description": "Star 1jehuang / jcode The most intelligent agent harness for code",
+        "language": "Rust",
+        "total_stars": 10433,
+        "period_stars": 1769,
+        "forks": 1144,
+        "url": "https://github.com/1jehuang/jcode"
       },
       {
         "full_name": "kangarooking/cangjie-skill",
         "description": "Star kangarooking / cangjie-skill 把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills",
         "language": "Python",
-        "total_stars": 4114,
-        "period_stars": 1342,
-        "forks": 554,
+        "total_stars": 4284,
+        "period_stars": 1364,
+        "forks": 563,
         "url": "https://github.com/kangarooking/cangjie-skill"
+      },
+      {
+        "full_name": "HKUDS/Vibe-Trading",
+        "description": "Star HKUDS / Vibe-Trading \"Vibe-Trading: Your Personal Trading Agent\"",
+        "language": "Python",
+        "total_stars": 26196,
+        "period_stars": 3679,
+        "forks": 4289,
+        "url": "https://github.com/HKUDS/Vibe-Trading"
       }
     ],
     "ai_top10": [
@@ -285,91 +285,91 @@
         "full_name": "Nutlope/hallmark",
         "description": "Star Nutlope / hallmark Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
         "language": "CSS",
-        "total_stars": 14356,
-        "period_stars": 9173,
-        "forks": 712,
+        "total_stars": 15067,
+        "period_stars": 8948,
+        "forks": 753,
         "url": "https://github.com/Nutlope/hallmark"
-      },
-      {
-        "full_name": "Shubhamsaboo/awesome-llm-apps",
-        "description": "Star Shubhamsaboo / awesome-llm-apps 100+ AI Agent &amp; RAG apps you can actually run — clone, customize, ship.",
-        "language": "Python",
-        "total_stars": 125275,
-        "period_stars": 5857,
-        "forks": 18483,
-        "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
-      },
-      {
-        "full_name": "sponsors/Dicklesworthstone",
-        "description": "Sponsor Star Dicklesworthstone / destructive_command_guard The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
-        "language": "Rust",
-        "total_stars": 0,
-        "period_stars": 1410,
-        "forks": 0,
-        "url": "https://github.com/sponsors/Dicklesworthstone"
-      },
-      {
-        "full_name": "HKUDS/Vibe-Trading",
-        "description": "Star HKUDS / Vibe-Trading \"Vibe-Trading: Your Personal Trading Agent\"",
-        "language": "Python",
-        "total_stars": 25799,
-        "period_stars": 4387,
-        "forks": 4227,
-        "url": "https://github.com/HKUDS/Vibe-Trading"
       },
       {
         "full_name": "sponsors/tirth8205",
         "description": "Sponsor Star tirth8205 / code-review-graph Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 3073,
+        "period_stars": 4791,
         "forks": 0,
         "url": "https://github.com/sponsors/tirth8205"
+      },
+      {
+        "full_name": "Shubhamsaboo/awesome-llm-apps",
+        "description": "Star Shubhamsaboo / awesome-llm-apps 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+        "language": "Python",
+        "total_stars": 125883,
+        "period_stars": 5385,
+        "forks": 18576,
+        "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
+      },
+      {
+        "full_name": "MoonshotAI/kimi-cli",
+        "description": "Star MoonshotAI / kimi-cli Kimi Code CLI is your next CLI agent.",
+        "language": "Python",
+        "total_stars": 10537,
+        "period_stars": 1294,
+        "forks": 1233,
+        "url": "https://github.com/MoonshotAI/kimi-cli"
+      },
+      {
+        "full_name": "1jehuang/jcode",
+        "description": "Star 1jehuang / jcode The most intelligent agent harness for code",
+        "language": "Rust",
+        "total_stars": 10433,
+        "period_stars": 1769,
+        "forks": 1144,
+        "url": "https://github.com/1jehuang/jcode"
+      },
+      {
+        "full_name": "kangarooking/cangjie-skill",
+        "description": "Star kangarooking / cangjie-skill 把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills",
+        "language": "Python",
+        "total_stars": 4284,
+        "period_stars": 1364,
+        "forks": 563,
+        "url": "https://github.com/kangarooking/cangjie-skill"
+      },
+      {
+        "full_name": "HKUDS/Vibe-Trading",
+        "description": "Star HKUDS / Vibe-Trading \"Vibe-Trading: Your Personal Trading Agent\"",
+        "language": "Python",
+        "total_stars": 26196,
+        "period_stars": 3679,
+        "forks": 4289,
+        "url": "https://github.com/HKUDS/Vibe-Trading"
       },
       {
         "full_name": "sponsors/mattpocock",
         "description": "Sponsor Star mattpocock / skills Skills for Real Engineers. Straight from my .agents directory.",
         "language": "Shell",
         "total_stars": 0,
-        "period_stars": 10872,
+        "period_stars": 10651,
         "forks": 0,
         "url": "https://github.com/sponsors/mattpocock"
-      },
-      {
-        "full_name": "kangarooking/cangjie-skill",
-        "description": "Star kangarooking / cangjie-skill 把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills",
-        "language": "Python",
-        "total_stars": 4114,
-        "period_stars": 1342,
-        "forks": 554,
-        "url": "https://github.com/kangarooking/cangjie-skill"
       },
       {
         "full_name": "iOfficeAI/OfficeCLI",
         "description": "Star iOfficeAI / OfficeCLI OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
         "language": "C#",
-        "total_stars": 20251,
-        "period_stars": 4140,
-        "forks": 1359,
+        "total_stars": 20705,
+        "period_stars": 4047,
+        "forks": 1391,
         "url": "https://github.com/iOfficeAI/OfficeCLI"
       },
       {
-        "full_name": "openai/codex",
-        "description": "Star openai / codex Lightweight coding agent that runs in your terminal",
-        "language": "Rust",
-        "total_stars": 100114,
-        "period_stars": 2448,
-        "forks": 14980,
-        "url": "https://github.com/openai/codex"
-      },
-      {
-        "full_name": "MoonshotAI/kimi-cli",
-        "description": "Star MoonshotAI / kimi-cli Kimi Code CLI is your next CLI agent.",
-        "language": "Python",
-        "total_stars": 10301,
-        "period_stars": 974,
-        "forks": 1223,
-        "url": "https://github.com/MoonshotAI/kimi-cli"
+        "full_name": "earendil-works/pi",
+        "description": "Star earendil-works / pi AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+        "language": "TypeScript",
+        "total_stars": 74889,
+        "period_stars": 3569,
+        "forks": 9209,
+        "url": "https://github.com/earendil-works/pi"
       }
     ]
   }

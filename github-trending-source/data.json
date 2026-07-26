@@ -1,180 +1,189 @@
 {
-  "updated_at": "2026-07-25 12:32:46 GMT+8",
-  "updated_ts": 1784953966,
+  "updated_at": "2026-07-26 12:47:24 GMT+8",
+  "updated_ts": 1785041244,
   "daily": {
     "top10": [
       {
         "full_name": "block/buzz",
         "description": "Star block / buzz A hive mind communication platform",
         "language": "Rust",
-        "total_stars": 10249,
-        "period_stars": 3270,
-        "forks": 810,
+        "total_stars": 12150,
+        "period_stars": 2491,
+        "forks": 976,
         "url": "https://github.com/block/buzz"
       },
       {
-        "full_name": "koala73/worldmonitor",
-        "description": "Star koala73 / worldmonitor Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-        "language": "TypeScript",
-        "total_stars": 73464,
-        "period_stars": 2184,
-        "forks": 11020,
-        "url": "https://github.com/koala73/worldmonitor"
+        "full_name": "alibaba/open-code-review",
+        "description": "Star alibaba / open-code-review Open-source &amp; free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
+        "language": "Go",
+        "total_stars": 13090,
+        "period_stars": 431,
+        "forks": 891,
+        "url": "https://github.com/alibaba/open-code-review"
+      },
+      {
+        "full_name": "citrolabs/ego-lite",
+        "description": "Star citrolabs / ego-lite The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+        "language": "JavaScript",
+        "total_stars": 3715,
+        "period_stars": 986,
+        "forks": 184,
+        "url": "https://github.com/citrolabs/ego-lite"
       },
       {
         "full_name": "ComposioHQ/awesome-claude-skills",
         "description": "Star ComposioHQ / awesome-claude-skills A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
         "language": "Python",
-        "total_stars": 70157,
-        "period_stars": 663,
-        "forks": 7909,
+        "total_stars": 70664,
+        "period_stars": 577,
+        "forks": 7946,
         "url": "https://github.com/ComposioHQ/awesome-claude-skills"
       },
       {
-        "full_name": "Pumpkin-MC/Pumpkin",
-        "description": "Star Pumpkin-MC / Pumpkin Empowering everyone to host fast and efficient Minecraft servers.",
-        "language": "Rust",
-        "total_stars": 9394,
-        "period_stars": 473,
-        "forks": 634,
-        "url": "https://github.com/Pumpkin-MC/Pumpkin"
-      },
-      {
-        "full_name": "shiyu-coder/Kronos",
-        "description": "Star shiyu-coder / Kronos Kronos: A Foundation Model for the Language of Financial Markets",
-        "language": "Python",
-        "total_stars": 33543,
-        "period_stars": 499,
-        "forks": 5682,
-        "url": "https://github.com/shiyu-coder/Kronos"
+        "full_name": "anthropics/claude-cookbooks",
+        "description": "Star anthropics / claude-cookbooks A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+        "language": "Jupyter Notebook",
+        "total_stars": 49940,
+        "period_stars": 132,
+        "forks": 5899,
+        "url": "https://github.com/anthropics/claude-cookbooks"
       },
       {
         "full_name": "Automattic/harper",
         "description": "Star Automattic / harper Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
         "language": "Rust",
-        "total_stars": 13088,
-        "period_stars": 876,
-        "forks": 484,
+        "total_stars": 13474,
+        "period_stars": 503,
+        "forks": 512,
         "url": "https://github.com/Automattic/harper"
-      },
-      {
-        "full_name": "sponsors/likec4",
-        "description": "Sponsor Star likec4 / likec4 Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code",
-        "language": "TypeScript",
-        "total_stars": 0,
-        "period_stars": 337,
-        "forks": 0,
-        "url": "https://github.com/sponsors/likec4"
-      },
-      {
-        "full_name": "citrolabs/ego-lite",
-        "description": "Star citrolabs / ego-lite The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
-        "language": "JavaScript",
-        "total_stars": 2748,
-        "period_stars": 880,
-        "forks": 133,
-        "url": "https://github.com/citrolabs/ego-lite"
-      },
-      {
-        "full_name": "yorukot/superfile",
-        "description": "Star yorukot / superfile Pretty fancy and modern terminal file manager",
-        "language": "Go",
-        "total_stars": 19670,
-        "period_stars": 338,
-        "forks": 600,
-        "url": "https://github.com/yorukot/superfile"
-      },
-      {
-        "full_name": "ruvnet/RuView",
-        "description": "Star ruvnet / RuView π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
-        "language": "Rust",
-        "total_stars": 86018,
-        "period_stars": 1022,
-        "forks": 11452,
-        "url": "https://github.com/ruvnet/RuView"
-      }
-    ],
-    "ai_top10": [
-      {
-        "full_name": "koala73/worldmonitor",
-        "description": "Star koala73 / worldmonitor Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-        "language": "TypeScript",
-        "total_stars": 73464,
-        "period_stars": 2184,
-        "forks": 11020,
-        "url": "https://github.com/koala73/worldmonitor"
-      },
-      {
-        "full_name": "ComposioHQ/awesome-claude-skills",
-        "description": "Star ComposioHQ / awesome-claude-skills A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
-        "language": "Python",
-        "total_stars": 70157,
-        "period_stars": 663,
-        "forks": 7909,
-        "url": "https://github.com/ComposioHQ/awesome-claude-skills"
       },
       {
         "full_name": "shiyu-coder/Kronos",
         "description": "Star shiyu-coder / Kronos Kronos: A Foundation Model for the Language of Financial Markets",
         "language": "Python",
-        "total_stars": 33543,
-        "period_stars": 499,
-        "forks": 5682,
+        "total_stars": 33847,
+        "period_stars": 319,
+        "forks": 5712,
         "url": "https://github.com/shiyu-coder/Kronos"
+      },
+      {
+        "full_name": "sponsors/obra",
+        "description": "Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works.",
+        "language": "Shell",
+        "total_stars": 0,
+        "period_stars": 479,
+        "forks": 0,
+        "url": "https://github.com/sponsors/obra"
+      },
+      {
+        "full_name": "Pumpkin-MC/Pumpkin",
+        "description": "Star Pumpkin-MC / Pumpkin Empowering everyone to host fast and efficient Minecraft servers.",
+        "language": "Rust",
+        "total_stars": 9748,
+        "period_stars": 358,
+        "forks": 658,
+        "url": "https://github.com/Pumpkin-MC/Pumpkin"
+      },
+      {
+        "full_name": "permissionlesstech/bitchat",
+        "description": "Star permissionlesstech / bitchat bluetooth mesh chat, IRC vibes",
+        "language": "Swift",
+        "total_stars": 28831,
+        "period_stars": 1720,
+        "forks": 4351,
+        "url": "https://github.com/permissionlesstech/bitchat"
+      }
+    ],
+    "ai_top10": [
+      {
+        "full_name": "alibaba/open-code-review",
+        "description": "Star alibaba / open-code-review Open-source &amp; free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
+        "language": "Go",
+        "total_stars": 13090,
+        "period_stars": 431,
+        "forks": 891,
+        "url": "https://github.com/alibaba/open-code-review"
       },
       {
         "full_name": "citrolabs/ego-lite",
         "description": "Star citrolabs / ego-lite The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
         "language": "JavaScript",
-        "total_stars": 2748,
-        "period_stars": 880,
-        "forks": 133,
+        "total_stars": 3715,
+        "period_stars": 986,
+        "forks": 184,
         "url": "https://github.com/citrolabs/ego-lite"
       },
       {
-        "full_name": "sponsors/CoreBunch",
-        "description": "Sponsor Star CoreBunch / Instatic The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there.",
-        "language": "TypeScript",
+        "full_name": "ComposioHQ/awesome-claude-skills",
+        "description": "Star ComposioHQ / awesome-claude-skills A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+        "language": "Python",
+        "total_stars": 70664,
+        "period_stars": 577,
+        "forks": 7946,
+        "url": "https://github.com/ComposioHQ/awesome-claude-skills"
+      },
+      {
+        "full_name": "anthropics/claude-cookbooks",
+        "description": "Star anthropics / claude-cookbooks A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+        "language": "Jupyter Notebook",
+        "total_stars": 49940,
+        "period_stars": 132,
+        "forks": 5899,
+        "url": "https://github.com/anthropics/claude-cookbooks"
+      },
+      {
+        "full_name": "shiyu-coder/Kronos",
+        "description": "Star shiyu-coder / Kronos Kronos: A Foundation Model for the Language of Financial Markets",
+        "language": "Python",
+        "total_stars": 33847,
+        "period_stars": 319,
+        "forks": 5712,
+        "url": "https://github.com/shiyu-coder/Kronos"
+      },
+      {
+        "full_name": "sponsors/obra",
+        "description": "Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works.",
+        "language": "Shell",
         "total_stars": 0,
-        "period_stars": 201,
+        "period_stars": 479,
         "forks": 0,
-        "url": "https://github.com/sponsors/CoreBunch"
+        "url": "https://github.com/sponsors/obra"
       },
       {
         "full_name": "sponsors/mattpocock",
         "description": "Sponsor Star mattpocock / skills Skills for Real Engineers. Straight from my .agents directory.",
         "language": "Shell",
         "total_stars": 0,
-        "period_stars": 2251,
+        "period_stars": 1740,
         "forks": 0,
         "url": "https://github.com/sponsors/mattpocock"
+      },
+      {
+        "full_name": "palmier-io/palmier-pro",
+        "description": "Star palmier-io / palmier-pro macOS video editor built for AI",
+        "language": "Swift",
+        "total_stars": 12270,
+        "period_stars": 412,
+        "forks": 896,
+        "url": "https://github.com/palmier-io/palmier-pro"
+      },
+      {
+        "full_name": "sponsors/CoreBunch",
+        "description": "Sponsor Star CoreBunch / Instatic The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there.",
+        "language": "TypeScript",
+        "total_stars": 0,
+        "period_stars": 426,
+        "forks": 0,
+        "url": "https://github.com/sponsors/CoreBunch"
       },
       {
         "full_name": "Lordog/dive-into-llms",
         "description": "Star Lordog / dive-into-llms 《动手学大模型Dive into LLMs》系列编程实践教程",
         "language": "Jupyter Notebook",
-        "total_stars": 45068,
-        "period_stars": 328,
-        "forks": 5392,
+        "total_stars": 45415,
+        "period_stars": 408,
+        "forks": 5423,
         "url": "https://github.com/Lordog/dive-into-llms"
-      },
-      {
-        "full_name": "sponsors/diegosouzapw",
-        "description": "Sponsor Star diegosouzapw / OmniRoute Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline &amp; Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
-        "language": "TypeScript",
-        "total_stars": 0,
-        "period_stars": 1841,
-        "forks": 0,
-        "url": "https://github.com/sponsors/diegosouzapw"
-      },
-      {
-        "full_name": "OtterMind/Chat2DB",
-        "description": "Star OtterMind / Chat2DB 🔥🔥🔥 AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more.",
-        "language": "Java",
-        "total_stars": 26392,
-        "period_stars": 82,
-        "forks": 2882,
-        "url": "https://github.com/OtterMind/Chat2DB"
       }
     ]
   },
@@ -184,18 +193,18 @@
         "full_name": "bojieli/ai-agent-book",
         "description": "Star bojieli / ai-agent-book 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
         "language": "Python",
-        "total_stars": 19280,
-        "period_stars": 17401,
-        "forks": 1921,
+        "total_stars": 19924,
+        "period_stars": 16579,
+        "forks": 1984,
         "url": "https://github.com/bojieli/ai-agent-book"
       },
       {
         "full_name": "koala73/worldmonitor",
         "description": "Star koala73 / worldmonitor Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
         "language": "TypeScript",
-        "total_stars": 73464,
-        "period_stars": 10936,
-        "forks": 11020,
+        "total_stars": 74241,
+        "period_stars": 12085,
+        "forks": 11149,
         "url": "https://github.com/koala73/worldmonitor"
       },
       {
@@ -203,72 +212,72 @@
         "description": "Sponsor Star tirth8205 / code-review-graph Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 6565,
+        "period_stars": 6423,
         "forks": 0,
         "url": "https://github.com/sponsors/tirth8205"
-      },
-      {
-        "full_name": "MoonshotAI/kimi-code",
-        "description": "Star MoonshotAI / kimi-code Kimi Code CLI — The Starting Point for Next-Gen Agents",
-        "language": "TypeScript",
-        "total_stars": 4963,
-        "period_stars": 1589,
-        "forks": 722,
-        "url": "https://github.com/MoonshotAI/kimi-code"
       },
       {
         "full_name": "1jehuang/jcode",
         "description": "Star 1jehuang / jcode The most intelligent agent harness for code",
         "language": "Rust",
-        "total_stars": 11256,
-        "period_stars": 2773,
-        "forks": 1230,
+        "total_stars": 11482,
+        "period_stars": 2914,
+        "forks": 1266,
         "url": "https://github.com/1jehuang/jcode"
+      },
+      {
+        "full_name": "agegr/pi-web",
+        "description": "Star agegr / pi-web Web UI for the pi coding agent",
+        "language": "TypeScript",
+        "total_stars": 2766,
+        "period_stars": 1450,
+        "forks": 371,
+        "url": "https://github.com/agegr/pi-web"
       },
       {
         "full_name": "sponsors/diegosouzapw",
         "description": "Sponsor Star diegosouzapw / OmniRoute Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline &amp; Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
         "language": "TypeScript",
         "total_stars": 0,
-        "period_stars": 9965,
+        "period_stars": 11147,
         "forks": 0,
         "url": "https://github.com/sponsors/diegosouzapw"
       },
       {
-        "full_name": "agegr/pi-web",
-        "description": "Star agegr / pi-web Web UI for the pi coding agent",
+        "full_name": "MoonshotAI/kimi-code",
+        "description": "Star MoonshotAI / kimi-code Kimi Code CLI — The Starting Point for Next-Gen Agents",
         "language": "TypeScript",
-        "total_stars": 2641,
-        "period_stars": 1316,
-        "forks": 352,
-        "url": "https://github.com/agegr/pi-web"
-      },
-      {
-        "full_name": "HKUDS/DeepTutor",
-        "description": "Star HKUDS / DeepTutor DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
-        "language": "Python",
-        "total_stars": 29584,
-        "period_stars": 2380,
-        "forks": 3900,
-        "url": "https://github.com/HKUDS/DeepTutor"
-      },
-      {
-        "full_name": "MoonshotAI/kimi-cli",
-        "description": "Star MoonshotAI / kimi-cli Kimi Code CLI is your next CLI agent.",
-        "language": "Python",
-        "total_stars": 10798,
-        "period_stars": 1570,
-        "forks": 1251,
-        "url": "https://github.com/MoonshotAI/kimi-cli"
+        "total_stars": 5074,
+        "period_stars": 1534,
+        "forks": 743,
+        "url": "https://github.com/MoonshotAI/kimi-code"
       },
       {
         "full_name": "earendil-works/pi",
         "description": "Star earendil-works / pi AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
         "language": "TypeScript",
-        "total_stars": 77140,
-        "period_stars": 4880,
-        "forks": 9483,
+        "total_stars": 77631,
+        "period_stars": 5167,
+        "forks": 9557,
         "url": "https://github.com/earendil-works/pi"
+      },
+      {
+        "full_name": "MoonshotAI/kimi-cli",
+        "description": "Star MoonshotAI / kimi-cli Kimi Code CLI is your next CLI agent.",
+        "language": "Python",
+        "total_stars": 10840,
+        "period_stars": 1537,
+        "forks": 1254,
+        "url": "https://github.com/MoonshotAI/kimi-cli"
+      },
+      {
+        "full_name": "sponsors/rohitg00",
+        "description": "Sponsor Star rohitg00 / ai-engineering-from-scratch Learn it. Build it. Ship it for others.",
+        "language": "Python",
+        "total_stars": 0,
+        "period_stars": 4518,
+        "forks": 0,
+        "url": "https://github.com/sponsors/rohitg00"
       }
     ],
     "ai_top10": [
@@ -276,18 +285,18 @@
         "full_name": "bojieli/ai-agent-book",
         "description": "Star bojieli / ai-agent-book 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
         "language": "Python",
-        "total_stars": 19280,
-        "period_stars": 17401,
-        "forks": 1921,
+        "total_stars": 19924,
+        "period_stars": 16579,
+        "forks": 1984,
         "url": "https://github.com/bojieli/ai-agent-book"
       },
       {
         "full_name": "koala73/worldmonitor",
         "description": "Star koala73 / worldmonitor Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
         "language": "TypeScript",
-        "total_stars": 73464,
-        "period_stars": 10936,
-        "forks": 11020,
+        "total_stars": 74241,
+        "period_stars": 12085,
+        "forks": 11149,
         "url": "https://github.com/koala73/worldmonitor"
       },
       {
@@ -295,70 +304,70 @@
         "description": "Sponsor Star tirth8205 / code-review-graph Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 6565,
+        "period_stars": 6423,
         "forks": 0,
         "url": "https://github.com/sponsors/tirth8205"
-      },
-      {
-        "full_name": "MoonshotAI/kimi-code",
-        "description": "Star MoonshotAI / kimi-code Kimi Code CLI — The Starting Point for Next-Gen Agents",
-        "language": "TypeScript",
-        "total_stars": 4963,
-        "period_stars": 1589,
-        "forks": 722,
-        "url": "https://github.com/MoonshotAI/kimi-code"
       },
       {
         "full_name": "1jehuang/jcode",
         "description": "Star 1jehuang / jcode The most intelligent agent harness for code",
         "language": "Rust",
-        "total_stars": 11256,
-        "period_stars": 2773,
-        "forks": 1230,
+        "total_stars": 11482,
+        "period_stars": 2914,
+        "forks": 1266,
         "url": "https://github.com/1jehuang/jcode"
+      },
+      {
+        "full_name": "agegr/pi-web",
+        "description": "Star agegr / pi-web Web UI for the pi coding agent",
+        "language": "TypeScript",
+        "total_stars": 2766,
+        "period_stars": 1450,
+        "forks": 371,
+        "url": "https://github.com/agegr/pi-web"
       },
       {
         "full_name": "sponsors/diegosouzapw",
         "description": "Sponsor Star diegosouzapw / OmniRoute Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline &amp; Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
         "language": "TypeScript",
         "total_stars": 0,
-        "period_stars": 9965,
+        "period_stars": 11147,
         "forks": 0,
         "url": "https://github.com/sponsors/diegosouzapw"
       },
       {
-        "full_name": "agegr/pi-web",
-        "description": "Star agegr / pi-web Web UI for the pi coding agent",
+        "full_name": "MoonshotAI/kimi-code",
+        "description": "Star MoonshotAI / kimi-code Kimi Code CLI — The Starting Point for Next-Gen Agents",
         "language": "TypeScript",
-        "total_stars": 2641,
-        "period_stars": 1316,
-        "forks": 352,
-        "url": "https://github.com/agegr/pi-web"
-      },
-      {
-        "full_name": "MoonshotAI/kimi-cli",
-        "description": "Star MoonshotAI / kimi-cli Kimi Code CLI is your next CLI agent.",
-        "language": "Python",
-        "total_stars": 10798,
-        "period_stars": 1570,
-        "forks": 1251,
-        "url": "https://github.com/MoonshotAI/kimi-cli"
+        "total_stars": 5074,
+        "period_stars": 1534,
+        "forks": 743,
+        "url": "https://github.com/MoonshotAI/kimi-code"
       },
       {
         "full_name": "earendil-works/pi",
         "description": "Star earendil-works / pi AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
         "language": "TypeScript",
-        "total_stars": 77140,
-        "period_stars": 4880,
-        "forks": 9483,
+        "total_stars": 77631,
+        "period_stars": 5167,
+        "forks": 9557,
         "url": "https://github.com/earendil-works/pi"
+      },
+      {
+        "full_name": "MoonshotAI/kimi-cli",
+        "description": "Star MoonshotAI / kimi-cli Kimi Code CLI is your next CLI agent.",
+        "language": "Python",
+        "total_stars": 10840,
+        "period_stars": 1537,
+        "forks": 1254,
+        "url": "https://github.com/MoonshotAI/kimi-cli"
       },
       {
         "full_name": "sponsors/rohitg00",
         "description": "Sponsor Star rohitg00 / ai-engineering-from-scratch Learn it. Build it. Ship it for others.",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 4399,
+        "period_stars": 4518,
         "forks": 0,
         "url": "https://github.com/sponsors/rohitg00"
       }

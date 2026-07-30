@@ -1,97 +1,97 @@
 {
-  "updated_at": "2026-07-29 12:36:12 GMT+8",
-  "updated_ts": 1785299772,
+  "updated_at": "2026-07-30 12:23:57 GMT+8",
+  "updated_ts": 1785385437,
   "daily": {
     "top10": [
       {
-        "full_name": "pascalorg/editor",
-        "description": "Star pascalorg / editor Create and share 3D architectural projects.",
+        "full_name": "sponsors/opengeos",
+        "description": "Sponsor Star opengeos / GeoLibre A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
         "language": "TypeScript",
-        "total_stars": 18899,
-        "period_stars": 341,
-        "forks": 2541,
-        "url": "https://github.com/pascalorg/editor"
-      },
-      {
-        "full_name": "jenkinsci/jenkins",
-        "description": "Star jenkinsci / jenkins Jenkins automation server",
-        "language": "Java",
-        "total_stars": 26114,
-        "period_stars": 180,
-        "forks": 9690,
-        "url": "https://github.com/jenkinsci/jenkins"
+        "total_stars": 0,
+        "period_stars": 671,
+        "forks": 0,
+        "url": "https://github.com/sponsors/opengeos"
       },
       {
         "full_name": "moeru-ai/airi",
         "description": "Star moeru-ai / airi 💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
         "language": "TypeScript",
-        "total_stars": 44902,
-        "period_stars": 797,
-        "forks": 4456,
+        "total_stars": 45493,
+        "period_stars": 682,
+        "forks": 4493,
         "url": "https://github.com/moeru-ai/airi"
-      },
-      {
-        "full_name": "andrewyng/aisuite",
-        "description": "Star andrewyng / aisuite Simple, unified interface to multiple Generative AI providers",
-        "language": "Python",
-        "total_stars": 15730,
-        "period_stars": 62,
-        "forks": 1658,
-        "url": "https://github.com/andrewyng/aisuite"
       },
       {
         "full_name": "sponsors/affaan-m",
         "description": "Sponsor Star affaan-m / ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
         "language": "JavaScript",
         "total_stars": 0,
-        "period_stars": 636,
+        "period_stars": 857,
         "forks": 0,
         "url": "https://github.com/sponsors/affaan-m"
-      },
-      {
-        "full_name": "hello245m/free-stockdb",
-        "description": "Star hello245m / free-stockdb 面向 A 股日K、分钟K与ETF分钟数据的本地量化引擎，集成增量同步、本地缓存、复权、批量查询、回测与指标计算。",
-        "language": "HTML",
-        "total_stars": 1433,
-        "period_stars": 50,
-        "forks": 216,
-        "url": "https://github.com/hello245m/free-stockdb"
       },
       {
         "full_name": "huggingface/speech-to-speech",
         "description": "Star huggingface / speech-to-speech Build local voice agents with open-source models",
         "language": "Python",
-        "total_stars": 7379,
-        "period_stars": 227,
-        "forks": 962,
+        "total_stars": 7988,
+        "period_stars": 827,
+        "forks": 1008,
         "url": "https://github.com/huggingface/speech-to-speech"
       },
       {
-        "full_name": "sponsors/virgiliojr94",
-        "description": "Sponsor Star virgiliojr94 / book-to-skill Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
-        "language": "Python",
-        "total_stars": 0,
-        "period_stars": 423,
-        "forks": 0,
-        "url": "https://github.com/sponsors/virgiliojr94"
+        "full_name": "1jehuang/jcode",
+        "description": "Star 1jehuang / jcode The most RAM efficient harness",
+        "language": "Rust",
+        "total_stars": 13576,
+        "period_stars": 640,
+        "forks": 1488,
+        "url": "https://github.com/1jehuang/jcode"
       },
       {
-        "full_name": "sponsors/opengeos",
-        "description": "Sponsor Star opengeos / GeoLibre A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
+        "full_name": "grokability/snipe-it",
+        "description": "Star grokability / snipe-it A free open source IT asset/license management system",
+        "language": "PHP",
+        "total_stars": 14505,
+        "period_stars": 164,
+        "forks": 3904,
+        "url": "https://github.com/grokability/snipe-it"
+      },
+      {
+        "full_name": "sponsors/deepfakes",
+        "description": "Sponsor Star deepfakes / faceswap Deepfakes Software For All",
+        "language": "Python",
+        "total_stars": 0,
+        "period_stars": 166,
+        "forks": 0,
+        "url": "https://github.com/sponsors/deepfakes"
+      },
+      {
+        "full_name": "microsoft/VibeVoice",
+        "description": "Star microsoft / VibeVoice Open-Source Frontier Voice AI",
+        "language": "Python",
+        "total_stars": 51404,
+        "period_stars": 336,
+        "forks": 5718,
+        "url": "https://github.com/microsoft/VibeVoice"
+      },
+      {
+        "full_name": "different-ai/openwork",
+        "description": "Star different-ai / openwork The open-source alternative to Claude Cowork (powered by opencode)",
         "language": "TypeScript",
-        "total_stars": 0,
-        "period_stars": 607,
-        "forks": 0,
-        "url": "https://github.com/sponsors/opengeos"
+        "total_stars": 18081,
+        "period_stars": 97,
+        "forks": 1862,
+        "url": "https://github.com/different-ai/openwork"
       },
       {
-        "full_name": "paperswithbacktest/awesome-systematic-trading",
-        "description": "Star paperswithbacktest / awesome-systematic-trading A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
-        "language": "Python",
-        "total_stars": 9795,
-        "period_stars": 309,
-        "forks": 1307,
-        "url": "https://github.com/paperswithbacktest/awesome-systematic-trading"
+        "full_name": "sponsors/obra",
+        "description": "Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works.",
+        "language": "Shell",
+        "total_stars": 0,
+        "period_stars": 616,
+        "forks": 0,
+        "url": "https://github.com/sponsors/obra"
       }
     ],
     "ai_top10": [
@@ -99,26 +99,17 @@
         "full_name": "moeru-ai/airi",
         "description": "Star moeru-ai / airi 💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
         "language": "TypeScript",
-        "total_stars": 44902,
-        "period_stars": 797,
-        "forks": 4456,
+        "total_stars": 45493,
+        "period_stars": 682,
+        "forks": 4493,
         "url": "https://github.com/moeru-ai/airi"
-      },
-      {
-        "full_name": "andrewyng/aisuite",
-        "description": "Star andrewyng / aisuite Simple, unified interface to multiple Generative AI providers",
-        "language": "Python",
-        "total_stars": 15730,
-        "period_stars": 62,
-        "forks": 1658,
-        "url": "https://github.com/andrewyng/aisuite"
       },
       {
         "full_name": "sponsors/affaan-m",
         "description": "Sponsor Star affaan-m / ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
         "language": "JavaScript",
         "total_stars": 0,
-        "period_stars": 636,
+        "period_stars": 857,
         "forks": 0,
         "url": "https://github.com/sponsors/affaan-m"
       },
@@ -126,67 +117,121 @@
         "full_name": "huggingface/speech-to-speech",
         "description": "Star huggingface / speech-to-speech Build local voice agents with open-source models",
         "language": "Python",
-        "total_stars": 7379,
-        "period_stars": 227,
-        "forks": 962,
+        "total_stars": 7988,
+        "period_stars": 827,
+        "forks": 1008,
         "url": "https://github.com/huggingface/speech-to-speech"
+      },
+      {
+        "full_name": "microsoft/VibeVoice",
+        "description": "Star microsoft / VibeVoice Open-Source Frontier Voice AI",
+        "language": "Python",
+        "total_stars": 51404,
+        "period_stars": 336,
+        "forks": 5718,
+        "url": "https://github.com/microsoft/VibeVoice"
+      },
+      {
+        "full_name": "different-ai/openwork",
+        "description": "Star different-ai / openwork The open-source alternative to Claude Cowork (powered by opencode)",
+        "language": "TypeScript",
+        "total_stars": 18081,
+        "period_stars": 97,
+        "forks": 1862,
+        "url": "https://github.com/different-ai/openwork"
+      },
+      {
+        "full_name": "sponsors/obra",
+        "description": "Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works.",
+        "language": "Shell",
+        "total_stars": 0,
+        "period_stars": 616,
+        "forks": 0,
+        "url": "https://github.com/sponsors/obra"
+      },
+      {
+        "full_name": "MoonshotAI/FlashKDA",
+        "description": "Star MoonshotAI / FlashKDA FlashKDA: high-performance Kimi Delta Attention kernels",
+        "language": "Cuda",
+        "total_stars": 1024,
+        "period_stars": 91,
+        "forks": 97,
+        "url": "https://github.com/MoonshotAI/FlashKDA"
+      },
+      {
+        "full_name": "alibaba/open-code-review",
+        "description": "Star alibaba / open-code-review Open-source &amp; free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
+        "language": "Go",
+        "total_stars": 16150,
+        "period_stars": 359,
+        "forks": 1088,
+        "url": "https://github.com/alibaba/open-code-review"
+      },
+      {
+        "full_name": "maderix/ANE",
+        "description": "Star maderix / ANE Training neural networks on Apple Neural Engine via reverse-engineered private APIs",
+        "language": "Objective-C",
+        "total_stars": 7174,
+        "period_stars": 22,
+        "forks": 961,
+        "url": "https://github.com/maderix/ANE"
       },
       {
         "full_name": "sponsors/virgiliojr94",
         "description": "Sponsor Star virgiliojr94 / book-to-skill Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 423,
+        "period_stars": 1421,
         "forks": 0,
         "url": "https://github.com/sponsors/virgiliojr94"
-      },
-      {
-        "full_name": "microsoft/agent-governance-toolkit",
-        "description": "Star microsoft / agent-governance-toolkit AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10.",
-        "language": "Python",
-        "total_stars": 5299,
-        "period_stars": 46,
-        "forks": 840,
-        "url": "https://github.com/microsoft/agent-governance-toolkit"
-      },
-      {
-        "full_name": "bradautomates/claude-video",
-        "description": "Star bradautomates / claude-video Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
-        "language": "Python",
-        "total_stars": 12262,
-        "period_stars": 988,
-        "forks": 1224,
-        "url": "https://github.com/bradautomates/claude-video"
       }
     ]
   },
   "weekly": {
     "top10": [
       {
+        "full_name": "block/buzz",
+        "description": "Star block / buzz A hive mind communication platform",
+        "language": "Rust",
+        "total_stars": 17320,
+        "period_stars": 13317,
+        "forks": 1651,
+        "url": "https://github.com/block/buzz"
+      },
+      {
         "full_name": "koala73/worldmonitor",
         "description": "Star koala73 / worldmonitor Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
         "language": "TypeScript",
-        "total_stars": 76042,
-        "period_stars": 12173,
-        "forks": 11372,
+        "total_stars": 76595,
+        "period_stars": 8681,
+        "forks": 11438,
         "url": "https://github.com/koala73/worldmonitor"
       },
       {
         "full_name": "ayghri/i-have-adhd",
         "description": "Star ayghri / i-have-adhd A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.",
         "language": "Python",
-        "total_stars": 12937,
-        "period_stars": 6156,
-        "forks": 674,
+        "total_stars": 13631,
+        "period_stars": 5544,
+        "forks": 721,
         "url": "https://github.com/ayghri/i-have-adhd"
+      },
+      {
+        "full_name": "citrolabs/ego-lite",
+        "description": "Star citrolabs / ego-lite The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+        "language": "JavaScript",
+        "total_stars": 6111,
+        "period_stars": 4863,
+        "forks": 304,
+        "url": "https://github.com/citrolabs/ego-lite"
       },
       {
         "full_name": "bojieli/ai-agent-book",
         "description": "Star bojieli / ai-agent-book 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
         "language": "Python",
-        "total_stars": 24997,
-        "period_stars": 10637,
-        "forks": 2580,
+        "total_stars": 26547,
+        "period_stars": 8998,
+        "forks": 2781,
         "url": "https://github.com/bojieli/ai-agent-book"
       },
       {
@@ -194,63 +239,45 @@
         "description": "Sponsor Star diegosouzapw / OmniRoute Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline &amp; Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
         "language": "TypeScript",
         "total_stars": 0,
-        "period_stars": 10028,
+        "period_stars": 9420,
         "forks": 0,
         "url": "https://github.com/sponsors/diegosouzapw"
-      },
-      {
-        "full_name": "oblien/openship",
-        "description": "Star oblien / openship Self-hosted deployment platform",
-        "language": "TypeScript",
-        "total_stars": 9485,
-        "period_stars": 3628,
-        "forks": 758,
-        "url": "https://github.com/oblien/openship"
       },
       {
         "full_name": "sponsors/mattpocock",
         "description": "Sponsor Star mattpocock / skills Skills for Real Engineers. Straight from my .agents directory.",
         "language": "Shell",
         "total_stars": 0,
-        "period_stars": 12794,
+        "period_stars": 12680,
         "forks": 0,
         "url": "https://github.com/sponsors/mattpocock"
+      },
+      {
+        "full_name": "shiyu-coder/Kronos",
+        "description": "Star shiyu-coder / Kronos Kronos: A Foundation Model for the Language of Financial Markets",
+        "language": "Python",
+        "total_stars": 35000,
+        "period_stars": 2516,
+        "forks": 5839,
+        "url": "https://github.com/shiyu-coder/Kronos"
       },
       {
         "full_name": "UditAkhourii/adhd",
         "description": "Star UditAkhourii / adhd ADHD — a skill for coding agents. Tree-of-thought with pruning, built on the Claude &amp; Codex Agent SDK. Fans out parallel divergent thoughts under different cognitive frames, scores, prunes traps, deepens the survivors. The no-brainer skill for creative and interdisciplinary work.",
         "language": "TypeScript",
-        "total_stars": 2601,
-        "period_stars": 992,
-        "forks": 207,
+        "total_stars": 2751,
+        "period_stars": 996,
+        "forks": 212,
         "url": "https://github.com/UditAkhourii/adhd"
       },
       {
-        "full_name": "agegr/pi-web",
-        "description": "Star agegr / pi-web Web UI for the pi coding agent",
-        "language": "TypeScript",
-        "total_stars": 3135,
-        "period_stars": 1474,
-        "forks": 414,
-        "url": "https://github.com/agegr/pi-web"
-      },
-      {
-        "full_name": "ruvnet/RuView",
-        "description": "Star ruvnet / RuView π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
-        "language": "Rust",
-        "total_stars": 87336,
-        "period_stars": 5026,
-        "forks": 11606,
-        "url": "https://github.com/ruvnet/RuView"
-      },
-      {
-        "full_name": "earendil-works/pi",
-        "description": "Star earendil-works / pi AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-        "language": "TypeScript",
-        "total_stars": 79833,
-        "period_stars": 5244,
-        "forks": 9828,
-        "url": "https://github.com/earendil-works/pi"
+        "full_name": "alibaba/open-code-review",
+        "description": "Star alibaba / open-code-review Open-source &amp; free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
+        "language": "Go",
+        "total_stars": 16150,
+        "period_stars": 4875,
+        "forks": 1088,
+        "url": "https://github.com/alibaba/open-code-review"
       }
     ],
     "ai_top10": [
@@ -258,27 +285,36 @@
         "full_name": "koala73/worldmonitor",
         "description": "Star koala73 / worldmonitor Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
         "language": "TypeScript",
-        "total_stars": 76042,
-        "period_stars": 12173,
-        "forks": 11372,
+        "total_stars": 76595,
+        "period_stars": 8681,
+        "forks": 11438,
         "url": "https://github.com/koala73/worldmonitor"
       },
       {
         "full_name": "ayghri/i-have-adhd",
         "description": "Star ayghri / i-have-adhd A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.",
         "language": "Python",
-        "total_stars": 12937,
-        "period_stars": 6156,
-        "forks": 674,
+        "total_stars": 13631,
+        "period_stars": 5544,
+        "forks": 721,
         "url": "https://github.com/ayghri/i-have-adhd"
+      },
+      {
+        "full_name": "citrolabs/ego-lite",
+        "description": "Star citrolabs / ego-lite The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+        "language": "JavaScript",
+        "total_stars": 6111,
+        "period_stars": 4863,
+        "forks": 304,
+        "url": "https://github.com/citrolabs/ego-lite"
       },
       {
         "full_name": "bojieli/ai-agent-book",
         "description": "Star bojieli / ai-agent-book 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
         "language": "Python",
-        "total_stars": 24997,
-        "period_stars": 10637,
-        "forks": 2580,
+        "total_stars": 26547,
+        "period_stars": 8998,
+        "forks": 2781,
         "url": "https://github.com/bojieli/ai-agent-book"
       },
       {
@@ -286,7 +322,7 @@
         "description": "Sponsor Star diegosouzapw / OmniRoute Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline &amp; Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
         "language": "TypeScript",
         "total_stars": 0,
-        "period_stars": 10028,
+        "period_stars": 9420,
         "forks": 0,
         "url": "https://github.com/sponsors/diegosouzapw"
       },
@@ -295,52 +331,43 @@
         "description": "Sponsor Star mattpocock / skills Skills for Real Engineers. Straight from my .agents directory.",
         "language": "Shell",
         "total_stars": 0,
-        "period_stars": 12794,
+        "period_stars": 12680,
         "forks": 0,
         "url": "https://github.com/sponsors/mattpocock"
-      },
-      {
-        "full_name": "UditAkhourii/adhd",
-        "description": "Star UditAkhourii / adhd ADHD — a skill for coding agents. Tree-of-thought with pruning, built on the Claude &amp; Codex Agent SDK. Fans out parallel divergent thoughts under different cognitive frames, scores, prunes traps, deepens the survivors. The no-brainer skill for creative and interdisciplinary work.",
-        "language": "TypeScript",
-        "total_stars": 2601,
-        "period_stars": 992,
-        "forks": 207,
-        "url": "https://github.com/UditAkhourii/adhd"
-      },
-      {
-        "full_name": "agegr/pi-web",
-        "description": "Star agegr / pi-web Web UI for the pi coding agent",
-        "language": "TypeScript",
-        "total_stars": 3135,
-        "period_stars": 1474,
-        "forks": 414,
-        "url": "https://github.com/agegr/pi-web"
-      },
-      {
-        "full_name": "earendil-works/pi",
-        "description": "Star earendil-works / pi AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-        "language": "TypeScript",
-        "total_stars": 79833,
-        "period_stars": 5244,
-        "forks": 9828,
-        "url": "https://github.com/earendil-works/pi"
       },
       {
         "full_name": "shiyu-coder/Kronos",
         "description": "Star shiyu-coder / Kronos Kronos: A Foundation Model for the Language of Financial Markets",
         "language": "Python",
-        "total_stars": 34854,
-        "period_stars": 2521,
-        "forks": 5819,
+        "total_stars": 35000,
+        "period_stars": 2516,
+        "forks": 5839,
         "url": "https://github.com/shiyu-coder/Kronos"
+      },
+      {
+        "full_name": "UditAkhourii/adhd",
+        "description": "Star UditAkhourii / adhd ADHD — a skill for coding agents. Tree-of-thought with pruning, built on the Claude &amp; Codex Agent SDK. Fans out parallel divergent thoughts under different cognitive frames, scores, prunes traps, deepens the survivors. The no-brainer skill for creative and interdisciplinary work.",
+        "language": "TypeScript",
+        "total_stars": 2751,
+        "period_stars": 996,
+        "forks": 212,
+        "url": "https://github.com/UditAkhourii/adhd"
+      },
+      {
+        "full_name": "alibaba/open-code-review",
+        "description": "Star alibaba / open-code-review Open-source &amp; free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
+        "language": "Go",
+        "total_stars": 16150,
+        "period_stars": 4875,
+        "forks": 1088,
+        "url": "https://github.com/alibaba/open-code-review"
       },
       {
         "full_name": "sponsors/CoreBunch",
         "description": "Sponsor Star CoreBunch / Instatic The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there.",
         "language": "TypeScript",
         "total_stars": 0,
-        "period_stars": 2828,
+        "period_stars": 2892,
         "forks": 0,
         "url": "https://github.com/sponsors/CoreBunch"
       }

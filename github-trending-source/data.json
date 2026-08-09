@@ -1,97 +1,97 @@
 {
-  "updated_at": "2026-08-08 11:01:28 GMT+8",
-  "updated_ts": 1786158088,
+  "updated_at": "2026-08-09 11:09:24 GMT+8",
+  "updated_ts": 1786244964,
   "daily": {
     "top10": [
       {
         "full_name": "PrimeIntellect-ai/prime-agent",
         "description": "Star PrimeIntellect-ai / prime-agent A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
         "language": "TypeScript",
-        "total_stars": 6727,
-        "period_stars": 2293,
-        "forks": 539,
+        "total_stars": 9122,
+        "period_stars": 2483,
+        "forks": 881,
         "url": "https://github.com/PrimeIntellect-ai/prime-agent"
       },
       {
         "full_name": "addyosmani/agent-skills",
         "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
         "language": "JavaScript",
-        "total_stars": 83956,
-        "period_stars": 1131,
-        "forks": 8972,
+        "total_stars": 84631,
+        "period_stars": 779,
+        "forks": 9114,
         "url": "https://github.com/addyosmani/agent-skills"
       },
       {
-        "full_name": "cloudflare/computer",
-        "description": "Star cloudflare / computer Give your agent a computer 👾",
-        "language": "TypeScript",
-        "total_stars": 5821,
-        "period_stars": 872,
-        "forks": 293,
-        "url": "https://github.com/cloudflare/computer"
+        "full_name": "TapXWorld/ChinaTextbook",
+        "description": "Star TapXWorld / ChinaTextbook 所有小初高、大学PDF教材。",
+        "language": "Roff",
+        "total_stars": 77980,
+        "period_stars": 118,
+        "forks": 17665,
+        "url": "https://github.com/TapXWorld/ChinaTextbook"
+      },
+      {
+        "full_name": "google/skills",
+        "description": "Star google / skills Agent Skills for Google products and technologies",
+        "language": "Python",
+        "total_stars": 16787,
+        "period_stars": 481,
+        "forks": 1372,
+        "url": "https://github.com/google/skills"
       },
       {
         "full_name": "sponsors/mattpocock",
         "description": "Sponsor Star mattpocock / skills Skills for Real Engineers. Straight from my .agents directory.",
         "language": "Shell",
         "total_stars": 0,
-        "period_stars": 2152,
+        "period_stars": 1359,
         "forks": 0,
         "url": "https://github.com/sponsors/mattpocock"
-      },
-      {
-        "full_name": "sponsors/obra",
-        "description": "Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works.",
-        "language": "Shell",
-        "total_stars": 0,
-        "period_stars": 782,
-        "forks": 0,
-        "url": "https://github.com/sponsors/obra"
       },
       {
         "full_name": "sponsors/goauthentik",
         "description": "Sponsor Star goauthentik / authentik The authentication glue you need.",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 530,
+        "period_stars": 467,
         "forks": 0,
         "url": "https://github.com/sponsors/goauthentik"
       },
       {
-        "full_name": "sponsors/semantica-agi",
-        "description": "Sponsor Star semantica-agi / semantica Graph-Native Infrastructure for Context and Accountable AI Systems",
+        "full_name": "TauricResearch/TradingAgents",
+        "description": "Star TauricResearch / TradingAgents TradingAgents: Multi-Agents LLM Financial Trading Framework",
         "language": "Python",
-        "total_stars": 0,
-        "period_stars": 122,
-        "forks": 0,
-        "url": "https://github.com/sponsors/semantica-agi"
+        "total_stars": 96540,
+        "period_stars": 153,
+        "forks": 18662,
+        "url": "https://github.com/TauricResearch/TradingAgents"
       },
       {
-        "full_name": "666ghj/MiroFish",
-        "description": "Star 666ghj / MiroFish A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
-        "language": "Python",
-        "total_stars": 70544,
-        "period_stars": 141,
-        "forks": 10992,
-        "url": "https://github.com/666ghj/MiroFish"
+        "full_name": "google/guava",
+        "description": "Star google / guava Google core libraries for Java",
+        "language": "Java",
+        "total_stars": 51862,
+        "period_stars": 93,
+        "forks": 11180,
+        "url": "https://github.com/google/guava"
       },
       {
-        "full_name": "chenyme/grok2api",
-        "description": "Star chenyme / grok2api Multi-account API gateway for Grok Build, Grok Web, and Grok Console",
-        "language": "Go",
-        "total_stars": 7150,
-        "period_stars": 55,
-        "forks": 2170,
-        "url": "https://github.com/chenyme/grok2api"
+        "full_name": "LadybirdBrowser/ladybird",
+        "description": "Star LadybirdBrowser / ladybird Truly independent web browser",
+        "language": "C++",
+        "total_stars": 65020,
+        "period_stars": 48,
+        "forks": 3106,
+        "url": "https://github.com/LadybirdBrowser/ladybird"
       },
       {
-        "full_name": "sponsors/jdx",
-        "description": "Sponsor Star jdx / mise dev tools, env vars, task runner",
+        "full_name": "denoland/celld",
+        "description": "Star denoland / celld self-hosted, distributed Durable Objects",
         "language": "Rust",
-        "total_stars": 0,
-        "period_stars": 135,
-        "forks": 0,
-        "url": "https://github.com/sponsors/jdx"
+        "total_stars": 2620,
+        "period_stars": 432,
+        "forks": 74,
+        "url": "https://github.com/denoland/celld"
       }
     ],
     "ai_top10": [
@@ -99,91 +99,46 @@
         "full_name": "PrimeIntellect-ai/prime-agent",
         "description": "Star PrimeIntellect-ai / prime-agent A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
         "language": "TypeScript",
-        "total_stars": 6727,
-        "period_stars": 2293,
-        "forks": 539,
+        "total_stars": 9122,
+        "period_stars": 2483,
+        "forks": 881,
         "url": "https://github.com/PrimeIntellect-ai/prime-agent"
       },
       {
         "full_name": "addyosmani/agent-skills",
         "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
         "language": "JavaScript",
-        "total_stars": 83956,
-        "period_stars": 1131,
-        "forks": 8972,
+        "total_stars": 84631,
+        "period_stars": 779,
+        "forks": 9114,
         "url": "https://github.com/addyosmani/agent-skills"
       },
       {
-        "full_name": "cloudflare/computer",
-        "description": "Star cloudflare / computer Give your agent a computer 👾",
-        "language": "TypeScript",
-        "total_stars": 5821,
-        "period_stars": 872,
-        "forks": 293,
-        "url": "https://github.com/cloudflare/computer"
+        "full_name": "google/skills",
+        "description": "Star google / skills Agent Skills for Google products and technologies",
+        "language": "Python",
+        "total_stars": 16787,
+        "period_stars": 481,
+        "forks": 1372,
+        "url": "https://github.com/google/skills"
       },
       {
         "full_name": "sponsors/mattpocock",
         "description": "Sponsor Star mattpocock / skills Skills for Real Engineers. Straight from my .agents directory.",
         "language": "Shell",
         "total_stars": 0,
-        "period_stars": 2152,
+        "period_stars": 1359,
         "forks": 0,
         "url": "https://github.com/sponsors/mattpocock"
       },
       {
-        "full_name": "sponsors/obra",
-        "description": "Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works.",
-        "language": "Shell",
-        "total_stars": 0,
-        "period_stars": 782,
-        "forks": 0,
-        "url": "https://github.com/sponsors/obra"
-      },
-      {
-        "full_name": "sponsors/semantica-agi",
-        "description": "Sponsor Star semantica-agi / semantica Graph-Native Infrastructure for Context and Accountable AI Systems",
+        "full_name": "TauricResearch/TradingAgents",
+        "description": "Star TauricResearch / TradingAgents TradingAgents: Multi-Agents LLM Financial Trading Framework",
         "language": "Python",
-        "total_stars": 0,
-        "period_stars": 122,
-        "forks": 0,
-        "url": "https://github.com/sponsors/semantica-agi"
-      },
-      {
-        "full_name": "Significant-Gravitas/AutoGPT",
-        "description": "Star Significant-Gravitas / AutoGPT AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-        "language": "Python",
-        "total_stars": 186346,
-        "period_stars": 355,
-        "forks": 46060,
-        "url": "https://github.com/Significant-Gravitas/AutoGPT"
-      },
-      {
-        "full_name": "unclebob/swarm-forge",
-        "description": "Star unclebob / swarm-forge A simple tool for coordinating several AI agents.",
-        "language": "Clojure",
-        "total_stars": 1853,
-        "period_stars": 81,
-        "forks": 203,
-        "url": "https://github.com/unclebob/swarm-forge"
-      },
-      {
-        "full_name": "sponsors/pranshuparmar",
-        "description": "Sponsor Star pranshuparmar / witr Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.",
-        "language": "Go",
-        "total_stars": 0,
-        "period_stars": 234,
-        "forks": 0,
-        "url": "https://github.com/sponsors/pranshuparmar"
-      },
-      {
-        "full_name": "google/skills",
-        "description": "Star google / skills Agent Skills for Google products and technologies",
-        "language": "Python",
-        "total_stars": 16290,
-        "period_stars": 327,
-        "forks": 1293,
-        "url": "https://github.com/google/skills"
+        "total_stars": 96540,
+        "period_stars": 153,
+        "forks": 18662,
+        "url": "https://github.com/TauricResearch/TradingAgents"
       }
     ]
   },
@@ -193,91 +148,91 @@
         "full_name": "zhaoxuya520/reverse-skill",
         "description": "Star zhaoxuya520 / reverse-skill Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
         "language": "PowerShell",
-        "total_stars": 20593,
-        "period_stars": 10400,
-        "forks": 2840,
+        "total_stars": 21559,
+        "period_stars": 9635,
+        "forks": 2950,
         "url": "https://github.com/zhaoxuya520/reverse-skill"
-      },
-      {
-        "full_name": "microsoft/AI-For-Beginners",
-        "description": "Star microsoft / AI-For-Beginners 12 Weeks, 24 Lessons, AI for All!",
-        "language": "Jupyter Notebook",
-        "total_stars": 63226,
-        "period_stars": 8224,
-        "forks": 12257,
-        "url": "https://github.com/microsoft/AI-For-Beginners"
       },
       {
         "full_name": "TencentCloud/TencentDB-Agent-Memory",
         "description": "Star TencentCloud / TencentDB-Agent-Memory TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
         "language": "TypeScript",
-        "total_stars": 17556,
-        "period_stars": 7501,
-        "forks": 1572,
+        "total_stars": 18272,
+        "period_stars": 8046,
+        "forks": 1642,
         "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
-      },
-      {
-        "full_name": "sponsors/usekaneo",
-        "description": "Sponsor Star usekaneo / kaneo 🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.",
-        "language": "TypeScript",
-        "total_stars": 0,
-        "period_stars": 2925,
-        "forks": 0,
-        "url": "https://github.com/sponsors/usekaneo"
       },
       {
         "full_name": "sponsors/lyogavin",
         "description": "Sponsor Star lyogavin / airllm AirLLM 70B inference with single 4GB GPU",
         "language": "Jupyter Notebook",
         "total_stars": 0,
-        "period_stars": 5521,
+        "period_stars": 5711,
         "forks": 0,
         "url": "https://github.com/sponsors/lyogavin"
+      },
+      {
+        "full_name": "microsoft/AI-For-Beginners",
+        "description": "Star microsoft / AI-For-Beginners 12 Weeks, 24 Lessons, AI for All!",
+        "language": "Jupyter Notebook",
+        "total_stars": 63648,
+        "period_stars": 7469,
+        "forks": 12330,
+        "url": "https://github.com/microsoft/AI-For-Beginners"
       },
       {
         "full_name": "esengine/DeepSeek-Reasonix",
         "description": "Star esengine / DeepSeek-Reasonix DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
         "language": "Go",
-        "total_stars": 32924,
-        "period_stars": 4739,
-        "forks": 2121,
+        "total_stars": 33189,
+        "period_stars": 4704,
+        "forks": 2143,
         "url": "https://github.com/esengine/DeepSeek-Reasonix"
+      },
+      {
+        "full_name": "sponsors/usekaneo",
+        "description": "Sponsor Star usekaneo / kaneo 🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.",
+        "language": "TypeScript",
+        "total_stars": 0,
+        "period_stars": 2259,
+        "forks": 0,
+        "url": "https://github.com/sponsors/usekaneo"
       },
       {
         "full_name": "sponsors/virgiliojr94",
         "description": "Sponsor Star virgiliojr94 / book-to-skill Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 3957,
+        "period_stars": 4071,
         "forks": 0,
         "url": "https://github.com/sponsors/virgiliojr94"
       },
       {
-        "full_name": "block/buzz",
-        "description": "Star block / buzz A hive mind communication platform",
-        "language": "Rust",
-        "total_stars": 25001,
-        "period_stars": 5746,
-        "forks": 2910,
-        "url": "https://github.com/block/buzz"
-      },
-      {
-        "full_name": "paperswithbacktest/awesome-systematic-trading",
-        "description": "Star paperswithbacktest / awesome-systematic-trading A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
-        "language": "Python",
-        "total_stars": 12961,
-        "period_stars": 1433,
-        "forks": 1575,
-        "url": "https://github.com/paperswithbacktest/awesome-systematic-trading"
+        "full_name": "iv-org/invidious",
+        "description": "Star iv-org / invidious Invidious is an alternative front-end to YouTube",
+        "language": "Crystal",
+        "total_stars": 22482,
+        "period_stars": 997,
+        "forks": 2511,
+        "url": "https://github.com/iv-org/invidious"
       },
       {
         "full_name": "different-ai/openwork",
         "description": "Star different-ai / openwork The open-source alternative to Claude Cowork (powered by opencode)",
         "language": "TypeScript",
-        "total_stars": 21465,
-        "period_stars": 2367,
-        "forks": 2101,
+        "total_stars": 21608,
+        "period_stars": 1834,
+        "forks": 2119,
         "url": "https://github.com/different-ai/openwork"
+      },
+      {
+        "full_name": "unclebob/swarm-forge",
+        "description": "Star unclebob / swarm-forge A simple tool for coordinating several AI agents.",
+        "language": "Clojure",
+        "total_stars": 1985,
+        "period_stars": 504,
+        "forks": 210,
+        "url": "https://github.com/unclebob/swarm-forge"
       }
     ],
     "ai_top10": [
@@ -285,62 +240,62 @@
         "full_name": "zhaoxuya520/reverse-skill",
         "description": "Star zhaoxuya520 / reverse-skill Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
         "language": "PowerShell",
-        "total_stars": 20593,
-        "period_stars": 10400,
-        "forks": 2840,
+        "total_stars": 21559,
+        "period_stars": 9635,
+        "forks": 2950,
         "url": "https://github.com/zhaoxuya520/reverse-skill"
-      },
-      {
-        "full_name": "microsoft/AI-For-Beginners",
-        "description": "Star microsoft / AI-For-Beginners 12 Weeks, 24 Lessons, AI for All!",
-        "language": "Jupyter Notebook",
-        "total_stars": 63226,
-        "period_stars": 8224,
-        "forks": 12257,
-        "url": "https://github.com/microsoft/AI-For-Beginners"
       },
       {
         "full_name": "TencentCloud/TencentDB-Agent-Memory",
         "description": "Star TencentCloud / TencentDB-Agent-Memory TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
         "language": "TypeScript",
-        "total_stars": 17556,
-        "period_stars": 7501,
-        "forks": 1572,
+        "total_stars": 18272,
+        "period_stars": 8046,
+        "forks": 1642,
         "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
-      },
-      {
-        "full_name": "sponsors/usekaneo",
-        "description": "Sponsor Star usekaneo / kaneo 🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.",
-        "language": "TypeScript",
-        "total_stars": 0,
-        "period_stars": 2925,
-        "forks": 0,
-        "url": "https://github.com/sponsors/usekaneo"
       },
       {
         "full_name": "sponsors/lyogavin",
         "description": "Sponsor Star lyogavin / airllm AirLLM 70B inference with single 4GB GPU",
         "language": "Jupyter Notebook",
         "total_stars": 0,
-        "period_stars": 5521,
+        "period_stars": 5711,
         "forks": 0,
         "url": "https://github.com/sponsors/lyogavin"
+      },
+      {
+        "full_name": "microsoft/AI-For-Beginners",
+        "description": "Star microsoft / AI-For-Beginners 12 Weeks, 24 Lessons, AI for All!",
+        "language": "Jupyter Notebook",
+        "total_stars": 63648,
+        "period_stars": 7469,
+        "forks": 12330,
+        "url": "https://github.com/microsoft/AI-For-Beginners"
       },
       {
         "full_name": "esengine/DeepSeek-Reasonix",
         "description": "Star esengine / DeepSeek-Reasonix DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
         "language": "Go",
-        "total_stars": 32924,
-        "period_stars": 4739,
-        "forks": 2121,
+        "total_stars": 33189,
+        "period_stars": 4704,
+        "forks": 2143,
         "url": "https://github.com/esengine/DeepSeek-Reasonix"
+      },
+      {
+        "full_name": "sponsors/usekaneo",
+        "description": "Sponsor Star usekaneo / kaneo 🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.",
+        "language": "TypeScript",
+        "total_stars": 0,
+        "period_stars": 2259,
+        "forks": 0,
+        "url": "https://github.com/sponsors/usekaneo"
       },
       {
         "full_name": "sponsors/virgiliojr94",
         "description": "Sponsor Star virgiliojr94 / book-to-skill Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 3957,
+        "period_stars": 4071,
         "forks": 0,
         "url": "https://github.com/sponsors/virgiliojr94"
       },
@@ -348,28 +303,28 @@
         "full_name": "different-ai/openwork",
         "description": "Star different-ai / openwork The open-source alternative to Claude Cowork (powered by opencode)",
         "language": "TypeScript",
-        "total_stars": 21465,
-        "period_stars": 2367,
-        "forks": 2101,
+        "total_stars": 21608,
+        "period_stars": 1834,
+        "forks": 2119,
         "url": "https://github.com/different-ai/openwork"
-      },
-      {
-        "full_name": "sponsors/antirez",
-        "description": "Sponsor Star antirez / ds4 DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm",
-        "language": "C",
-        "total_stars": 0,
-        "period_stars": 1341,
-        "forks": 0,
-        "url": "https://github.com/sponsors/antirez"
       },
       {
         "full_name": "unclebob/swarm-forge",
         "description": "Star unclebob / swarm-forge A simple tool for coordinating several AI agents.",
         "language": "Clojure",
-        "total_stars": 1853,
-        "period_stars": 273,
-        "forks": 203,
+        "total_stars": 1985,
+        "period_stars": 504,
+        "forks": 210,
         "url": "https://github.com/unclebob/swarm-forge"
+      },
+      {
+        "full_name": "google/skills",
+        "description": "Star google / skills Agent Skills for Google products and technologies",
+        "language": "Python",
+        "total_stars": 16787,
+        "period_stars": 1143,
+        "forks": 1372,
+        "url": "https://github.com/google/skills"
       }
     ]
   }

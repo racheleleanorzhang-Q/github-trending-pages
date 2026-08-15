@@ -1,97 +1,97 @@
 {
-  "updated_at": "2026-08-14 11:31:12 GMT+8",
-  "updated_ts": 1786678272,
+  "updated_at": "2026-08-15 10:28:02 GMT+8",
+  "updated_ts": 1786760882,
   "daily": {
     "top10": [
       {
         "full_name": "cathrynlavery/diagram-design",
         "description": "Star cathrynlavery / diagram-design 29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
         "language": "HTML",
-        "total_stars": 15007,
-        "period_stars": 4475,
-        "forks": 905,
+        "total_stars": 17337,
+        "period_stars": 3646,
+        "forks": 1038,
         "url": "https://github.com/cathrynlavery/diagram-design"
-      },
-      {
-        "full_name": "sponsors/semantica-agi",
-        "description": "Sponsor Star semantica-agi / semantica Graph-Native Infrastructure for Context and Accountable AI Systems",
-        "language": "Python",
-        "total_stars": 0,
-        "period_stars": 713,
-        "forks": 0,
-        "url": "https://github.com/sponsors/semantica-agi"
-      },
-      {
-        "full_name": "anthropics/skills",
-        "description": "Star anthropics / skills Public repository for Agent Skills",
-        "language": "Python",
-        "total_stars": 169109,
-        "period_stars": 312,
-        "forks": 20137,
-        "url": "https://github.com/anthropics/skills"
       },
       {
         "full_name": "cactus-compute/needle",
         "description": "Star cactus-compute / needle 14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
         "language": "Python",
-        "total_stars": 5032,
-        "period_stars": 769,
-        "forks": 334,
+        "total_stars": 5639,
+        "period_stars": 662,
+        "forks": 374,
         "url": "https://github.com/cactus-compute/needle"
-      },
-      {
-        "full_name": "sponsors/altic-dev",
-        "description": "Sponsor Star altic-dev / FluidVoice Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. ⭐ helps a ton :) Windows &amp; iOS waitlist open. Linux soon.",
-        "language": "Swift",
-        "total_stars": 0,
-        "period_stars": 76,
-        "forks": 0,
-        "url": "https://github.com/sponsors/altic-dev"
-      },
-      {
-        "full_name": "sponsors/unslothai",
-        "description": "Sponsor Star unslothai / unsloth Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
-        "language": "Python",
-        "total_stars": 0,
-        "period_stars": 328,
-        "forks": 0,
-        "url": "https://github.com/sponsors/unslothai"
-      },
-      {
-        "full_name": "macro-inc/macro",
-        "description": "Star macro-inc / macro Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
-        "language": "Rust",
-        "total_stars": 2665,
-        "period_stars": 1239,
-        "forks": 281,
-        "url": "https://github.com/macro-inc/macro"
       },
       {
         "full_name": "megadose/holehe",
         "description": "Star megadose / holehe holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
         "language": "Python",
-        "total_stars": 12473,
-        "period_stars": 195,
-        "forks": 1673,
+        "total_stars": 12870,
+        "period_stars": 427,
+        "forks": 1717,
         "url": "https://github.com/megadose/holehe"
+      },
+      {
+        "full_name": "macro-inc/macro",
+        "description": "Star macro-inc / macro Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+        "language": "Rust",
+        "total_stars": 3045,
+        "period_stars": 436,
+        "forks": 307,
+        "url": "https://github.com/macro-inc/macro"
       },
       {
         "full_name": "smicallef/spiderfoot",
         "description": "Star smicallef / spiderfoot SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
         "language": "Python",
-        "total_stars": 20699,
-        "period_stars": 283,
-        "forks": 3317,
+        "total_stars": 20959,
+        "period_stars": 293,
+        "forks": 3342,
         "url": "https://github.com/smicallef/spiderfoot"
       },
       {
-        "full_name": "NVIDIA-NeMo/Switchyard",
-        "description": "Star NVIDIA-NeMo / Switchyard Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.",
-        "language": "Rust",
-        "total_stars": 1266,
-        "period_stars": 408,
-        "forks": 113,
-        "url": "https://github.com/NVIDIA-NeMo/Switchyard"
+        "full_name": "citrolabs/ego-lite",
+        "description": "Star citrolabs / ego-lite The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+        "language": "JavaScript",
+        "total_stars": 10400,
+        "period_stars": 165,
+        "forks": 528,
+        "url": "https://github.com/citrolabs/ego-lite"
+      },
+      {
+        "full_name": "holaboss-ai/holaOS",
+        "description": "Star holaboss-ai / holaOS Open-source All in One AI agent workspace. Run any agent — Claude Code, Codex — across your tools (100+ integrations + MCP), apps, browser, and files, with shared memory. Built-in models or BYOK.",
+        "language": "TypeScript",
+        "total_stars": 7315,
+        "period_stars": 769,
+        "forks": 639,
+        "url": "https://github.com/holaboss-ai/holaOS"
+      },
+      {
+        "full_name": "github/spec-kit",
+        "description": "Star github / spec-kit 💫 Toolkit to help you get started with Spec-Driven Development",
+        "language": "Python",
+        "total_stars": 128547,
+        "period_stars": 1160,
+        "forks": 11493,
+        "url": "https://github.com/github/spec-kit"
+      },
+      {
+        "full_name": "sponsors/lightningpixel",
+        "description": "Sponsor Star lightningpixel / modly Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU",
+        "language": "TypeScript",
+        "total_stars": 0,
+        "period_stars": 579,
+        "forks": 0,
+        "url": "https://github.com/sponsors/lightningpixel"
+      },
+      {
+        "full_name": "infiniflow/ragflow",
+        "description": "Star infiniflow / ragflow RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+        "language": "Go",
+        "total_stars": 88402,
+        "period_stars": 473,
+        "forks": 10377,
+        "url": "https://github.com/infiniflow/ragflow"
       }
     ],
     "ai_top10": [
@@ -99,91 +99,91 @@
         "full_name": "cathrynlavery/diagram-design",
         "description": "Star cathrynlavery / diagram-design 29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
         "language": "HTML",
-        "total_stars": 15007,
-        "period_stars": 4475,
-        "forks": 905,
+        "total_stars": 17337,
+        "period_stars": 3646,
+        "forks": 1038,
         "url": "https://github.com/cathrynlavery/diagram-design"
+      },
+      {
+        "full_name": "cactus-compute/needle",
+        "description": "Star cactus-compute / needle 14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+        "language": "Python",
+        "total_stars": 5639,
+        "period_stars": 662,
+        "forks": 374,
+        "url": "https://github.com/cactus-compute/needle"
+      },
+      {
+        "full_name": "megadose/holehe",
+        "description": "Star megadose / holehe holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+        "language": "Python",
+        "total_stars": 12870,
+        "period_stars": 427,
+        "forks": 1717,
+        "url": "https://github.com/megadose/holehe"
+      },
+      {
+        "full_name": "macro-inc/macro",
+        "description": "Star macro-inc / macro Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+        "language": "Rust",
+        "total_stars": 3045,
+        "period_stars": 436,
+        "forks": 307,
+        "url": "https://github.com/macro-inc/macro"
+      },
+      {
+        "full_name": "citrolabs/ego-lite",
+        "description": "Star citrolabs / ego-lite The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+        "language": "JavaScript",
+        "total_stars": 10400,
+        "period_stars": 165,
+        "forks": 528,
+        "url": "https://github.com/citrolabs/ego-lite"
+      },
+      {
+        "full_name": "holaboss-ai/holaOS",
+        "description": "Star holaboss-ai / holaOS Open-source All in One AI agent workspace. Run any agent — Claude Code, Codex — across your tools (100+ integrations + MCP), apps, browser, and files, with shared memory. Built-in models or BYOK.",
+        "language": "TypeScript",
+        "total_stars": 7315,
+        "period_stars": 769,
+        "forks": 639,
+        "url": "https://github.com/holaboss-ai/holaOS"
+      },
+      {
+        "full_name": "sponsors/lightningpixel",
+        "description": "Sponsor Star lightningpixel / modly Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU",
+        "language": "TypeScript",
+        "total_stars": 0,
+        "period_stars": 579,
+        "forks": 0,
+        "url": "https://github.com/sponsors/lightningpixel"
+      },
+      {
+        "full_name": "infiniflow/ragflow",
+        "description": "Star infiniflow / ragflow RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+        "language": "Go",
+        "total_stars": 88402,
+        "period_stars": 473,
+        "forks": 10377,
+        "url": "https://github.com/infiniflow/ragflow"
+      },
+      {
+        "full_name": "deepseek-ai/awesome-deepseek-agent",
+        "description": "",
+        "language": "",
+        "total_stars": 5727,
+        "period_stars": 222,
+        "forks": 691,
+        "url": "https://github.com/deepseek-ai/awesome-deepseek-agent"
       },
       {
         "full_name": "sponsors/semantica-agi",
         "description": "Sponsor Star semantica-agi / semantica Graph-Native Infrastructure for Context and Accountable AI Systems",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 713,
+        "period_stars": 1181,
         "forks": 0,
         "url": "https://github.com/sponsors/semantica-agi"
-      },
-      {
-        "full_name": "anthropics/skills",
-        "description": "Star anthropics / skills Public repository for Agent Skills",
-        "language": "Python",
-        "total_stars": 169109,
-        "period_stars": 312,
-        "forks": 20137,
-        "url": "https://github.com/anthropics/skills"
-      },
-      {
-        "full_name": "cactus-compute/needle",
-        "description": "Star cactus-compute / needle 14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
-        "language": "Python",
-        "total_stars": 5032,
-        "period_stars": 769,
-        "forks": 334,
-        "url": "https://github.com/cactus-compute/needle"
-      },
-      {
-        "full_name": "sponsors/altic-dev",
-        "description": "Sponsor Star altic-dev / FluidVoice Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. ⭐ helps a ton :) Windows &amp; iOS waitlist open. Linux soon.",
-        "language": "Swift",
-        "total_stars": 0,
-        "period_stars": 76,
-        "forks": 0,
-        "url": "https://github.com/sponsors/altic-dev"
-      },
-      {
-        "full_name": "sponsors/unslothai",
-        "description": "Sponsor Star unslothai / unsloth Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
-        "language": "Python",
-        "total_stars": 0,
-        "period_stars": 328,
-        "forks": 0,
-        "url": "https://github.com/sponsors/unslothai"
-      },
-      {
-        "full_name": "macro-inc/macro",
-        "description": "Star macro-inc / macro Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
-        "language": "Rust",
-        "total_stars": 2665,
-        "period_stars": 1239,
-        "forks": 281,
-        "url": "https://github.com/macro-inc/macro"
-      },
-      {
-        "full_name": "megadose/holehe",
-        "description": "Star megadose / holehe holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
-        "language": "Python",
-        "total_stars": 12473,
-        "period_stars": 195,
-        "forks": 1673,
-        "url": "https://github.com/megadose/holehe"
-      },
-      {
-        "full_name": "NVIDIA-NeMo/Switchyard",
-        "description": "Star NVIDIA-NeMo / Switchyard Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.",
-        "language": "Rust",
-        "total_stars": 1266,
-        "period_stars": 408,
-        "forks": 113,
-        "url": "https://github.com/NVIDIA-NeMo/Switchyard"
-      },
-      {
-        "full_name": "holaboss-ai/holaOS",
-        "description": "Star holaboss-ai / holaOS Open-source All in One AI agent workspace. Run any agent — Claude Code, Codex — across your tools (100+ integrations + MCP), apps, browser, and files, with shared memory. Built-in models or BYOK.",
-        "language": "TypeScript",
-        "total_stars": 6698,
-        "period_stars": 241,
-        "forks": 602,
-        "url": "https://github.com/holaboss-ai/holaOS"
       }
     ]
   },
@@ -193,9 +193,9 @@
         "full_name": "PrimeIntellect-ai/prime-agent",
         "description": "Star PrimeIntellect-ai / prime-agent A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
         "language": "TypeScript",
-        "total_stars": 15535,
-        "period_stars": 12476,
-        "forks": 1658,
+        "total_stars": 15947,
+        "period_stars": 10739,
+        "forks": 1708,
         "url": "https://github.com/PrimeIntellect-ai/prime-agent"
       },
       {
@@ -203,7 +203,7 @@
         "description": "Sponsor Star semantica-agi / semantica Graph-Native Infrastructure for Context and Accountable AI Systems",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 4073,
+        "period_stars": 5135,
         "forks": 0,
         "url": "https://github.com/sponsors/semantica-agi"
       },
@@ -211,73 +211,73 @@
         "full_name": "google/skills",
         "description": "Star google / skills Agent Skills for Google products and technologies",
         "language": "Python",
-        "total_stars": 18086,
-        "period_stars": 2359,
-        "forks": 1430,
+        "total_stars": 18206,
+        "period_stars": 2186,
+        "forks": 1437,
         "url": "https://github.com/google/skills"
       },
       {
-        "full_name": "cloudflare/computer",
-        "description": "Star cloudflare / computer Give your agent a computer 👾",
-        "language": "TypeScript",
-        "total_stars": 7994,
-        "period_stars": 3599,
-        "forks": 441,
-        "url": "https://github.com/cloudflare/computer"
-      },
-      {
-        "full_name": "TencentCloud/TencentDB-Agent-Memory",
-        "description": "Star TencentCloud / TencentDB-Agent-Memory TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
-        "language": "TypeScript",
-        "total_stars": 21321,
-        "period_stars": 5388,
-        "forks": 1942,
-        "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
+        "full_name": "denoland/celld",
+        "description": "Star denoland / celld self-hosted, distributed Durable Objects",
+        "language": "Rust",
+        "total_stars": 3563,
+        "period_stars": 1549,
+        "forks": 117,
+        "url": "https://github.com/denoland/celld"
       },
       {
         "full_name": "sponsors/vitali87",
         "description": "Sponsor Star vitali87 / code-graph-rag The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 1628,
+        "period_stars": 1718,
         "forks": 0,
         "url": "https://github.com/sponsors/vitali87"
       },
       {
-        "full_name": "huangruiteng/loopx",
-        "description": "Star huangruiteng / loopx Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.",
+        "full_name": "megadose/holehe",
+        "description": "Star megadose / holehe holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
         "language": "Python",
-        "total_stars": 4620,
-        "period_stars": 1967,
-        "forks": 398,
-        "url": "https://github.com/huangruiteng/loopx"
+        "total_stars": 12870,
+        "period_stars": 671,
+        "forks": 1717,
+        "url": "https://github.com/megadose/holehe"
+      },
+      {
+        "full_name": "NVIDIA-NeMo/Switchyard",
+        "description": "Star NVIDIA-NeMo / Switchyard Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.",
+        "language": "Rust",
+        "total_stars": 1475,
+        "period_stars": 1195,
+        "forks": 131,
+        "url": "https://github.com/NVIDIA-NeMo/Switchyard"
+      },
+      {
+        "full_name": "cloudflare/computer",
+        "description": "Star cloudflare / computer Give your agent a computer 👾",
+        "language": "TypeScript",
+        "total_stars": 8142,
+        "period_stars": 2856,
+        "forks": 447,
+        "url": "https://github.com/cloudflare/computer"
       },
       {
         "full_name": "addyosmani/agent-skills",
         "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
         "language": "JavaScript",
-        "total_stars": 87014,
-        "period_stars": 4562,
-        "forks": 9346,
+        "total_stars": 87300,
+        "period_stars": 3845,
+        "forks": 9365,
         "url": "https://github.com/addyosmani/agent-skills"
       },
       {
-        "full_name": "drawdb-io/drawdb",
-        "description": "Star drawdb-io / drawdb Free, simple, and intuitive online database diagram editor and SQL generator.",
-        "language": "JavaScript",
-        "total_stars": 39056,
-        "period_stars": 693,
-        "forks": 3183,
-        "url": "https://github.com/drawdb-io/drawdb"
-      },
-      {
-        "full_name": "firecrawl/pdf-inspector",
-        "description": "Star firecrawl / pdf-inspector Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
-        "language": "Rust",
-        "total_stars": 15369,
-        "period_stars": 3251,
-        "forks": 1058,
-        "url": "https://github.com/firecrawl/pdf-inspector"
+        "full_name": "TencentCloud/TencentDB-Agent-Memory",
+        "description": "Star TencentCloud / TencentDB-Agent-Memory TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+        "language": "TypeScript",
+        "total_stars": 21720,
+        "period_stars": 4423,
+        "forks": 1988,
+        "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
       }
     ],
     "ai_top10": [
@@ -285,9 +285,9 @@
         "full_name": "PrimeIntellect-ai/prime-agent",
         "description": "Star PrimeIntellect-ai / prime-agent A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
         "language": "TypeScript",
-        "total_stars": 15535,
-        "period_stars": 12476,
-        "forks": 1658,
+        "total_stars": 15947,
+        "period_stars": 10739,
+        "forks": 1708,
         "url": "https://github.com/PrimeIntellect-ai/prime-agent"
       },
       {
@@ -295,7 +295,7 @@
         "description": "Sponsor Star semantica-agi / semantica Graph-Native Infrastructure for Context and Accountable AI Systems",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 4073,
+        "period_stars": 5135,
         "forks": 0,
         "url": "https://github.com/sponsors/semantica-agi"
       },
@@ -303,73 +303,73 @@
         "full_name": "google/skills",
         "description": "Star google / skills Agent Skills for Google products and technologies",
         "language": "Python",
-        "total_stars": 18086,
-        "period_stars": 2359,
-        "forks": 1430,
+        "total_stars": 18206,
+        "period_stars": 2186,
+        "forks": 1437,
         "url": "https://github.com/google/skills"
-      },
-      {
-        "full_name": "cloudflare/computer",
-        "description": "Star cloudflare / computer Give your agent a computer 👾",
-        "language": "TypeScript",
-        "total_stars": 7994,
-        "period_stars": 3599,
-        "forks": 441,
-        "url": "https://github.com/cloudflare/computer"
-      },
-      {
-        "full_name": "TencentCloud/TencentDB-Agent-Memory",
-        "description": "Star TencentCloud / TencentDB-Agent-Memory TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
-        "language": "TypeScript",
-        "total_stars": 21321,
-        "period_stars": 5388,
-        "forks": 1942,
-        "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
       },
       {
         "full_name": "sponsors/vitali87",
         "description": "Sponsor Star vitali87 / code-graph-rag The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 1628,
+        "period_stars": 1718,
         "forks": 0,
         "url": "https://github.com/sponsors/vitali87"
       },
       {
-        "full_name": "huangruiteng/loopx",
-        "description": "Star huangruiteng / loopx Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.",
+        "full_name": "megadose/holehe",
+        "description": "Star megadose / holehe holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
         "language": "Python",
-        "total_stars": 4620,
-        "period_stars": 1967,
-        "forks": 398,
-        "url": "https://github.com/huangruiteng/loopx"
+        "total_stars": 12870,
+        "period_stars": 671,
+        "forks": 1717,
+        "url": "https://github.com/megadose/holehe"
+      },
+      {
+        "full_name": "NVIDIA-NeMo/Switchyard",
+        "description": "Star NVIDIA-NeMo / Switchyard Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.",
+        "language": "Rust",
+        "total_stars": 1475,
+        "period_stars": 1195,
+        "forks": 131,
+        "url": "https://github.com/NVIDIA-NeMo/Switchyard"
+      },
+      {
+        "full_name": "cloudflare/computer",
+        "description": "Star cloudflare / computer Give your agent a computer 👾",
+        "language": "TypeScript",
+        "total_stars": 8142,
+        "period_stars": 2856,
+        "forks": 447,
+        "url": "https://github.com/cloudflare/computer"
       },
       {
         "full_name": "addyosmani/agent-skills",
         "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
         "language": "JavaScript",
-        "total_stars": 87014,
-        "period_stars": 4562,
-        "forks": 9346,
+        "total_stars": 87300,
+        "period_stars": 3845,
+        "forks": 9365,
         "url": "https://github.com/addyosmani/agent-skills"
       },
       {
-        "full_name": "esengine/DeepSeek-Reasonix",
-        "description": "Star esengine / DeepSeek-Reasonix DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-        "language": "Go",
-        "total_stars": 34512,
-        "period_stars": 2419,
-        "forks": 2279,
-        "url": "https://github.com/esengine/DeepSeek-Reasonix"
+        "full_name": "TencentCloud/TencentDB-Agent-Memory",
+        "description": "Star TencentCloud / TencentDB-Agent-Memory TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+        "language": "TypeScript",
+        "total_stars": 21720,
+        "period_stars": 4423,
+        "forks": 1988,
+        "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
       },
       {
-        "full_name": "zhaoxuya520/reverse-skill",
-        "description": "Star zhaoxuya520 / reverse-skill Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
-        "language": "PowerShell",
-        "total_stars": 24978,
-        "period_stars": 5270,
-        "forks": 3394,
-        "url": "https://github.com/zhaoxuya520/reverse-skill"
+        "full_name": "cactus-compute/needle",
+        "description": "Star cactus-compute / needle 14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+        "language": "Python",
+        "total_stars": 5639,
+        "period_stars": 1929,
+        "forks": 374,
+        "url": "https://github.com/cactus-compute/needle"
       }
     ]
   }

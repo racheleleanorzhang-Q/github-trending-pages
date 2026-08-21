@@ -1,142 +1,106 @@
 {
-  "updated_at": "2026-08-20 10:31:56 GMT+8",
-  "updated_ts": 1787193116,
+  "updated_at": "2026-08-21 10:37:59 GMT+8",
+  "updated_ts": 1787279879,
   "daily": {
     "top10": [
       {
-        "full_name": "harry0703/MoneyPrinterTurbo",
-        "description": "Star harry0703 / MoneyPrinterTurbo 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
-        "language": "Python",
-        "total_stars": 110949,
-        "period_stars": 2221,
-        "forks": 16812,
-        "url": "https://github.com/harry0703/MoneyPrinterTurbo"
-      },
-      {
-        "full_name": "volcengine/OpenViking",
-        "description": "Star volcengine / OpenViking Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
-        "language": "Python",
-        "total_stars": 30288,
-        "period_stars": 804,
-        "forks": 2340,
-        "url": "https://github.com/volcengine/OpenViking"
-      },
-      {
-        "full_name": "chaitanyagiri/munder-difflin",
-        "description": "Star chaitanyagiri / munder-difflin local multi-agent harness",
-        "language": "TypeScript",
-        "total_stars": 2734,
-        "period_stars": 795,
-        "forks": 324,
-        "url": "https://github.com/chaitanyagiri/munder-difflin"
-      },
-      {
-        "full_name": "sponsors/mukul975",
-        "description": "Sponsor Star mukul975 / Anthropic-Cybersecurity-Skills 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&amp;CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF &amp; MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI &amp; 20+ platforms · 29 security domains · Apache 2.0",
-        "language": "Python",
-        "total_stars": 0,
-        "period_stars": 766,
-        "forks": 0,
-        "url": "https://github.com/sponsors/mukul975"
-      },
-      {
-        "full_name": "nautechsystems/nautilus_trader",
-        "description": "Star nautechsystems / nautilus_trader Production-grade Rust-native trading engine with deterministic event-driven architecture",
-        "language": "Rust",
-        "total_stars": 26466,
-        "period_stars": 80,
-        "forks": 3422,
-        "url": "https://github.com/nautechsystems/nautilus_trader"
+        "full_name": "modular/modular",
+        "description": "Star modular / modular The Modular Platform (includes MAX &amp; Mojo)",
+        "language": "Mojo",
+        "total_stars": 28020,
+        "period_stars": 268,
+        "forks": 3001,
+        "url": "https://github.com/modular/modular"
       },
       {
         "full_name": "sponsors/mattpocock",
         "description": "Sponsor Star mattpocock / skills Skills for Real Engineers. Straight from my .agents directory.",
         "language": "Shell",
         "total_stars": 0,
-        "period_stars": 1894,
+        "period_stars": 2192,
         "forks": 0,
         "url": "https://github.com/sponsors/mattpocock"
+      },
+      {
+        "full_name": "sponsors/AprilNEA",
+        "description": "Sponsor Star AprilNEA / OpenLogi ⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+        "language": "Rust",
+        "total_stars": 0,
+        "period_stars": 1545,
+        "forks": 0,
+        "url": "https://github.com/sponsors/AprilNEA"
       },
       {
         "full_name": "sponsors/obra",
         "description": "Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works.",
         "language": "Shell",
         "total_stars": 0,
-        "period_stars": 557,
+        "period_stars": 727,
         "forks": 0,
         "url": "https://github.com/sponsors/obra"
       },
       {
-        "full_name": "jundot/omlx",
-        "description": "Star jundot / omlx LLM inference server with continuous batching &amp; SSD caching for Apple Silicon — managed from the macOS menu bar",
-        "language": "Python",
-        "total_stars": 19863,
-        "period_stars": 472,
-        "forks": 1693,
-        "url": "https://github.com/jundot/omlx"
+        "full_name": "cursor/plugins",
+        "description": "Star cursor / plugins Cursor plugin specification and official plugins",
+        "language": "TypeScript",
+        "total_stars": 4114,
+        "period_stars": 449,
+        "forks": 341,
+        "url": "https://github.com/cursor/plugins"
       },
       {
         "full_name": "sponsors/santifer",
         "description": "Sponsor Star santifer / career-ops Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
         "language": "JavaScript",
         "total_stars": 0,
-        "period_stars": 198,
+        "period_stars": 816,
         "forks": 0,
         "url": "https://github.com/sponsors/santifer"
       },
       {
-        "full_name": "immich-app/immich",
-        "description": "Star immich-app / immich High performance self-hosted photo and video management solution.",
+        "full_name": "akitaonrails/ai-memory",
+        "description": "Star akitaonrails / ai-memory Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+        "language": "Rust",
+        "total_stars": 3661,
+        "period_stars": 332,
+        "forks": 280,
+        "url": "https://github.com/akitaonrails/ai-memory"
+      },
+      {
+        "full_name": "harry0703/MoneyPrinterTurbo",
+        "description": "Star harry0703 / MoneyPrinterTurbo 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+        "language": "Python",
+        "total_stars": 113047,
+        "period_stars": 2761,
+        "forks": 17130,
+        "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+      },
+      {
+        "full_name": "agent-substrate/substrate",
+        "description": "Star agent-substrate / substrate Agent Substrate: the core system",
+        "language": "Go",
+        "total_stars": 1421,
+        "period_stars": 22,
+        "forks": 253,
+        "url": "https://github.com/agent-substrate/substrate"
+      },
+      {
+        "full_name": "chaitanyagiri/munder-difflin",
+        "description": "Star chaitanyagiri / munder-difflin local multi-agent harness",
         "language": "TypeScript",
-        "total_stars": 111905,
-        "period_stars": 128,
-        "forks": 6632,
-        "url": "https://github.com/immich-app/immich"
+        "total_stars": 3143,
+        "period_stars": 507,
+        "forks": 351,
+        "url": "https://github.com/chaitanyagiri/munder-difflin"
       }
     ],
     "ai_top10": [
       {
-        "full_name": "harry0703/MoneyPrinterTurbo",
-        "description": "Star harry0703 / MoneyPrinterTurbo 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
-        "language": "Python",
-        "total_stars": 110949,
-        "period_stars": 2221,
-        "forks": 16812,
-        "url": "https://github.com/harry0703/MoneyPrinterTurbo"
-      },
-      {
-        "full_name": "volcengine/OpenViking",
-        "description": "Star volcengine / OpenViking Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
-        "language": "Python",
-        "total_stars": 30288,
-        "period_stars": 804,
-        "forks": 2340,
-        "url": "https://github.com/volcengine/OpenViking"
-      },
-      {
-        "full_name": "chaitanyagiri/munder-difflin",
-        "description": "Star chaitanyagiri / munder-difflin local multi-agent harness",
-        "language": "TypeScript",
-        "total_stars": 2734,
-        "period_stars": 795,
-        "forks": 324,
-        "url": "https://github.com/chaitanyagiri/munder-difflin"
-      },
-      {
-        "full_name": "sponsors/mukul975",
-        "description": "Sponsor Star mukul975 / Anthropic-Cybersecurity-Skills 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&amp;CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF &amp; MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI &amp; 20+ platforms · 29 security domains · Apache 2.0",
-        "language": "Python",
-        "total_stars": 0,
-        "period_stars": 766,
-        "forks": 0,
-        "url": "https://github.com/sponsors/mukul975"
-      },
-      {
         "full_name": "sponsors/mattpocock",
         "description": "Sponsor Star mattpocock / skills Skills for Real Engineers. Straight from my .agents directory.",
         "language": "Shell",
         "total_stars": 0,
-        "period_stars": 1894,
+        "period_stars": 2192,
         "forks": 0,
         "url": "https://github.com/sponsors/mattpocock"
       },
@@ -145,27 +109,81 @@
         "description": "Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works.",
         "language": "Shell",
         "total_stars": 0,
-        "period_stars": 557,
+        "period_stars": 727,
         "forks": 0,
         "url": "https://github.com/sponsors/obra"
-      },
-      {
-        "full_name": "jundot/omlx",
-        "description": "Star jundot / omlx LLM inference server with continuous batching &amp; SSD caching for Apple Silicon — managed from the macOS menu bar",
-        "language": "Python",
-        "total_stars": 19863,
-        "period_stars": 472,
-        "forks": 1693,
-        "url": "https://github.com/jundot/omlx"
       },
       {
         "full_name": "sponsors/santifer",
         "description": "Sponsor Star santifer / career-ops Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
         "language": "JavaScript",
         "total_stars": 0,
-        "period_stars": 198,
+        "period_stars": 816,
         "forks": 0,
         "url": "https://github.com/sponsors/santifer"
+      },
+      {
+        "full_name": "akitaonrails/ai-memory",
+        "description": "Star akitaonrails / ai-memory Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+        "language": "Rust",
+        "total_stars": 3661,
+        "period_stars": 332,
+        "forks": 280,
+        "url": "https://github.com/akitaonrails/ai-memory"
+      },
+      {
+        "full_name": "harry0703/MoneyPrinterTurbo",
+        "description": "Star harry0703 / MoneyPrinterTurbo 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+        "language": "Python",
+        "total_stars": 113047,
+        "period_stars": 2761,
+        "forks": 17130,
+        "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+      },
+      {
+        "full_name": "agent-substrate/substrate",
+        "description": "Star agent-substrate / substrate Agent Substrate: the core system",
+        "language": "Go",
+        "total_stars": 1421,
+        "period_stars": 22,
+        "forks": 253,
+        "url": "https://github.com/agent-substrate/substrate"
+      },
+      {
+        "full_name": "chaitanyagiri/munder-difflin",
+        "description": "Star chaitanyagiri / munder-difflin local multi-agent harness",
+        "language": "TypeScript",
+        "total_stars": 3143,
+        "period_stars": 507,
+        "forks": 351,
+        "url": "https://github.com/chaitanyagiri/munder-difflin"
+      },
+      {
+        "full_name": "PostHog/posthog",
+        "description": "Star PostHog / posthog 🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+        "language": "Python",
+        "total_stars": 38024,
+        "period_stars": 60,
+        "forks": 3218,
+        "url": "https://github.com/PostHog/posthog"
+      },
+      {
+        "full_name": "volcengine/OpenViking",
+        "description": "Star volcengine / OpenViking Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+        "language": "Python",
+        "total_stars": 31079,
+        "period_stars": 950,
+        "forks": 2397,
+        "url": "https://github.com/volcengine/OpenViking"
+      },
+      {
+        "full_name": "sponsors/JuliusBrussee",
+        "description": "Sponsor Star JuliusBrussee / caveman 🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+        "language": "Go",
+        "total_stars": 0,
+        "period_stars": 258,
+        "forks": 0,
+        "url": "https://github.com/sponsors/JuliusBrussee"
       }
     ]
   },
@@ -175,18 +193,36 @@
         "full_name": "cathrynlavery/diagram-design",
         "description": "Star cathrynlavery / diagram-design 38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
         "language": "HTML",
-        "total_stars": 23456,
-        "period_stars": 14397,
-        "forks": 1438,
+        "total_stars": 24372,
+        "period_stars": 11325,
+        "forks": 1477,
         "url": "https://github.com/cathrynlavery/diagram-design"
+      },
+      {
+        "full_name": "volcengine/OpenViking",
+        "description": "Star volcengine / OpenViking Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+        "language": "Python",
+        "total_stars": 31079,
+        "period_stars": 2444,
+        "forks": 2397,
+        "url": "https://github.com/volcengine/OpenViking"
+      },
+      {
+        "full_name": "basecamp/omarchy",
+        "description": "Star basecamp / omarchy Beautiful, Modern &amp; Opinionated Linux",
+        "language": "Shell",
+        "total_stars": 27064,
+        "period_stars": 2395,
+        "forks": 2774,
+        "url": "https://github.com/basecamp/omarchy"
       },
       {
         "full_name": "cactus-compute/needle",
         "description": "Star cactus-compute / needle 14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
         "language": "Python",
-        "total_stars": 7845,
-        "period_stars": 3838,
-        "forks": 509,
+        "total_stars": 8146,
+        "period_stars": 3409,
+        "forks": 524,
         "url": "https://github.com/cactus-compute/needle"
       },
       {
@@ -194,72 +230,54 @@
         "description": "Sponsor Star semantica-agi / semantica Graph-Native Infrastructure for Context and Accountable AI Systems",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 4005,
+        "period_stars": 3674,
         "forks": 0,
         "url": "https://github.com/sponsors/semantica-agi"
       },
       {
-        "full_name": "megadose/holehe",
-        "description": "Star megadose / holehe holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
-        "language": "Python",
-        "total_stars": 13746,
-        "period_stars": 1704,
-        "forks": 1797,
-        "url": "https://github.com/megadose/holehe"
-      },
-      {
-        "full_name": "basecamp/omarchy",
-        "description": "Star basecamp / omarchy Beautiful, Modern &amp; Opinionated Linux",
-        "language": "Shell",
-        "total_stars": 26798,
-        "period_stars": 2208,
-        "forks": 2731,
-        "url": "https://github.com/basecamp/omarchy"
-      },
-      {
-        "full_name": "volcengine/OpenViking",
-        "description": "Star volcengine / OpenViking Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
-        "language": "Python",
-        "total_stars": 30288,
-        "period_stars": 1659,
-        "forks": 2340,
-        "url": "https://github.com/volcengine/OpenViking"
-      },
-      {
-        "full_name": "macro-inc/macro",
-        "description": "Star macro-inc / macro Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+        "full_name": "NVIDIA-NeMo/Switchyard",
+        "description": "Star NVIDIA-NeMo / Switchyard Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.",
         "language": "Rust",
-        "total_stars": 3782,
-        "period_stars": 2557,
-        "forks": 367,
-        "url": "https://github.com/macro-inc/macro"
+        "total_stars": 1978,
+        "period_stars": 932,
+        "forks": 178,
+        "url": "https://github.com/NVIDIA-NeMo/Switchyard"
       },
       {
-        "full_name": "sponsors/unslothai",
-        "description": "Sponsor Star unslothai / unsloth Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
-        "language": "Python",
-        "total_stars": 0,
-        "period_stars": 3338,
-        "forks": 0,
-        "url": "https://github.com/sponsors/unslothai"
+        "full_name": "modular/modular",
+        "description": "Star modular / modular The Modular Platform (includes MAX &amp; Mojo)",
+        "language": "Mojo",
+        "total_stars": 28020,
+        "period_stars": 744,
+        "forks": 3001,
+        "url": "https://github.com/modular/modular"
       },
       {
         "full_name": "harry0703/MoneyPrinterTurbo",
         "description": "Star harry0703 / MoneyPrinterTurbo 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
         "language": "Python",
-        "total_stars": 110949,
-        "period_stars": 7380,
-        "forks": 16812,
+        "total_stars": 113047,
+        "period_stars": 9712,
+        "forks": 17130,
         "url": "https://github.com/harry0703/MoneyPrinterTurbo"
       },
       {
-        "full_name": "sponsors/lightningpixel",
-        "description": "Sponsor Star lightningpixel / modly Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU",
-        "language": "TypeScript",
-        "total_stars": 0,
-        "period_stars": 1797,
-        "forks": 0,
-        "url": "https://github.com/sponsors/lightningpixel"
+        "full_name": "public-apis/public-apis",
+        "description": "Star public-apis / public-apis A collective list of free APIs",
+        "language": "Python",
+        "total_stars": 467290,
+        "period_stars": 11259,
+        "forks": 51541,
+        "url": "https://github.com/public-apis/public-apis"
+      },
+      {
+        "full_name": "megadose/holehe",
+        "description": "Star megadose / holehe holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+        "language": "Python",
+        "total_stars": 13839,
+        "period_stars": 1632,
+        "forks": 1801,
+        "url": "https://github.com/megadose/holehe"
       }
     ],
     "ai_top10": [
@@ -267,18 +285,27 @@
         "full_name": "cathrynlavery/diagram-design",
         "description": "Star cathrynlavery / diagram-design 38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
         "language": "HTML",
-        "total_stars": 23456,
-        "period_stars": 14397,
-        "forks": 1438,
+        "total_stars": 24372,
+        "period_stars": 11325,
+        "forks": 1477,
         "url": "https://github.com/cathrynlavery/diagram-design"
+      },
+      {
+        "full_name": "volcengine/OpenViking",
+        "description": "Star volcengine / OpenViking Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+        "language": "Python",
+        "total_stars": 31079,
+        "period_stars": 2444,
+        "forks": 2397,
+        "url": "https://github.com/volcengine/OpenViking"
       },
       {
         "full_name": "cactus-compute/needle",
         "description": "Star cactus-compute / needle 14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
         "language": "Python",
-        "total_stars": 7845,
-        "period_stars": 3838,
-        "forks": 509,
+        "total_stars": 8146,
+        "period_stars": 3409,
+        "forks": 524,
         "url": "https://github.com/cactus-compute/needle"
       },
       {
@@ -286,35 +313,53 @@
         "description": "Sponsor Star semantica-agi / semantica Graph-Native Infrastructure for Context and Accountable AI Systems",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 4005,
+        "period_stars": 3674,
         "forks": 0,
         "url": "https://github.com/sponsors/semantica-agi"
+      },
+      {
+        "full_name": "NVIDIA-NeMo/Switchyard",
+        "description": "Star NVIDIA-NeMo / Switchyard Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.",
+        "language": "Rust",
+        "total_stars": 1978,
+        "period_stars": 932,
+        "forks": 178,
+        "url": "https://github.com/NVIDIA-NeMo/Switchyard"
+      },
+      {
+        "full_name": "harry0703/MoneyPrinterTurbo",
+        "description": "Star harry0703 / MoneyPrinterTurbo 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+        "language": "Python",
+        "total_stars": 113047,
+        "period_stars": 9712,
+        "forks": 17130,
+        "url": "https://github.com/harry0703/MoneyPrinterTurbo"
       },
       {
         "full_name": "megadose/holehe",
         "description": "Star megadose / holehe holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
         "language": "Python",
-        "total_stars": 13746,
-        "period_stars": 1704,
-        "forks": 1797,
+        "total_stars": 13839,
+        "period_stars": 1632,
+        "forks": 1801,
         "url": "https://github.com/megadose/holehe"
       },
       {
-        "full_name": "volcengine/OpenViking",
-        "description": "Star volcengine / OpenViking Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
-        "language": "Python",
-        "total_stars": 30288,
-        "period_stars": 1659,
-        "forks": 2340,
-        "url": "https://github.com/volcengine/OpenViking"
+        "full_name": "sponsors/lightningpixel",
+        "description": "Sponsor Star lightningpixel / modly Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU",
+        "language": "TypeScript",
+        "total_stars": 0,
+        "period_stars": 1855,
+        "forks": 0,
+        "url": "https://github.com/sponsors/lightningpixel"
       },
       {
         "full_name": "macro-inc/macro",
         "description": "Star macro-inc / macro Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
         "language": "Rust",
-        "total_stars": 3782,
-        "period_stars": 2557,
-        "forks": 367,
+        "total_stars": 3874,
+        "period_stars": 1456,
+        "forks": 370,
         "url": "https://github.com/macro-inc/macro"
       },
       {
@@ -322,36 +367,9 @@
         "description": "Sponsor Star unslothai / unsloth Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 3338,
+        "period_stars": 3300,
         "forks": 0,
         "url": "https://github.com/sponsors/unslothai"
-      },
-      {
-        "full_name": "harry0703/MoneyPrinterTurbo",
-        "description": "Star harry0703 / MoneyPrinterTurbo 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
-        "language": "Python",
-        "total_stars": 110949,
-        "period_stars": 7380,
-        "forks": 16812,
-        "url": "https://github.com/harry0703/MoneyPrinterTurbo"
-      },
-      {
-        "full_name": "sponsors/lightningpixel",
-        "description": "Sponsor Star lightningpixel / modly Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU",
-        "language": "TypeScript",
-        "total_stars": 0,
-        "period_stars": 1797,
-        "forks": 0,
-        "url": "https://github.com/sponsors/lightningpixel"
-      },
-      {
-        "full_name": "sponsors/AlexsJones",
-        "description": "Sponsor Star AlexsJones / llmfit Hundreds of models &amp; providers. One command to find what runs on your hardware.",
-        "language": "Rust",
-        "total_stars": 0,
-        "period_stars": 1545,
-        "forks": 0,
-        "url": "https://github.com/sponsors/AlexsJones"
       }
     ]
   }

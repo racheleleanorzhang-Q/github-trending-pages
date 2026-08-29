@@ -1,42 +1,42 @@
 {
-  "updated_at": "2026-08-28 20:57:43 GMT+8",
-  "updated_ts": 1787921863,
+  "updated_at": "2026-08-29 15:54:39 GMT+8",
+  "updated_ts": 1787990079,
   "daily": {
     "top10": [
       {
         "full_name": "tt-a1i/archify",
         "description": "Star tt-a1i / archify Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
         "language": "JavaScript",
-        "total_stars": 25582,
-        "period_stars": 4561,
-        "forks": 1643,
+        "total_stars": 28609,
+        "period_stars": 4562,
+        "forks": 1796,
         "url": "https://github.com/tt-a1i/archify"
       },
       {
         "full_name": "K-Dense-AI/scientific-agent-skills",
         "description": "Star K-Dense-AI / scientific-agent-skills Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 175,000+ scientists worldwide. 163 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
         "language": "Python",
-        "total_stars": 35796,
+        "total_stars": 37028,
         "period_stars": 720,
-        "forks": 3441,
+        "forks": 3514,
         "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
       },
       {
         "full_name": "anthropics/claude-plugins-official",
         "description": "Star anthropics / claude-plugins-official Official, Anthropic-managed directory of high quality Claude Code Plugins.",
         "language": "Python",
-        "total_stars": 34856,
+        "total_stars": 35137,
         "period_stars": 457,
-        "forks": 3925,
+        "forks": 3941,
         "url": "https://github.com/anthropics/claude-plugins-official"
       },
       {
         "full_name": "bilawalsidhu/gods-eye-view",
         "description": "Star bilawalsidhu / gods-eye-view A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
         "language": "JavaScript",
-        "total_stars": 10067,
-        "period_stars": 1984,
-        "forks": 2082,
+        "total_stars": 11508,
+        "period_stars": 3829,
+        "forks": 2318,
         "url": "https://github.com/bilawalsidhu/gods-eye-view"
       },
       {
@@ -44,7 +44,7 @@
         "description": "Sponsor Star abhigyanpatwari / GitNexus GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a git repository (Github, Gitlab, Azure, Local) or ZIP file, and get an interactive knowledge graph with a built in Graph RAG Agent. Perfect for code exploration",
         "language": "TypeScript",
         "total_stars": 0,
-        "period_stars": 189,
+        "period_stars": 202,
         "forks": 0,
         "url": "https://github.com/sponsors/abhigyanpatwari"
       },
@@ -52,9 +52,9 @@
         "full_name": "JetBrains/go-modern-guidelines",
         "description": "Star JetBrains / go-modern-guidelines Help AI coding agents write modern Go",
         "language": "Go",
-        "total_stars": 2439,
+        "total_stars": 2680,
         "period_stars": 574,
-        "forks": 74,
+        "forks": 79,
         "url": "https://github.com/JetBrains/go-modern-guidelines"
       },
       {
@@ -71,7 +71,7 @@
         "description": "Sponsor Star abi / screenshot-to-code Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 309,
+        "period_stars": 326,
         "forks": 0,
         "url": "https://github.com/sponsors/abi"
       },
@@ -79,18 +79,18 @@
         "full_name": "cursor/plugins",
         "description": "Star cursor / plugins Cursor plugin specification and official plugins",
         "language": "TypeScript",
-        "total_stars": 5829,
-        "period_stars": 257,
-        "forks": 472,
+        "total_stars": 6030,
+        "period_stars": 246,
+        "forks": 480,
         "url": "https://github.com/cursor/plugins"
       },
       {
         "full_name": "freestylefly/awesome-gpt-image-2",
         "description": "Star freestylefly / awesome-gpt-image-2 Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
         "language": "JavaScript",
-        "total_stars": 23979,
+        "total_stars": 24516,
         "period_stars": 1687,
-        "forks": 2371,
+        "forks": 2421,
         "url": "https://github.com/freestylefly/awesome-gpt-image-2"
       }
     ],
@@ -99,27 +99,27 @@
         "full_name": "tt-a1i/archify",
         "description": "Star tt-a1i / archify Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
         "language": "JavaScript",
-        "total_stars": 25582,
-        "period_stars": 4561,
-        "forks": 1643,
+        "total_stars": 28609,
+        "period_stars": 4562,
+        "forks": 1796,
         "url": "https://github.com/tt-a1i/archify"
       },
       {
         "full_name": "K-Dense-AI/scientific-agent-skills",
         "description": "Star K-Dense-AI / scientific-agent-skills Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 175,000+ scientists worldwide. 163 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
         "language": "Python",
-        "total_stars": 35796,
+        "total_stars": 37028,
         "period_stars": 720,
-        "forks": 3441,
+        "forks": 3514,
         "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
       },
       {
         "full_name": "anthropics/claude-plugins-official",
         "description": "Star anthropics / claude-plugins-official Official, Anthropic-managed directory of high quality Claude Code Plugins.",
         "language": "Python",
-        "total_stars": 34856,
+        "total_stars": 35137,
         "period_stars": 457,
-        "forks": 3925,
+        "forks": 3941,
         "url": "https://github.com/anthropics/claude-plugins-official"
       },
       {
@@ -127,7 +127,7 @@
         "description": "Sponsor Star abhigyanpatwari / GitNexus GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a git repository (Github, Gitlab, Azure, Local) or ZIP file, and get an interactive knowledge graph with a built in Graph RAG Agent. Perfect for code exploration",
         "language": "TypeScript",
         "total_stars": 0,
-        "period_stars": 189,
+        "period_stars": 202,
         "forks": 0,
         "url": "https://github.com/sponsors/abhigyanpatwari"
       },
@@ -135,9 +135,9 @@
         "full_name": "JetBrains/go-modern-guidelines",
         "description": "Star JetBrains / go-modern-guidelines Help AI coding agents write modern Go",
         "language": "Go",
-        "total_stars": 2439,
+        "total_stars": 2680,
         "period_stars": 574,
-        "forks": 74,
+        "forks": 79,
         "url": "https://github.com/JetBrains/go-modern-guidelines"
       },
       {
@@ -154,7 +154,7 @@
         "description": "Sponsor Star abi / screenshot-to-code Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 309,
+        "period_stars": 326,
         "forks": 0,
         "url": "https://github.com/sponsors/abi"
       },
@@ -162,27 +162,27 @@
         "full_name": "freestylefly/awesome-gpt-image-2",
         "description": "Star freestylefly / awesome-gpt-image-2 Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
         "language": "JavaScript",
-        "total_stars": 23979,
+        "total_stars": 24516,
         "period_stars": 1687,
-        "forks": 2371,
+        "forks": 2421,
         "url": "https://github.com/freestylefly/awesome-gpt-image-2"
       },
       {
         "full_name": "tailscale/tailcat",
         "description": "Star tailscale / tailcat like netcat, but over Tailscale's data plane, without Tailscale's control plane",
         "language": "Go",
-        "total_stars": 2316,
-        "period_stars": 986,
-        "forks": 66,
+        "total_stars": 2971,
+        "period_stars": 965,
+        "forks": 82,
         "url": "https://github.com/tailscale/tailcat"
       },
       {
         "full_name": "marin-community/marin",
         "description": "Star marin-community / marin Open-source framework for the research and development of foundation models.",
         "language": "Python",
-        "total_stars": 2803,
+        "total_stars": 2931,
         "period_stars": 236,
-        "forks": 235,
+        "forks": 241,
         "url": "https://github.com/marin-community/marin"
       }
     ]
@@ -193,45 +193,45 @@
         "full_name": "anthropics/claude-plugins-community",
         "description": "Star anthropics / claude-plugins-community Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
         "language": "Python",
-        "total_stars": 2489,
-        "period_stars": 2069,
-        "forks": 210,
+        "total_stars": 2639,
+        "period_stars": 2207,
+        "forks": 217,
         "url": "https://github.com/anthropics/claude-plugins-community"
       },
       {
         "full_name": "freestylefly/awesome-gpt-image-2",
         "description": "Star freestylefly / awesome-gpt-image-2 Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
         "language": "JavaScript",
-        "total_stars": 23979,
-        "period_stars": 11300,
-        "forks": 2371,
+        "total_stars": 24516,
+        "period_stars": 12877,
+        "forks": 2421,
         "url": "https://github.com/freestylefly/awesome-gpt-image-2"
       },
       {
         "full_name": "basecamp/omarchy",
         "description": "Star basecamp / omarchy Beautiful, Modern &amp; Opinionated Linux",
         "language": "Shell",
-        "total_stars": 32926,
-        "period_stars": 5593,
-        "forks": 3403,
+        "total_stars": 33889,
+        "period_stars": 5942,
+        "forks": 3499,
         "url": "https://github.com/basecamp/omarchy"
       },
       {
         "full_name": "openai/codex",
         "description": "Star openai / codex Lightweight coding agent that runs in your terminal",
         "language": "Rust",
-        "total_stars": 119457,
-        "period_stars": 12358,
-        "forks": 18224,
+        "total_stars": 119656,
+        "period_stars": 9109,
+        "forks": 18279,
         "url": "https://github.com/openai/codex"
       },
       {
         "full_name": "tt-a1i/archify",
         "description": "Star tt-a1i / archify Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
         "language": "JavaScript",
-        "total_stars": 25582,
-        "period_stars": 8530,
-        "forks": 1643,
+        "total_stars": 28609,
+        "period_stars": 11099,
+        "forks": 1796,
         "url": "https://github.com/tt-a1i/archify"
       },
       {
@@ -239,7 +239,7 @@
         "description": "Sponsor Star AprilNEA / OpenLogi ⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
         "language": "Rust",
         "total_stars": 0,
-        "period_stars": 5946,
+        "period_stars": 4825,
         "forks": 0,
         "url": "https://github.com/sponsors/AprilNEA"
       },
@@ -247,36 +247,36 @@
         "full_name": "apache/maka",
         "description": "Star apache / maka Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
         "language": "TypeScript",
-        "total_stars": 3843,
-        "period_stars": 1978,
-        "forks": 359,
+        "total_stars": 3932,
+        "period_stars": 1918,
+        "forks": 366,
         "url": "https://github.com/apache/maka"
       },
       {
         "full_name": "tashfeenahmed/freellmapi",
         "description": "Star tashfeenahmed / freellmapi 7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
         "language": "TypeScript",
-        "total_stars": 21330,
-        "period_stars": 2014,
-        "forks": 3036,
+        "total_stars": 21769,
+        "period_stars": 2162,
+        "forks": 3076,
         "url": "https://github.com/tashfeenahmed/freellmapi"
       },
       {
         "full_name": "modular/modular",
         "description": "Star modular / modular The Modular Platform (includes MAX &amp; Mojo)",
         "language": "Mojo",
-        "total_stars": 29281,
-        "period_stars": 1770,
-        "forks": 3117,
+        "total_stars": 29316,
+        "period_stars": 875,
+        "forks": 3122,
         "url": "https://github.com/modular/modular"
       },
       {
         "full_name": "cursor/plugins",
         "description": "Star cursor / plugins Cursor plugin specification and official plugins",
         "language": "TypeScript",
-        "total_stars": 5829,
-        "period_stars": 1732,
-        "forks": 472,
+        "total_stars": 6030,
+        "period_stars": 1594,
+        "forks": 480,
         "url": "https://github.com/cursor/plugins"
       }
     ],
@@ -285,54 +285,54 @@
         "full_name": "anthropics/claude-plugins-community",
         "description": "Star anthropics / claude-plugins-community Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
         "language": "Python",
-        "total_stars": 2489,
-        "period_stars": 2069,
-        "forks": 210,
+        "total_stars": 2639,
+        "period_stars": 2207,
+        "forks": 217,
         "url": "https://github.com/anthropics/claude-plugins-community"
       },
       {
         "full_name": "freestylefly/awesome-gpt-image-2",
         "description": "Star freestylefly / awesome-gpt-image-2 Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
         "language": "JavaScript",
-        "total_stars": 23979,
-        "period_stars": 11300,
-        "forks": 2371,
+        "total_stars": 24516,
+        "period_stars": 12877,
+        "forks": 2421,
         "url": "https://github.com/freestylefly/awesome-gpt-image-2"
       },
       {
         "full_name": "openai/codex",
         "description": "Star openai / codex Lightweight coding agent that runs in your terminal",
         "language": "Rust",
-        "total_stars": 119457,
-        "period_stars": 12358,
-        "forks": 18224,
+        "total_stars": 119656,
+        "period_stars": 9109,
+        "forks": 18279,
         "url": "https://github.com/openai/codex"
       },
       {
         "full_name": "tt-a1i/archify",
         "description": "Star tt-a1i / archify Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
         "language": "JavaScript",
-        "total_stars": 25582,
-        "period_stars": 8530,
-        "forks": 1643,
+        "total_stars": 28609,
+        "period_stars": 11099,
+        "forks": 1796,
         "url": "https://github.com/tt-a1i/archify"
       },
       {
         "full_name": "apache/maka",
         "description": "Star apache / maka Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
         "language": "TypeScript",
-        "total_stars": 3843,
-        "period_stars": 1978,
-        "forks": 359,
+        "total_stars": 3932,
+        "period_stars": 1918,
+        "forks": 366,
         "url": "https://github.com/apache/maka"
       },
       {
         "full_name": "tashfeenahmed/freellmapi",
         "description": "Star tashfeenahmed / freellmapi 7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
         "language": "TypeScript",
-        "total_stars": 21330,
-        "period_stars": 2014,
-        "forks": 3036,
+        "total_stars": 21769,
+        "period_stars": 2162,
+        "forks": 3076,
         "url": "https://github.com/tashfeenahmed/freellmapi"
       },
       {
@@ -340,7 +340,7 @@
         "description": "Sponsor Star MadsLorentzen / ai-job-search The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 4706,
+        "period_stars": 4828,
         "forks": 0,
         "url": "https://github.com/sponsors/MadsLorentzen"
       },
@@ -348,18 +348,18 @@
         "full_name": "tinyhumansai/openhuman",
         "description": "Star tinyhumansai / openhuman Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
         "language": "Rust",
-        "total_stars": 38652,
-        "period_stars": 2178,
-        "forks": 3794,
+        "total_stars": 38763,
+        "period_stars": 2353,
+        "forks": 3805,
         "url": "https://github.com/tinyhumansai/openhuman"
       },
       {
         "full_name": "anthropics/claude-plugins-official",
         "description": "Star anthropics / claude-plugins-official Official, Anthropic-managed directory of high quality Claude Code Plugins.",
         "language": "Python",
-        "total_stars": 34856,
-        "period_stars": 928,
-        "forks": 3925,
+        "total_stars": 35137,
+        "period_stars": 1281,
+        "forks": 3941,
         "url": "https://github.com/anthropics/claude-plugins-official"
       },
       {
@@ -367,7 +367,7 @@
         "description": "Sponsor Star VoltAgent / awesome-agent-skills A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
         "language": "",
         "total_stars": 0,
-        "period_stars": 2324,
+        "period_stars": 2372,
         "forks": 0,
         "url": "https://github.com/sponsors/VoltAgent"
       }

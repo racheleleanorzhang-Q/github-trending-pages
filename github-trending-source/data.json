@@ -1,274 +1,283 @@
 {
-  "updated_at": "2026-09-02 13:55:27 GMT+8",
-  "updated_ts": 1788328527,
+  "updated_at": "2026-09-03 13:54:42 GMT+8",
+  "updated_ts": 1788414882,
   "daily": {
     "top10": [
       {
-        "full_name": "Gitlawb/openclaude",
-        "description": "Star Gitlawb / openclaude runs anywhere. uses anything",
+        "full_name": "fmtlib/fmt",
+        "description": "Star fmtlib / fmt A modern formatting library",
+        "language": "C++",
+        "total_stars": 24450,
+        "period_stars": 14,
+        "forks": 2994,
+        "url": "https://github.com/fmtlib/fmt"
+      },
+      {
+        "full_name": "google-research/timesfm",
+        "description": "Star google-research / timesfm TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+        "language": "Python",
+        "total_stars": 30149,
+        "period_stars": 343,
+        "forks": 2888,
+        "url": "https://github.com/google-research/timesfm"
+      },
+      {
+        "full_name": "sponsors/DietrichGebert",
+        "description": "Sponsor Star DietrichGebert / ponytail Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+        "language": "JavaScript",
+        "total_stars": 0,
+        "period_stars": 1354,
+        "forks": 0,
+        "url": "https://github.com/sponsors/DietrichGebert"
+      },
+      {
+        "full_name": "debpalash/VoiceStudio",
+        "description": "Star debpalash / VoiceStudio VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.",
+        "language": "Python",
+        "total_stars": 15180,
+        "period_stars": 832,
+        "forks": 2138,
+        "url": "https://github.com/debpalash/VoiceStudio"
+      },
+      {
+        "full_name": "sngyai/Sequoia-X",
+        "description": "Star sngyai / Sequoia-X A股自动选股系统 — 多种技术形态自动扫描，收盘后自动运行并推送飞书",
+        "language": "Python",
+        "total_stars": 6263,
+        "period_stars": 63,
+        "forks": 1280,
+        "url": "https://github.com/sngyai/Sequoia-X"
+      },
+      {
+        "full_name": "ChromeDevTools/chrome-devtools-mcp",
+        "description": "Star ChromeDevTools / chrome-devtools-mcp Chrome DevTools for coding agents",
         "language": "TypeScript",
-        "total_stars": 31513,
-        "period_stars": 80,
-        "forks": 8966,
-        "url": "https://github.com/Gitlawb/openclaude"
+        "total_stars": 50723,
+        "period_stars": 148,
+        "forks": 3557,
+        "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
       },
       {
-        "full_name": "Imbad0202/academic-research-skills",
-        "description": "Star Imbad0202 / academic-research-skills Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+        "full_name": "NousResearch/hermes-agent",
+        "description": "Star NousResearch / hermes-agent The agent that grows with you",
         "language": "Python",
-        "total_stars": 45116,
-        "period_stars": 193,
-        "forks": 3558,
-        "url": "https://github.com/Imbad0202/academic-research-skills"
+        "total_stars": 240280,
+        "period_stars": 533,
+        "forks": 49181,
+        "url": "https://github.com/NousResearch/hermes-agent"
       },
       {
-        "full_name": "THU-MAIC/OpenMAIC",
-        "description": "Star THU-MAIC / OpenMAIC Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
-        "language": "TypeScript",
-        "total_stars": 29815,
-        "period_stars": 3128,
-        "forks": 5002,
-        "url": "https://github.com/THU-MAIC/OpenMAIC"
-      },
-      {
-        "full_name": "iv-org/invidious",
-        "description": "Star iv-org / invidious Invidious is an alternative front-end to YouTube",
-        "language": "Crystal",
-        "total_stars": 23845,
-        "period_stars": 577,
-        "forks": 2676,
-        "url": "https://github.com/iv-org/invidious"
-      },
-      {
-        "full_name": "jingyaogong/minimind",
-        "description": "Star jingyaogong / minimind 🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+        "full_name": "superlinked/sie",
+        "description": "Star superlinked / sie Open-source inference server and production cluster for all the models your agent needs.",
         "language": "Python",
-        "total_stars": 57316,
-        "period_stars": 1005,
-        "forks": 7453,
-        "url": "https://github.com/jingyaogong/minimind"
+        "total_stars": 3122,
+        "period_stars": 60,
+        "forks": 301,
+        "url": "https://github.com/superlinked/sie"
       },
       {
-        "full_name": "3b1b/manim",
-        "description": "Star 3b1b / manim Animation engine for explanatory math videos",
-        "language": "Python",
-        "total_stars": 92672,
-        "period_stars": 86,
-        "forks": 7625,
-        "url": "https://github.com/3b1b/manim"
-      },
-      {
-        "full_name": "firecrawl/pdf-inspector",
-        "description": "Star firecrawl / pdf-inspector Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+        "full_name": "pacifio/atlas",
+        "description": "Star pacifio / atlas Source control for agents. Use multiple coding agents, track their changes and query them in one place",
         "language": "Rust",
-        "total_stars": 18090,
-        "period_stars": 541,
-        "forks": 1231,
-        "url": "https://github.com/firecrawl/pdf-inspector"
+        "total_stars": 3012,
+        "period_stars": 888,
+        "forks": 194,
+        "url": "https://github.com/pacifio/atlas"
       },
       {
-        "full_name": "browser-use/video-use",
-        "description": "Star browser-use / video-use Edit videos with coding agents",
-        "language": "Python",
-        "total_stars": 23142,
-        "period_stars": 472,
-        "forks": 2823,
-        "url": "https://github.com/browser-use/video-use"
-      },
-      {
-        "full_name": "K-Dense-AI/scientific-agent-skills",
-        "description": "Star K-Dense-AI / scientific-agent-skills Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
-        "language": "Python",
-        "total_stars": 41727,
-        "period_stars": 912,
-        "forks": 3838,
-        "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
-      },
-      {
-        "full_name": "handsomestWei/patent-disclosure-skill",
-        "description": "Star handsomestWei / patent-disclosure-skill 中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。",
-        "language": "Python",
-        "total_stars": 6861,
-        "period_stars": 501,
-        "forks": 766,
-        "url": "https://github.com/handsomestWei/patent-disclosure-skill"
+        "full_name": "zyronon/TypeWords",
+        "description": "Star zyronon / TypeWords Practice English, one strike, one step forward; 练习英语，一次敲击，一点进步；",
+        "language": "Vue",
+        "total_stars": 9429,
+        "period_stars": 21,
+        "forks": 1139,
+        "url": "https://github.com/zyronon/TypeWords"
       }
     ],
     "ai_top10": [
       {
-        "full_name": "Gitlawb/openclaude",
-        "description": "Star Gitlawb / openclaude runs anywhere. uses anything",
+        "full_name": "google-research/timesfm",
+        "description": "Star google-research / timesfm TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+        "language": "Python",
+        "total_stars": 30149,
+        "period_stars": 343,
+        "forks": 2888,
+        "url": "https://github.com/google-research/timesfm"
+      },
+      {
+        "full_name": "sponsors/DietrichGebert",
+        "description": "Sponsor Star DietrichGebert / ponytail Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+        "language": "JavaScript",
+        "total_stars": 0,
+        "period_stars": 1354,
+        "forks": 0,
+        "url": "https://github.com/sponsors/DietrichGebert"
+      },
+      {
+        "full_name": "sngyai/Sequoia-X",
+        "description": "Star sngyai / Sequoia-X A股自动选股系统 — 多种技术形态自动扫描，收盘后自动运行并推送飞书",
+        "language": "Python",
+        "total_stars": 6263,
+        "period_stars": 63,
+        "forks": 1280,
+        "url": "https://github.com/sngyai/Sequoia-X"
+      },
+      {
+        "full_name": "ChromeDevTools/chrome-devtools-mcp",
+        "description": "Star ChromeDevTools / chrome-devtools-mcp Chrome DevTools for coding agents",
         "language": "TypeScript",
-        "total_stars": 31513,
-        "period_stars": 80,
-        "forks": 8966,
-        "url": "https://github.com/Gitlawb/openclaude"
+        "total_stars": 50723,
+        "period_stars": 148,
+        "forks": 3557,
+        "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+      },
+      {
+        "full_name": "NousResearch/hermes-agent",
+        "description": "Star NousResearch / hermes-agent The agent that grows with you",
+        "language": "Python",
+        "total_stars": 240280,
+        "period_stars": 533,
+        "forks": 49181,
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      {
+        "full_name": "superlinked/sie",
+        "description": "Star superlinked / sie Open-source inference server and production cluster for all the models your agent needs.",
+        "language": "Python",
+        "total_stars": 3122,
+        "period_stars": 60,
+        "forks": 301,
+        "url": "https://github.com/superlinked/sie"
+      },
+      {
+        "full_name": "pacifio/atlas",
+        "description": "Star pacifio / atlas Source control for agents. Use multiple coding agents, track their changes and query them in one place",
+        "language": "Rust",
+        "total_stars": 3012,
+        "period_stars": 888,
+        "forks": 194,
+        "url": "https://github.com/pacifio/atlas"
       },
       {
         "full_name": "Imbad0202/academic-research-skills",
         "description": "Star Imbad0202 / academic-research-skills Academic Research Skills for Claude Code: research → write → review → revise → finalize",
         "language": "Python",
-        "total_stars": 45116,
-        "period_stars": 193,
-        "forks": 3558,
+        "total_stars": 45684,
+        "period_stars": 799,
+        "forks": 3589,
         "url": "https://github.com/Imbad0202/academic-research-skills"
-      },
-      {
-        "full_name": "THU-MAIC/OpenMAIC",
-        "description": "Star THU-MAIC / OpenMAIC Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
-        "language": "TypeScript",
-        "total_stars": 29815,
-        "period_stars": 3128,
-        "forks": 5002,
-        "url": "https://github.com/THU-MAIC/OpenMAIC"
-      },
-      {
-        "full_name": "jingyaogong/minimind",
-        "description": "Star jingyaogong / minimind 🧠 Train a 64M-parameter LLM from scratch in just 2h!",
-        "language": "Python",
-        "total_stars": 57316,
-        "period_stars": 1005,
-        "forks": 7453,
-        "url": "https://github.com/jingyaogong/minimind"
-      },
-      {
-        "full_name": "browser-use/video-use",
-        "description": "Star browser-use / video-use Edit videos with coding agents",
-        "language": "Python",
-        "total_stars": 23142,
-        "period_stars": 472,
-        "forks": 2823,
-        "url": "https://github.com/browser-use/video-use"
-      },
-      {
-        "full_name": "K-Dense-AI/scientific-agent-skills",
-        "description": "Star K-Dense-AI / scientific-agent-skills Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
-        "language": "Python",
-        "total_stars": 41727,
-        "period_stars": 912,
-        "forks": 3838,
-        "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
-      },
-      {
-        "full_name": "sponsors/VoltAgent",
-        "description": "Sponsor Star VoltAgent / awesome-design-md A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
-        "language": "",
-        "total_stars": 0,
-        "period_stars": 323,
-        "forks": 0,
-        "url": "https://github.com/sponsors/VoltAgent"
       },
       {
         "full_name": "sponsors/affaan-m",
         "description": "Sponsor Star affaan-m / ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
         "language": "JavaScript",
         "total_stars": 0,
-        "period_stars": 623,
+        "period_stars": 516,
         "forks": 0,
         "url": "https://github.com/sponsors/affaan-m"
       },
       {
-        "full_name": "sponsors/unclecode",
-        "description": "Sponsor Star unclecode / crawl4ai 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler &amp; Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
-        "language": "Python",
-        "total_stars": 0,
-        "period_stars": 145,
-        "forks": 0,
-        "url": "https://github.com/sponsors/unclecode"
+        "full_name": "vercel-labs/portless",
+        "description": "Star vercel-labs / portless Replace port numbers with stable, named local URLs. For humans and agents.",
+        "language": "TypeScript",
+        "total_stars": 11880,
+        "period_stars": 73,
+        "forks": 387,
+        "url": "https://github.com/vercel-labs/portless"
       }
     ]
   },
   "weekly": {
     "top10": [
       {
+        "full_name": "bilawalsidhu/gods-eye-view",
+        "description": "Star bilawalsidhu / gods-eye-view A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+        "language": "JavaScript",
+        "total_stars": 16342,
+        "period_stars": 10679,
+        "forks": 3287,
+        "url": "https://github.com/bilawalsidhu/gods-eye-view"
+      },
+      {
         "full_name": "tt-a1i/archify",
         "description": "Star tt-a1i / archify Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
         "language": "JavaScript",
-        "total_stars": 42437,
-        "period_stars": 25469,
-        "forks": 2712,
+        "total_stars": 44325,
+        "period_stars": 26626,
+        "forks": 2840,
         "url": "https://github.com/tt-a1i/archify"
       },
       {
-        "full_name": "anthropics/claude-plugins-community",
-        "description": "Star anthropics / claude-plugins-community Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
-        "language": "Python",
-        "total_stars": 3198,
-        "period_stars": 1634,
-        "forks": 249,
-        "url": "https://github.com/anthropics/claude-plugins-community"
-      },
-      {
-        "full_name": "cursor/plugins",
-        "description": "Star cursor / plugins Cursor plugin specification and official plugins",
-        "language": "TypeScript",
-        "total_stars": 6563,
-        "period_stars": 1377,
-        "forks": 541,
-        "url": "https://github.com/cursor/plugins"
+        "full_name": "sponsors/zedeus",
+        "description": "Sponsor Star zedeus / nitter Alternative Twitter front-end",
+        "language": "Nim",
+        "total_stars": 0,
+        "period_stars": 525,
+        "forks": 0,
+        "url": "https://github.com/sponsors/zedeus"
       },
       {
         "full_name": "THU-MAIC/OpenMAIC",
         "description": "Star THU-MAIC / OpenMAIC Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
         "language": "TypeScript",
-        "total_stars": 29815,
-        "period_stars": 8014,
-        "forks": 5002,
+        "total_stars": 30686,
+        "period_stars": 9426,
+        "forks": 5095,
         "url": "https://github.com/THU-MAIC/OpenMAIC"
       },
       {
         "full_name": "freestylefly/awesome-gpt-image-2",
         "description": "Star freestylefly / awesome-gpt-image-2 Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
         "language": "JavaScript",
-        "total_stars": 27083,
-        "period_stars": 10669,
-        "forks": 2632,
+        "total_stars": 27503,
+        "period_stars": 7006,
+        "forks": 2660,
         "url": "https://github.com/freestylefly/awesome-gpt-image-2"
       },
       {
         "full_name": "omacom/omarchy",
         "description": "Star omacom / omarchy Beautiful, Modern &amp; Opinionated Linux",
         "language": "Shell",
-        "total_stars": 36966,
-        "period_stars": 6006,
-        "forks": 3852,
+        "total_stars": 37422,
+        "period_stars": 5577,
+        "forks": 3924,
         "url": "https://github.com/omacom/omarchy"
-      },
-      {
-        "full_name": "tashfeenahmed/freellmapi",
-        "description": "Star tashfeenahmed / freellmapi 7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
-        "language": "TypeScript",
-        "total_stars": 23671,
-        "period_stars": 3452,
-        "forks": 3239,
-        "url": "https://github.com/tashfeenahmed/freellmapi"
       },
       {
         "full_name": "K-Dense-AI/scientific-agent-skills",
         "description": "Star K-Dense-AI / scientific-agent-skills Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
         "language": "Python",
-        "total_stars": 41727,
-        "period_stars": 6962,
-        "forks": 3838,
+        "total_stars": 42169,
+        "period_stars": 7558,
+        "forks": 3873,
         "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
-      },
-      {
-        "full_name": "sponsors/rohitg00",
-        "description": "Sponsor Star rohitg00 / ai-engineering-from-scratch Learn it. Build it. Ship it for others.",
-        "language": "Python",
-        "total_stars": 0,
-        "period_stars": 3427,
-        "forks": 0,
-        "url": "https://github.com/sponsors/rohitg00"
       },
       {
         "full_name": "every-app/open-seo",
         "description": "Star every-app / open-seo Open source alternative to Semrush and Ahrefs",
         "language": "TypeScript",
-        "total_stars": 16194,
-        "period_stars": 2625,
-        "forks": 1966,
+        "total_stars": 16455,
+        "period_stars": 2767,
+        "forks": 2016,
         "url": "https://github.com/every-app/open-seo"
+      },
+      {
+        "full_name": "jingyaogong/minimind",
+        "description": "Star jingyaogong / minimind 🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+        "language": "Python",
+        "total_stars": 57941,
+        "period_stars": 2669,
+        "forks": 7532,
+        "url": "https://github.com/jingyaogong/minimind"
+      },
+      {
+        "full_name": "anthropics/claude-plugins-community",
+        "description": "Star anthropics / claude-plugins-community Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
+        "language": "Python",
+        "total_stars": 3307,
+        "period_stars": 1212,
+        "forks": 254,
+        "url": "https://github.com/anthropics/claude-plugins-community"
       }
     ],
     "ai_top10": [
@@ -276,91 +285,91 @@
         "full_name": "tt-a1i/archify",
         "description": "Star tt-a1i / archify Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
         "language": "JavaScript",
-        "total_stars": 42437,
-        "period_stars": 25469,
-        "forks": 2712,
+        "total_stars": 44325,
+        "period_stars": 26626,
+        "forks": 2840,
         "url": "https://github.com/tt-a1i/archify"
-      },
-      {
-        "full_name": "anthropics/claude-plugins-community",
-        "description": "Star anthropics / claude-plugins-community Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
-        "language": "Python",
-        "total_stars": 3198,
-        "period_stars": 1634,
-        "forks": 249,
-        "url": "https://github.com/anthropics/claude-plugins-community"
       },
       {
         "full_name": "THU-MAIC/OpenMAIC",
         "description": "Star THU-MAIC / OpenMAIC Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
         "language": "TypeScript",
-        "total_stars": 29815,
-        "period_stars": 8014,
-        "forks": 5002,
+        "total_stars": 30686,
+        "period_stars": 9426,
+        "forks": 5095,
         "url": "https://github.com/THU-MAIC/OpenMAIC"
       },
       {
         "full_name": "freestylefly/awesome-gpt-image-2",
         "description": "Star freestylefly / awesome-gpt-image-2 Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
         "language": "JavaScript",
-        "total_stars": 27083,
-        "period_stars": 10669,
-        "forks": 2632,
+        "total_stars": 27503,
+        "period_stars": 7006,
+        "forks": 2660,
         "url": "https://github.com/freestylefly/awesome-gpt-image-2"
-      },
-      {
-        "full_name": "tashfeenahmed/freellmapi",
-        "description": "Star tashfeenahmed / freellmapi 7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
-        "language": "TypeScript",
-        "total_stars": 23671,
-        "period_stars": 3452,
-        "forks": 3239,
-        "url": "https://github.com/tashfeenahmed/freellmapi"
       },
       {
         "full_name": "K-Dense-AI/scientific-agent-skills",
         "description": "Star K-Dense-AI / scientific-agent-skills Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
         "language": "Python",
-        "total_stars": 41727,
-        "period_stars": 6962,
-        "forks": 3838,
+        "total_stars": 42169,
+        "period_stars": 7558,
+        "forks": 3873,
         "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+      },
+      {
+        "full_name": "jingyaogong/minimind",
+        "description": "Star jingyaogong / minimind 🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+        "language": "Python",
+        "total_stars": 57941,
+        "period_stars": 2669,
+        "forks": 7532,
+        "url": "https://github.com/jingyaogong/minimind"
+      },
+      {
+        "full_name": "anthropics/claude-plugins-community",
+        "description": "Star anthropics / claude-plugins-community Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
+        "language": "Python",
+        "total_stars": 3307,
+        "period_stars": 1212,
+        "forks": 254,
+        "url": "https://github.com/anthropics/claude-plugins-community"
+      },
+      {
+        "full_name": "tashfeenahmed/freellmapi",
+        "description": "Star tashfeenahmed / freellmapi 7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+        "language": "TypeScript",
+        "total_stars": 23951,
+        "period_stars": 3366,
+        "forks": 3268,
+        "url": "https://github.com/tashfeenahmed/freellmapi"
+      },
+      {
+        "full_name": "p-e-w/heretic",
+        "description": "Star p-e-w / heretic Fully automatic censorship removal for language models",
+        "language": "Python",
+        "total_stars": 30212,
+        "period_stars": 2045,
+        "forks": 3336,
+        "url": "https://github.com/p-e-w/heretic"
       },
       {
         "full_name": "sponsors/rohitg00",
         "description": "Sponsor Star rohitg00 / ai-engineering-from-scratch Learn it. Build it. Ship it for others.",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 3427,
+        "period_stars": 2843,
         "forks": 0,
         "url": "https://github.com/sponsors/rohitg00"
-      },
-      {
-        "full_name": "p-e-w/heretic",
-        "description": "Star p-e-w / heretic Fully automatic censorship removal for language models",
-        "language": "Python",
-        "total_stars": 30049,
-        "period_stars": 1874,
-        "forks": 3307,
-        "url": "https://github.com/p-e-w/heretic"
       },
       {
         "full_name": "sponsors/abi",
         "description": "Sponsor Star abi / screenshot-to-code Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 2485,
+        "period_stars": 2634,
         "forks": 0,
         "url": "https://github.com/sponsors/abi"
-      },
-      {
-        "full_name": "sponsors/MadsLorentzen",
-        "description": "Sponsor Star MadsLorentzen / ai-job-search The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
-        "language": "Python",
-        "total_stars": 0,
-        "period_stars": 4841,
-        "forks": 0,
-        "url": "https://github.com/sponsors/MadsLorentzen"
       }
     ]
   }

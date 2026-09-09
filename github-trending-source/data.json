@@ -1,273 +1,201 @@
 {
-  "updated_at": "2026-09-08 14:01:50 GMT+8",
-  "updated_ts": 1788847310,
+  "updated_at": "2026-09-09 14:05:02 GMT+8",
+  "updated_ts": 1788933902,
   "daily": {
     "top10": [
       {
-        "full_name": "heygen-com/hyperframes",
-        "description": "Star heygen-com / hyperframes Write HTML. Render video. Built for agents.",
-        "language": "TypeScript",
-        "total_stars": 46581,
-        "period_stars": 474,
-        "forks": 4345,
-        "url": "https://github.com/heygen-com/hyperframes"
-      },
-      {
-        "full_name": "microsoft/markitdown",
-        "description": "Star microsoft / markitdown Python tool for converting files and office documents to Markdown.",
+        "full_name": "ayghri/i-have-adhd",
+        "description": "Star ayghri / i-have-adhd A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
         "language": "Python",
-        "total_stars": 180758,
-        "period_stars": 886,
-        "forks": 13282,
-        "url": "https://github.com/microsoft/markitdown"
+        "total_stars": 31414,
+        "period_stars": 656,
+        "forks": 1893,
+        "url": "https://github.com/ayghri/i-have-adhd"
       },
       {
-        "full_name": "sponsors/mksglu",
-        "description": "Sponsor Star mksglu / context-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-        "language": "TypeScript",
-        "total_stars": 0,
-        "period_stars": 96,
-        "forks": 0,
-        "url": "https://github.com/sponsors/mksglu"
-      },
-      {
-        "full_name": "jo-inc/camofox-browser",
-        "description": "Star jo-inc / camofox-browser Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement.",
-        "language": "JavaScript",
-        "total_stars": 9938,
-        "period_stars": 135,
-        "forks": 1031,
-        "url": "https://github.com/jo-inc/camofox-browser"
-      },
-      {
-        "full_name": "MoonTechLab/LunaTV",
-        "description": "Star MoonTechLab / LunaTV 本项目采用 CC BY-NC-SA 协议，禁止任何商业化行为，任何衍生项目必须保留本项目地址并以相同协议开源",
-        "language": "TypeScript",
-        "total_stars": 9896,
-        "period_stars": 197,
-        "forks": 9009,
-        "url": "https://github.com/MoonTechLab/LunaTV"
-      },
-      {
-        "full_name": "sponsors/affaan-m",
-        "description": "Sponsor Star affaan-m / ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-        "language": "JavaScript",
-        "total_stars": 0,
-        "period_stars": 1897,
-        "forks": 0,
-        "url": "https://github.com/sponsors/affaan-m"
-      },
-      {
-        "full_name": "sponsors/coreyhaines31",
-        "description": "Sponsor Star coreyhaines31 / marketingskills Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
-        "language": "JavaScript",
-        "total_stars": 0,
-        "period_stars": 580,
-        "forks": 0,
-        "url": "https://github.com/sponsors/coreyhaines31"
-      },
-      {
-        "full_name": "The-Swarm-Corporation/AutoHedge",
-        "description": "Star The-Swarm-Corporation / AutoHedge Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution.",
-        "language": "Python",
-        "total_stars": 5365,
-        "period_stars": 517,
-        "forks": 819,
-        "url": "https://github.com/The-Swarm-Corporation/AutoHedge"
-      },
-      {
-        "full_name": "BraveOPotato/FckSignups",
-        "description": "Star BraveOPotato / FckSignups A list of tools that are open-source, in-browser, and require no-signups!",
-        "language": "TypeScript",
-        "total_stars": 3934,
-        "period_stars": 501,
-        "forks": 230,
-        "url": "https://github.com/BraveOPotato/FckSignups"
-      },
-      {
-        "full_name": "bytedance/deer-flow",
-        "description": "Star bytedance / deer-flow An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
-        "language": "Python",
-        "total_stars": 81936,
-        "period_stars": 195,
-        "forks": 11295,
-        "url": "https://github.com/bytedance/deer-flow"
-      }
-    ],
-    "ai_top10": [
-      {
-        "full_name": "heygen-com/hyperframes",
-        "description": "Star heygen-com / hyperframes Write HTML. Render video. Built for agents.",
-        "language": "TypeScript",
-        "total_stars": 46581,
-        "period_stars": 474,
-        "forks": 4345,
-        "url": "https://github.com/heygen-com/hyperframes"
-      },
-      {
-        "full_name": "sponsors/mksglu",
-        "description": "Sponsor Star mksglu / context-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-        "language": "TypeScript",
-        "total_stars": 0,
-        "period_stars": 96,
-        "forks": 0,
-        "url": "https://github.com/sponsors/mksglu"
-      },
-      {
-        "full_name": "jo-inc/camofox-browser",
-        "description": "Star jo-inc / camofox-browser Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement.",
-        "language": "JavaScript",
-        "total_stars": 9938,
-        "period_stars": 135,
-        "forks": 1031,
-        "url": "https://github.com/jo-inc/camofox-browser"
-      },
-      {
-        "full_name": "sponsors/affaan-m",
-        "description": "Sponsor Star affaan-m / ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-        "language": "JavaScript",
-        "total_stars": 0,
-        "period_stars": 1897,
-        "forks": 0,
-        "url": "https://github.com/sponsors/affaan-m"
-      },
-      {
-        "full_name": "sponsors/coreyhaines31",
-        "description": "Sponsor Star coreyhaines31 / marketingskills Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
-        "language": "JavaScript",
-        "total_stars": 0,
-        "period_stars": 580,
-        "forks": 0,
-        "url": "https://github.com/sponsors/coreyhaines31"
-      },
-      {
-        "full_name": "The-Swarm-Corporation/AutoHedge",
-        "description": "Star The-Swarm-Corporation / AutoHedge Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution.",
-        "language": "Python",
-        "total_stars": 5365,
-        "period_stars": 517,
-        "forks": 819,
-        "url": "https://github.com/The-Swarm-Corporation/AutoHedge"
-      },
-      {
-        "full_name": "bytedance/deer-flow",
-        "description": "Star bytedance / deer-flow An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
-        "language": "Python",
-        "total_stars": 81936,
-        "period_stars": 195,
-        "forks": 11295,
-        "url": "https://github.com/bytedance/deer-flow"
+        "full_name": "cathrynlavery/diagram-design",
+        "description": "Star cathrynlavery / diagram-design 38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+        "language": "HTML",
+        "total_stars": 35365,
+        "period_stars": 710,
+        "forks": 2223,
+        "url": "https://github.com/cathrynlavery/diagram-design"
       },
       {
         "full_name": "openai/skills",
         "description": "Star openai / skills Skills Catalog for Codex",
         "language": "Python",
-        "total_stars": 26160,
-        "period_stars": 351,
-        "forks": 1754,
+        "total_stars": 26624,
+        "period_stars": 490,
+        "forks": 1785,
         "url": "https://github.com/openai/skills"
       },
       {
-        "full_name": "lightpanda-io/browser",
-        "description": "Star lightpanda-io / browser Lightpanda: the headless browser designed for AI and automation",
-        "language": "Zig",
-        "total_stars": 34985,
-        "period_stars": 58,
-        "forks": 1653,
-        "url": "https://github.com/lightpanda-io/browser"
+        "full_name": "sponsors/affaan-m",
+        "description": "Sponsor Star affaan-m / ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+        "language": "JavaScript",
+        "total_stars": 0,
+        "period_stars": 1427,
+        "forks": 0,
+        "url": "https://github.com/sponsors/affaan-m"
       },
       {
-        "full_name": "ruvnet/ruflo",
-        "description": "Star ruvnet / ruflo 🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+        "full_name": "heygen-com/hyperframes",
+        "description": "Star heygen-com / hyperframes Write HTML. Render video. Built for agents.",
         "language": "TypeScript",
-        "total_stars": 71490,
-        "period_stars": 394,
-        "forks": 8461,
-        "url": "https://github.com/ruvnet/ruflo"
+        "total_stars": 47971,
+        "period_stars": 2627,
+        "forks": 4408,
+        "url": "https://github.com/heygen-com/hyperframes"
+      },
+      {
+        "full_name": "sponsors/coreyhaines31",
+        "description": "Sponsor Star coreyhaines31 / marketingskills Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+        "language": "JavaScript",
+        "total_stars": 0,
+        "period_stars": 666,
+        "forks": 0,
+        "url": "https://github.com/sponsors/coreyhaines31"
+      },
+      {
+        "full_name": "sponsors/obra",
+        "description": "Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works.",
+        "language": "Shell",
+        "total_stars": 0,
+        "period_stars": 452,
+        "forks": 0,
+        "url": "https://github.com/sponsors/obra"
+      },
+      {
+        "full_name": "multica-ai/andrej-karpathy-skills",
+        "description": "Star multica-ai / andrej-karpathy-skills A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+        "language": "",
+        "total_stars": 211610,
+        "period_stars": 333,
+        "forks": 21478,
+        "url": "https://github.com/multica-ai/andrej-karpathy-skills"
+      },
+      {
+        "full_name": "microsoft/markitdown",
+        "description": "Star microsoft / markitdown Python tool for converting files and office documents to Markdown.",
+        "language": "Python",
+        "total_stars": 181891,
+        "period_stars": 2047,
+        "forks": 13360,
+        "url": "https://github.com/microsoft/markitdown"
+      },
+      {
+        "full_name": "jo-inc/camofox-browser",
+        "description": "Star jo-inc / camofox-browser Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement.",
+        "language": "JavaScript",
+        "total_stars": 10659,
+        "period_stars": 871,
+        "forks": 1061,
+        "url": "https://github.com/jo-inc/camofox-browser"
+      }
+    ],
+    "ai_top10": [
+      {
+        "full_name": "ayghri/i-have-adhd",
+        "description": "Star ayghri / i-have-adhd A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+        "language": "Python",
+        "total_stars": 31414,
+        "period_stars": 656,
+        "forks": 1893,
+        "url": "https://github.com/ayghri/i-have-adhd"
+      },
+      {
+        "full_name": "cathrynlavery/diagram-design",
+        "description": "Star cathrynlavery / diagram-design 38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+        "language": "HTML",
+        "total_stars": 35365,
+        "period_stars": 710,
+        "forks": 2223,
+        "url": "https://github.com/cathrynlavery/diagram-design"
+      },
+      {
+        "full_name": "openai/skills",
+        "description": "Star openai / skills Skills Catalog for Codex",
+        "language": "Python",
+        "total_stars": 26624,
+        "period_stars": 490,
+        "forks": 1785,
+        "url": "https://github.com/openai/skills"
+      },
+      {
+        "full_name": "sponsors/affaan-m",
+        "description": "Sponsor Star affaan-m / ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+        "language": "JavaScript",
+        "total_stars": 0,
+        "period_stars": 1427,
+        "forks": 0,
+        "url": "https://github.com/sponsors/affaan-m"
+      },
+      {
+        "full_name": "heygen-com/hyperframes",
+        "description": "Star heygen-com / hyperframes Write HTML. Render video. Built for agents.",
+        "language": "TypeScript",
+        "total_stars": 47971,
+        "period_stars": 2627,
+        "forks": 4408,
+        "url": "https://github.com/heygen-com/hyperframes"
+      },
+      {
+        "full_name": "sponsors/coreyhaines31",
+        "description": "Sponsor Star coreyhaines31 / marketingskills Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+        "language": "JavaScript",
+        "total_stars": 0,
+        "period_stars": 666,
+        "forks": 0,
+        "url": "https://github.com/sponsors/coreyhaines31"
+      },
+      {
+        "full_name": "sponsors/obra",
+        "description": "Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works.",
+        "language": "Shell",
+        "total_stars": 0,
+        "period_stars": 452,
+        "forks": 0,
+        "url": "https://github.com/sponsors/obra"
+      },
+      {
+        "full_name": "multica-ai/andrej-karpathy-skills",
+        "description": "Star multica-ai / andrej-karpathy-skills A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+        "language": "",
+        "total_stars": 211610,
+        "period_stars": 333,
+        "forks": 21478,
+        "url": "https://github.com/multica-ai/andrej-karpathy-skills"
+      },
+      {
+        "full_name": "jo-inc/camofox-browser",
+        "description": "Star jo-inc / camofox-browser Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement.",
+        "language": "JavaScript",
+        "total_stars": 10659,
+        "period_stars": 871,
+        "forks": 1061,
+        "url": "https://github.com/jo-inc/camofox-browser"
+      },
+      {
+        "full_name": "browser-use/browser-use",
+        "description": "Star browser-use / browser-use Agents that use the browser.",
+        "language": "Python",
+        "total_stars": 113708,
+        "period_stars": 228,
+        "forks": 12500,
+        "url": "https://github.com/browser-use/browser-use"
       }
     ]
   },
   "weekly": {
     "top10": [
       {
-        "full_name": "magnitudedev/magnitude",
-        "description": "Star magnitudedev / magnitude Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.",
-        "language": "TypeScript",
-        "total_stars": 4092,
-        "period_stars": 2430,
-        "forks": 292,
-        "url": "https://github.com/magnitudedev/magnitude"
-      },
-      {
-        "full_name": "tt-a1i/archify",
-        "description": "Star tt-a1i / archify Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-        "language": "JavaScript",
-        "total_stars": 53491,
-        "period_stars": 14946,
-        "forks": 3514,
-        "url": "https://github.com/tt-a1i/archify"
-      },
-      {
-        "full_name": "Gitlawb/openclaude",
-        "description": "Star Gitlawb / openclaude runs anywhere. uses anything",
-        "language": "TypeScript",
-        "total_stars": 32966,
-        "period_stars": 2040,
-        "forks": 9067,
-        "url": "https://github.com/Gitlawb/openclaude"
-      },
-      {
-        "full_name": "THU-MAIC/OpenMAIC",
-        "description": "Star THU-MAIC / OpenMAIC Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
-        "language": "TypeScript",
-        "total_stars": 33222,
-        "period_stars": 6934,
-        "forks": 5388,
-        "url": "https://github.com/THU-MAIC/OpenMAIC"
-      },
-      {
-        "full_name": "google-research/timesfm",
-        "description": "Star google-research / timesfm TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
-        "language": "Python",
-        "total_stars": 31873,
-        "period_stars": 3506,
-        "forks": 3048,
-        "url": "https://github.com/google-research/timesfm"
-      },
-      {
-        "full_name": "jingyaogong/minimind",
-        "description": "Star jingyaogong / minimind 🧠 Train a 64M-parameter LLM from scratch in just 2h!",
-        "language": "Python",
-        "total_stars": 59629,
-        "period_stars": 3633,
-        "forks": 7728,
-        "url": "https://github.com/jingyaogong/minimind"
-      },
-      {
-        "full_name": "pollen-robotics/microduck_rl",
-        "description": "Star pollen-robotics / microduck_rl RL training environments for Microduck (mjlab)",
-        "language": "Python",
-        "total_stars": 1917,
-        "period_stars": 828,
-        "forks": 383,
-        "url": "https://github.com/pollen-robotics/microduck_rl"
-      },
-      {
-        "full_name": "debpalash/VoiceStudio",
-        "description": "Star debpalash / VoiceStudio VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.",
-        "language": "Python",
-        "total_stars": 20844,
-        "period_stars": 7916,
-        "forks": 2593,
-        "url": "https://github.com/debpalash/VoiceStudio"
-      },
-      {
         "full_name": "fmtlib/fmt",
         "description": "Star fmtlib / fmt A modern formatting library",
         "language": "C++",
-        "total_stars": 25657,
-        "period_stars": 1909,
-        "forks": 3046,
+        "total_stars": 25686,
+        "period_stars": 1935,
+        "forks": 3050,
         "url": "https://github.com/fmtlib/fmt"
       },
       {
@@ -275,81 +203,7 @@
         "description": "Sponsor Star affaan-m / ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
         "language": "JavaScript",
         "total_stars": 0,
-        "period_stars": 7735,
-        "forks": 0,
-        "url": "https://github.com/sponsors/affaan-m"
-      }
-    ],
-    "ai_top10": [
-      {
-        "full_name": "magnitudedev/magnitude",
-        "description": "Star magnitudedev / magnitude Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.",
-        "language": "TypeScript",
-        "total_stars": 4092,
-        "period_stars": 2430,
-        "forks": 292,
-        "url": "https://github.com/magnitudedev/magnitude"
-      },
-      {
-        "full_name": "tt-a1i/archify",
-        "description": "Star tt-a1i / archify Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-        "language": "JavaScript",
-        "total_stars": 53491,
-        "period_stars": 14946,
-        "forks": 3514,
-        "url": "https://github.com/tt-a1i/archify"
-      },
-      {
-        "full_name": "Gitlawb/openclaude",
-        "description": "Star Gitlawb / openclaude runs anywhere. uses anything",
-        "language": "TypeScript",
-        "total_stars": 32966,
-        "period_stars": 2040,
-        "forks": 9067,
-        "url": "https://github.com/Gitlawb/openclaude"
-      },
-      {
-        "full_name": "THU-MAIC/OpenMAIC",
-        "description": "Star THU-MAIC / OpenMAIC Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
-        "language": "TypeScript",
-        "total_stars": 33222,
-        "period_stars": 6934,
-        "forks": 5388,
-        "url": "https://github.com/THU-MAIC/OpenMAIC"
-      },
-      {
-        "full_name": "google-research/timesfm",
-        "description": "Star google-research / timesfm TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
-        "language": "Python",
-        "total_stars": 31873,
-        "period_stars": 3506,
-        "forks": 3048,
-        "url": "https://github.com/google-research/timesfm"
-      },
-      {
-        "full_name": "jingyaogong/minimind",
-        "description": "Star jingyaogong / minimind 🧠 Train a 64M-parameter LLM from scratch in just 2h!",
-        "language": "Python",
-        "total_stars": 59629,
-        "period_stars": 3633,
-        "forks": 7728,
-        "url": "https://github.com/jingyaogong/minimind"
-      },
-      {
-        "full_name": "pollen-robotics/microduck_rl",
-        "description": "Star pollen-robotics / microduck_rl RL training environments for Microduck (mjlab)",
-        "language": "Python",
-        "total_stars": 1917,
-        "period_stars": 828,
-        "forks": 383,
-        "url": "https://github.com/pollen-robotics/microduck_rl"
-      },
-      {
-        "full_name": "sponsors/affaan-m",
-        "description": "Sponsor Star affaan-m / ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-        "language": "JavaScript",
-        "total_stars": 0,
-        "period_stars": 7735,
+        "period_stars": 8527,
         "forks": 0,
         "url": "https://github.com/sponsors/affaan-m"
       },
@@ -358,18 +212,164 @@
         "description": "Sponsor Star DietrichGebert / ponytail Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
         "language": "JavaScript",
         "total_stars": 0,
-        "period_stars": 12834,
+        "period_stars": 12598,
         "forks": 0,
         "url": "https://github.com/sponsors/DietrichGebert"
       },
       {
-        "full_name": "zubair-trabzada/geo-seo-claude",
-        "description": "Star zubair-trabzada / geo-seo-claude GEO-first SEO skill for Claude Code. Comprehensive AI search optimization for any website — citability scoring, AI crawler analysis, brand authority, schema markup, platform-specific optimization, and PDF reports. If you want learn how to sell this to real businesses, check out the skool community",
+        "full_name": "tt-a1i/archify",
+        "description": "Star tt-a1i / archify Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+        "language": "JavaScript",
+        "total_stars": 55105,
+        "period_stars": 13318,
+        "forks": 3615,
+        "url": "https://github.com/tt-a1i/archify"
+      },
+      {
+        "full_name": "blader/humanizer",
+        "description": "Star blader / humanizer Agent skill that removes signs of AI-generated writing from text",
         "language": "Python",
-        "total_stars": 10436,
-        "period_stars": 428,
-        "forks": 1581,
-        "url": "https://github.com/zubair-trabzada/geo-seo-claude"
+        "total_stars": 45551,
+        "period_stars": 5790,
+        "forks": 3748,
+        "url": "https://github.com/blader/humanizer"
+      },
+      {
+        "full_name": "Imbad0202/academic-research-skills",
+        "description": "Star Imbad0202 / academic-research-skills Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+        "language": "Python",
+        "total_stars": 47118,
+        "period_stars": 2430,
+        "forks": 3687,
+        "url": "https://github.com/Imbad0202/academic-research-skills"
+      },
+      {
+        "full_name": "sponsors/mattpocock",
+        "description": "Sponsor Star mattpocock / skills Skills for Real Engineers. Straight from my .agents directory.",
+        "language": "Shell",
+        "total_stars": 0,
+        "period_stars": 13419,
+        "forks": 0,
+        "url": "https://github.com/sponsors/mattpocock"
+      },
+      {
+        "full_name": "sponsors/coreyhaines31",
+        "description": "Sponsor Star coreyhaines31 / marketingskills Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+        "language": "JavaScript",
+        "total_stars": 0,
+        "period_stars": 2141,
+        "forks": 0,
+        "url": "https://github.com/sponsors/coreyhaines31"
+      },
+      {
+        "full_name": "ChromeDevTools/chrome-devtools-mcp",
+        "description": "Star ChromeDevTools / chrome-devtools-mcp Chrome DevTools for coding agents",
+        "language": "TypeScript",
+        "total_stars": 51398,
+        "period_stars": 1014,
+        "forks": 3609,
+        "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+      },
+      {
+        "full_name": "sponsors/llvm",
+        "description": "Sponsor Star llvm / llvm-project The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.",
+        "language": "LLVM",
+        "total_stars": 0,
+        "period_stars": 304,
+        "forks": 0,
+        "url": "https://github.com/sponsors/llvm"
+      }
+    ],
+    "ai_top10": [
+      {
+        "full_name": "sponsors/affaan-m",
+        "description": "Sponsor Star affaan-m / ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+        "language": "JavaScript",
+        "total_stars": 0,
+        "period_stars": 8527,
+        "forks": 0,
+        "url": "https://github.com/sponsors/affaan-m"
+      },
+      {
+        "full_name": "sponsors/DietrichGebert",
+        "description": "Sponsor Star DietrichGebert / ponytail Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+        "language": "JavaScript",
+        "total_stars": 0,
+        "period_stars": 12598,
+        "forks": 0,
+        "url": "https://github.com/sponsors/DietrichGebert"
+      },
+      {
+        "full_name": "tt-a1i/archify",
+        "description": "Star tt-a1i / archify Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+        "language": "JavaScript",
+        "total_stars": 55105,
+        "period_stars": 13318,
+        "forks": 3615,
+        "url": "https://github.com/tt-a1i/archify"
+      },
+      {
+        "full_name": "blader/humanizer",
+        "description": "Star blader / humanizer Agent skill that removes signs of AI-generated writing from text",
+        "language": "Python",
+        "total_stars": 45551,
+        "period_stars": 5790,
+        "forks": 3748,
+        "url": "https://github.com/blader/humanizer"
+      },
+      {
+        "full_name": "Imbad0202/academic-research-skills",
+        "description": "Star Imbad0202 / academic-research-skills Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+        "language": "Python",
+        "total_stars": 47118,
+        "period_stars": 2430,
+        "forks": 3687,
+        "url": "https://github.com/Imbad0202/academic-research-skills"
+      },
+      {
+        "full_name": "sponsors/mattpocock",
+        "description": "Sponsor Star mattpocock / skills Skills for Real Engineers. Straight from my .agents directory.",
+        "language": "Shell",
+        "total_stars": 0,
+        "period_stars": 13419,
+        "forks": 0,
+        "url": "https://github.com/sponsors/mattpocock"
+      },
+      {
+        "full_name": "sponsors/coreyhaines31",
+        "description": "Sponsor Star coreyhaines31 / marketingskills Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+        "language": "JavaScript",
+        "total_stars": 0,
+        "period_stars": 2141,
+        "forks": 0,
+        "url": "https://github.com/sponsors/coreyhaines31"
+      },
+      {
+        "full_name": "ChromeDevTools/chrome-devtools-mcp",
+        "description": "Star ChromeDevTools / chrome-devtools-mcp Chrome DevTools for coding agents",
+        "language": "TypeScript",
+        "total_stars": 51398,
+        "period_stars": 1014,
+        "forks": 3609,
+        "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+      },
+      {
+        "full_name": "sponsors/llvm",
+        "description": "Sponsor Star llvm / llvm-project The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.",
+        "language": "LLVM",
+        "total_stars": 0,
+        "period_stars": 304,
+        "forks": 0,
+        "url": "https://github.com/sponsors/llvm"
+      },
+      {
+        "full_name": "sponsors/mksglu",
+        "description": "Sponsor Star mksglu / context-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+        "language": "TypeScript",
+        "total_stars": 0,
+        "period_stars": 935,
+        "forks": 0,
+        "url": "https://github.com/sponsors/mksglu"
       }
     ]
   }

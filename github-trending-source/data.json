@@ -1,97 +1,97 @@
 {
-  "updated_at": "2026-09-10 14:04:38 GMT+8",
-  "updated_ts": 1789020278,
+  "updated_at": "2026-09-11 14:06:53 GMT+8",
+  "updated_ts": 1789106813,
   "daily": {
     "top10": [
       {
         "full_name": "ayghri/i-have-adhd",
         "description": "Star ayghri / i-have-adhd A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
         "language": "Python",
-        "total_stars": 35444,
-        "period_stars": 4650,
-        "forks": 2066,
+        "total_stars": 39021,
+        "period_stars": 3882,
+        "forks": 2234,
         "url": "https://github.com/ayghri/i-have-adhd"
       },
       {
-        "full_name": "Tencent/teamai-cli",
-        "description": "Star Tencent / teamai-cli Make Every Team AI Native",
-        "language": "TypeScript",
-        "total_stars": 3245,
-        "period_stars": 556,
-        "forks": 205,
-        "url": "https://github.com/Tencent/teamai-cli"
+        "full_name": "bilawalsidhu/gods-eye-view",
+        "description": "Star bilawalsidhu / gods-eye-view A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+        "language": "JavaScript",
+        "total_stars": 24984,
+        "period_stars": 1762,
+        "forks": 5152,
+        "url": "https://github.com/bilawalsidhu/gods-eye-view"
       },
       {
         "full_name": "sponsors/obra",
         "description": "Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works.",
         "language": "Shell",
         "total_stars": 0,
-        "period_stars": 688,
+        "period_stars": 732,
         "forks": 0,
         "url": "https://github.com/sponsors/obra"
       },
       {
-        "full_name": "pascalorg/editor",
-        "description": "Star pascalorg / editor Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents.",
+        "full_name": "alsk1992/CloddsBot",
+        "description": "Star alsk1992 / CloddsBot Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.",
         "language": "TypeScript",
-        "total_stars": 23077,
-        "period_stars": 107,
-        "forks": 2906,
-        "url": "https://github.com/pascalorg/editor"
+        "total_stars": 1800,
+        "period_stars": 277,
+        "forks": 262,
+        "url": "https://github.com/alsk1992/CloddsBot"
       },
       {
-        "full_name": "earthtojake/text-to-cad",
-        "description": "Star earthtojake / text-to-cad A library of agent skills for CAD, CAE and CAM",
-        "language": "Python",
-        "total_stars": 15160,
-        "period_stars": 124,
-        "forks": 1567,
-        "url": "https://github.com/earthtojake/text-to-cad"
+        "full_name": "Tencent/teamai-cli",
+        "description": "Star Tencent / teamai-cli Make Every Team AI Native",
+        "language": "TypeScript",
+        "total_stars": 3954,
+        "period_stars": 841,
+        "forks": 253,
+        "url": "https://github.com/Tencent/teamai-cli"
       },
       {
-        "full_name": "cathrynlavery/diagram-design",
-        "description": "Star cathrynlavery / diagram-design 38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-        "language": "HTML",
-        "total_stars": 36897,
-        "period_stars": 2249,
-        "forks": 2341,
-        "url": "https://github.com/cathrynlavery/diagram-design"
-      },
-      {
-        "full_name": "TauricResearch/TradingAgents",
-        "description": "Star TauricResearch / TradingAgents TradingAgents: Multi-Agents LLM Financial Trading Framework",
-        "language": "Python",
-        "total_stars": 104163,
-        "period_stars": 367,
-        "forks": 19989,
-        "url": "https://github.com/TauricResearch/TradingAgents"
+        "full_name": "sponsors/AlexsJones",
+        "description": "Sponsor Star AlexsJones / llmfit Hundreds of models &amp; providers. One command to find what runs on your hardware.",
+        "language": "Rust",
+        "total_stars": 0,
+        "period_stars": 258,
+        "forks": 0,
+        "url": "https://github.com/sponsors/AlexsJones"
       },
       {
         "full_name": "liquidslr/system-design-notes",
         "description": "Star liquidslr / system-design-notes Notes of the book System Desgin Interview - An Insider's Guide",
         "language": "",
-        "total_stars": 18210,
-        "period_stars": 1397,
-        "forks": 3430,
+        "total_stars": 18980,
+        "period_stars": 900,
+        "forks": 3504,
         "url": "https://github.com/liquidslr/system-design-notes"
       },
       {
-        "full_name": "openai/plugins",
-        "description": "Star openai / plugins OpenAI Plugins",
-        "language": "JavaScript",
-        "total_stars": 6281,
-        "period_stars": 498,
-        "forks": 832,
-        "url": "https://github.com/openai/plugins"
+        "full_name": "cathrynlavery/diagram-design",
+        "description": "Star cathrynlavery / diagram-design 38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+        "language": "HTML",
+        "total_stars": 37996,
+        "period_stars": 1294,
+        "forks": 2406,
+        "url": "https://github.com/cathrynlavery/diagram-design"
       },
       {
         "full_name": "freestylefly/awesome-gpt-image-2",
-        "description": "Star freestylefly / awesome-gpt-image-2 Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+        "description": "Star freestylefly / awesome-gpt-image-2 Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。",
         "language": "JavaScript",
-        "total_stars": 30299,
-        "period_stars": 705,
-        "forks": 2933,
+        "total_stars": 31055,
+        "period_stars": 962,
+        "forks": 3007,
         "url": "https://github.com/freestylefly/awesome-gpt-image-2"
+      },
+      {
+        "full_name": "armory3d/armorpaint",
+        "description": "Star armory3d / armorpaint Graphics Creation Tools",
+        "language": "C",
+        "total_stars": 4506,
+        "period_stars": 72,
+        "forks": 522,
+        "url": "https://github.com/armory3d/armorpaint"
       }
     ],
     "ai_top10": [
@@ -99,277 +99,277 @@
         "full_name": "ayghri/i-have-adhd",
         "description": "Star ayghri / i-have-adhd A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
         "language": "Python",
-        "total_stars": 35444,
-        "period_stars": 4650,
-        "forks": 2066,
+        "total_stars": 39021,
+        "period_stars": 3882,
+        "forks": 2234,
         "url": "https://github.com/ayghri/i-have-adhd"
-      },
-      {
-        "full_name": "Tencent/teamai-cli",
-        "description": "Star Tencent / teamai-cli Make Every Team AI Native",
-        "language": "TypeScript",
-        "total_stars": 3245,
-        "period_stars": 556,
-        "forks": 205,
-        "url": "https://github.com/Tencent/teamai-cli"
       },
       {
         "full_name": "sponsors/obra",
         "description": "Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works.",
         "language": "Shell",
         "total_stars": 0,
-        "period_stars": 688,
+        "period_stars": 732,
         "forks": 0,
         "url": "https://github.com/sponsors/obra"
       },
       {
-        "full_name": "pascalorg/editor",
-        "description": "Star pascalorg / editor Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents.",
+        "full_name": "alsk1992/CloddsBot",
+        "description": "Star alsk1992 / CloddsBot Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.",
         "language": "TypeScript",
-        "total_stars": 23077,
-        "period_stars": 107,
-        "forks": 2906,
-        "url": "https://github.com/pascalorg/editor"
+        "total_stars": 1800,
+        "period_stars": 277,
+        "forks": 262,
+        "url": "https://github.com/alsk1992/CloddsBot"
       },
       {
-        "full_name": "earthtojake/text-to-cad",
-        "description": "Star earthtojake / text-to-cad A library of agent skills for CAD, CAE and CAM",
-        "language": "Python",
-        "total_stars": 15160,
-        "period_stars": 124,
-        "forks": 1567,
-        "url": "https://github.com/earthtojake/text-to-cad"
+        "full_name": "Tencent/teamai-cli",
+        "description": "Star Tencent / teamai-cli Make Every Team AI Native",
+        "language": "TypeScript",
+        "total_stars": 3954,
+        "period_stars": 841,
+        "forks": 253,
+        "url": "https://github.com/Tencent/teamai-cli"
+      },
+      {
+        "full_name": "sponsors/AlexsJones",
+        "description": "Sponsor Star AlexsJones / llmfit Hundreds of models &amp; providers. One command to find what runs on your hardware.",
+        "language": "Rust",
+        "total_stars": 0,
+        "period_stars": 258,
+        "forks": 0,
+        "url": "https://github.com/sponsors/AlexsJones"
       },
       {
         "full_name": "cathrynlavery/diagram-design",
         "description": "Star cathrynlavery / diagram-design 38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
         "language": "HTML",
-        "total_stars": 36897,
-        "period_stars": 2249,
-        "forks": 2341,
+        "total_stars": 37996,
+        "period_stars": 1294,
+        "forks": 2406,
         "url": "https://github.com/cathrynlavery/diagram-design"
       },
       {
-        "full_name": "TauricResearch/TradingAgents",
-        "description": "Star TauricResearch / TradingAgents TradingAgents: Multi-Agents LLM Financial Trading Framework",
-        "language": "Python",
-        "total_stars": 104163,
-        "period_stars": 367,
-        "forks": 19989,
-        "url": "https://github.com/TauricResearch/TradingAgents"
-      },
-      {
-        "full_name": "openai/plugins",
-        "description": "Star openai / plugins OpenAI Plugins",
-        "language": "JavaScript",
-        "total_stars": 6281,
-        "period_stars": 498,
-        "forks": 832,
-        "url": "https://github.com/openai/plugins"
-      },
-      {
         "full_name": "freestylefly/awesome-gpt-image-2",
-        "description": "Star freestylefly / awesome-gpt-image-2 Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+        "description": "Star freestylefly / awesome-gpt-image-2 Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。",
         "language": "JavaScript",
-        "total_stars": 30299,
-        "period_stars": 705,
-        "forks": 2933,
+        "total_stars": 31055,
+        "period_stars": 962,
+        "forks": 3007,
         "url": "https://github.com/freestylefly/awesome-gpt-image-2"
       },
       {
-        "full_name": "sponsors/rohitg00",
-        "description": "Sponsor Star rohitg00 / ai-engineering-from-scratch Learn it. Build it. Ship it for others.",
-        "language": "Python",
+        "full_name": "armory3d/armorpaint",
+        "description": "Star armory3d / armorpaint Graphics Creation Tools",
+        "language": "C",
+        "total_stars": 4506,
+        "period_stars": 72,
+        "forks": 522,
+        "url": "https://github.com/armory3d/armorpaint"
+      },
+      {
+        "full_name": "sponsors/diegosouzapw",
+        "description": "Sponsor Star diegosouzapw / OmniRoute Never stop coding. Free MIT AI gateway: one endpoint, 352 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline &amp; Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 550+ contributors",
+        "language": "TypeScript",
         "total_stars": 0,
-        "period_stars": 343,
+        "period_stars": 626,
         "forks": 0,
-        "url": "https://github.com/sponsors/rohitg00"
+        "url": "https://github.com/sponsors/diegosouzapw"
+      },
+      {
+        "full_name": "THU-MAIC/OpenMAIC",
+        "description": "Star THU-MAIC / OpenMAIC Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+        "language": "TypeScript",
+        "total_stars": 35519,
+        "period_stars": 837,
+        "forks": 5657,
+        "url": "https://github.com/THU-MAIC/OpenMAIC"
       }
     ]
   },
   "weekly": {
     "top10": [
       {
-        "full_name": "sponsors/DietrichGebert",
-        "description": "Sponsor Star DietrichGebert / ponytail Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-        "language": "JavaScript",
-        "total_stars": 0,
-        "period_stars": 12431,
-        "forks": 0,
-        "url": "https://github.com/sponsors/DietrichGebert"
-      },
-      {
         "full_name": "sponsors/affaan-m",
         "description": "Sponsor Star affaan-m / ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
         "language": "JavaScript",
         "total_stars": 0,
-        "period_stars": 9146,
+        "period_stars": 9257,
         "forks": 0,
         "url": "https://github.com/sponsors/affaan-m"
+      },
+      {
+        "full_name": "ayghri/i-have-adhd",
+        "description": "Star ayghri / i-have-adhd A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+        "language": "Python",
+        "total_stars": 39021,
+        "period_stars": 10215,
+        "forks": 2234,
+        "url": "https://github.com/ayghri/i-have-adhd"
+      },
+      {
+        "full_name": "sponsors/DietrichGebert",
+        "description": "Sponsor Star DietrichGebert / ponytail Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+        "language": "JavaScript",
+        "total_stars": 0,
+        "period_stars": 11638,
+        "forks": 0,
+        "url": "https://github.com/sponsors/DietrichGebert"
+      },
+      {
+        "full_name": "tt-a1i/archify",
+        "description": "Star tt-a1i / archify Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+        "language": "JavaScript",
+        "total_stars": 57702,
+        "period_stars": 11958,
+        "forks": 3769,
+        "url": "https://github.com/tt-a1i/archify"
       },
       {
         "full_name": "fmtlib/fmt",
         "description": "Star fmtlib / fmt A modern formatting library",
         "language": "C++",
-        "total_stars": 25708,
-        "period_stars": 1847,
-        "forks": 3055,
+        "total_stars": 25727,
+        "period_stars": 920,
+        "forks": 3060,
         "url": "https://github.com/fmtlib/fmt"
       },
       {
-        "full_name": "tt-a1i/archify",
-        "description": "Star tt-a1i / archify Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-        "language": "JavaScript",
-        "total_stars": 56402,
-        "period_stars": 12541,
-        "forks": 3677,
-        "url": "https://github.com/tt-a1i/archify"
-      },
-      {
         "full_name": "sponsors/mattpocock",
         "description": "Sponsor Star mattpocock / skills Skills for Real Engineers. Straight from my .agents directory.",
         "language": "Shell",
         "total_stars": 0,
-        "period_stars": 13143,
+        "period_stars": 12356,
         "forks": 0,
         "url": "https://github.com/sponsors/mattpocock"
+      },
+      {
+        "full_name": "openai/plugins",
+        "description": "Star openai / plugins OpenAI Plugins",
+        "language": "JavaScript",
+        "total_stars": 6400,
+        "period_stars": 1018,
+        "forks": 842,
+        "url": "https://github.com/openai/plugins"
       },
       {
         "full_name": "blader/humanizer",
         "description": "Star blader / humanizer Agent skill that removes signs of AI-generated writing from text",
         "language": "Python",
-        "total_stars": 46102,
-        "period_stars": 5925,
-        "forks": 3777,
+        "total_stars": 46607,
+        "period_stars": 5224,
+        "forks": 3810,
         "url": "https://github.com/blader/humanizer"
-      },
-      {
-        "full_name": "NousResearch/hermes-agent",
-        "description": "Star NousResearch / hermes-agent The agent that grows with you",
-        "language": "Python",
-        "total_stars": 243938,
-        "period_stars": 4114,
-        "forks": 50378,
-        "url": "https://github.com/NousResearch/hermes-agent"
-      },
-      {
-        "full_name": "ChromeDevTools/chrome-devtools-mcp",
-        "description": "Star ChromeDevTools / chrome-devtools-mcp Chrome DevTools for coding agents",
-        "language": "TypeScript",
-        "total_stars": 51499,
-        "period_stars": 962,
-        "forks": 3616,
-        "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
-      },
-      {
-        "full_name": "heygen-com/hyperframes",
-        "description": "Star heygen-com / hyperframes Write HTML. Render video. Built for agents.",
-        "language": "TypeScript",
-        "total_stars": 48494,
-        "period_stars": 4643,
-        "forks": 4442,
-        "url": "https://github.com/heygen-com/hyperframes"
-      },
-      {
-        "full_name": "ayghri/i-have-adhd",
-        "description": "Star ayghri / i-have-adhd A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-        "language": "Python",
-        "total_stars": 35444,
-        "period_stars": 6581,
-        "forks": 2066,
-        "url": "https://github.com/ayghri/i-have-adhd"
-      }
-    ],
-    "ai_top10": [
-      {
-        "full_name": "sponsors/DietrichGebert",
-        "description": "Sponsor Star DietrichGebert / ponytail Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-        "language": "JavaScript",
-        "total_stars": 0,
-        "period_stars": 12431,
-        "forks": 0,
-        "url": "https://github.com/sponsors/DietrichGebert"
-      },
-      {
-        "full_name": "sponsors/affaan-m",
-        "description": "Sponsor Star affaan-m / ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-        "language": "JavaScript",
-        "total_stars": 0,
-        "period_stars": 9146,
-        "forks": 0,
-        "url": "https://github.com/sponsors/affaan-m"
-      },
-      {
-        "full_name": "tt-a1i/archify",
-        "description": "Star tt-a1i / archify Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-        "language": "JavaScript",
-        "total_stars": 56402,
-        "period_stars": 12541,
-        "forks": 3677,
-        "url": "https://github.com/tt-a1i/archify"
-      },
-      {
-        "full_name": "sponsors/mattpocock",
-        "description": "Sponsor Star mattpocock / skills Skills for Real Engineers. Straight from my .agents directory.",
-        "language": "Shell",
-        "total_stars": 0,
-        "period_stars": 13143,
-        "forks": 0,
-        "url": "https://github.com/sponsors/mattpocock"
-      },
-      {
-        "full_name": "blader/humanizer",
-        "description": "Star blader / humanizer Agent skill that removes signs of AI-generated writing from text",
-        "language": "Python",
-        "total_stars": 46102,
-        "period_stars": 5925,
-        "forks": 3777,
-        "url": "https://github.com/blader/humanizer"
-      },
-      {
-        "full_name": "NousResearch/hermes-agent",
-        "description": "Star NousResearch / hermes-agent The agent that grows with you",
-        "language": "Python",
-        "total_stars": 243938,
-        "period_stars": 4114,
-        "forks": 50378,
-        "url": "https://github.com/NousResearch/hermes-agent"
-      },
-      {
-        "full_name": "ChromeDevTools/chrome-devtools-mcp",
-        "description": "Star ChromeDevTools / chrome-devtools-mcp Chrome DevTools for coding agents",
-        "language": "TypeScript",
-        "total_stars": 51499,
-        "period_stars": 962,
-        "forks": 3616,
-        "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
-      },
-      {
-        "full_name": "heygen-com/hyperframes",
-        "description": "Star heygen-com / hyperframes Write HTML. Render video. Built for agents.",
-        "language": "TypeScript",
-        "total_stars": 48494,
-        "period_stars": 4643,
-        "forks": 4442,
-        "url": "https://github.com/heygen-com/hyperframes"
-      },
-      {
-        "full_name": "ayghri/i-have-adhd",
-        "description": "Star ayghri / i-have-adhd A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-        "language": "Python",
-        "total_stars": 35444,
-        "period_stars": 6581,
-        "forks": 2066,
-        "url": "https://github.com/ayghri/i-have-adhd"
       },
       {
         "full_name": "sponsors/mksglu",
         "description": "Sponsor Star mksglu / context-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
         "language": "TypeScript",
         "total_stars": 0,
-        "period_stars": 1331,
+        "period_stars": 1619,
         "forks": 0,
         "url": "https://github.com/sponsors/mksglu"
+      },
+      {
+        "full_name": "openai/skills",
+        "description": "Star openai / skills Skills Catalog for Codex",
+        "language": "Python",
+        "total_stars": 26873,
+        "period_stars": 1490,
+        "forks": 1801,
+        "url": "https://github.com/openai/skills"
+      }
+    ],
+    "ai_top10": [
+      {
+        "full_name": "sponsors/affaan-m",
+        "description": "Sponsor Star affaan-m / ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+        "language": "JavaScript",
+        "total_stars": 0,
+        "period_stars": 9257,
+        "forks": 0,
+        "url": "https://github.com/sponsors/affaan-m"
+      },
+      {
+        "full_name": "ayghri/i-have-adhd",
+        "description": "Star ayghri / i-have-adhd A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+        "language": "Python",
+        "total_stars": 39021,
+        "period_stars": 10215,
+        "forks": 2234,
+        "url": "https://github.com/ayghri/i-have-adhd"
+      },
+      {
+        "full_name": "sponsors/DietrichGebert",
+        "description": "Sponsor Star DietrichGebert / ponytail Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+        "language": "JavaScript",
+        "total_stars": 0,
+        "period_stars": 11638,
+        "forks": 0,
+        "url": "https://github.com/sponsors/DietrichGebert"
+      },
+      {
+        "full_name": "tt-a1i/archify",
+        "description": "Star tt-a1i / archify Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+        "language": "JavaScript",
+        "total_stars": 57702,
+        "period_stars": 11958,
+        "forks": 3769,
+        "url": "https://github.com/tt-a1i/archify"
+      },
+      {
+        "full_name": "sponsors/mattpocock",
+        "description": "Sponsor Star mattpocock / skills Skills for Real Engineers. Straight from my .agents directory.",
+        "language": "Shell",
+        "total_stars": 0,
+        "period_stars": 12356,
+        "forks": 0,
+        "url": "https://github.com/sponsors/mattpocock"
+      },
+      {
+        "full_name": "openai/plugins",
+        "description": "Star openai / plugins OpenAI Plugins",
+        "language": "JavaScript",
+        "total_stars": 6400,
+        "period_stars": 1018,
+        "forks": 842,
+        "url": "https://github.com/openai/plugins"
+      },
+      {
+        "full_name": "blader/humanizer",
+        "description": "Star blader / humanizer Agent skill that removes signs of AI-generated writing from text",
+        "language": "Python",
+        "total_stars": 46607,
+        "period_stars": 5224,
+        "forks": 3810,
+        "url": "https://github.com/blader/humanizer"
+      },
+      {
+        "full_name": "sponsors/mksglu",
+        "description": "Sponsor Star mksglu / context-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+        "language": "TypeScript",
+        "total_stars": 0,
+        "period_stars": 1619,
+        "forks": 0,
+        "url": "https://github.com/sponsors/mksglu"
+      },
+      {
+        "full_name": "openai/skills",
+        "description": "Star openai / skills Skills Catalog for Codex",
+        "language": "Python",
+        "total_stars": 26873,
+        "period_stars": 1490,
+        "forks": 1801,
+        "url": "https://github.com/openai/skills"
+      },
+      {
+        "full_name": "heygen-com/hyperframes",
+        "description": "Star heygen-com / hyperframes Write HTML. Render video. Built for agents.",
+        "language": "TypeScript",
+        "total_stars": 48842,
+        "period_stars": 4896,
+        "forks": 4467,
+        "url": "https://github.com/heygen-com/hyperframes"
       }
     ]
   }

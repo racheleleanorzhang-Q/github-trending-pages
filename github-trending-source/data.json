@@ -1,97 +1,97 @@
 {
-  "updated_at": "2026-09-16 14:09:16 GMT+8",
-  "updated_ts": 1789538956,
+  "updated_at": "2026-09-17 14:11:44 GMT+8",
+  "updated_ts": 1789625504,
   "daily": {
     "top10": [
       {
         "full_name": "alibaba/open-code-review",
         "description": "Star alibaba / open-code-review Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
         "language": "Go",
-        "total_stars": 29303,
-        "period_stars": 2756,
-        "forks": 2080,
+        "total_stars": 32671,
+        "period_stars": 3231,
+        "forks": 2310,
         "url": "https://github.com/alibaba/open-code-review"
+      },
+      {
+        "full_name": "cloudflare/security-audit-skill",
+        "description": "Star cloudflare / security-audit-skill A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+        "language": "JavaScript",
+        "total_stars": 7879,
+        "period_stars": 927,
+        "forks": 442,
+        "url": "https://github.com/cloudflare/security-audit-skill"
       },
       {
         "full_name": "JustVugg/colibri",
         "description": "Star JustVugg / colibri Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
         "language": "C",
-        "total_stars": 34154,
-        "period_stars": 2026,
-        "forks": 3578,
+        "total_stars": 35191,
+        "period_stars": 1546,
+        "forks": 3700,
         "url": "https://github.com/JustVugg/colibri"
+      },
+      {
+        "full_name": "abue-ammar/tinycast",
+        "description": "Star abue-ammar / tinycast Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history.",
+        "language": "Swift",
+        "total_stars": 5759,
+        "period_stars": 1179,
+        "forks": 274,
+        "url": "https://github.com/abue-ammar/tinycast"
+      },
+      {
+        "full_name": "jamiepine/voicebox",
+        "description": "Star jamiepine / voicebox The open-source AI voice studio. Clone, dictate, create.",
+        "language": "TypeScript",
+        "total_stars": 54542,
+        "period_stars": 417,
+        "forks": 6798,
+        "url": "https://github.com/jamiepine/voicebox"
+      },
+      {
+        "full_name": "sponsors/Lakr233",
+        "description": "",
+        "language": "Swift",
+        "total_stars": 0,
+        "period_stars": 547,
+        "forks": 0,
+        "url": "https://github.com/sponsors/Lakr233"
+      },
+      {
+        "full_name": "anthropics/knowledge-work-plugins",
+        "description": "Star anthropics / knowledge-work-plugins Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+        "language": "Python",
+        "total_stars": 24359,
+        "period_stars": 110,
+        "forks": 2925,
+        "url": "https://github.com/anthropics/knowledge-work-plugins"
       },
       {
         "full_name": "sponsors/ever-co",
         "description": "Sponsor Star ever-co / ever-gauzy Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
         "language": "TypeScript",
         "total_stars": 0,
-        "period_stars": 634,
+        "period_stars": 778,
         "forks": 0,
         "url": "https://github.com/sponsors/ever-co"
       },
       {
-        "full_name": "debpalash/VoiceStudio",
-        "description": "Star debpalash / VoiceStudio VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.",
-        "language": "Python",
-        "total_stars": 31310,
-        "period_stars": 2072,
-        "forks": 3723,
-        "url": "https://github.com/debpalash/VoiceStudio"
-      },
-      {
-        "full_name": "sponsors/Homebrew",
-        "description": "Sponsor Star Homebrew / BrewUI 📺 Homebrew's official macOS GUI",
-        "language": "Swift",
-        "total_stars": 0,
-        "period_stars": 271,
-        "forks": 0,
-        "url": "https://github.com/sponsors/Homebrew"
-      },
-      {
-        "full_name": "melgarafael/DeskcommCRM",
-        "description": "Star melgarafael / DeskcommCRM Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk &amp; Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
-        "language": "TypeScript",
-        "total_stars": 2953,
-        "period_stars": 193,
-        "forks": 693,
-        "url": "https://github.com/melgarafael/DeskcommCRM"
-      },
-      {
-        "full_name": "alphaXiv/OpenResearch",
-        "description": "Star alphaXiv / OpenResearch Turn your coding agents into research agents",
+        "full_name": "ankitects/anki",
+        "description": "Star ankitects / anki Anki is a smart spaced repetition flashcard program",
         "language": "Rust",
-        "total_stars": 3603,
-        "period_stars": 531,
-        "forks": 237,
-        "url": "https://github.com/alphaXiv/OpenResearch"
+        "total_stars": 30963,
+        "period_stars": 58,
+        "forks": 3214,
+        "url": "https://github.com/ankitects/anki"
       },
       {
         "full_name": "NationalSecurityAgency/ghidra",
         "description": "Star NationalSecurityAgency / ghidra Ghidra is a software reverse engineering (SRE) framework",
         "language": "Java",
-        "total_stars": 76965,
-        "period_stars": 725,
-        "forks": 8491,
+        "total_stars": 78006,
+        "period_stars": 1059,
+        "forks": 8631,
         "url": "https://github.com/NationalSecurityAgency/ghidra"
-      },
-      {
-        "full_name": "sponsors/danny-avila",
-        "description": "Sponsor Star danny-avila / LibreChat Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
-        "language": "TypeScript",
-        "total_stars": 0,
-        "period_stars": 254,
-        "forks": 0,
-        "url": "https://github.com/sponsors/danny-avila"
-      },
-      {
-        "full_name": "pacifio/atlas",
-        "description": "Star pacifio / atlas Source control for agents. Use multiple coding agents, track their changes and query them in one place",
-        "language": "Rust",
-        "total_stars": 4724,
-        "period_stars": 91,
-        "forks": 282,
-        "url": "https://github.com/pacifio/atlas"
       }
     ],
     "ai_top10": [
@@ -99,73 +99,91 @@
         "full_name": "alibaba/open-code-review",
         "description": "Star alibaba / open-code-review Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
         "language": "Go",
-        "total_stars": 29303,
-        "period_stars": 2756,
-        "forks": 2080,
+        "total_stars": 32671,
+        "period_stars": 3231,
+        "forks": 2310,
         "url": "https://github.com/alibaba/open-code-review"
       },
       {
-        "full_name": "melgarafael/DeskcommCRM",
-        "description": "Star melgarafael / DeskcommCRM Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk &amp; Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
+        "full_name": "cloudflare/security-audit-skill",
+        "description": "Star cloudflare / security-audit-skill A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+        "language": "JavaScript",
+        "total_stars": 7879,
+        "period_stars": 927,
+        "forks": 442,
+        "url": "https://github.com/cloudflare/security-audit-skill"
+      },
+      {
+        "full_name": "jamiepine/voicebox",
+        "description": "Star jamiepine / voicebox The open-source AI voice studio. Clone, dictate, create.",
         "language": "TypeScript",
-        "total_stars": 2953,
-        "period_stars": 193,
-        "forks": 693,
-        "url": "https://github.com/melgarafael/DeskcommCRM"
+        "total_stars": 54542,
+        "period_stars": 417,
+        "forks": 6798,
+        "url": "https://github.com/jamiepine/voicebox"
+      },
+      {
+        "full_name": "anthropics/knowledge-work-plugins",
+        "description": "Star anthropics / knowledge-work-plugins Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+        "language": "Python",
+        "total_stars": 24359,
+        "period_stars": 110,
+        "forks": 2925,
+        "url": "https://github.com/anthropics/knowledge-work-plugins"
+      },
+      {
+        "full_name": "anthropics/claude-code",
+        "description": "Star anthropics / claude-code Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+        "language": "TypeScript",
+        "total_stars": 145648,
+        "period_stars": 165,
+        "forks": 23508,
+        "url": "https://github.com/anthropics/claude-code"
       },
       {
         "full_name": "alphaXiv/OpenResearch",
         "description": "Star alphaXiv / OpenResearch Turn your coding agents into research agents",
         "language": "Rust",
-        "total_stars": 3603,
-        "period_stars": 531,
-        "forks": 237,
+        "total_stars": 4597,
+        "period_stars": 1017,
+        "forks": 281,
         "url": "https://github.com/alphaXiv/OpenResearch"
       },
       {
-        "full_name": "sponsors/danny-avila",
-        "description": "Sponsor Star danny-avila / LibreChat Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
+        "full_name": "sponsors/supabase",
+        "description": "Sponsor Star supabase / supabase The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
         "language": "TypeScript",
         "total_stars": 0,
-        "period_stars": 254,
+        "period_stars": 120,
         "forks": 0,
-        "url": "https://github.com/sponsors/danny-avila"
+        "url": "https://github.com/sponsors/supabase"
       },
       {
-        "full_name": "pacifio/atlas",
-        "description": "Star pacifio / atlas Source control for agents. Use multiple coding agents, track their changes and query them in one place",
-        "language": "Rust",
-        "total_stars": 4724,
-        "period_stars": 91,
-        "forks": 282,
-        "url": "https://github.com/pacifio/atlas"
-      },
-      {
-        "full_name": "MG1937/ASC",
-        "description": "Star MG1937 / ASC ASC is a super FAST Android decompiler front-end designed for Agents/Mobile Researchers.",
+        "full_name": "rlaope/oh-my-hermes",
+        "description": "Star rlaope / oh-my-hermes All in one plugin for Hermes Agent ⚚ the coding intelligence, a long-term memory system and model optimized workflow packages",
         "language": "Python",
-        "total_stars": 1292,
-        "period_stars": 129,
-        "forks": 205,
-        "url": "https://github.com/MG1937/ASC"
+        "total_stars": 2619,
+        "period_stars": 80,
+        "forks": 189,
+        "url": "https://github.com/rlaope/oh-my-hermes"
       },
       {
-        "full_name": "addyosmani/agent-skills",
-        "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
-        "language": "JavaScript",
-        "total_stars": 94957,
-        "period_stars": 307,
-        "forks": 10072,
-        "url": "https://github.com/addyosmani/agent-skills"
+        "full_name": "Tencent/WeKnora",
+        "description": "Star Tencent / WeKnora Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+        "language": "Go",
+        "total_stars": 25637,
+        "period_stars": 1197,
+        "forks": 3503,
+        "url": "https://github.com/Tencent/WeKnora"
       },
       {
-        "full_name": "earendil-works/pi",
-        "description": "Star earendil-works / pi AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-        "language": "TypeScript",
-        "total_stars": 105921,
-        "period_stars": 458,
-        "forks": 13316,
-        "url": "https://github.com/earendil-works/pi"
+        "full_name": "SnailSploit/Claude-Red",
+        "description": "Star SnailSploit / Claude-Red claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
+        "language": "Python",
+        "total_stars": 5879,
+        "period_stars": 367,
+        "forks": 749,
+        "url": "https://github.com/SnailSploit/Claude-Red"
       }
     ]
   },
@@ -175,91 +193,91 @@
         "full_name": "ayghri/i-have-adhd",
         "description": "Star ayghri / i-have-adhd A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
         "language": "Python",
-        "total_stars": 46421,
-        "period_stars": 17880,
-        "forks": 2697,
+        "total_stars": 47042,
+        "period_stars": 13737,
+        "forks": 2735,
         "url": "https://github.com/ayghri/i-have-adhd"
       },
       {
         "full_name": "bilawalsidhu/gods-eye-view",
         "description": "Star bilawalsidhu / gods-eye-view A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
         "language": "JavaScript",
-        "total_stars": 35077,
-        "period_stars": 15193,
-        "forks": 7008,
+        "total_stars": 36252,
+        "period_stars": 14777,
+        "forks": 7257,
         "url": "https://github.com/bilawalsidhu/gods-eye-view"
       },
       {
-        "full_name": "openai/plugins",
-        "description": "Star openai / plugins OpenAI Plugins",
-        "language": "JavaScript",
-        "total_stars": 6802,
-        "period_stars": 1206,
-        "forks": 890,
-        "url": "https://github.com/openai/plugins"
+        "full_name": "alibaba/open-code-review",
+        "description": "Star alibaba / open-code-review Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
+        "language": "Go",
+        "total_stars": 32671,
+        "period_stars": 8594,
+        "forks": 2310,
+        "url": "https://github.com/alibaba/open-code-review"
       },
       {
         "full_name": "sponsors/affaan-m",
         "description": "Sponsor Star affaan-m / ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
         "language": "JavaScript",
         "total_stars": 0,
-        "period_stars": 5398,
+        "period_stars": 5292,
         "forks": 0,
         "url": "https://github.com/sponsors/affaan-m"
+      },
+      {
+        "full_name": "openai/plugins",
+        "description": "Star openai / plugins OpenAI Plugins",
+        "language": "JavaScript",
+        "total_stars": 6874,
+        "period_stars": 771,
+        "forks": 897,
+        "url": "https://github.com/openai/plugins"
       },
       {
         "full_name": "sponsors/mksglu",
         "description": "Sponsor Star mksglu / context-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
         "language": "TypeScript",
         "total_stars": 0,
-        "period_stars": 1832,
+        "period_stars": 1612,
         "forks": 0,
         "url": "https://github.com/sponsors/mksglu"
       },
       {
-        "full_name": "alibaba/open-code-review",
-        "description": "Star alibaba / open-code-review Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
+        "full_name": "Tencent/WeKnora",
+        "description": "Star Tencent / WeKnora Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
         "language": "Go",
-        "total_stars": 29304,
-        "period_stars": 5169,
-        "forks": 2080,
-        "url": "https://github.com/alibaba/open-code-review"
-      },
-      {
-        "full_name": "sponsors/DietrichGebert",
-        "description": "Sponsor Star DietrichGebert / ponytail Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-        "language": "JavaScript",
-        "total_stars": 0,
-        "period_stars": 7499,
-        "forks": 0,
-        "url": "https://github.com/sponsors/DietrichGebert"
+        "total_stars": 25637,
+        "period_stars": 3034,
+        "forks": 3503,
+        "url": "https://github.com/Tencent/WeKnora"
       },
       {
         "full_name": "sponsors/obra",
         "description": "Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works.",
         "language": "Shell",
         "total_stars": 0,
-        "period_stars": 4170,
+        "period_stars": 4023,
         "forks": 0,
         "url": "https://github.com/sponsors/obra"
+      },
+      {
+        "full_name": "sponsors/DietrichGebert",
+        "description": "Sponsor Star DietrichGebert / ponytail Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+        "language": "JavaScript",
+        "total_stars": 0,
+        "period_stars": 7218,
+        "forks": 0,
+        "url": "https://github.com/sponsors/DietrichGebert"
       },
       {
         "full_name": "max-sixty/worktrunk",
         "description": "Star max-sixty / worktrunk Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
         "language": "Rust",
-        "total_stars": 7862,
-        "period_stars": 871,
+        "total_stars": 7944,
+        "period_stars": 998,
         "forks": 272,
         "url": "https://github.com/max-sixty/worktrunk"
-      },
-      {
-        "full_name": "heygen-com/hyperframes",
-        "description": "Star heygen-com / hyperframes Write HTML. Render video. Built for agents.",
-        "language": "TypeScript",
-        "total_stars": 50473,
-        "period_stars": 3002,
-        "forks": 4606,
-        "url": "https://github.com/heygen-com/hyperframes"
       }
     ],
     "ai_top10": [
@@ -267,90 +285,90 @@
         "full_name": "ayghri/i-have-adhd",
         "description": "Star ayghri / i-have-adhd A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
         "language": "Python",
-        "total_stars": 46421,
-        "period_stars": 17880,
-        "forks": 2697,
+        "total_stars": 47042,
+        "period_stars": 13737,
+        "forks": 2735,
         "url": "https://github.com/ayghri/i-have-adhd"
       },
       {
-        "full_name": "openai/plugins",
-        "description": "Star openai / plugins OpenAI Plugins",
-        "language": "JavaScript",
-        "total_stars": 6802,
-        "period_stars": 1206,
-        "forks": 890,
-        "url": "https://github.com/openai/plugins"
+        "full_name": "alibaba/open-code-review",
+        "description": "Star alibaba / open-code-review Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
+        "language": "Go",
+        "total_stars": 32671,
+        "period_stars": 8594,
+        "forks": 2310,
+        "url": "https://github.com/alibaba/open-code-review"
       },
       {
         "full_name": "sponsors/affaan-m",
         "description": "Sponsor Star affaan-m / ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
         "language": "JavaScript",
         "total_stars": 0,
-        "period_stars": 5398,
+        "period_stars": 5292,
         "forks": 0,
         "url": "https://github.com/sponsors/affaan-m"
+      },
+      {
+        "full_name": "openai/plugins",
+        "description": "Star openai / plugins OpenAI Plugins",
+        "language": "JavaScript",
+        "total_stars": 6874,
+        "period_stars": 771,
+        "forks": 897,
+        "url": "https://github.com/openai/plugins"
       },
       {
         "full_name": "sponsors/mksglu",
         "description": "Sponsor Star mksglu / context-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
         "language": "TypeScript",
         "total_stars": 0,
-        "period_stars": 1832,
+        "period_stars": 1612,
         "forks": 0,
         "url": "https://github.com/sponsors/mksglu"
       },
       {
-        "full_name": "alibaba/open-code-review",
-        "description": "Star alibaba / open-code-review Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
+        "full_name": "Tencent/WeKnora",
+        "description": "Star Tencent / WeKnora Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
         "language": "Go",
-        "total_stars": 29304,
-        "period_stars": 5169,
-        "forks": 2080,
-        "url": "https://github.com/alibaba/open-code-review"
-      },
-      {
-        "full_name": "sponsors/DietrichGebert",
-        "description": "Sponsor Star DietrichGebert / ponytail Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-        "language": "JavaScript",
-        "total_stars": 0,
-        "period_stars": 7499,
-        "forks": 0,
-        "url": "https://github.com/sponsors/DietrichGebert"
+        "total_stars": 25637,
+        "period_stars": 3034,
+        "forks": 3503,
+        "url": "https://github.com/Tencent/WeKnora"
       },
       {
         "full_name": "sponsors/obra",
         "description": "Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works.",
         "language": "Shell",
         "total_stars": 0,
-        "period_stars": 4170,
+        "period_stars": 4023,
         "forks": 0,
         "url": "https://github.com/sponsors/obra"
+      },
+      {
+        "full_name": "sponsors/DietrichGebert",
+        "description": "Sponsor Star DietrichGebert / ponytail Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+        "language": "JavaScript",
+        "total_stars": 0,
+        "period_stars": 7218,
+        "forks": 0,
+        "url": "https://github.com/sponsors/DietrichGebert"
       },
       {
         "full_name": "max-sixty/worktrunk",
         "description": "Star max-sixty / worktrunk Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
         "language": "Rust",
-        "total_stars": 7862,
-        "period_stars": 871,
+        "total_stars": 7944,
+        "period_stars": 998,
         "forks": 272,
         "url": "https://github.com/max-sixty/worktrunk"
-      },
-      {
-        "full_name": "heygen-com/hyperframes",
-        "description": "Star heygen-com / hyperframes Write HTML. Render video. Built for agents.",
-        "language": "TypeScript",
-        "total_stars": 50473,
-        "period_stars": 3002,
-        "forks": 4606,
-        "url": "https://github.com/heygen-com/hyperframes"
       },
       {
         "full_name": "blader/humanizer",
         "description": "Star blader / humanizer Agent skill that removes signs of AI-generated writing from text",
         "language": "Python",
-        "total_stars": 48757,
-        "period_stars": 3248,
-        "forks": 3959,
+        "total_stars": 49303,
+        "period_stars": 3266,
+        "forks": 3997,
         "url": "https://github.com/blader/humanizer"
       }
     ]

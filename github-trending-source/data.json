@@ -1,189 +1,189 @@
 {
-  "updated_at": "2026-09-18 14:01:53 GMT+8",
-  "updated_ts": 1789711313,
+  "updated_at": "2026-09-19 14:00:17 GMT+8",
+  "updated_ts": 1789797617,
   "daily": {
     "top10": [
       {
-        "full_name": "alibaba/open-code-review",
-        "description": "Star alibaba / open-code-review Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
-        "language": "Go",
-        "total_stars": 35439,
-        "period_stars": 3286,
-        "forks": 2512,
-        "url": "https://github.com/alibaba/open-code-review"
-      },
-      {
         "full_name": "cloudflare/security-audit-skill",
         "description": "Star cloudflare / security-audit-skill A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
         "language": "JavaScript",
-        "total_stars": 11128,
-        "period_stars": 3607,
-        "forks": 601,
+        "total_stars": 14221,
+        "period_stars": 3006,
+        "forks": 769,
         "url": "https://github.com/cloudflare/security-audit-skill"
-      },
-      {
-        "full_name": "addyosmani/agent-skills",
-        "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
-        "language": "JavaScript",
-        "total_stars": 95989,
-        "period_stars": 680,
-        "forks": 10157,
-        "url": "https://github.com/addyosmani/agent-skills"
-      },
-      {
-        "full_name": "Tencent/BrowserSkill",
-        "description": "Star Tencent / BrowserSkill Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
-        "language": "TypeScript",
-        "total_stars": 4518,
-        "period_stars": 1302,
-        "forks": 318,
-        "url": "https://github.com/Tencent/BrowserSkill"
-      },
-      {
-        "full_name": "alphaXiv/OpenResearch",
-        "description": "Star alphaXiv / OpenResearch Turn your coding agents into research agents",
-        "language": "Rust",
-        "total_stars": 5093,
-        "period_stars": 939,
-        "forks": 310,
-        "url": "https://github.com/alphaXiv/OpenResearch"
       },
       {
         "full_name": "anthropics/claude-code",
         "description": "Star anthropics / claude-code Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
         "language": "TypeScript",
-        "total_stars": 145951,
-        "period_stars": 538,
-        "forks": 23657,
+        "total_stars": 146398,
+        "period_stars": 444,
+        "forks": 23819,
         "url": "https://github.com/anthropics/claude-code"
       },
-      {
-        "full_name": "NationalSecurityAgency/ghidra",
-        "description": "Star NationalSecurityAgency / ghidra Ghidra is a software reverse engineering (SRE) framework",
-        "language": "Java",
-        "total_stars": 78648,
-        "period_stars": 912,
-        "forks": 8694,
-        "url": "https://github.com/NationalSecurityAgency/ghidra"
-      },
-      {
-        "full_name": "anthropics/knowledge-work-plugins",
-        "description": "Star anthropics / knowledge-work-plugins Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-        "language": "Python",
-        "total_stars": 24634,
-        "period_stars": 287,
-        "forks": 2954,
-        "url": "https://github.com/anthropics/knowledge-work-plugins"
-      },
-      {
-        "full_name": "Tencent/WeKnora",
-        "description": "Star Tencent / WeKnora Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-        "language": "Go",
-        "total_stars": 26535,
-        "period_stars": 1125,
-        "forks": 3576,
-        "url": "https://github.com/Tencent/WeKnora"
-      },
-      {
-        "full_name": "abue-ammar/tinycast",
-        "description": "Star abue-ammar / tinycast Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history.",
-        "language": "Swift",
-        "total_stars": 6234,
-        "period_stars": 739,
-        "forks": 287,
-        "url": "https://github.com/abue-ammar/tinycast"
-      }
-    ],
-    "ai_top10": [
       {
         "full_name": "alibaba/open-code-review",
-        "description": "Star alibaba / open-code-review Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
+        "description": "Star alibaba / open-code-review Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
         "language": "Go",
-        "total_stars": 35439,
-        "period_stars": 3286,
-        "forks": 2512,
+        "total_stars": 36891,
+        "period_stars": 2704,
+        "forks": 2630,
         "url": "https://github.com/alibaba/open-code-review"
-      },
-      {
-        "full_name": "cloudflare/security-audit-skill",
-        "description": "Star cloudflare / security-audit-skill A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-        "language": "JavaScript",
-        "total_stars": 11128,
-        "period_stars": 3607,
-        "forks": 601,
-        "url": "https://github.com/cloudflare/security-audit-skill"
-      },
-      {
-        "full_name": "addyosmani/agent-skills",
-        "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
-        "language": "JavaScript",
-        "total_stars": 95989,
-        "period_stars": 680,
-        "forks": 10157,
-        "url": "https://github.com/addyosmani/agent-skills"
-      },
-      {
-        "full_name": "Tencent/BrowserSkill",
-        "description": "Star Tencent / BrowserSkill Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
-        "language": "TypeScript",
-        "total_stars": 4518,
-        "period_stars": 1302,
-        "forks": 318,
-        "url": "https://github.com/Tencent/BrowserSkill"
-      },
-      {
-        "full_name": "alphaXiv/OpenResearch",
-        "description": "Star alphaXiv / OpenResearch Turn your coding agents into research agents",
-        "language": "Rust",
-        "total_stars": 5093,
-        "period_stars": 939,
-        "forks": 310,
-        "url": "https://github.com/alphaXiv/OpenResearch"
-      },
-      {
-        "full_name": "anthropics/claude-code",
-        "description": "Star anthropics / claude-code Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-        "language": "TypeScript",
-        "total_stars": 145951,
-        "period_stars": 538,
-        "forks": 23657,
-        "url": "https://github.com/anthropics/claude-code"
-      },
-      {
-        "full_name": "anthropics/knowledge-work-plugins",
-        "description": "Star anthropics / knowledge-work-plugins Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-        "language": "Python",
-        "total_stars": 24634,
-        "period_stars": 287,
-        "forks": 2954,
-        "url": "https://github.com/anthropics/knowledge-work-plugins"
-      },
-      {
-        "full_name": "Tencent/WeKnora",
-        "description": "Star Tencent / WeKnora Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-        "language": "Go",
-        "total_stars": 26535,
-        "period_stars": 1125,
-        "forks": 3576,
-        "url": "https://github.com/Tencent/WeKnora"
-      },
-      {
-        "full_name": "jamiepine/voicebox",
-        "description": "Star jamiepine / voicebox The open-source AI voice studio. Clone, dictate, create.",
-        "language": "TypeScript",
-        "total_stars": 54945,
-        "period_stars": 667,
-        "forks": 6832,
-        "url": "https://github.com/jamiepine/voicebox"
       },
       {
         "full_name": "sponsors/affaan-m",
         "description": "Sponsor Star affaan-m / ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
         "language": "JavaScript",
         "total_stars": 0,
-        "period_stars": 1171,
+        "period_stars": 958,
         "forks": 0,
         "url": "https://github.com/sponsors/affaan-m"
+      },
+      {
+        "full_name": "Tencent/BrowserSkill",
+        "description": "Star Tencent / BrowserSkill Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
+        "language": "TypeScript",
+        "total_stars": 5447,
+        "period_stars": 1306,
+        "forks": 377,
+        "url": "https://github.com/Tencent/BrowserSkill"
+      },
+      {
+        "full_name": "addyosmani/agent-skills",
+        "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
+        "language": "JavaScript",
+        "total_stars": 96516,
+        "period_stars": 675,
+        "forks": 10201,
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      {
+        "full_name": "TencentCloud/Octop",
+        "description": "Star TencentCloud / Octop A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+        "language": "Python",
+        "total_stars": 4033,
+        "period_stars": 569,
+        "forks": 416,
+        "url": "https://github.com/TencentCloud/Octop"
+      },
+      {
+        "full_name": "Fission-AI/OpenSpec",
+        "description": "Star Fission-AI / OpenSpec Spec-driven development (SDD) for AI coding assistants.",
+        "language": "TypeScript",
+        "total_stars": 69440,
+        "period_stars": 296,
+        "forks": 4758,
+        "url": "https://github.com/Fission-AI/OpenSpec"
+      },
+      {
+        "full_name": "ankitects/anki",
+        "description": "Star ankitects / anki Anki is a smart spaced repetition flashcard program",
+        "language": "Rust",
+        "total_stars": 31247,
+        "period_stars": 174,
+        "forks": 3238,
+        "url": "https://github.com/ankitects/anki"
+      },
+      {
+        "full_name": "anthropics/knowledge-work-plugins",
+        "description": "Star anthropics / knowledge-work-plugins Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+        "language": "Python",
+        "total_stars": 24935,
+        "period_stars": 299,
+        "forks": 2974,
+        "url": "https://github.com/anthropics/knowledge-work-plugins"
+      }
+    ],
+    "ai_top10": [
+      {
+        "full_name": "cloudflare/security-audit-skill",
+        "description": "Star cloudflare / security-audit-skill A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+        "language": "JavaScript",
+        "total_stars": 14221,
+        "period_stars": 3006,
+        "forks": 769,
+        "url": "https://github.com/cloudflare/security-audit-skill"
+      },
+      {
+        "full_name": "anthropics/claude-code",
+        "description": "Star anthropics / claude-code Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+        "language": "TypeScript",
+        "total_stars": 146398,
+        "period_stars": 444,
+        "forks": 23819,
+        "url": "https://github.com/anthropics/claude-code"
+      },
+      {
+        "full_name": "alibaba/open-code-review",
+        "description": "Star alibaba / open-code-review Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
+        "language": "Go",
+        "total_stars": 36891,
+        "period_stars": 2704,
+        "forks": 2630,
+        "url": "https://github.com/alibaba/open-code-review"
+      },
+      {
+        "full_name": "sponsors/affaan-m",
+        "description": "Sponsor Star affaan-m / ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+        "language": "JavaScript",
+        "total_stars": 0,
+        "period_stars": 958,
+        "forks": 0,
+        "url": "https://github.com/sponsors/affaan-m"
+      },
+      {
+        "full_name": "Tencent/BrowserSkill",
+        "description": "Star Tencent / BrowserSkill Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
+        "language": "TypeScript",
+        "total_stars": 5447,
+        "period_stars": 1306,
+        "forks": 377,
+        "url": "https://github.com/Tencent/BrowserSkill"
+      },
+      {
+        "full_name": "addyosmani/agent-skills",
+        "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
+        "language": "JavaScript",
+        "total_stars": 96516,
+        "period_stars": 675,
+        "forks": 10201,
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      {
+        "full_name": "TencentCloud/Octop",
+        "description": "Star TencentCloud / Octop A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+        "language": "Python",
+        "total_stars": 4033,
+        "period_stars": 569,
+        "forks": 416,
+        "url": "https://github.com/TencentCloud/Octop"
+      },
+      {
+        "full_name": "Fission-AI/OpenSpec",
+        "description": "Star Fission-AI / OpenSpec Spec-driven development (SDD) for AI coding assistants.",
+        "language": "TypeScript",
+        "total_stars": 69440,
+        "period_stars": 296,
+        "forks": 4758,
+        "url": "https://github.com/Fission-AI/OpenSpec"
+      },
+      {
+        "full_name": "anthropics/knowledge-work-plugins",
+        "description": "Star anthropics / knowledge-work-plugins Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+        "language": "Python",
+        "total_stars": 24935,
+        "period_stars": 299,
+        "forks": 2974,
+        "url": "https://github.com/anthropics/knowledge-work-plugins"
+      },
+      {
+        "full_name": "supermemoryai/supermemory",
+        "description": "Star supermemoryai / supermemory Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.",
+        "language": "TypeScript",
+        "total_stars": 30386,
+        "period_stars": 140,
+        "forks": 2646,
+        "url": "https://github.com/supermemoryai/supermemory"
       }
     ]
   },
@@ -191,29 +191,29 @@
     "top10": [
       {
         "full_name": "alibaba/open-code-review",
-        "description": "Star alibaba / open-code-review Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
+        "description": "Star alibaba / open-code-review Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
         "language": "Go",
-        "total_stars": 35439,
-        "period_stars": 11489,
-        "forks": 2512,
+        "total_stars": 36891,
+        "period_stars": 14144,
+        "forks": 2630,
         "url": "https://github.com/alibaba/open-code-review"
       },
       {
         "full_name": "ayghri/i-have-adhd",
         "description": "Star ayghri / i-have-adhd A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
         "language": "Python",
-        "total_stars": 47597,
-        "period_stars": 10800,
-        "forks": 2773,
+        "total_stars": 48226,
+        "period_stars": 7869,
+        "forks": 2805,
         "url": "https://github.com/ayghri/i-have-adhd"
       },
       {
         "full_name": "bilawalsidhu/gods-eye-view",
         "description": "Star bilawalsidhu / gods-eye-view A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
         "language": "JavaScript",
-        "total_stars": 37257,
-        "period_stars": 14460,
-        "forks": 7492,
+        "total_stars": 37982,
+        "period_stars": 11683,
+        "forks": 7660,
         "url": "https://github.com/bilawalsidhu/gods-eye-view"
       },
       {
@@ -221,82 +221,82 @@
         "description": "Sponsor Star affaan-m / ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
         "language": "JavaScript",
         "total_stars": 0,
-        "period_stars": 5607,
+        "period_stars": 5877,
         "forks": 0,
         "url": "https://github.com/sponsors/affaan-m"
+      },
+      {
+        "full_name": "Tencent/WeKnora",
+        "description": "Star Tencent / WeKnora Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+        "language": "Go",
+        "total_stars": 27086,
+        "period_stars": 4703,
+        "forks": 3643,
+        "url": "https://github.com/Tencent/WeKnora"
+      },
+      {
+        "full_name": "anthropics/claude-code",
+        "description": "Star anthropics / claude-code Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+        "language": "TypeScript",
+        "total_stars": 146398,
+        "period_stars": 1620,
+        "forks": 23819,
+        "url": "https://github.com/anthropics/claude-code"
       },
       {
         "full_name": "sponsors/mksglu",
         "description": "Sponsor Star mksglu / context-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
         "language": "TypeScript",
         "total_stars": 0,
-        "period_stars": 1482,
+        "period_stars": 1398,
         "forks": 0,
         "url": "https://github.com/sponsors/mksglu"
-      },
-      {
-        "full_name": "Tencent/WeKnora",
-        "description": "Star Tencent / WeKnora Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-        "language": "Go",
-        "total_stars": 26535,
-        "period_stars": 3982,
-        "forks": 3576,
-        "url": "https://github.com/Tencent/WeKnora"
-      },
-      {
-        "full_name": "openai/plugins",
-        "description": "Star openai / plugins OpenAI Plugins",
-        "language": "JavaScript",
-        "total_stars": 6930,
-        "period_stars": 564,
-        "forks": 901,
-        "url": "https://github.com/openai/plugins"
-      },
-      {
-        "full_name": "max-sixty/worktrunk",
-        "description": "Star max-sixty / worktrunk Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
-        "language": "Rust",
-        "total_stars": 7959,
-        "period_stars": 1060,
-        "forks": 272,
-        "url": "https://github.com/max-sixty/worktrunk"
       },
       {
         "full_name": "addyosmani/agent-skills",
         "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
         "language": "JavaScript",
-        "total_stars": 95989,
-        "period_stars": 2560,
-        "forks": 10157,
+        "total_stars": 96516,
+        "period_stars": 3051,
+        "forks": 10201,
         "url": "https://github.com/addyosmani/agent-skills"
       },
       {
-        "full_name": "anthropics/claude-code",
-        "description": "Star anthropics / claude-code Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-        "language": "TypeScript",
-        "total_stars": 145951,
-        "period_stars": 1294,
-        "forks": 23657,
-        "url": "https://github.com/anthropics/claude-code"
+        "full_name": "max-sixty/worktrunk",
+        "description": "Star max-sixty / worktrunk Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+        "language": "Rust",
+        "total_stars": 8046,
+        "period_stars": 1104,
+        "forks": 275,
+        "url": "https://github.com/max-sixty/worktrunk"
+      },
+      {
+        "full_name": "anthropics/knowledge-work-plugins",
+        "description": "Star anthropics / knowledge-work-plugins Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+        "language": "Python",
+        "total_stars": 24935,
+        "period_stars": 776,
+        "forks": 2974,
+        "url": "https://github.com/anthropics/knowledge-work-plugins"
       }
     ],
     "ai_top10": [
       {
         "full_name": "alibaba/open-code-review",
-        "description": "Star alibaba / open-code-review Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
+        "description": "Star alibaba / open-code-review Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
         "language": "Go",
-        "total_stars": 35439,
-        "period_stars": 11489,
-        "forks": 2512,
+        "total_stars": 36891,
+        "period_stars": 14144,
+        "forks": 2630,
         "url": "https://github.com/alibaba/open-code-review"
       },
       {
         "full_name": "ayghri/i-have-adhd",
         "description": "Star ayghri / i-have-adhd A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
         "language": "Python",
-        "total_stars": 47597,
-        "period_stars": 10800,
-        "forks": 2773,
+        "total_stars": 48226,
+        "period_stars": 7869,
+        "forks": 2805,
         "url": "https://github.com/ayghri/i-have-adhd"
       },
       {
@@ -304,72 +304,72 @@
         "description": "Sponsor Star affaan-m / ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
         "language": "JavaScript",
         "total_stars": 0,
-        "period_stars": 5607,
+        "period_stars": 5877,
         "forks": 0,
         "url": "https://github.com/sponsors/affaan-m"
+      },
+      {
+        "full_name": "Tencent/WeKnora",
+        "description": "Star Tencent / WeKnora Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+        "language": "Go",
+        "total_stars": 27086,
+        "period_stars": 4703,
+        "forks": 3643,
+        "url": "https://github.com/Tencent/WeKnora"
+      },
+      {
+        "full_name": "anthropics/claude-code",
+        "description": "Star anthropics / claude-code Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+        "language": "TypeScript",
+        "total_stars": 146398,
+        "period_stars": 1620,
+        "forks": 23819,
+        "url": "https://github.com/anthropics/claude-code"
       },
       {
         "full_name": "sponsors/mksglu",
         "description": "Sponsor Star mksglu / context-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
         "language": "TypeScript",
         "total_stars": 0,
-        "period_stars": 1482,
+        "period_stars": 1398,
         "forks": 0,
         "url": "https://github.com/sponsors/mksglu"
-      },
-      {
-        "full_name": "Tencent/WeKnora",
-        "description": "Star Tencent / WeKnora Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-        "language": "Go",
-        "total_stars": 26535,
-        "period_stars": 3982,
-        "forks": 3576,
-        "url": "https://github.com/Tencent/WeKnora"
-      },
-      {
-        "full_name": "openai/plugins",
-        "description": "Star openai / plugins OpenAI Plugins",
-        "language": "JavaScript",
-        "total_stars": 6930,
-        "period_stars": 564,
-        "forks": 901,
-        "url": "https://github.com/openai/plugins"
-      },
-      {
-        "full_name": "max-sixty/worktrunk",
-        "description": "Star max-sixty / worktrunk Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
-        "language": "Rust",
-        "total_stars": 7959,
-        "period_stars": 1060,
-        "forks": 272,
-        "url": "https://github.com/max-sixty/worktrunk"
       },
       {
         "full_name": "addyosmani/agent-skills",
         "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
         "language": "JavaScript",
-        "total_stars": 95989,
-        "period_stars": 2560,
-        "forks": 10157,
+        "total_stars": 96516,
+        "period_stars": 3051,
+        "forks": 10201,
         "url": "https://github.com/addyosmani/agent-skills"
       },
       {
-        "full_name": "anthropics/claude-code",
-        "description": "Star anthropics / claude-code Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-        "language": "TypeScript",
-        "total_stars": 145951,
-        "period_stars": 1294,
-        "forks": 23657,
-        "url": "https://github.com/anthropics/claude-code"
+        "full_name": "max-sixty/worktrunk",
+        "description": "Star max-sixty / worktrunk Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+        "language": "Rust",
+        "total_stars": 8046,
+        "period_stars": 1104,
+        "forks": 275,
+        "url": "https://github.com/max-sixty/worktrunk"
       },
       {
         "full_name": "anthropics/knowledge-work-plugins",
         "description": "Star anthropics / knowledge-work-plugins Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
         "language": "Python",
-        "total_stars": 24634,
-        "period_stars": 488,
-        "forks": 2954,
+        "total_stars": 24935,
+        "period_stars": 776,
+        "forks": 2974,
         "url": "https://github.com/anthropics/knowledge-work-plugins"
+      },
+      {
+        "full_name": "openai/plugins",
+        "description": "Star openai / plugins OpenAI Plugins",
+        "language": "JavaScript",
+        "total_stars": 6986,
+        "period_stars": 542,
+        "forks": 903,
+        "url": "https://github.com/openai/plugins"
       }
     ]
   }

@@ -1,189 +1,180 @@
 {
-  "updated_at": "2026-09-21 14:31:07 GMT+8",
-  "updated_ts": 1789972267,
+  "updated_at": "2026-09-22 14:20:54 GMT+8",
+  "updated_ts": 1790058054,
   "daily": {
     "top10": [
       {
-        "full_name": "sponsors/affaan-m",
-        "description": "Sponsor Star affaan-m / ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-        "language": "JavaScript",
-        "total_stars": 0,
-        "period_stars": 826,
-        "forks": 0,
-        "url": "https://github.com/sponsors/affaan-m"
-      },
-      {
         "full_name": "BuilderIO/agent-native",
         "description": "Star BuilderIO / agent-native A framework for building agentic apps",
         "language": "TypeScript",
-        "total_stars": 5411,
-        "period_stars": 98,
-        "forks": 502,
+        "total_stars": 6092,
+        "period_stars": 607,
+        "forks": 556,
         "url": "https://github.com/BuilderIO/agent-native"
-      },
-      {
-        "full_name": "cloudflare/security-audit-skill",
-        "description": "Star cloudflare / security-audit-skill A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-        "language": "JavaScript",
-        "total_stars": 18304,
-        "period_stars": 2428,
-        "forks": 1024,
-        "url": "https://github.com/cloudflare/security-audit-skill"
       },
       {
         "full_name": "sponsors/trycua",
         "description": "Sponsor Star trycua / cua Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
         "language": "HTML",
         "total_stars": 0,
-        "period_stars": 1018,
+        "period_stars": 609,
         "forks": 0,
         "url": "https://github.com/sponsors/trycua"
-      },
-      {
-        "full_name": "anthropics/financial-services",
-        "description": "",
-        "language": "Python",
-        "total_stars": 35499,
-        "period_stars": 260,
-        "forks": 5256,
-        "url": "https://github.com/anthropics/financial-services"
-      },
-      {
-        "full_name": "paperless-ngx/paperless-ngx",
-        "description": "Star paperless-ngx / paperless-ngx A community-supported supercharged document management system: scan, index and archive all your documents",
-        "language": "Python",
-        "total_stars": 45685,
-        "period_stars": 57,
-        "forks": 3159,
-        "url": "https://github.com/paperless-ngx/paperless-ngx"
-      },
-      {
-        "full_name": "anthropics/claude-code",
-        "description": "Star anthropics / claude-code Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-        "language": "TypeScript",
-        "total_stars": 147271,
-        "period_stars": 419,
-        "forks": 24086,
-        "url": "https://github.com/anthropics/claude-code"
-      },
-      {
-        "full_name": "mihail911/modern-software-dev-assignments",
-        "description": "Star mihail911 / modern-software-dev-assignments Assignments for CS146S: The Modern Software Dev (Stanford University Fall 2026/2025)",
-        "language": "Python",
-        "total_stars": 4643,
-        "period_stars": 172,
-        "forks": 1016,
-        "url": "https://github.com/mihail911/modern-software-dev-assignments"
-      },
-      {
-        "full_name": "higgsfield-ai/higgsfield",
-        "description": "Star higgsfield-ai / higgsfield Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with billions to trillions of parameters",
-        "language": "Jupyter Notebook",
-        "total_stars": 5489,
-        "period_stars": 465,
-        "forks": 964,
-        "url": "https://github.com/higgsfield-ai/higgsfield"
       },
       {
         "full_name": "Open-Dev-Society/OpenStock",
         "description": "Star Open-Dev-Society / OpenStock OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
         "language": "TypeScript",
-        "total_stars": 17049,
-        "period_stars": 755,
-        "forks": 2147,
+        "total_stars": 17999,
+        "period_stars": 844,
+        "forks": 2220,
         "url": "https://github.com/Open-Dev-Society/OpenStock"
-      }
-    ],
-    "ai_top10": [
-      {
-        "full_name": "sponsors/affaan-m",
-        "description": "Sponsor Star affaan-m / ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-        "language": "JavaScript",
-        "total_stars": 0,
-        "period_stars": 826,
-        "forks": 0,
-        "url": "https://github.com/sponsors/affaan-m"
       },
       {
-        "full_name": "BuilderIO/agent-native",
-        "description": "Star BuilderIO / agent-native A framework for building agentic apps",
-        "language": "TypeScript",
-        "total_stars": 5411,
-        "period_stars": 98,
-        "forks": 502,
-        "url": "https://github.com/BuilderIO/agent-native"
-      },
-      {
-        "full_name": "cloudflare/security-audit-skill",
-        "description": "Star cloudflare / security-audit-skill A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-        "language": "JavaScript",
-        "total_stars": 18304,
-        "period_stars": 2428,
-        "forks": 1024,
-        "url": "https://github.com/cloudflare/security-audit-skill"
-      },
-      {
-        "full_name": "sponsors/trycua",
-        "description": "Sponsor Star trycua / cua Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
-        "language": "HTML",
-        "total_stars": 0,
-        "period_stars": 1018,
-        "forks": 0,
-        "url": "https://github.com/sponsors/trycua"
-      },
-      {
-        "full_name": "anthropics/financial-services",
-        "description": "",
-        "language": "Python",
-        "total_stars": 35499,
-        "period_stars": 260,
-        "forks": 5256,
-        "url": "https://github.com/anthropics/financial-services"
-      },
-      {
-        "full_name": "anthropics/claude-code",
-        "description": "Star anthropics / claude-code Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-        "language": "TypeScript",
-        "total_stars": 147271,
-        "period_stars": 419,
-        "forks": 24086,
-        "url": "https://github.com/anthropics/claude-code"
-      },
-      {
-        "full_name": "mihail911/modern-software-dev-assignments",
-        "description": "Star mihail911 / modern-software-dev-assignments Assignments for CS146S: The Modern Software Dev (Stanford University Fall 2026/2025)",
-        "language": "Python",
-        "total_stars": 4643,
-        "period_stars": 172,
-        "forks": 1016,
-        "url": "https://github.com/mihail911/modern-software-dev-assignments"
-      },
-      {
-        "full_name": "higgsfield-ai/higgsfield",
-        "description": "Star higgsfield-ai / higgsfield Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with billions to trillions of parameters",
-        "language": "Jupyter Notebook",
-        "total_stars": 5489,
-        "period_stars": 465,
-        "forks": 964,
-        "url": "https://github.com/higgsfield-ai/higgsfield"
-      },
-      {
-        "full_name": "Open-Dev-Society/OpenStock",
-        "description": "Star Open-Dev-Society / OpenStock OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
-        "language": "TypeScript",
-        "total_stars": 17049,
-        "period_stars": 755,
-        "forks": 2147,
-        "url": "https://github.com/Open-Dev-Society/OpenStock"
+        "full_name": "akitaonrails/ai-memory",
+        "description": "Star akitaonrails / ai-memory Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+        "language": "Rust",
+        "total_stars": 7830,
+        "period_stars": 167,
+        "forks": 527,
+        "url": "https://github.com/akitaonrails/ai-memory"
       },
       {
         "full_name": "coder/coder",
         "description": "Star coder / coder Secure environments for developers and their agents",
         "language": "Go",
-        "total_stars": 16164,
-        "period_stars": 379,
-        "forks": 1547,
+        "total_stars": 16506,
+        "period_stars": 460,
+        "forks": 1569,
         "url": "https://github.com/coder/coder"
+      },
+      {
+        "full_name": "anthropics/financial-services",
+        "description": "",
+        "language": "Python",
+        "total_stars": 35932,
+        "period_stars": 424,
+        "forks": 5274,
+        "url": "https://github.com/anthropics/financial-services"
+      },
+      {
+        "full_name": "cloudflare/quiche",
+        "description": "Star cloudflare / quiche 🥧 Savoury implementation of the QUIC transport protocol and HTTP/3",
+        "language": "Rust",
+        "total_stars": 12414,
+        "period_stars": 32,
+        "forks": 1137,
+        "url": "https://github.com/cloudflare/quiche"
+      },
+      {
+        "full_name": "mvt-project/mvt",
+        "description": "Star mvt-project / mvt MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
+        "language": "Python",
+        "total_stars": 13697,
+        "period_stars": 169,
+        "forks": 1332,
+        "url": "https://github.com/mvt-project/mvt"
+      },
+      {
+        "full_name": "zhouxiaoka/autoclip",
+        "description": "Star zhouxiaoka / autoclip AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具",
+        "language": "Python",
+        "total_stars": 8449,
+        "period_stars": 250,
+        "forks": 1583,
+        "url": "https://github.com/zhouxiaoka/autoclip"
+      },
+      {
+        "full_name": "ruanyf/weekly",
+        "description": "Star ruanyf / weekly 科技爱好者周刊，每周五发布",
+        "language": "",
+        "total_stars": 104206,
+        "period_stars": 182,
+        "forks": 4458,
+        "url": "https://github.com/ruanyf/weekly"
+      }
+    ],
+    "ai_top10": [
+      {
+        "full_name": "BuilderIO/agent-native",
+        "description": "Star BuilderIO / agent-native A framework for building agentic apps",
+        "language": "TypeScript",
+        "total_stars": 6092,
+        "period_stars": 607,
+        "forks": 556,
+        "url": "https://github.com/BuilderIO/agent-native"
+      },
+      {
+        "full_name": "sponsors/trycua",
+        "description": "Sponsor Star trycua / cua Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+        "language": "HTML",
+        "total_stars": 0,
+        "period_stars": 609,
+        "forks": 0,
+        "url": "https://github.com/sponsors/trycua"
+      },
+      {
+        "full_name": "Open-Dev-Society/OpenStock",
+        "description": "Star Open-Dev-Society / OpenStock OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+        "language": "TypeScript",
+        "total_stars": 17999,
+        "period_stars": 844,
+        "forks": 2220,
+        "url": "https://github.com/Open-Dev-Society/OpenStock"
+      },
+      {
+        "full_name": "akitaonrails/ai-memory",
+        "description": "Star akitaonrails / ai-memory Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+        "language": "Rust",
+        "total_stars": 7830,
+        "period_stars": 167,
+        "forks": 527,
+        "url": "https://github.com/akitaonrails/ai-memory"
+      },
+      {
+        "full_name": "coder/coder",
+        "description": "Star coder / coder Secure environments for developers and their agents",
+        "language": "Go",
+        "total_stars": 16506,
+        "period_stars": 460,
+        "forks": 1569,
+        "url": "https://github.com/coder/coder"
+      },
+      {
+        "full_name": "anthropics/financial-services",
+        "description": "",
+        "language": "Python",
+        "total_stars": 35932,
+        "period_stars": 424,
+        "forks": 5274,
+        "url": "https://github.com/anthropics/financial-services"
+      },
+      {
+        "full_name": "zhouxiaoka/autoclip",
+        "description": "Star zhouxiaoka / autoclip AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具",
+        "language": "Python",
+        "total_stars": 8449,
+        "period_stars": 250,
+        "forks": 1583,
+        "url": "https://github.com/zhouxiaoka/autoclip"
+      },
+      {
+        "full_name": "Crosstalk-Solutions/project-nomad",
+        "description": "Star Crosstalk-Solutions / project-nomad Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required.",
+        "language": "TypeScript",
+        "total_stars": 37976,
+        "period_stars": 394,
+        "forks": 3775,
+        "url": "https://github.com/Crosstalk-Solutions/project-nomad"
+      },
+      {
+        "full_name": "yynxxxxx/Codex-X",
+        "description": "Star yynxxxxx / Codex-X OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理、TOML 配置可视化的跨平台工具。",
+        "language": "Rust",
+        "total_stars": 3766,
+        "period_stars": 50,
+        "forks": 468,
+        "url": "https://github.com/yynxxxxx/Codex-X"
       }
     ]
   },
@@ -193,90 +184,90 @@
         "full_name": "alibaba/open-code-review",
         "description": "Star alibaba / open-code-review Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
         "language": "Go",
-        "total_stars": 38633,
-        "period_stars": 15504,
-        "forks": 2756,
+        "total_stars": 39364,
+        "period_stars": 14499,
+        "forks": 2816,
         "url": "https://github.com/alibaba/open-code-review"
       },
       {
         "full_name": "anthropics/claude-code",
         "description": "Star anthropics / claude-code Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
         "language": "TypeScript",
-        "total_stars": 147271,
-        "period_stars": 2342,
-        "forks": 24086,
+        "total_stars": 147514,
+        "period_stars": 2731,
+        "forks": 24119,
         "url": "https://github.com/anthropics/claude-code"
+      },
+      {
+        "full_name": "JustVugg/colibri",
+        "description": "Star JustVugg / colibri Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+        "language": "C",
+        "total_stars": 36924,
+        "period_stars": 5565,
+        "forks": 3960,
+        "url": "https://github.com/JustVugg/colibri"
+      },
+      {
+        "full_name": "Tencent/WeKnora",
+        "description": "Star Tencent / WeKnora Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+        "language": "Go",
+        "total_stars": 28645,
+        "period_stars": 5455,
+        "forks": 3853,
+        "url": "https://github.com/Tencent/WeKnora"
       },
       {
         "full_name": "sponsors/affaan-m",
         "description": "Sponsor Star affaan-m / ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
         "language": "JavaScript",
         "total_stars": 0,
-        "period_stars": 6453,
+        "period_stars": 6865,
         "forks": 0,
         "url": "https://github.com/sponsors/affaan-m"
-      },
-      {
-        "full_name": "Tencent/WeKnora",
-        "description": "Star Tencent / WeKnora Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-        "language": "Go",
-        "total_stars": 28193,
-        "period_stars": 5242,
-        "forks": 3801,
-        "url": "https://github.com/Tencent/WeKnora"
-      },
-      {
-        "full_name": "addyosmani/agent-skills",
-        "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
-        "language": "JavaScript",
-        "total_stars": 97843,
-        "period_stars": 3986,
-        "forks": 10302,
-        "url": "https://github.com/addyosmani/agent-skills"
       },
       {
         "full_name": "anthropics/knowledge-work-plugins",
         "description": "Star anthropics / knowledge-work-plugins Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
         "language": "Python",
-        "total_stars": 25303,
-        "period_stars": 1298,
-        "forks": 3008,
+        "total_stars": 25378,
+        "period_stars": 1350,
+        "forks": 3015,
         "url": "https://github.com/anthropics/knowledge-work-plugins"
       },
       {
-        "full_name": "bilawalsidhu/gods-eye-view",
-        "description": "Star bilawalsidhu / gods-eye-view A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+        "full_name": "addyosmani/agent-skills",
+        "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
         "language": "JavaScript",
-        "total_stars": 39885,
-        "period_stars": 8111,
-        "forks": 8070,
-        "url": "https://github.com/bilawalsidhu/gods-eye-view"
+        "total_stars": 98211,
+        "period_stars": 4197,
+        "forks": 10326,
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      {
+        "full_name": "stablyai/orca",
+        "description": "Star stablyai / orca Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+        "language": "TypeScript",
+        "total_stars": 74916,
+        "period_stars": 6125,
+        "forks": 4896,
+        "url": "https://github.com/stablyai/orca"
       },
       {
         "full_name": "sponsors/mksglu",
         "description": "Sponsor Star mksglu / context-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
         "language": "TypeScript",
         "total_stars": 0,
-        "period_stars": 1242,
+        "period_stars": 1089,
         "forks": 0,
         "url": "https://github.com/sponsors/mksglu"
-      },
-      {
-        "full_name": "max-sixty/worktrunk",
-        "description": "Star max-sixty / worktrunk Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
-        "language": "Rust",
-        "total_stars": 8239,
-        "period_stars": 822,
-        "forks": 284,
-        "url": "https://github.com/max-sixty/worktrunk"
       },
       {
         "full_name": "home-assistant/core",
         "description": "Star home-assistant / core 🏡 Open source home automation that puts local control and privacy first.",
         "language": "Python",
-        "total_stars": 90915,
-        "period_stars": 480,
-        "forks": 38716,
+        "total_stars": 90994,
+        "period_stars": 526,
+        "forks": 38723,
         "url": "https://github.com/home-assistant/core"
       }
     ],
@@ -285,91 +276,91 @@
         "full_name": "alibaba/open-code-review",
         "description": "Star alibaba / open-code-review Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
         "language": "Go",
-        "total_stars": 38633,
-        "period_stars": 15504,
-        "forks": 2756,
+        "total_stars": 39364,
+        "period_stars": 14499,
+        "forks": 2816,
         "url": "https://github.com/alibaba/open-code-review"
       },
       {
         "full_name": "anthropics/claude-code",
         "description": "Star anthropics / claude-code Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
         "language": "TypeScript",
-        "total_stars": 147271,
-        "period_stars": 2342,
-        "forks": 24086,
+        "total_stars": 147514,
+        "period_stars": 2731,
+        "forks": 24119,
         "url": "https://github.com/anthropics/claude-code"
+      },
+      {
+        "full_name": "Tencent/WeKnora",
+        "description": "Star Tencent / WeKnora Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+        "language": "Go",
+        "total_stars": 28645,
+        "period_stars": 5455,
+        "forks": 3853,
+        "url": "https://github.com/Tencent/WeKnora"
       },
       {
         "full_name": "sponsors/affaan-m",
         "description": "Sponsor Star affaan-m / ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
         "language": "JavaScript",
         "total_stars": 0,
-        "period_stars": 6453,
+        "period_stars": 6865,
         "forks": 0,
         "url": "https://github.com/sponsors/affaan-m"
-      },
-      {
-        "full_name": "Tencent/WeKnora",
-        "description": "Star Tencent / WeKnora Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-        "language": "Go",
-        "total_stars": 28193,
-        "period_stars": 5242,
-        "forks": 3801,
-        "url": "https://github.com/Tencent/WeKnora"
-      },
-      {
-        "full_name": "addyosmani/agent-skills",
-        "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
-        "language": "JavaScript",
-        "total_stars": 97843,
-        "period_stars": 3986,
-        "forks": 10302,
-        "url": "https://github.com/addyosmani/agent-skills"
       },
       {
         "full_name": "anthropics/knowledge-work-plugins",
         "description": "Star anthropics / knowledge-work-plugins Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
         "language": "Python",
-        "total_stars": 25303,
-        "period_stars": 1298,
-        "forks": 3008,
+        "total_stars": 25378,
+        "period_stars": 1350,
+        "forks": 3015,
         "url": "https://github.com/anthropics/knowledge-work-plugins"
+      },
+      {
+        "full_name": "addyosmani/agent-skills",
+        "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
+        "language": "JavaScript",
+        "total_stars": 98211,
+        "period_stars": 4197,
+        "forks": 10326,
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      {
+        "full_name": "stablyai/orca",
+        "description": "Star stablyai / orca Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+        "language": "TypeScript",
+        "total_stars": 74916,
+        "period_stars": 6125,
+        "forks": 4896,
+        "url": "https://github.com/stablyai/orca"
       },
       {
         "full_name": "sponsors/mksglu",
         "description": "Sponsor Star mksglu / context-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
         "language": "TypeScript",
         "total_stars": 0,
-        "period_stars": 1242,
+        "period_stars": 1089,
         "forks": 0,
         "url": "https://github.com/sponsors/mksglu"
       },
       {
-        "full_name": "max-sixty/worktrunk",
-        "description": "Star max-sixty / worktrunk Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
-        "language": "Rust",
-        "total_stars": 8239,
-        "period_stars": 822,
-        "forks": 284,
-        "url": "https://github.com/max-sixty/worktrunk"
-      },
-      {
-        "full_name": "blader/humanizer",
-        "description": "Star blader / humanizer Agent skill that removes signs of AI-generated writing from text",
-        "language": "Python",
-        "total_stars": 50752,
-        "period_stars": 3045,
-        "forks": 4082,
-        "url": "https://github.com/blader/humanizer"
-      },
-      {
-        "full_name": "stablyai/orca",
-        "description": "Star stablyai / orca Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+        "full_name": "sponsors/danny-avila",
+        "description": "Sponsor Star danny-avila / LibreChat Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
         "language": "TypeScript",
-        "total_stars": 73910,
-        "period_stars": 5841,
-        "forks": 4844,
-        "url": "https://github.com/stablyai/orca"
+        "total_stars": 0,
+        "period_stars": 1401,
+        "forks": 0,
+        "url": "https://github.com/sponsors/danny-avila"
+      },
+      {
+        "full_name": "Panniantong/Agent-Reach",
+        "description": "Star Panniantong / Agent-Reach Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+        "language": "Python",
+        "total_stars": 84496,
+        "period_stars": 3526,
+        "forks": 7421,
+        "url": "https://github.com/Panniantong/Agent-Reach"
       }
     ]
   }

@@ -1,373 +1,373 @@
 {
-  "updated_at": "2026-09-24 14:14:35 GMT+8",
-  "updated_ts": 1790230475,
+  "updated_at": "2026-09-25 14:11:55 GMT+8",
+  "updated_ts": 1790316715,
   "daily": {
     "top10": [
       {
-        "full_name": "anthropics/financial-services",
-        "description": "",
+        "full_name": "sponsors/rohitg00",
+        "description": "Sponsor Star rohitg00 / ai-engineering-from-scratch Learn it. Build it. Ship it for others.",
         "language": "Python",
-        "total_stars": 37065,
-        "period_stars": 664,
-        "forks": 5388,
-        "url": "https://github.com/anthropics/financial-services"
+        "total_stars": 0,
+        "period_stars": 347,
+        "forks": 0,
+        "url": "https://github.com/sponsors/rohitg00"
+      },
+      {
+        "full_name": "vectorize-io/hindsight",
+        "description": "Star vectorize-io / hindsight Hindsight: Agent Memory That Learns",
+        "language": "Python",
+        "total_stars": 28176,
+        "period_stars": 1668,
+        "forks": 2772,
+        "url": "https://github.com/vectorize-io/hindsight"
+      },
+      {
+        "full_name": "dream-num/univer",
+        "description": "Star dream-num / univer The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+        "language": "TypeScript",
+        "total_stars": 17960,
+        "period_stars": 1082,
+        "forks": 1543,
+        "url": "https://github.com/dream-num/univer"
       },
       {
         "full_name": "google/ax",
         "description": "Star google / ax Google's open agentic orchestration runtime",
         "language": "Go",
-        "total_stars": 9372,
-        "period_stars": 1543,
-        "forks": 453,
+        "total_stars": 10730,
+        "period_stars": 1373,
+        "forks": 525,
         "url": "https://github.com/google/ax"
       },
       {
-        "full_name": "sponsors/davila7",
-        "description": "Sponsor Star davila7 / claude-code-templates CLI tool for configuring and monitoring Claude Code",
+        "full_name": "NVIDIA/Model-Optimizer",
+        "description": "Star NVIDIA / Model-Optimizer A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.",
         "language": "Python",
-        "total_stars": 0,
-        "period_stars": 389,
-        "forks": 0,
-        "url": "https://github.com/sponsors/davila7"
+        "total_stars": 4156,
+        "period_stars": 44,
+        "forks": 633,
+        "url": "https://github.com/NVIDIA/Model-Optimizer"
       },
       {
-        "full_name": "BuilderIO/agent-native",
-        "description": "Star BuilderIO / agent-native A framework for building agentic apps",
+        "full_name": "FxEmbed/FxEmbed",
+        "description": "Star FxEmbed / FxEmbed Fix X/Twitter and Bluesky embeds! Use multiple images, videos, polls, translations and more on Discord, Telegram and others",
         "language": "TypeScript",
-        "total_stars": 6646,
-        "period_stars": 87,
-        "forks": 595,
-        "url": "https://github.com/BuilderIO/agent-native"
+        "total_stars": 5402,
+        "period_stars": 182,
+        "forks": 252,
+        "url": "https://github.com/FxEmbed/FxEmbed"
+      },
+      {
+        "full_name": "anthropics/financial-services",
+        "description": "",
+        "language": "Python",
+        "total_stars": 37424,
+        "period_stars": 509,
+        "forks": 5422,
+        "url": "https://github.com/anthropics/financial-services"
+      },
+      {
+        "full_name": "HKUDS/CLI-Anything",
+        "description": "Star HKUDS / CLI-Anything \"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+        "language": "Python",
+        "total_stars": 50401,
+        "period_stars": 413,
+        "forks": 4618,
+        "url": "https://github.com/HKUDS/CLI-Anything"
+      },
+      {
+        "full_name": "mvt-project/mvt",
+        "description": "Star mvt-project / mvt MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
+        "language": "Python",
+        "total_stars": 14764,
+        "period_stars": 272,
+        "forks": 1394,
+        "url": "https://github.com/mvt-project/mvt"
       },
       {
         "full_name": "sponsors/obra",
         "description": "Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works.",
         "language": "Shell",
         "total_stars": 0,
-        "period_stars": 474,
+        "period_stars": 611,
         "forks": 0,
         "url": "https://github.com/sponsors/obra"
-      },
-      {
-        "full_name": "dream-num/univer",
-        "description": "Star dream-num / univer The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
-        "language": "TypeScript",
-        "total_stars": 16497,
-        "period_stars": 1142,
-        "forks": 1459,
-        "url": "https://github.com/dream-num/univer"
-      },
-      {
-        "full_name": "Open-Dev-Society/OpenStock",
-        "description": "Star Open-Dev-Society / OpenStock OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
-        "language": "TypeScript",
-        "total_stars": 18954,
-        "period_stars": 344,
-        "forks": 2305,
-        "url": "https://github.com/Open-Dev-Society/OpenStock"
-      },
-      {
-        "full_name": "agent-substrate/substrate",
-        "description": "Star agent-substrate / substrate Agent Substrate: the core system",
-        "language": "Go",
-        "total_stars": 3586,
-        "period_stars": 558,
-        "forks": 420,
-        "url": "https://github.com/agent-substrate/substrate"
-      },
-      {
-        "full_name": "strands-agents/harness-sdk",
-        "description": "Star strands-agents / harness-sdk Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python &amp; TypeScript - any model, any cloud.",
-        "language": "Python",
-        "total_stars": 7956,
-        "period_stars": 115,
-        "forks": 1210,
-        "url": "https://github.com/strands-agents/harness-sdk"
-      },
-      {
-        "full_name": "HKUDS/CLI-Anything",
-        "description": "Star HKUDS / CLI-Anything \"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-        "language": "Python",
-        "total_stars": 50040,
-        "period_stars": 57,
-        "forks": 4603,
-        "url": "https://github.com/HKUDS/CLI-Anything"
       }
     ],
     "ai_top10": [
       {
-        "full_name": "anthropics/financial-services",
-        "description": "",
+        "full_name": "sponsors/rohitg00",
+        "description": "Sponsor Star rohitg00 / ai-engineering-from-scratch Learn it. Build it. Ship it for others.",
         "language": "Python",
-        "total_stars": 37065,
-        "period_stars": 664,
-        "forks": 5388,
-        "url": "https://github.com/anthropics/financial-services"
+        "total_stars": 0,
+        "period_stars": 347,
+        "forks": 0,
+        "url": "https://github.com/sponsors/rohitg00"
+      },
+      {
+        "full_name": "vectorize-io/hindsight",
+        "description": "Star vectorize-io / hindsight Hindsight: Agent Memory That Learns",
+        "language": "Python",
+        "total_stars": 28176,
+        "period_stars": 1668,
+        "forks": 2772,
+        "url": "https://github.com/vectorize-io/hindsight"
+      },
+      {
+        "full_name": "dream-num/univer",
+        "description": "Star dream-num / univer The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+        "language": "TypeScript",
+        "total_stars": 17960,
+        "period_stars": 1082,
+        "forks": 1543,
+        "url": "https://github.com/dream-num/univer"
       },
       {
         "full_name": "google/ax",
         "description": "Star google / ax Google's open agentic orchestration runtime",
         "language": "Go",
-        "total_stars": 9372,
-        "period_stars": 1543,
-        "forks": 453,
+        "total_stars": 10730,
+        "period_stars": 1373,
+        "forks": 525,
         "url": "https://github.com/google/ax"
       },
       {
-        "full_name": "sponsors/davila7",
-        "description": "Sponsor Star davila7 / claude-code-templates CLI tool for configuring and monitoring Claude Code",
+        "full_name": "NVIDIA/Model-Optimizer",
+        "description": "Star NVIDIA / Model-Optimizer A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.",
         "language": "Python",
-        "total_stars": 0,
-        "period_stars": 389,
-        "forks": 0,
-        "url": "https://github.com/sponsors/davila7"
+        "total_stars": 4156,
+        "period_stars": 44,
+        "forks": 633,
+        "url": "https://github.com/NVIDIA/Model-Optimizer"
       },
       {
-        "full_name": "BuilderIO/agent-native",
-        "description": "Star BuilderIO / agent-native A framework for building agentic apps",
-        "language": "TypeScript",
-        "total_stars": 6646,
-        "period_stars": 87,
-        "forks": 595,
-        "url": "https://github.com/BuilderIO/agent-native"
+        "full_name": "anthropics/financial-services",
+        "description": "",
+        "language": "Python",
+        "total_stars": 37424,
+        "period_stars": 509,
+        "forks": 5422,
+        "url": "https://github.com/anthropics/financial-services"
+      },
+      {
+        "full_name": "HKUDS/CLI-Anything",
+        "description": "Star HKUDS / CLI-Anything \"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+        "language": "Python",
+        "total_stars": 50401,
+        "period_stars": 413,
+        "forks": 4618,
+        "url": "https://github.com/HKUDS/CLI-Anything"
       },
       {
         "full_name": "sponsors/obra",
         "description": "Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works.",
         "language": "Shell",
         "total_stars": 0,
-        "period_stars": 474,
+        "period_stars": 611,
         "forks": 0,
         "url": "https://github.com/sponsors/obra"
-      },
-      {
-        "full_name": "dream-num/univer",
-        "description": "Star dream-num / univer The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
-        "language": "TypeScript",
-        "total_stars": 16497,
-        "period_stars": 1142,
-        "forks": 1459,
-        "url": "https://github.com/dream-num/univer"
-      },
-      {
-        "full_name": "Open-Dev-Society/OpenStock",
-        "description": "Star Open-Dev-Society / OpenStock OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
-        "language": "TypeScript",
-        "total_stars": 18954,
-        "period_stars": 344,
-        "forks": 2305,
-        "url": "https://github.com/Open-Dev-Society/OpenStock"
-      },
-      {
-        "full_name": "agent-substrate/substrate",
-        "description": "Star agent-substrate / substrate Agent Substrate: the core system",
-        "language": "Go",
-        "total_stars": 3586,
-        "period_stars": 558,
-        "forks": 420,
-        "url": "https://github.com/agent-substrate/substrate"
       },
       {
         "full_name": "strands-agents/harness-sdk",
         "description": "Star strands-agents / harness-sdk Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python &amp; TypeScript - any model, any cloud.",
         "language": "Python",
-        "total_stars": 7956,
-        "period_stars": 115,
-        "forks": 1210,
+        "total_stars": 8328,
+        "period_stars": 455,
+        "forks": 1244,
         "url": "https://github.com/strands-agents/harness-sdk"
       },
       {
-        "full_name": "HKUDS/CLI-Anything",
-        "description": "Star HKUDS / CLI-Anything \"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+        "full_name": "superdesigndev/treg",
+        "description": "Star superdesigndev / treg OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
         "language": "Python",
-        "total_stars": 50040,
-        "period_stars": 57,
-        "forks": 4603,
-        "url": "https://github.com/HKUDS/CLI-Anything"
+        "total_stars": 3232,
+        "period_stars": 468,
+        "forks": 268,
+        "url": "https://github.com/superdesigndev/treg"
       }
     ]
   },
   "weekly": {
     "top10": [
       {
+        "full_name": "anthropics/financial-services",
+        "description": "",
+        "language": "Python",
+        "total_stars": 37424,
+        "period_stars": 2382,
+        "forks": 5422,
+        "url": "https://github.com/anthropics/financial-services"
+      },
+      {
         "full_name": "alibaba/open-code-review",
         "description": "Star alibaba / open-code-review Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
         "language": "Go",
-        "total_stars": 40325,
-        "period_stars": 9833,
-        "forks": 2900,
+        "total_stars": 40940,
+        "period_stars": 6920,
+        "forks": 2943,
         "url": "https://github.com/alibaba/open-code-review"
       },
       {
         "full_name": "anthropics/claude-code",
         "description": "Star anthropics / claude-code Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
         "language": "TypeScript",
-        "total_stars": 147843,
-        "period_stars": 2762,
-        "forks": 24249,
+        "total_stars": 147998,
+        "period_stars": 2384,
+        "forks": 24446,
         "url": "https://github.com/anthropics/claude-code"
-      },
-      {
-        "full_name": "anthropics/financial-services",
-        "description": "",
-        "language": "Python",
-        "total_stars": 37065,
-        "period_stars": 1895,
-        "forks": 5388,
-        "url": "https://github.com/anthropics/financial-services"
-      },
-      {
-        "full_name": "Tencent/WeKnora",
-        "description": "Star Tencent / WeKnora Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-        "language": "Go",
-        "total_stars": 29465,
-        "period_stars": 4522,
-        "forks": 3964,
-        "url": "https://github.com/Tencent/WeKnora"
       },
       {
         "full_name": "sponsors/affaan-m",
         "description": "Sponsor Star affaan-m / ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
         "language": "JavaScript",
         "total_stars": 0,
-        "period_stars": 6695,
+        "period_stars": 6193,
         "forks": 0,
         "url": "https://github.com/sponsors/affaan-m"
-      },
-      {
-        "full_name": "addyosmani/agent-skills",
-        "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
-        "language": "JavaScript",
-        "total_stars": 98751,
-        "period_stars": 3867,
-        "forks": 10372,
-        "url": "https://github.com/addyosmani/agent-skills"
-      },
-      {
-        "full_name": "anthropics/knowledge-work-plugins",
-        "description": "Star anthropics / knowledge-work-plugins Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-        "language": "Python",
-        "total_stars": 25512,
-        "period_stars": 1358,
-        "forks": 3024,
-        "url": "https://github.com/anthropics/knowledge-work-plugins"
-      },
-      {
-        "full_name": "JustVugg/colibri",
-        "description": "Star JustVugg / colibri Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
-        "language": "C",
-        "total_stars": 37391,
-        "period_stars": 2739,
-        "forks": 4045,
-        "url": "https://github.com/JustVugg/colibri"
-      },
-      {
-        "full_name": "TencentCloud/Octop",
-        "description": "Star TencentCloud / Octop A smarter, self-hosted AI assistant — multi-user, multi-agent.",
-        "language": "Python",
-        "total_stars": 4795,
-        "period_stars": 1877,
-        "forks": 567,
-        "url": "https://github.com/TencentCloud/Octop"
-      },
-      {
-        "full_name": "stablyai/orca",
-        "description": "Star stablyai / orca Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-        "language": "TypeScript",
-        "total_stars": 76798,
-        "period_stars": 6435,
-        "forks": 5028,
-        "url": "https://github.com/stablyai/orca"
-      }
-    ],
-    "ai_top10": [
-      {
-        "full_name": "alibaba/open-code-review",
-        "description": "Star alibaba / open-code-review Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
-        "language": "Go",
-        "total_stars": 40325,
-        "period_stars": 9833,
-        "forks": 2900,
-        "url": "https://github.com/alibaba/open-code-review"
-      },
-      {
-        "full_name": "anthropics/claude-code",
-        "description": "Star anthropics / claude-code Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-        "language": "TypeScript",
-        "total_stars": 147843,
-        "period_stars": 2762,
-        "forks": 24249,
-        "url": "https://github.com/anthropics/claude-code"
-      },
-      {
-        "full_name": "anthropics/financial-services",
-        "description": "",
-        "language": "Python",
-        "total_stars": 37065,
-        "period_stars": 1895,
-        "forks": 5388,
-        "url": "https://github.com/anthropics/financial-services"
       },
       {
         "full_name": "Tencent/WeKnora",
         "description": "Star Tencent / WeKnora Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
         "language": "Go",
-        "total_stars": 29465,
-        "period_stars": 4522,
-        "forks": 3964,
+        "total_stars": 29813,
+        "period_stars": 3749,
+        "forks": 4008,
         "url": "https://github.com/Tencent/WeKnora"
-      },
-      {
-        "full_name": "sponsors/affaan-m",
-        "description": "Sponsor Star affaan-m / ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-        "language": "JavaScript",
-        "total_stars": 0,
-        "period_stars": 6695,
-        "forks": 0,
-        "url": "https://github.com/sponsors/affaan-m"
       },
       {
         "full_name": "addyosmani/agent-skills",
         "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
         "language": "JavaScript",
-        "total_stars": 98751,
-        "period_stars": 3867,
-        "forks": 10372,
+        "total_stars": 98930,
+        "period_stars": 3345,
+        "forks": 10389,
         "url": "https://github.com/addyosmani/agent-skills"
       },
       {
         "full_name": "anthropics/knowledge-work-plugins",
         "description": "Star anthropics / knowledge-work-plugins Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
         "language": "Python",
-        "total_stars": 25512,
-        "period_stars": 1358,
-        "forks": 3024,
+        "total_stars": 25569,
+        "period_stars": 1118,
+        "forks": 3027,
         "url": "https://github.com/anthropics/knowledge-work-plugins"
-      },
-      {
-        "full_name": "TencentCloud/Octop",
-        "description": "Star TencentCloud / Octop A smarter, self-hosted AI assistant — multi-user, multi-agent.",
-        "language": "Python",
-        "total_stars": 4795,
-        "period_stars": 1877,
-        "forks": 567,
-        "url": "https://github.com/TencentCloud/Octop"
       },
       {
         "full_name": "stablyai/orca",
         "description": "Star stablyai / orca Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
         "language": "TypeScript",
-        "total_stars": 76798,
-        "period_stars": 6435,
-        "forks": 5028,
+        "total_stars": 77697,
+        "period_stars": 6547,
+        "forks": 5085,
         "url": "https://github.com/stablyai/orca"
+      },
+      {
+        "full_name": "TencentCloud/Octop",
+        "description": "Star TencentCloud / Octop A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+        "language": "Python",
+        "total_stars": 4892,
+        "period_stars": 1608,
+        "forks": 581,
+        "url": "https://github.com/TencentCloud/Octop"
       },
       {
         "full_name": "sponsors/davila7",
         "description": "Sponsor Star davila7 / claude-code-templates CLI tool for configuring and monitoring Claude Code",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 613,
+        "period_stars": 965,
+        "forks": 0,
+        "url": "https://github.com/sponsors/davila7"
+      }
+    ],
+    "ai_top10": [
+      {
+        "full_name": "anthropics/financial-services",
+        "description": "",
+        "language": "Python",
+        "total_stars": 37424,
+        "period_stars": 2382,
+        "forks": 5422,
+        "url": "https://github.com/anthropics/financial-services"
+      },
+      {
+        "full_name": "alibaba/open-code-review",
+        "description": "Star alibaba / open-code-review Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
+        "language": "Go",
+        "total_stars": 40940,
+        "period_stars": 6920,
+        "forks": 2943,
+        "url": "https://github.com/alibaba/open-code-review"
+      },
+      {
+        "full_name": "anthropics/claude-code",
+        "description": "Star anthropics / claude-code Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+        "language": "TypeScript",
+        "total_stars": 147998,
+        "period_stars": 2384,
+        "forks": 24446,
+        "url": "https://github.com/anthropics/claude-code"
+      },
+      {
+        "full_name": "sponsors/affaan-m",
+        "description": "Sponsor Star affaan-m / ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+        "language": "JavaScript",
+        "total_stars": 0,
+        "period_stars": 6193,
+        "forks": 0,
+        "url": "https://github.com/sponsors/affaan-m"
+      },
+      {
+        "full_name": "Tencent/WeKnora",
+        "description": "Star Tencent / WeKnora Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+        "language": "Go",
+        "total_stars": 29813,
+        "period_stars": 3749,
+        "forks": 4008,
+        "url": "https://github.com/Tencent/WeKnora"
+      },
+      {
+        "full_name": "addyosmani/agent-skills",
+        "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
+        "language": "JavaScript",
+        "total_stars": 98930,
+        "period_stars": 3345,
+        "forks": 10389,
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      {
+        "full_name": "anthropics/knowledge-work-plugins",
+        "description": "Star anthropics / knowledge-work-plugins Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+        "language": "Python",
+        "total_stars": 25569,
+        "period_stars": 1118,
+        "forks": 3027,
+        "url": "https://github.com/anthropics/knowledge-work-plugins"
+      },
+      {
+        "full_name": "stablyai/orca",
+        "description": "Star stablyai / orca Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+        "language": "TypeScript",
+        "total_stars": 77697,
+        "period_stars": 6547,
+        "forks": 5085,
+        "url": "https://github.com/stablyai/orca"
+      },
+      {
+        "full_name": "TencentCloud/Octop",
+        "description": "Star TencentCloud / Octop A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+        "language": "Python",
+        "total_stars": 4892,
+        "period_stars": 1608,
+        "forks": 581,
+        "url": "https://github.com/TencentCloud/Octop"
+      },
+      {
+        "full_name": "sponsors/davila7",
+        "description": "Sponsor Star davila7 / claude-code-templates CLI tool for configuring and monitoring Claude Code",
+        "language": "Python",
+        "total_stars": 0,
+        "period_stars": 965,
         "forks": 0,
         "url": "https://github.com/sponsors/davila7"
       }

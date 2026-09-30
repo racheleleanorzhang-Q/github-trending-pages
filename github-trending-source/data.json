@@ -1,125 +1,179 @@
 {
-  "updated_at": "2026-09-29 15:00:56 GMT+8",
-  "updated_ts": 1790665256,
+  "updated_at": "2026-09-30 14:50:43 GMT+8",
+  "updated_ts": 1790751043,
   "daily": {
     "top10": [
       {
         "full_name": "debpalash/VoiceStudio",
         "description": "Star debpalash / VoiceStudio VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.",
         "language": "Python",
-        "total_stars": 45240,
-        "period_stars": 3221,
-        "forks": 5176,
+        "total_stars": 48921,
+        "period_stars": 4758,
+        "forks": 5470,
         "url": "https://github.com/debpalash/VoiceStudio"
       },
       {
-        "full_name": "paperclipai/paperclip",
-        "description": "Star paperclipai / paperclip The open-source app everyone uses to manage agents at work",
-        "language": "TypeScript",
-        "total_stars": 93405,
-        "period_stars": 3197,
-        "forks": 15938,
-        "url": "https://github.com/paperclipai/paperclip"
+        "full_name": "NVIDIA/OpenShell",
+        "description": "Star NVIDIA / OpenShell OpenShell is the safe, private runtime for autonomous AI agents.",
+        "language": "Rust",
+        "total_stars": 10907,
+        "period_stars": 990,
+        "forks": 1440,
+        "url": "https://github.com/NVIDIA/OpenShell"
       },
       {
         "full_name": "vectorize-io/hindsight",
         "description": "Star vectorize-io / hindsight Hindsight: Agent Memory That Learns",
         "language": "Python",
-        "total_stars": 41550,
-        "period_stars": 4561,
-        "forks": 5589,
+        "total_stars": 43191,
+        "period_stars": 2575,
+        "forks": 5810,
         "url": "https://github.com/vectorize-io/hindsight"
       },
       {
-        "full_name": "NawfalMotii79/PLFM_RADAR",
-        "description": "Star NawfalMotii79 / PLFM_RADAR Open-source, low-cost 10.5 GHz PLFM phased array RADAR system",
-        "language": "PLSQL",
-        "total_stars": 25880,
-        "period_stars": 158,
-        "forks": 5895,
-        "url": "https://github.com/NawfalMotii79/PLFM_RADAR"
+        "full_name": "paperclipai/paperclip",
+        "description": "Star paperclipai / paperclip The open-source app everyone uses to manage agents at work",
+        "language": "TypeScript",
+        "total_stars": 94755,
+        "period_stars": 2458,
+        "forks": 16088,
+        "url": "https://github.com/paperclipai/paperclip"
+      },
+      {
+        "full_name": "t8y2/dbx",
+        "description": "Star t8y2 / dbx 25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
+        "language": "Rust",
+        "total_stars": 22462,
+        "period_stars": 232,
+        "forks": 2105,
+        "url": "https://github.com/t8y2/dbx"
+      },
+      {
+        "full_name": "mvschwarz/openrig",
+        "description": "Star mvschwarz / openrig Multi-agent harness that runs Claude Code and Codex together as one system",
+        "language": "TypeScript",
+        "total_stars": 2571,
+        "period_stars": 737,
+        "forks": 181,
+        "url": "https://github.com/mvschwarz/openrig"
+      },
+      {
+        "full_name": "oblien/openship",
+        "description": "Star oblien / openship Self-hosted deployment platform",
+        "language": "TypeScript",
+        "total_stars": 14017,
+        "period_stars": 437,
+        "forks": 1251,
+        "url": "https://github.com/oblien/openship"
+      },
+      {
+        "full_name": "averygan/reclip",
+        "description": "Star averygan / reclip Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.",
+        "language": "HTML",
+        "total_stars": 10336,
+        "period_stars": 113,
+        "forks": 1548,
+        "url": "https://github.com/averygan/reclip"
       },
       {
         "full_name": "cs341-illinois/coursebook",
         "description": "Star cs341-illinois / coursebook Open Source Introductory Systems Programming Textbook for the University of Illinois",
         "language": "TeX",
-        "total_stars": 2646,
-        "period_stars": 195,
-        "forks": 245,
+        "total_stars": 3209,
+        "period_stars": 572,
+        "forks": 278,
         "url": "https://github.com/cs341-illinois/coursebook"
       },
       {
-        "full_name": "byoungd/up",
-        "description": "Star byoungd / up An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语",
-        "language": "JavaScript",
-        "total_stars": 65050,
-        "period_stars": 327,
-        "forks": 6542,
-        "url": "https://github.com/byoungd/up"
-      },
-      {
-        "full_name": "mvschwarz/openrig",
-        "description": "Star mvschwarz / openrig Multi-agent harness that runs Claude Code and Codex together as one system",
-        "language": "TypeScript",
-        "total_stars": 1923,
-        "period_stars": 734,
-        "forks": 147,
-        "url": "https://github.com/mvschwarz/openrig"
-      },
-      {
-        "full_name": "dream-num/univer",
-        "description": "Star dream-num / univer The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
-        "language": "TypeScript",
-        "total_stars": 21455,
-        "period_stars": 1099,
-        "forks": 1813,
-        "url": "https://github.com/dream-num/univer"
+        "full_name": "sponsors/rohitg00",
+        "description": "Sponsor Star rohitg00 / ai-engineering-from-scratch Learn it. Build it. Ship it for others.",
+        "language": "Python",
+        "total_stars": 0,
+        "period_stars": 786,
+        "forks": 0,
+        "url": "https://github.com/sponsors/rohitg00"
       }
     ],
     "ai_top10": [
       {
-        "full_name": "paperclipai/paperclip",
-        "description": "Star paperclipai / paperclip The open-source app everyone uses to manage agents at work",
-        "language": "TypeScript",
-        "total_stars": 93405,
-        "period_stars": 3197,
-        "forks": 15938,
-        "url": "https://github.com/paperclipai/paperclip"
+        "full_name": "NVIDIA/OpenShell",
+        "description": "Star NVIDIA / OpenShell OpenShell is the safe, private runtime for autonomous AI agents.",
+        "language": "Rust",
+        "total_stars": 10907,
+        "period_stars": 990,
+        "forks": 1440,
+        "url": "https://github.com/NVIDIA/OpenShell"
       },
       {
         "full_name": "vectorize-io/hindsight",
         "description": "Star vectorize-io / hindsight Hindsight: Agent Memory That Learns",
         "language": "Python",
-        "total_stars": 41550,
-        "period_stars": 4561,
-        "forks": 5589,
+        "total_stars": 43191,
+        "period_stars": 2575,
+        "forks": 5810,
         "url": "https://github.com/vectorize-io/hindsight"
       },
       {
-        "full_name": "byoungd/up",
-        "description": "Star byoungd / up An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语",
-        "language": "JavaScript",
-        "total_stars": 65050,
-        "period_stars": 327,
-        "forks": 6542,
-        "url": "https://github.com/byoungd/up"
+        "full_name": "paperclipai/paperclip",
+        "description": "Star paperclipai / paperclip The open-source app everyone uses to manage agents at work",
+        "language": "TypeScript",
+        "total_stars": 94755,
+        "period_stars": 2458,
+        "forks": 16088,
+        "url": "https://github.com/paperclipai/paperclip"
+      },
+      {
+        "full_name": "t8y2/dbx",
+        "description": "Star t8y2 / dbx 25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
+        "language": "Rust",
+        "total_stars": 22462,
+        "period_stars": 232,
+        "forks": 2105,
+        "url": "https://github.com/t8y2/dbx"
       },
       {
         "full_name": "mvschwarz/openrig",
         "description": "Star mvschwarz / openrig Multi-agent harness that runs Claude Code and Codex together as one system",
         "language": "TypeScript",
-        "total_stars": 1923,
-        "period_stars": 734,
-        "forks": 147,
+        "total_stars": 2571,
+        "period_stars": 737,
+        "forks": 181,
         "url": "https://github.com/mvschwarz/openrig"
+      },
+      {
+        "full_name": "sponsors/rohitg00",
+        "description": "Sponsor Star rohitg00 / ai-engineering-from-scratch Learn it. Build it. Ship it for others.",
+        "language": "Python",
+        "total_stars": 0,
+        "period_stars": 786,
+        "forks": 0,
+        "url": "https://github.com/sponsors/rohitg00"
+      },
+      {
+        "full_name": "sponsors/VectifyAI",
+        "description": "Sponsor Star VectifyAI / PageIndex 📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+        "language": "Python",
+        "total_stars": 0,
+        "period_stars": 835,
+        "forks": 0,
+        "url": "https://github.com/sponsors/VectifyAI"
+      },
+      {
+        "full_name": "willfaust/Madeira",
+        "description": "Star willfaust / Madeira Run x86-64 Windows PC games on jailed iOS via FEX-Emu + Wine + DXMT",
+        "language": "C",
+        "total_stars": 1144,
+        "period_stars": 81,
+        "forks": 192,
+        "url": "https://github.com/willfaust/Madeira"
       },
       {
         "full_name": "dream-num/univer",
         "description": "Star dream-num / univer The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
         "language": "TypeScript",
-        "total_stars": 21455,
-        "period_stars": 1099,
-        "forks": 1813,
+        "total_stars": 21990,
+        "period_stars": 696,
+        "forks": 1859,
         "url": "https://github.com/dream-num/univer"
       }
     ]
@@ -127,186 +181,186 @@
   "weekly": {
     "top10": [
       {
-        "full_name": "anthropics/financial-services",
-        "description": "",
-        "language": "Python",
-        "total_stars": 38127,
-        "period_stars": 2381,
-        "forks": 5490,
-        "url": "https://github.com/anthropics/financial-services"
-      },
-      {
         "full_name": "paperclipai/paperclip",
         "description": "Star paperclipai / paperclip The open-source app everyone uses to manage agents at work",
         "language": "TypeScript",
-        "total_stars": 93405,
-        "period_stars": 10518,
-        "forks": 15938,
+        "total_stars": 94755,
+        "period_stars": 12941,
+        "forks": 16088,
         "url": "https://github.com/paperclipai/paperclip"
+      },
+      {
+        "full_name": "anthropics/financial-services",
+        "description": "",
+        "language": "Python",
+        "total_stars": 38283,
+        "period_stars": 2114,
+        "forks": 5511,
+        "url": "https://github.com/anthropics/financial-services"
       },
       {
         "full_name": "vectorize-io/hindsight",
         "description": "Star vectorize-io / hindsight Hindsight: Agent Memory That Learns",
         "language": "Python",
-        "total_stars": 41550,
-        "period_stars": 15537,
-        "forks": 5589,
+        "total_stars": 43191,
+        "period_stars": 17365,
+        "forks": 5810,
         "url": "https://github.com/vectorize-io/hindsight"
       },
       {
-        "full_name": "cloudflare/security-audit-skill",
-        "description": "Star cloudflare / security-audit-skill A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-        "language": "JavaScript",
-        "total_stars": 22873,
-        "period_stars": 3962,
-        "forks": 1335,
-        "url": "https://github.com/cloudflare/security-audit-skill"
-      },
-      {
-        "full_name": "sponsors/davila7",
-        "description": "Sponsor Star davila7 / claude-code-templates CLI tool for configuring and monitoring Claude Code",
+        "full_name": "debpalash/VoiceStudio",
+        "description": "Star debpalash / VoiceStudio VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.",
         "language": "Python",
-        "total_stars": 0,
-        "period_stars": 1200,
-        "forks": 0,
-        "url": "https://github.com/sponsors/davila7"
-      },
-      {
-        "full_name": "Tencent/WeKnora",
-        "description": "Star Tencent / WeKnora Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-        "language": "Go",
-        "total_stars": 31073,
-        "period_stars": 2509,
-        "forks": 4151,
-        "url": "https://github.com/Tencent/WeKnora"
-      },
-      {
-        "full_name": "vercel/next.js",
-        "description": "Star vercel / next.js The React Framework",
-        "language": "JavaScript",
-        "total_stars": 142877,
-        "period_stars": 544,
-        "forks": 33434,
-        "url": "https://github.com/vercel/next.js"
-      },
-      {
-        "full_name": "stablyai/orca",
-        "description": "Star stablyai / orca Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-        "language": "TypeScript",
-        "total_stars": 80983,
-        "period_stars": 6151,
-        "forks": 5269,
-        "url": "https://github.com/stablyai/orca"
-      },
-      {
-        "full_name": "HKUDS/CLI-Anything",
-        "description": "Star HKUDS / CLI-Anything \"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-        "language": "Python",
-        "total_stars": 50928,
-        "period_stars": 1227,
-        "forks": 4649,
-        "url": "https://github.com/HKUDS/CLI-Anything"
-      },
-      {
-        "full_name": "pytorch/pytorch",
-        "description": "Star pytorch / pytorch Tensors and Dynamic neural networks in Python with strong GPU acceleration",
-        "language": "Python",
-        "total_stars": 103485,
-        "period_stars": 340,
-        "forks": 30904,
-        "url": "https://github.com/pytorch/pytorch"
-      }
-    ],
-    "ai_top10": [
-      {
-        "full_name": "anthropics/financial-services",
-        "description": "",
-        "language": "Python",
-        "total_stars": 38127,
-        "period_stars": 2381,
-        "forks": 5490,
-        "url": "https://github.com/anthropics/financial-services"
-      },
-      {
-        "full_name": "paperclipai/paperclip",
-        "description": "Star paperclipai / paperclip The open-source app everyone uses to manage agents at work",
-        "language": "TypeScript",
-        "total_stars": 93405,
-        "period_stars": 10518,
-        "forks": 15938,
-        "url": "https://github.com/paperclipai/paperclip"
-      },
-      {
-        "full_name": "vectorize-io/hindsight",
-        "description": "Star vectorize-io / hindsight Hindsight: Agent Memory That Learns",
-        "language": "Python",
-        "total_stars": 41550,
-        "period_stars": 15537,
-        "forks": 5589,
-        "url": "https://github.com/vectorize-io/hindsight"
-      },
-      {
-        "full_name": "cloudflare/security-audit-skill",
-        "description": "Star cloudflare / security-audit-skill A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-        "language": "JavaScript",
-        "total_stars": 22873,
-        "period_stars": 3962,
-        "forks": 1335,
-        "url": "https://github.com/cloudflare/security-audit-skill"
-      },
-      {
-        "full_name": "sponsors/davila7",
-        "description": "Sponsor Star davila7 / claude-code-templates CLI tool for configuring and monitoring Claude Code",
-        "language": "Python",
-        "total_stars": 0,
-        "period_stars": 1200,
-        "forks": 0,
-        "url": "https://github.com/sponsors/davila7"
-      },
-      {
-        "full_name": "Tencent/WeKnora",
-        "description": "Star Tencent / WeKnora Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-        "language": "Go",
-        "total_stars": 31073,
-        "period_stars": 2509,
-        "forks": 4151,
-        "url": "https://github.com/Tencent/WeKnora"
-      },
-      {
-        "full_name": "stablyai/orca",
-        "description": "Star stablyai / orca Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-        "language": "TypeScript",
-        "total_stars": 80983,
-        "period_stars": 6151,
-        "forks": 5269,
-        "url": "https://github.com/stablyai/orca"
-      },
-      {
-        "full_name": "HKUDS/CLI-Anything",
-        "description": "Star HKUDS / CLI-Anything \"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-        "language": "Python",
-        "total_stars": 50928,
-        "period_stars": 1227,
-        "forks": 4649,
-        "url": "https://github.com/HKUDS/CLI-Anything"
-      },
-      {
-        "full_name": "pytorch/pytorch",
-        "description": "Star pytorch / pytorch Tensors and Dynamic neural networks in Python with strong GPU acceleration",
-        "language": "Python",
-        "total_stars": 103485,
-        "period_stars": 340,
-        "forks": 30904,
-        "url": "https://github.com/pytorch/pytorch"
+        "total_stars": 48921,
+        "period_stars": 12722,
+        "forks": 5470,
+        "url": "https://github.com/debpalash/VoiceStudio"
       },
       {
         "full_name": "sponsors/rohitg00",
         "description": "Sponsor Star rohitg00 / ai-engineering-from-scratch Learn it. Build it. Ship it for others.",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 5004,
+        "period_stars": 5830,
         "forks": 0,
         "url": "https://github.com/sponsors/rohitg00"
+      },
+      {
+        "full_name": "vercel/next.js",
+        "description": "Star vercel / next.js The React Framework",
+        "language": "JavaScript",
+        "total_stars": 142908,
+        "period_stars": 582,
+        "forks": 33548,
+        "url": "https://github.com/vercel/next.js"
+      },
+      {
+        "full_name": "HKUDS/CLI-Anything",
+        "description": "Star HKUDS / CLI-Anything \"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+        "language": "Python",
+        "total_stars": 51047,
+        "period_stars": 1327,
+        "forks": 4658,
+        "url": "https://github.com/HKUDS/CLI-Anything"
+      },
+      {
+        "full_name": "sponsors/davila7",
+        "description": "Sponsor Star davila7 / claude-code-templates CLI tool for configuring and monitoring Claude Code",
+        "language": "Python",
+        "total_stars": 0,
+        "period_stars": 1218,
+        "forks": 0,
+        "url": "https://github.com/sponsors/davila7"
+      },
+      {
+        "full_name": "stablyai/orca",
+        "description": "Star stablyai / orca Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+        "language": "TypeScript",
+        "total_stars": 81856,
+        "period_stars": 6242,
+        "forks": 5310,
+        "url": "https://github.com/stablyai/orca"
+      },
+      {
+        "full_name": "pytorch/pytorch",
+        "description": "Star pytorch / pytorch Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+        "language": "Python",
+        "total_stars": 103538,
+        "period_stars": 399,
+        "forks": 31020,
+        "url": "https://github.com/pytorch/pytorch"
+      }
+    ],
+    "ai_top10": [
+      {
+        "full_name": "paperclipai/paperclip",
+        "description": "Star paperclipai / paperclip The open-source app everyone uses to manage agents at work",
+        "language": "TypeScript",
+        "total_stars": 94755,
+        "period_stars": 12941,
+        "forks": 16088,
+        "url": "https://github.com/paperclipai/paperclip"
+      },
+      {
+        "full_name": "anthropics/financial-services",
+        "description": "",
+        "language": "Python",
+        "total_stars": 38283,
+        "period_stars": 2114,
+        "forks": 5511,
+        "url": "https://github.com/anthropics/financial-services"
+      },
+      {
+        "full_name": "vectorize-io/hindsight",
+        "description": "Star vectorize-io / hindsight Hindsight: Agent Memory That Learns",
+        "language": "Python",
+        "total_stars": 43191,
+        "period_stars": 17365,
+        "forks": 5810,
+        "url": "https://github.com/vectorize-io/hindsight"
+      },
+      {
+        "full_name": "sponsors/rohitg00",
+        "description": "Sponsor Star rohitg00 / ai-engineering-from-scratch Learn it. Build it. Ship it for others.",
+        "language": "Python",
+        "total_stars": 0,
+        "period_stars": 5830,
+        "forks": 0,
+        "url": "https://github.com/sponsors/rohitg00"
+      },
+      {
+        "full_name": "HKUDS/CLI-Anything",
+        "description": "Star HKUDS / CLI-Anything \"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+        "language": "Python",
+        "total_stars": 51047,
+        "period_stars": 1327,
+        "forks": 4658,
+        "url": "https://github.com/HKUDS/CLI-Anything"
+      },
+      {
+        "full_name": "sponsors/davila7",
+        "description": "Sponsor Star davila7 / claude-code-templates CLI tool for configuring and monitoring Claude Code",
+        "language": "Python",
+        "total_stars": 0,
+        "period_stars": 1218,
+        "forks": 0,
+        "url": "https://github.com/sponsors/davila7"
+      },
+      {
+        "full_name": "stablyai/orca",
+        "description": "Star stablyai / orca Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+        "language": "TypeScript",
+        "total_stars": 81856,
+        "period_stars": 6242,
+        "forks": 5310,
+        "url": "https://github.com/stablyai/orca"
+      },
+      {
+        "full_name": "pytorch/pytorch",
+        "description": "Star pytorch / pytorch Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+        "language": "Python",
+        "total_stars": 103538,
+        "period_stars": 399,
+        "forks": 31020,
+        "url": "https://github.com/pytorch/pytorch"
+      },
+      {
+        "full_name": "Tencent/WeKnora",
+        "description": "Star Tencent / WeKnora Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+        "language": "Go",
+        "total_stars": 31344,
+        "period_stars": 2397,
+        "forks": 4189,
+        "url": "https://github.com/Tencent/WeKnora"
+      },
+      {
+        "full_name": "cloudflare/security-audit-skill",
+        "description": "Star cloudflare / security-audit-skill A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+        "language": "JavaScript",
+        "total_stars": 23265,
+        "period_stars": 3311,
+        "forks": 1360,
+        "url": "https://github.com/cloudflare/security-audit-skill"
       }
     ]
   }

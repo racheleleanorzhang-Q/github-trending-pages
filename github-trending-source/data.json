@@ -1,41 +1,14 @@
 {
-  "updated_at": "2026-10-03 14:37:30 GMT+8",
-  "updated_ts": 1791009450,
+  "updated_at": "2026-10-04 15:01:06 GMT+8",
+  "updated_ts": 1791097266,
   "daily": {
     "top10": [
-      {
-        "full_name": "Panniantong/Agent-Reach",
-        "description": "Star Panniantong / Agent-Reach Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-        "language": "Python",
-        "total_stars": 88994,
-        "period_stars": 696,
-        "forks": 7837,
-        "url": "https://github.com/Panniantong/Agent-Reach"
-      },
-      {
-        "full_name": "sponsors/JuliusBrussee",
-        "description": "Sponsor Star JuliusBrussee / caveman 🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
-        "language": "Go",
-        "total_stars": 0,
-        "period_stars": 209,
-        "forks": 0,
-        "url": "https://github.com/sponsors/JuliusBrussee"
-      },
-      {
-        "full_name": "sponsors/obra",
-        "description": "Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works.",
-        "language": "Shell",
-        "total_stars": 0,
-        "period_stars": 556,
-        "forks": 0,
-        "url": "https://github.com/sponsors/obra"
-      },
       {
         "full_name": "sponsors/DietrichGebert",
         "description": "Sponsor Star DietrichGebert / ponytail Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
         "language": "JavaScript",
         "total_stars": 0,
-        "period_stars": 1435,
+        "period_stars": 1281,
         "forks": 0,
         "url": "https://github.com/sponsors/DietrichGebert"
       },
@@ -43,91 +16,91 @@
         "full_name": "pbakaus/impeccable",
         "description": "Star pbakaus / impeccable The design language that makes your AI harness better at design.",
         "language": "JavaScript",
-        "total_stars": 74486,
-        "period_stars": 722,
-        "forks": 4490,
+        "total_stars": 75557,
+        "period_stars": 699,
+        "forks": 4528,
         "url": "https://github.com/pbakaus/impeccable"
       },
       {
-        "full_name": "sponsors/mattpocock",
-        "description": "Sponsor Star mattpocock / skills Skills for Real Engineers. Straight from my .agents directory.",
-        "language": "Shell",
-        "total_stars": 0,
-        "period_stars": 955,
-        "forks": 0,
-        "url": "https://github.com/sponsors/mattpocock"
-      },
-      {
-        "full_name": "NVIDIA/OpenShell",
-        "description": "Star NVIDIA / OpenShell OpenShell is the safe, private runtime for autonomous AI agents.",
-        "language": "Rust",
-        "total_stars": 14514,
-        "period_stars": 594,
-        "forks": 1666,
-        "url": "https://github.com/NVIDIA/OpenShell"
-      },
-      {
-        "full_name": "sponsors/coreyhaines31",
-        "description": "Sponsor Star coreyhaines31 / marketingskills Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+        "full_name": "sponsors/affaan-m",
+        "description": "Sponsor Star affaan-m / ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
         "language": "JavaScript",
         "total_stars": 0,
-        "period_stars": 140,
+        "period_stars": 897,
         "forks": 0,
-        "url": "https://github.com/sponsors/coreyhaines31"
+        "url": "https://github.com/sponsors/affaan-m"
       },
       {
-        "full_name": "heygen-com/hyperframes",
-        "description": "Star heygen-com / hyperframes Write HTML. Render video. Built for agents.",
+        "full_name": "Effect-TS/effect",
+        "description": "Star Effect-TS / effect Build production-ready applications in TypeScript",
         "language": "TypeScript",
-        "total_stars": 56000,
-        "period_stars": 580,
-        "forks": 5041,
-        "url": "https://github.com/heygen-com/hyperframes"
+        "total_stars": 16882,
+        "period_stars": 302,
+        "forks": 816,
+        "url": "https://github.com/Effect-TS/effect"
       },
       {
-        "full_name": "sponsors/mksglu",
-        "description": "Sponsor Star mksglu / context-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+        "full_name": "sponsors/JuliusBrussee",
+        "description": "Sponsor Star JuliusBrussee / caveman 🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+        "language": "Go",
+        "total_stars": 0,
+        "period_stars": 507,
+        "forks": 0,
+        "url": "https://github.com/sponsors/JuliusBrussee"
+      },
+      {
+        "full_name": "Panniantong/Agent-Reach",
+        "description": "Star Panniantong / Agent-Reach Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+        "language": "Python",
+        "total_stars": 90054,
+        "period_stars": 1696,
+        "forks": 7923,
+        "url": "https://github.com/Panniantong/Agent-Reach"
+      },
+      {
+        "full_name": "pingdotgg/t3code",
+        "description": "",
+        "language": "TypeScript",
+        "total_stars": 24816,
+        "period_stars": 252,
+        "forks": 6459,
+        "url": "https://github.com/pingdotgg/t3code"
+      },
+      {
+        "full_name": "sponsors/thedotmack",
+        "description": "Sponsor Star thedotmack / claude-mem Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
         "language": "TypeScript",
         "total_stars": 0,
-        "period_stars": 282,
+        "period_stars": 79,
         "forks": 0,
-        "url": "https://github.com/sponsors/mksglu"
+        "url": "https://github.com/sponsors/thedotmack"
+      },
+      {
+        "full_name": "cloudflare/cloudflare-os",
+        "description": "Star cloudflare / cloudflare-os Agent workspace built on Cloudflare Workers for creating documents, building apps, and running agents with your company’s context and systems.",
+        "language": "TypeScript",
+        "total_stars": 10648,
+        "period_stars": 85,
+        "forks": 1287,
+        "url": "https://github.com/cloudflare/cloudflare-os"
+      },
+      {
+        "full_name": "addyosmani/agent-skills",
+        "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
+        "language": "JavaScript",
+        "total_stars": 100920,
+        "period_stars": 252,
+        "forks": 10603,
+        "url": "https://github.com/addyosmani/agent-skills"
       }
     ],
     "ai_top10": [
       {
-        "full_name": "Panniantong/Agent-Reach",
-        "description": "Star Panniantong / Agent-Reach Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-        "language": "Python",
-        "total_stars": 88994,
-        "period_stars": 696,
-        "forks": 7837,
-        "url": "https://github.com/Panniantong/Agent-Reach"
-      },
-      {
-        "full_name": "sponsors/JuliusBrussee",
-        "description": "Sponsor Star JuliusBrussee / caveman 🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
-        "language": "Go",
-        "total_stars": 0,
-        "period_stars": 209,
-        "forks": 0,
-        "url": "https://github.com/sponsors/JuliusBrussee"
-      },
-      {
-        "full_name": "sponsors/obra",
-        "description": "Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works.",
-        "language": "Shell",
-        "total_stars": 0,
-        "period_stars": 556,
-        "forks": 0,
-        "url": "https://github.com/sponsors/obra"
-      },
-      {
         "full_name": "sponsors/DietrichGebert",
         "description": "Sponsor Star DietrichGebert / ponytail Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
         "language": "JavaScript",
         "total_stars": 0,
-        "period_stars": 1435,
+        "period_stars": 1281,
         "forks": 0,
         "url": "https://github.com/sponsors/DietrichGebert"
       },
@@ -135,55 +108,82 @@
         "full_name": "pbakaus/impeccable",
         "description": "Star pbakaus / impeccable The design language that makes your AI harness better at design.",
         "language": "JavaScript",
-        "total_stars": 74486,
-        "period_stars": 722,
-        "forks": 4490,
+        "total_stars": 75557,
+        "period_stars": 699,
+        "forks": 4528,
         "url": "https://github.com/pbakaus/impeccable"
+      },
+      {
+        "full_name": "sponsors/affaan-m",
+        "description": "Sponsor Star affaan-m / ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+        "language": "JavaScript",
+        "total_stars": 0,
+        "period_stars": 897,
+        "forks": 0,
+        "url": "https://github.com/sponsors/affaan-m"
+      },
+      {
+        "full_name": "sponsors/JuliusBrussee",
+        "description": "Sponsor Star JuliusBrussee / caveman 🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+        "language": "Go",
+        "total_stars": 0,
+        "period_stars": 507,
+        "forks": 0,
+        "url": "https://github.com/sponsors/JuliusBrussee"
+      },
+      {
+        "full_name": "Panniantong/Agent-Reach",
+        "description": "Star Panniantong / Agent-Reach Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+        "language": "Python",
+        "total_stars": 90054,
+        "period_stars": 1696,
+        "forks": 7923,
+        "url": "https://github.com/Panniantong/Agent-Reach"
+      },
+      {
+        "full_name": "sponsors/thedotmack",
+        "description": "Sponsor Star thedotmack / claude-mem Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+        "language": "TypeScript",
+        "total_stars": 0,
+        "period_stars": 79,
+        "forks": 0,
+        "url": "https://github.com/sponsors/thedotmack"
+      },
+      {
+        "full_name": "cloudflare/cloudflare-os",
+        "description": "Star cloudflare / cloudflare-os Agent workspace built on Cloudflare Workers for creating documents, building apps, and running agents with your company’s context and systems.",
+        "language": "TypeScript",
+        "total_stars": 10648,
+        "period_stars": 85,
+        "forks": 1287,
+        "url": "https://github.com/cloudflare/cloudflare-os"
+      },
+      {
+        "full_name": "addyosmani/agent-skills",
+        "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
+        "language": "JavaScript",
+        "total_stars": 100920,
+        "period_stars": 252,
+        "forks": 10603,
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      {
+        "full_name": "sponsors/obra",
+        "description": "Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works.",
+        "language": "Shell",
+        "total_stars": 0,
+        "period_stars": 577,
+        "forks": 0,
+        "url": "https://github.com/sponsors/obra"
       },
       {
         "full_name": "sponsors/mattpocock",
         "description": "Sponsor Star mattpocock / skills Skills for Real Engineers. Straight from my .agents directory.",
         "language": "Shell",
         "total_stars": 0,
-        "period_stars": 955,
+        "period_stars": 751,
         "forks": 0,
         "url": "https://github.com/sponsors/mattpocock"
-      },
-      {
-        "full_name": "NVIDIA/OpenShell",
-        "description": "Star NVIDIA / OpenShell OpenShell is the safe, private runtime for autonomous AI agents.",
-        "language": "Rust",
-        "total_stars": 14514,
-        "period_stars": 594,
-        "forks": 1666,
-        "url": "https://github.com/NVIDIA/OpenShell"
-      },
-      {
-        "full_name": "sponsors/coreyhaines31",
-        "description": "Sponsor Star coreyhaines31 / marketingskills Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
-        "language": "JavaScript",
-        "total_stars": 0,
-        "period_stars": 140,
-        "forks": 0,
-        "url": "https://github.com/sponsors/coreyhaines31"
-      },
-      {
-        "full_name": "heygen-com/hyperframes",
-        "description": "Star heygen-com / hyperframes Write HTML. Render video. Built for agents.",
-        "language": "TypeScript",
-        "total_stars": 56000,
-        "period_stars": 580,
-        "forks": 5041,
-        "url": "https://github.com/heygen-com/hyperframes"
-      },
-      {
-        "full_name": "sponsors/mksglu",
-        "description": "Sponsor Star mksglu / context-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-        "language": "TypeScript",
-        "total_stars": 0,
-        "period_stars": 282,
-        "forks": 0,
-        "url": "https://github.com/sponsors/mksglu"
       }
     ]
   },
@@ -193,91 +193,91 @@
         "full_name": "paperclipai/paperclip",
         "description": "Star paperclipai / paperclip The open-source app everyone uses to manage agents at work",
         "language": "TypeScript",
-        "total_stars": 96407,
-        "period_stars": 12825,
-        "forks": 16325,
+        "total_stars": 96848,
+        "period_stars": 10722,
+        "forks": 16393,
         "url": "https://github.com/paperclipai/paperclip"
       },
       {
         "full_name": "vectorize-io/hindsight",
         "description": "Star vectorize-io / hindsight Hindsight: Agent Memory That Learns",
         "language": "Python",
-        "total_stars": 44805,
-        "period_stars": 16183,
-        "forks": 5872,
+        "total_stars": 45200,
+        "period_stars": 14507,
+        "forks": 5899,
         "url": "https://github.com/vectorize-io/hindsight"
       },
       {
         "full_name": "debpalash/VoiceStudio",
         "description": "Star debpalash / VoiceStudio VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.",
         "language": "Python",
-        "total_stars": 52066,
-        "period_stars": 16475,
-        "forks": 5800,
+        "total_stars": 52751,
+        "period_stars": 16775,
+        "forks": 5877,
         "url": "https://github.com/debpalash/VoiceStudio"
+      },
+      {
+        "full_name": "pbakaus/impeccable",
+        "description": "Star pbakaus / impeccable The design language that makes your AI harness better at design.",
+        "language": "JavaScript",
+        "total_stars": 75558,
+        "period_stars": 3311,
+        "forks": 4528,
+        "url": "https://github.com/pbakaus/impeccable"
       },
       {
         "full_name": "sponsors/rohitg00",
         "description": "Sponsor Star rohitg00 / ai-engineering-from-scratch Learn it. Build it. Ship it for others.",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 5600,
+        "period_stars": 5059,
         "forks": 0,
         "url": "https://github.com/sponsors/rohitg00"
-      },
-      {
-        "full_name": "flutter/flutter",
-        "description": "Star flutter / flutter Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
-        "language": "Dart",
-        "total_stars": 179270,
-        "period_stars": 228,
-        "forks": 32866,
-        "url": "https://github.com/flutter/flutter"
-      },
-      {
-        "full_name": "pbakaus/impeccable",
-        "description": "Star pbakaus / impeccable The design language that makes your AI harness better at design.",
-        "language": "JavaScript",
-        "total_stars": 74486,
-        "period_stars": 3124,
-        "forks": 4490,
-        "url": "https://github.com/pbakaus/impeccable"
-      },
-      {
-        "full_name": "vercel/next.js",
-        "description": "Star vercel / next.js The React Framework",
-        "language": "JavaScript",
-        "total_stars": 143024,
-        "period_stars": 658,
-        "forks": 33713,
-        "url": "https://github.com/vercel/next.js"
-      },
-      {
-        "full_name": "alirezarezvani/claude-skills",
-        "description": "Star alirezarezvani / claude-skills 380 Claude Code skills &amp; agent skills &amp; plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial &amp; finance, and your daily productivity skills.",
-        "language": "Python",
-        "total_stars": 27359,
-        "period_stars": 832,
-        "forks": 3856,
-        "url": "https://github.com/alirezarezvani/claude-skills"
       },
       {
         "full_name": "heygen-com/hyperframes",
         "description": "Star heygen-com / hyperframes Write HTML. Render video. Built for agents.",
         "language": "TypeScript",
-        "total_stars": 56000,
-        "period_stars": 2661,
-        "forks": 5041,
+        "total_stars": 56383,
+        "period_stars": 3011,
+        "forks": 5067,
         "url": "https://github.com/heygen-com/hyperframes"
       },
       {
-        "full_name": "TencentCloud/Octop",
-        "description": "Star TencentCloud / Octop A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+        "full_name": "vercel/next.js",
+        "description": "Star vercel / next.js The React Framework",
+        "language": "JavaScript",
+        "total_stars": 143106,
+        "period_stars": 678,
+        "forks": 33829,
+        "url": "https://github.com/vercel/next.js"
+      },
+      {
+        "full_name": "Effect-TS/effect",
+        "description": "Star Effect-TS / effect Build production-ready applications in TypeScript",
+        "language": "TypeScript",
+        "total_stars": 16882,
+        "period_stars": 466,
+        "forks": 816,
+        "url": "https://github.com/Effect-TS/effect"
+      },
+      {
+        "full_name": "alirezarezvani/claude-skills",
+        "description": "Star alirezarezvani / claude-skills 380 Claude Code skills &amp; agent skills &amp; plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial &amp; finance, and your daily productivity skills.",
         "language": "Python",
-        "total_stars": 6439,
-        "period_stars": 1425,
-        "forks": 794,
-        "url": "https://github.com/TencentCloud/Octop"
+        "total_stars": 27522,
+        "period_stars": 948,
+        "forks": 3876,
+        "url": "https://github.com/alirezarezvani/claude-skills"
+      },
+      {
+        "full_name": "flutter/flutter",
+        "description": "Star flutter / flutter Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+        "language": "Dart",
+        "total_stars": 179321,
+        "period_stars": 266,
+        "forks": 32969,
+        "url": "https://github.com/flutter/flutter"
       }
     ],
     "ai_top10": [
@@ -285,91 +285,91 @@
         "full_name": "paperclipai/paperclip",
         "description": "Star paperclipai / paperclip The open-source app everyone uses to manage agents at work",
         "language": "TypeScript",
-        "total_stars": 96407,
-        "period_stars": 12825,
-        "forks": 16325,
+        "total_stars": 96848,
+        "period_stars": 10722,
+        "forks": 16393,
         "url": "https://github.com/paperclipai/paperclip"
       },
       {
         "full_name": "vectorize-io/hindsight",
         "description": "Star vectorize-io / hindsight Hindsight: Agent Memory That Learns",
         "language": "Python",
-        "total_stars": 44805,
-        "period_stars": 16183,
-        "forks": 5872,
+        "total_stars": 45200,
+        "period_stars": 14507,
+        "forks": 5899,
         "url": "https://github.com/vectorize-io/hindsight"
+      },
+      {
+        "full_name": "pbakaus/impeccable",
+        "description": "Star pbakaus / impeccable The design language that makes your AI harness better at design.",
+        "language": "JavaScript",
+        "total_stars": 75558,
+        "period_stars": 3311,
+        "forks": 4528,
+        "url": "https://github.com/pbakaus/impeccable"
       },
       {
         "full_name": "sponsors/rohitg00",
         "description": "Sponsor Star rohitg00 / ai-engineering-from-scratch Learn it. Build it. Ship it for others.",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 5600,
+        "period_stars": 5059,
         "forks": 0,
         "url": "https://github.com/sponsors/rohitg00"
-      },
-      {
-        "full_name": "pbakaus/impeccable",
-        "description": "Star pbakaus / impeccable The design language that makes your AI harness better at design.",
-        "language": "JavaScript",
-        "total_stars": 74486,
-        "period_stars": 3124,
-        "forks": 4490,
-        "url": "https://github.com/pbakaus/impeccable"
-      },
-      {
-        "full_name": "alirezarezvani/claude-skills",
-        "description": "Star alirezarezvani / claude-skills 380 Claude Code skills &amp; agent skills &amp; plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial &amp; finance, and your daily productivity skills.",
-        "language": "Python",
-        "total_stars": 27359,
-        "period_stars": 832,
-        "forks": 3856,
-        "url": "https://github.com/alirezarezvani/claude-skills"
       },
       {
         "full_name": "heygen-com/hyperframes",
         "description": "Star heygen-com / hyperframes Write HTML. Render video. Built for agents.",
         "language": "TypeScript",
-        "total_stars": 56000,
-        "period_stars": 2661,
-        "forks": 5041,
+        "total_stars": 56383,
+        "period_stars": 3011,
+        "forks": 5067,
         "url": "https://github.com/heygen-com/hyperframes"
+      },
+      {
+        "full_name": "alirezarezvani/claude-skills",
+        "description": "Star alirezarezvani / claude-skills 380 Claude Code skills &amp; agent skills &amp; plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial &amp; finance, and your daily productivity skills.",
+        "language": "Python",
+        "total_stars": 27522,
+        "period_stars": 948,
+        "forks": 3876,
+        "url": "https://github.com/alirezarezvani/claude-skills"
+      },
+      {
+        "full_name": "Panniantong/Agent-Reach",
+        "description": "Star Panniantong / Agent-Reach Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+        "language": "Python",
+        "total_stars": 90055,
+        "period_stars": 3952,
+        "forks": 7922,
+        "url": "https://github.com/Panniantong/Agent-Reach"
       },
       {
         "full_name": "TencentCloud/Octop",
         "description": "Star TencentCloud / Octop A smarter, self-hosted AI assistant — multi-user, multi-agent.",
         "language": "Python",
-        "total_stars": 6439,
-        "period_stars": 1425,
-        "forks": 794,
+        "total_stars": 6627,
+        "period_stars": 1476,
+        "forks": 816,
         "url": "https://github.com/TencentCloud/Octop"
-      },
-      {
-        "full_name": "google/ax",
-        "description": "Star google / ax Google's open agentic orchestration runtime",
-        "language": "Go",
-        "total_stars": 12939,
-        "period_stars": 1783,
-        "forks": 644,
-        "url": "https://github.com/google/ax"
-      },
-      {
-        "full_name": "anthropics/financial-services",
-        "description": "",
-        "language": "Python",
-        "total_stars": 38577,
-        "period_stars": 1073,
-        "forks": 5537,
-        "url": "https://github.com/anthropics/financial-services"
       },
       {
         "full_name": "tile-ai/tilelang",
         "description": "Star tile-ai / tilelang Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels",
         "language": "Python",
-        "total_stars": 8263,
-        "period_stars": 732,
-        "forks": 832,
+        "total_stars": 8302,
+        "period_stars": 800,
+        "forks": 837,
         "url": "https://github.com/tile-ai/tilelang"
+      },
+      {
+        "full_name": "pytorch/pytorch",
+        "description": "Star pytorch / pytorch Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+        "language": "Python",
+        "total_stars": 103711,
+        "period_stars": 346,
+        "forks": 31302,
+        "url": "https://github.com/pytorch/pytorch"
       }
     ]
   }

@@ -1,88 +1,88 @@
 {
-  "updated_at": "2026-10-13 15:48:55 GMT+8",
-  "updated_ts": 1791877735,
+  "updated_at": "2026-10-14 14:13:49 GMT+8",
+  "updated_ts": 1791958429,
   "daily": {
     "top10": [
       {
         "full_name": "morluto/rea",
         "description": "Star morluto / rea Reverse engineer anything with agents, from app behavior down to native binaries.",
         "language": "TypeScript",
-        "total_stars": 176273,
-        "period_stars": 45327,
-        "forks": 42338,
+        "total_stars": 217139,
+        "period_stars": 54679,
+        "forks": 53634,
         "url": "https://github.com/morluto/rea"
       },
       {
         "full_name": "bilawalsidhu/gods-eye-view",
         "description": "Star bilawalsidhu / gods-eye-view A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
         "language": "JavaScript",
-        "total_stars": 54235,
-        "period_stars": 1895,
-        "forks": 10676,
+        "total_stars": 55794,
+        "period_stars": 1961,
+        "forks": 10885,
         "url": "https://github.com/bilawalsidhu/gods-eye-view"
+      },
+      {
+        "full_name": "debpalash/VoiceStudio",
+        "description": "Star debpalash / VoiceStudio VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.",
+        "language": "Python",
+        "total_stars": 64091,
+        "period_stars": 1748,
+        "forks": 7127,
+        "url": "https://github.com/debpalash/VoiceStudio"
       },
       {
         "full_name": "sponsors/mksglu",
         "description": "Sponsor Star mksglu / context-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
         "language": "TypeScript",
         "total_stars": 0,
-        "period_stars": 246,
+        "period_stars": 969,
         "forks": 0,
         "url": "https://github.com/sponsors/mksglu"
-      },
-      {
-        "full_name": "storytold/artcraft",
-        "description": "Star storytold / artcraft ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
-        "language": "Rust",
-        "total_stars": 23260,
-        "period_stars": 4095,
-        "forks": 3706,
-        "url": "https://github.com/storytold/artcraft"
-      },
-      {
-        "full_name": "sponsors/open-webui",
-        "description": "Sponsor Star open-webui / open-webui User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-        "language": "Python",
-        "total_stars": 0,
-        "period_stars": 157,
-        "forks": 0,
-        "url": "https://github.com/sponsors/open-webui"
       },
       {
         "full_name": "sponsors/cathrynlavery",
         "description": "Sponsor Star cathrynlavery / diagram-design Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
         "language": "HTML",
         "total_stars": 0,
-        "period_stars": 2081,
+        "period_stars": 1815,
         "forks": 0,
         "url": "https://github.com/sponsors/cathrynlavery"
+      },
+      {
+        "full_name": "vercel-labs/skills",
+        "description": "Star vercel-labs / skills The open agent skills tool - npx skills",
+        "language": "TypeScript",
+        "total_stars": 34695,
+        "period_stars": 190,
+        "forks": 2959,
+        "url": "https://github.com/vercel-labs/skills"
       },
       {
         "full_name": "sponsors/lyogavin",
         "description": "Sponsor Star lyogavin / airllm AirLLM 2.8T LLM inference with single 4GB GPU",
         "language": "Jupyter Notebook",
         "total_stars": 0,
-        "period_stars": 879,
+        "period_stars": 1001,
         "forks": 0,
         "url": "https://github.com/sponsors/lyogavin"
       },
       {
-        "full_name": "microsoft/BitNet",
-        "description": "Star microsoft / BitNet Official inference framework for 1-bit LLMs",
-        "language": "C++",
-        "total_stars": 41036,
-        "period_stars": 97,
-        "forks": 3819,
-        "url": "https://github.com/microsoft/BitNet"
+        "full_name": "storytold/artcraft",
+        "description": "Star storytold / artcraft ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+        "language": "Rust",
+        "total_stars": 26346,
+        "period_stars": 4081,
+        "forks": 4120,
+        "url": "https://github.com/storytold/artcraft"
       },
       {
-        "full_name": "Alishahryar1/free-claude-code",
-        "description": "Star Alishahryar1 / free-claude-code Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
-        "language": "Python",
-        "total_stars": 59573,
-        "period_stars": 626,
-        "forks": 9360,
-        "url": "https://github.com/Alishahryar1/free-claude-code"
+        "full_name": "xtool-org/xtool",
+        "description": "Star xtool-org / xtool Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
+        "language": "Swift",
+        "total_stars": 9730,
+        "period_stars": 1198,
+        "forks": 410,
+        "url": "https://github.com/xtool-org/xtool"
       }
     ],
     "ai_top10": [
@@ -90,9 +90,9 @@
         "full_name": "morluto/rea",
         "description": "Star morluto / rea Reverse engineer anything with agents, from app behavior down to native binaries.",
         "language": "TypeScript",
-        "total_stars": 176273,
-        "period_stars": 45327,
-        "forks": 42338,
+        "total_stars": 217139,
+        "period_stars": 54679,
+        "forks": 53634,
         "url": "https://github.com/morluto/rea"
       },
       {
@@ -100,54 +100,36 @@
         "description": "Sponsor Star mksglu / context-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
         "language": "TypeScript",
         "total_stars": 0,
-        "period_stars": 246,
+        "period_stars": 969,
         "forks": 0,
         "url": "https://github.com/sponsors/mksglu"
-      },
-      {
-        "full_name": "sponsors/open-webui",
-        "description": "Sponsor Star open-webui / open-webui User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-        "language": "Python",
-        "total_stars": 0,
-        "period_stars": 157,
-        "forks": 0,
-        "url": "https://github.com/sponsors/open-webui"
       },
       {
         "full_name": "sponsors/cathrynlavery",
         "description": "Sponsor Star cathrynlavery / diagram-design Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
         "language": "HTML",
         "total_stars": 0,
-        "period_stars": 2081,
+        "period_stars": 1815,
         "forks": 0,
         "url": "https://github.com/sponsors/cathrynlavery"
+      },
+      {
+        "full_name": "vercel-labs/skills",
+        "description": "Star vercel-labs / skills The open agent skills tool - npx skills",
+        "language": "TypeScript",
+        "total_stars": 34695,
+        "period_stars": 190,
+        "forks": 2959,
+        "url": "https://github.com/vercel-labs/skills"
       },
       {
         "full_name": "sponsors/lyogavin",
         "description": "Sponsor Star lyogavin / airllm AirLLM 2.8T LLM inference with single 4GB GPU",
         "language": "Jupyter Notebook",
         "total_stars": 0,
-        "period_stars": 879,
+        "period_stars": 1001,
         "forks": 0,
         "url": "https://github.com/sponsors/lyogavin"
-      },
-      {
-        "full_name": "microsoft/BitNet",
-        "description": "Star microsoft / BitNet Official inference framework for 1-bit LLMs",
-        "language": "C++",
-        "total_stars": 41036,
-        "period_stars": 97,
-        "forks": 3819,
-        "url": "https://github.com/microsoft/BitNet"
-      },
-      {
-        "full_name": "Alishahryar1/free-claude-code",
-        "description": "Star Alishahryar1 / free-claude-code Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
-        "language": "Python",
-        "total_stars": 59573,
-        "period_stars": 626,
-        "forks": 9360,
-        "url": "https://github.com/Alishahryar1/free-claude-code"
       }
     ]
   },
@@ -157,36 +139,45 @@
         "full_name": "boykopovar/AnyPS5",
         "description": "Star boykopovar / AnyPS5 Tool for automatic PS5 executables porting to Linux and Windows",
         "language": "C++",
-        "total_stars": 33488,
-        "period_stars": 27263,
-        "forks": 2898,
+        "total_stars": 35742,
+        "period_stars": 28663,
+        "forks": 3109,
         "url": "https://github.com/boykopovar/AnyPS5"
-      },
-      {
-        "full_name": "tester-army/e2e",
-        "description": "Star tester-army / e2e Next generation e2e testing framework for web and mobile apps.",
-        "language": "TypeScript",
-        "total_stars": 9754,
-        "period_stars": 5582,
-        "forks": 469,
-        "url": "https://github.com/tester-army/e2e"
       },
       {
         "full_name": "sponsors/mattpocock",
         "description": "Sponsor Star mattpocock / skills Skills for Real Engineers. Straight from my .agents directory.",
         "language": "Shell",
         "total_stars": 0,
-        "period_stars": 11139,
+        "period_stars": 11955,
         "forks": 0,
         "url": "https://github.com/sponsors/mattpocock"
+      },
+      {
+        "full_name": "tester-army/e2e",
+        "description": "Star tester-army / e2e Next generation e2e testing framework for web and mobile apps.",
+        "language": "TypeScript",
+        "total_stars": 10210,
+        "period_stars": 4426,
+        "forks": 492,
+        "url": "https://github.com/tester-army/e2e"
+      },
+      {
+        "full_name": "EpicGames/raddebugger",
+        "description": "Star EpicGames / raddebugger A native, user-mode, multi-process, graphical debugger.",
+        "language": "C",
+        "total_stars": 8494,
+        "period_stars": 857,
+        "forks": 413,
+        "url": "https://github.com/EpicGames/raddebugger"
       },
       {
         "full_name": "heygen-com/hyperframes",
         "description": "Star heygen-com / hyperframes Write HTML. Render video. Built for agents.",
         "language": "TypeScript",
-        "total_stars": 62056,
-        "period_stars": 4482,
-        "forks": 5557,
+        "total_stars": 63022,
+        "period_stars": 4732,
+        "forks": 5656,
         "url": "https://github.com/heygen-com/hyperframes"
       },
       {
@@ -194,54 +185,45 @@
         "description": "Sponsor Star thedotmack / claude-mem Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
         "language": "TypeScript",
         "total_stars": 0,
-        "period_stars": 3762,
+        "period_stars": 3587,
         "forks": 0,
         "url": "https://github.com/sponsors/thedotmack"
-      },
-      {
-        "full_name": "flutter/flutter",
-        "description": "Star flutter / flutter Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
-        "language": "Dart",
-        "total_stars": 180013,
-        "period_stars": 806,
-        "forks": 33859,
-        "url": "https://github.com/flutter/flutter"
       },
       {
         "full_name": "cursor/plugins",
         "description": "Star cursor / plugins Cursor plugin specification and official plugins",
         "language": "TypeScript",
-        "total_stars": 11118,
-        "period_stars": 1144,
-        "forks": 1082,
+        "total_stars": 11255,
+        "period_stars": 1141,
+        "forks": 1095,
         "url": "https://github.com/cursor/plugins"
       },
       {
         "full_name": "earthtojake/text-to-cad",
         "description": "Star earthtojake / text-to-cad Give your agent CAD superpowers.",
         "language": "Python",
-        "total_stars": 19751,
-        "period_stars": 2441,
-        "forks": 1943,
+        "total_stars": 20077,
+        "period_stars": 2173,
+        "forks": 1974,
         "url": "https://github.com/earthtojake/text-to-cad"
       },
       {
-        "full_name": "mvschwarz/openrig",
-        "description": "Star mvschwarz / openrig Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
-        "language": "TypeScript",
-        "total_stars": 7331,
-        "period_stars": 2056,
-        "forks": 554,
-        "url": "https://github.com/mvschwarz/openrig"
+        "full_name": "flutter/flutter",
+        "description": "Star flutter / flutter Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+        "language": "Dart",
+        "total_stars": 180133,
+        "period_stars": 967,
+        "forks": 34050,
+        "url": "https://github.com/flutter/flutter"
       },
       {
-        "full_name": "morluto/rea",
-        "description": "Star morluto / rea Reverse engineer anything with agents, from app behavior down to native binaries.",
-        "language": "TypeScript",
-        "total_stars": 176275,
-        "period_stars": 130471,
-        "forks": 42338,
-        "url": "https://github.com/morluto/rea"
+        "full_name": "sponsors/cathrynlavery",
+        "description": "Sponsor Star cathrynlavery / diagram-design Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+        "language": "HTML",
+        "total_stars": 0,
+        "period_stars": 9867,
+        "forks": 0,
+        "url": "https://github.com/sponsors/cathrynlavery"
       }
     ],
     "ai_top10": [
@@ -250,7 +232,7 @@
         "description": "Sponsor Star mattpocock / skills Skills for Real Engineers. Straight from my .agents directory.",
         "language": "Shell",
         "total_stars": 0,
-        "period_stars": 11139,
+        "period_stars": 11955,
         "forks": 0,
         "url": "https://github.com/sponsors/mattpocock"
       },
@@ -258,9 +240,9 @@
         "full_name": "heygen-com/hyperframes",
         "description": "Star heygen-com / hyperframes Write HTML. Render video. Built for agents.",
         "language": "TypeScript",
-        "total_stars": 62056,
-        "period_stars": 4482,
-        "forks": 5557,
+        "total_stars": 63022,
+        "period_stars": 4732,
+        "forks": 5656,
         "url": "https://github.com/heygen-com/hyperframes"
       },
       {
@@ -268,7 +250,7 @@
         "description": "Sponsor Star thedotmack / claude-mem Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
         "language": "TypeScript",
         "total_stars": 0,
-        "period_stars": 3762,
+        "period_stars": 3587,
         "forks": 0,
         "url": "https://github.com/sponsors/thedotmack"
       },
@@ -276,37 +258,19 @@
         "full_name": "earthtojake/text-to-cad",
         "description": "Star earthtojake / text-to-cad Give your agent CAD superpowers.",
         "language": "Python",
-        "total_stars": 19751,
-        "period_stars": 2441,
-        "forks": 1943,
+        "total_stars": 20077,
+        "period_stars": 2173,
+        "forks": 1974,
         "url": "https://github.com/earthtojake/text-to-cad"
       },
       {
-        "full_name": "mvschwarz/openrig",
-        "description": "Star mvschwarz / openrig Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
-        "language": "TypeScript",
-        "total_stars": 7331,
-        "period_stars": 2056,
-        "forks": 554,
-        "url": "https://github.com/mvschwarz/openrig"
-      },
-      {
-        "full_name": "morluto/rea",
-        "description": "Star morluto / rea Reverse engineer anything with agents, from app behavior down to native binaries.",
-        "language": "TypeScript",
-        "total_stars": 176275,
-        "period_stars": 130471,
-        "forks": 42338,
-        "url": "https://github.com/morluto/rea"
-      },
-      {
-        "full_name": "sponsors/DuarteSantos8",
-        "description": "Sponsor Star DuarteSantos8 / openGym Self-hosted gym &amp; body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.",
-        "language": "JavaScript",
+        "full_name": "sponsors/cathrynlavery",
+        "description": "Sponsor Star cathrynlavery / diagram-design Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+        "language": "HTML",
         "total_stars": 0,
-        "period_stars": 6621,
+        "period_stars": 9867,
         "forks": 0,
-        "url": "https://github.com/sponsors/DuarteSantos8"
+        "url": "https://github.com/sponsors/cathrynlavery"
       }
     ]
   }

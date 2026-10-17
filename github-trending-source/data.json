@@ -1,188 +1,179 @@
 {
-  "updated_at": "2026-10-16 13:56:19 GMT+8",
-  "updated_ts": 1792130179,
+  "updated_at": "2026-10-17 13:41:07 GMT+8",
+  "updated_ts": 1792215667,
   "daily": {
     "top10": [
-      {
-        "full_name": "morluto/rea",
-        "description": "Star morluto / rea Reverse engineer anything with agents, from app behavior down to native binaries.",
-        "language": "TypeScript",
-        "total_stars": 276242,
-        "period_stars": 32314,
-        "forks": 69604,
-        "url": "https://github.com/morluto/rea"
-      },
       {
         "full_name": "anthropics/claude-plugins-official",
         "description": "Star anthropics / claude-plugins-official Official, Anthropic-managed directory of high quality Claude Code Plugins.",
         "language": "Python",
-        "total_stars": 39398,
-        "period_stars": 307,
-        "forks": 4346,
+        "total_stars": 40811,
+        "period_stars": 1552,
+        "forks": 4415,
         "url": "https://github.com/anthropics/claude-plugins-official"
       },
       {
         "full_name": "K-Dense-AI/scientific-agent-skills",
         "description": "Star K-Dense-AI / scientific-agent-skills Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
         "language": "Python",
-        "total_stars": 50750,
-        "period_stars": 1091,
-        "forks": 4509,
+        "total_stars": 51674,
+        "period_stars": 1158,
+        "forks": 4575,
         "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
       },
       {
-        "full_name": "sponsors/JuliusBrussee",
-        "description": "Sponsor Star JuliusBrussee / caveman 🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
-        "language": "Go",
+        "full_name": "sponsors/affaan-m",
+        "description": "Sponsor Star affaan-m / ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+        "language": "JavaScript",
         "total_stars": 0,
-        "period_stars": 433,
+        "period_stars": 1057,
         "forks": 0,
-        "url": "https://github.com/sponsors/JuliusBrussee"
+        "url": "https://github.com/sponsors/affaan-m"
+      },
+      {
+        "full_name": "HKUDS/CLI-Anything",
+        "description": "Star HKUDS / CLI-Anything \"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+        "language": "Python",
+        "total_stars": 53609,
+        "period_stars": 281,
+        "forks": 4865,
+        "url": "https://github.com/HKUDS/CLI-Anything"
+      },
+      {
+        "full_name": "sponsors/mksglu",
+        "description": "Sponsor Star mksglu / context-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+        "language": "TypeScript",
+        "total_stars": 0,
+        "period_stars": 449,
+        "forks": 0,
+        "url": "https://github.com/sponsors/mksglu"
+      },
+      {
+        "full_name": "ruvnet/ruflo",
+        "description": "Star ruvnet / ruflo 🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+        "language": "TypeScript",
+        "total_stars": 75719,
+        "period_stars": 672,
+        "forks": 8971,
+        "url": "https://github.com/ruvnet/ruflo"
+      },
+      {
+        "full_name": "android/skills",
+        "description": "",
+        "language": "Kotlin",
+        "total_stars": 8146,
+        "period_stars": 36,
+        "forks": 540,
+        "url": "https://github.com/android/skills"
+      },
+      {
+        "full_name": "sponsors/obra",
+        "description": "Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works.",
+        "language": "Shell",
+        "total_stars": 0,
+        "period_stars": 973,
+        "forks": 0,
+        "url": "https://github.com/sponsors/obra"
+      },
+      {
+        "full_name": "cursor/plugins",
+        "description": "Star cursor / plugins Cursor plugin specification and official plugins",
+        "language": "TypeScript",
+        "total_stars": 12046,
+        "period_stars": 278,
+        "forks": 1171,
+        "url": "https://github.com/cursor/plugins"
       },
       {
         "full_name": "sponsors/debpalash",
         "description": "Sponsor Star debpalash / VoiceStudio VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 3024,
+        "period_stars": 2301,
         "forks": 0,
         "url": "https://github.com/sponsors/debpalash"
-      },
-      {
-        "full_name": "sponsors/obra",
-        "description": "Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works.",
-        "language": "Shell",
-        "total_stars": 0,
-        "period_stars": 582,
-        "forks": 0,
-        "url": "https://github.com/sponsors/obra"
-      },
-      {
-        "full_name": "ruvnet/ruflo",
-        "description": "Star ruvnet / ruflo 🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-        "language": "TypeScript",
-        "total_stars": 75262,
-        "period_stars": 147,
-        "forks": 8943,
-        "url": "https://github.com/ruvnet/ruflo"
-      },
-      {
-        "full_name": "sponsors/mksglu",
-        "description": "Sponsor Star mksglu / context-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-        "language": "TypeScript",
-        "total_stars": 0,
-        "period_stars": 904,
-        "forks": 0,
-        "url": "https://github.com/sponsors/mksglu"
-      },
-      {
-        "full_name": "NationalSecurityAgency/ghidra",
-        "description": "Star NationalSecurityAgency / ghidra Ghidra is a software reverse engineering (SRE) framework",
-        "language": "Java",
-        "total_stars": 89010,
-        "period_stars": 1369,
-        "forks": 9939,
-        "url": "https://github.com/NationalSecurityAgency/ghidra"
-      },
-      {
-        "full_name": "sponsors/affaan-m",
-        "description": "Sponsor Star affaan-m / ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-        "language": "JavaScript",
-        "total_stars": 0,
-        "period_stars": 1013,
-        "forks": 0,
-        "url": "https://github.com/sponsors/affaan-m"
       }
     ],
     "ai_top10": [
       {
-        "full_name": "morluto/rea",
-        "description": "Star morluto / rea Reverse engineer anything with agents, from app behavior down to native binaries.",
-        "language": "TypeScript",
-        "total_stars": 276242,
-        "period_stars": 32314,
-        "forks": 69604,
-        "url": "https://github.com/morluto/rea"
-      },
-      {
         "full_name": "anthropics/claude-plugins-official",
         "description": "Star anthropics / claude-plugins-official Official, Anthropic-managed directory of high quality Claude Code Plugins.",
         "language": "Python",
-        "total_stars": 39398,
-        "period_stars": 307,
-        "forks": 4346,
+        "total_stars": 40811,
+        "period_stars": 1552,
+        "forks": 4415,
         "url": "https://github.com/anthropics/claude-plugins-official"
       },
       {
         "full_name": "K-Dense-AI/scientific-agent-skills",
         "description": "Star K-Dense-AI / scientific-agent-skills Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
         "language": "Python",
-        "total_stars": 50750,
-        "period_stars": 1091,
-        "forks": 4509,
+        "total_stars": 51674,
+        "period_stars": 1158,
+        "forks": 4575,
         "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
-      },
-      {
-        "full_name": "sponsors/JuliusBrussee",
-        "description": "Sponsor Star JuliusBrussee / caveman 🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
-        "language": "Go",
-        "total_stars": 0,
-        "period_stars": 433,
-        "forks": 0,
-        "url": "https://github.com/sponsors/JuliusBrussee"
-      },
-      {
-        "full_name": "sponsors/obra",
-        "description": "Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works.",
-        "language": "Shell",
-        "total_stars": 0,
-        "period_stars": 582,
-        "forks": 0,
-        "url": "https://github.com/sponsors/obra"
-      },
-      {
-        "full_name": "ruvnet/ruflo",
-        "description": "Star ruvnet / ruflo 🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-        "language": "TypeScript",
-        "total_stars": 75262,
-        "period_stars": 147,
-        "forks": 8943,
-        "url": "https://github.com/ruvnet/ruflo"
-      },
-      {
-        "full_name": "sponsors/mksglu",
-        "description": "Sponsor Star mksglu / context-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-        "language": "TypeScript",
-        "total_stars": 0,
-        "period_stars": 904,
-        "forks": 0,
-        "url": "https://github.com/sponsors/mksglu"
       },
       {
         "full_name": "sponsors/affaan-m",
         "description": "Sponsor Star affaan-m / ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
         "language": "JavaScript",
         "total_stars": 0,
-        "period_stars": 1013,
+        "period_stars": 1057,
         "forks": 0,
         "url": "https://github.com/sponsors/affaan-m"
       },
       {
-        "full_name": "sponsors/lightseekorg",
-        "description": "Sponsor Star lightseekorg / tokenspeed TokenSpeed is a speed-of-light LLM inference engine.",
+        "full_name": "HKUDS/CLI-Anything",
+        "description": "Star HKUDS / CLI-Anything \"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+        "language": "Python",
+        "total_stars": 53609,
+        "period_stars": 281,
+        "forks": 4865,
+        "url": "https://github.com/HKUDS/CLI-Anything"
+      },
+      {
+        "full_name": "sponsors/mksglu",
+        "description": "Sponsor Star mksglu / context-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+        "language": "TypeScript",
+        "total_stars": 0,
+        "period_stars": 449,
+        "forks": 0,
+        "url": "https://github.com/sponsors/mksglu"
+      },
+      {
+        "full_name": "ruvnet/ruflo",
+        "description": "Star ruvnet / ruflo 🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+        "language": "TypeScript",
+        "total_stars": 75719,
+        "period_stars": 672,
+        "forks": 8971,
+        "url": "https://github.com/ruvnet/ruflo"
+      },
+      {
+        "full_name": "sponsors/obra",
+        "description": "Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works.",
+        "language": "Shell",
+        "total_stars": 0,
+        "period_stars": 973,
+        "forks": 0,
+        "url": "https://github.com/sponsors/obra"
+      },
+      {
+        "full_name": "sponsors/MadsLorentzen",
+        "description": "Sponsor Star MadsLorentzen / ai-job-search The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 30,
+        "period_stars": 898,
         "forks": 0,
-        "url": "https://github.com/sponsors/lightseekorg"
+        "url": "https://github.com/sponsors/MadsLorentzen"
       },
       {
         "full_name": "xerj-org/xerj",
         "description": "Star xerj-org / xerj XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work.",
         "language": "Rust",
-        "total_stars": 5934,
-        "period_stars": 715,
-        "forks": 320,
+        "total_stars": 7106,
+        "period_stars": 1648,
+        "forks": 363,
         "url": "https://github.com/xerj-org/xerj"
       }
     ]
@@ -193,91 +184,91 @@
         "full_name": "morluto/rea",
         "description": "Star morluto / rea Reverse engineer anything with agents, from app behavior down to native binaries.",
         "language": "TypeScript",
-        "total_stars": 276254,
-        "period_stars": 239477,
-        "forks": 69608,
+        "total_stars": 294063,
+        "period_stars": 248962,
+        "forks": 74160,
         "url": "https://github.com/morluto/rea"
+      },
+      {
+        "full_name": "storytold/artcraft",
+        "description": "Star storytold / artcraft ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+        "language": "Rust",
+        "total_stars": 30837,
+        "period_stars": 20267,
+        "forks": 4896,
+        "url": "https://github.com/storytold/artcraft"
       },
       {
         "full_name": "boykopovar/AnyPS5",
         "description": "Star boykopovar / AnyPS5 Tool for automatic PS5 executables porting to Linux and Windows",
         "language": "C++",
-        "total_stars": 38944,
-        "period_stars": 25174,
-        "forks": 3477,
+        "total_stars": 40078,
+        "period_stars": 20518,
+        "forks": 3589,
         "url": "https://github.com/boykopovar/AnyPS5"
-      },
-      {
-        "full_name": "sponsors/mattpocock",
-        "description": "Sponsor Star mattpocock / skills Skills for Real Engineers. Straight from my .agents directory.",
-        "language": "Shell",
-        "total_stars": 0,
-        "period_stars": 12147,
-        "forks": 0,
-        "url": "https://github.com/sponsors/mattpocock"
-      },
-      {
-        "full_name": "heygen-com/hyperframes",
-        "description": "Star heygen-com / hyperframes Write HTML. Render video. Built for agents.",
-        "language": "TypeScript",
-        "total_stars": 64749,
-        "period_stars": 5318,
-        "forks": 5830,
-        "url": "https://github.com/heygen-com/hyperframes"
       },
       {
         "full_name": "sponsors/cathrynlavery",
         "description": "Sponsor Star cathrynlavery / diagram-design Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
         "language": "HTML",
         "total_stars": 0,
-        "period_stars": 10237,
+        "period_stars": 9024,
         "forks": 0,
         "url": "https://github.com/sponsors/cathrynlavery"
+      },
+      {
+        "full_name": "heygen-com/hyperframes",
+        "description": "Star heygen-com / hyperframes Write HTML. Render video. Built for agents.",
+        "language": "TypeScript",
+        "total_stars": 65449,
+        "period_stars": 5601,
+        "forks": 5898,
+        "url": "https://github.com/heygen-com/hyperframes"
+      },
+      {
+        "full_name": "sponsors/mattpocock",
+        "description": "Sponsor Star mattpocock / skills Skills for Real Engineers. Straight from my .agents directory.",
+        "language": "Shell",
+        "total_stars": 0,
+        "period_stars": 11937,
+        "forks": 0,
+        "url": "https://github.com/sponsors/mattpocock"
       },
       {
         "full_name": "NationalSecurityAgency/ghidra",
         "description": "Star NationalSecurityAgency / ghidra Ghidra is a software reverse engineering (SRE) framework",
         "language": "Java",
-        "total_stars": 89011,
-        "period_stars": 6614,
-        "forks": 9939,
+        "total_stars": 89753,
+        "period_stars": 7510,
+        "forks": 10036,
         "url": "https://github.com/NationalSecurityAgency/ghidra"
+      },
+      {
+        "full_name": "sponsors/mksglu",
+        "description": "Sponsor Star mksglu / context-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+        "language": "TypeScript",
+        "total_stars": 0,
+        "period_stars": 4207,
+        "forks": 0,
+        "url": "https://github.com/sponsors/mksglu"
       },
       {
         "full_name": "ranxianglei/billion-context",
         "description": "Star ranxianglei / billion-context A context-compression plugin for small context windows (a 100K context is enough), token savings (5x fewer tokens), and month-long single sessions (billions of tokens).上下文压缩插件，兼顾小窗口(100k上下文足矣)省token(省5倍token)和超长会话(数月级别几十亿token单会话)。billion-context is all you need",
         "language": "TypeScript",
-        "total_stars": 1421,
-        "period_stars": 659,
-        "forks": 116,
+        "total_stars": 1572,
+        "period_stars": 779,
+        "forks": 124,
         "url": "https://github.com/ranxianglei/billion-context"
       },
       {
-        "full_name": "earthtojake/text-to-cad",
-        "description": "Star earthtojake / text-to-cad Give your agent CAD superpowers.",
+        "full_name": "anthropics/claude-plugins-official",
+        "description": "Star anthropics / claude-plugins-official Official, Anthropic-managed directory of high quality Claude Code Plugins.",
         "language": "Python",
-        "total_stars": 20776,
-        "period_stars": 2244,
-        "forks": 2052,
-        "url": "https://github.com/earthtojake/text-to-cad"
-      },
-      {
-        "full_name": "twostraws/SwiftUI-Agent-Skill",
-        "description": "Star twostraws / SwiftUI-Agent-Skill SwiftUI agent skill for Claude Code, Codex, and other AI tools.",
-        "language": "",
-        "total_stars": 6123,
-        "period_stars": 900,
-        "forks": 222,
-        "url": "https://github.com/twostraws/SwiftUI-Agent-Skill"
-      },
-      {
-        "full_name": "sponsors/DuarteSantos8",
-        "description": "Sponsor Star DuarteSantos8 / openGym Self-hosted gym &amp; body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.",
-        "language": "JavaScript",
-        "total_stars": 0,
-        "period_stars": 4471,
-        "forks": 0,
-        "url": "https://github.com/sponsors/DuarteSantos8"
+        "total_stars": 40811,
+        "period_stars": 2328,
+        "forks": 4415,
+        "url": "https://github.com/anthropics/claude-plugins-official"
       }
     ],
     "ai_top10": [
@@ -285,64 +276,64 @@
         "full_name": "morluto/rea",
         "description": "Star morluto / rea Reverse engineer anything with agents, from app behavior down to native binaries.",
         "language": "TypeScript",
-        "total_stars": 276254,
-        "period_stars": 239477,
-        "forks": 69608,
+        "total_stars": 294063,
+        "period_stars": 248962,
+        "forks": 74160,
         "url": "https://github.com/morluto/rea"
-      },
-      {
-        "full_name": "sponsors/mattpocock",
-        "description": "Sponsor Star mattpocock / skills Skills for Real Engineers. Straight from my .agents directory.",
-        "language": "Shell",
-        "total_stars": 0,
-        "period_stars": 12147,
-        "forks": 0,
-        "url": "https://github.com/sponsors/mattpocock"
-      },
-      {
-        "full_name": "heygen-com/hyperframes",
-        "description": "Star heygen-com / hyperframes Write HTML. Render video. Built for agents.",
-        "language": "TypeScript",
-        "total_stars": 64749,
-        "period_stars": 5318,
-        "forks": 5830,
-        "url": "https://github.com/heygen-com/hyperframes"
       },
       {
         "full_name": "sponsors/cathrynlavery",
         "description": "Sponsor Star cathrynlavery / diagram-design Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
         "language": "HTML",
         "total_stars": 0,
-        "period_stars": 10237,
+        "period_stars": 9024,
         "forks": 0,
         "url": "https://github.com/sponsors/cathrynlavery"
+      },
+      {
+        "full_name": "heygen-com/hyperframes",
+        "description": "Star heygen-com / hyperframes Write HTML. Render video. Built for agents.",
+        "language": "TypeScript",
+        "total_stars": 65449,
+        "period_stars": 5601,
+        "forks": 5898,
+        "url": "https://github.com/heygen-com/hyperframes"
+      },
+      {
+        "full_name": "sponsors/mattpocock",
+        "description": "Sponsor Star mattpocock / skills Skills for Real Engineers. Straight from my .agents directory.",
+        "language": "Shell",
+        "total_stars": 0,
+        "period_stars": 11937,
+        "forks": 0,
+        "url": "https://github.com/sponsors/mattpocock"
+      },
+      {
+        "full_name": "sponsors/mksglu",
+        "description": "Sponsor Star mksglu / context-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+        "language": "TypeScript",
+        "total_stars": 0,
+        "period_stars": 4207,
+        "forks": 0,
+        "url": "https://github.com/sponsors/mksglu"
+      },
+      {
+        "full_name": "anthropics/claude-plugins-official",
+        "description": "Star anthropics / claude-plugins-official Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+        "language": "Python",
+        "total_stars": 40811,
+        "period_stars": 2328,
+        "forks": 4415,
+        "url": "https://github.com/anthropics/claude-plugins-official"
       },
       {
         "full_name": "earthtojake/text-to-cad",
         "description": "Star earthtojake / text-to-cad Give your agent CAD superpowers.",
         "language": "Python",
-        "total_stars": 20776,
-        "period_stars": 2244,
-        "forks": 2052,
+        "total_stars": 21057,
+        "period_stars": 2286,
+        "forks": 2077,
         "url": "https://github.com/earthtojake/text-to-cad"
-      },
-      {
-        "full_name": "twostraws/SwiftUI-Agent-Skill",
-        "description": "Star twostraws / SwiftUI-Agent-Skill SwiftUI agent skill for Claude Code, Codex, and other AI tools.",
-        "language": "",
-        "total_stars": 6123,
-        "period_stars": 900,
-        "forks": 222,
-        "url": "https://github.com/twostraws/SwiftUI-Agent-Skill"
-      },
-      {
-        "full_name": "sponsors/DuarteSantos8",
-        "description": "Sponsor Star DuarteSantos8 / openGym Self-hosted gym &amp; body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.",
-        "language": "JavaScript",
-        "total_stars": 0,
-        "period_stars": 4471,
-        "forks": 0,
-        "url": "https://github.com/sponsors/DuarteSantos8"
       }
     ]
   }

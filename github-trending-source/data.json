@@ -1,180 +1,189 @@
 {
-  "updated_at": "2026-10-28 14:54:35 GMT+8",
-  "updated_ts": 1793170475,
+  "updated_at": "2026-10-29 15:13:46 GMT+8",
+  "updated_ts": 1793258026,
   "daily": {
     "top10": [
+      {
+        "full_name": "JetBrains/thinkrail",
+        "description": "Star JetBrains / thinkrail Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+        "language": "TypeScript",
+        "total_stars": 5412,
+        "period_stars": 1068,
+        "forks": 273,
+        "url": "https://github.com/JetBrains/thinkrail"
+      },
       {
         "full_name": "sponsors/elayadesign",
         "description": "",
         "language": "",
         "total_stars": 0,
-        "period_stars": 1395,
+        "period_stars": 2139,
         "forks": 0,
         "url": "https://github.com/sponsors/elayadesign"
-      },
-      {
-        "full_name": "Nutlope/hallmark",
-        "description": "Star Nutlope / hallmark Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-        "language": "CSS",
-        "total_stars": 39467,
-        "period_stars": 2830,
-        "forks": 2058,
-        "url": "https://github.com/Nutlope/hallmark"
-      },
-      {
-        "full_name": "nightly-labs/openbot",
-        "description": "Star nightly-labs / openbot A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
-        "language": "TypeScript",
-        "total_stars": 2681,
-        "period_stars": 777,
-        "forks": 274,
-        "url": "https://github.com/nightly-labs/openbot"
       },
       {
         "full_name": "sponsors/obra",
         "description": "Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works.",
         "language": "Shell",
         "total_stars": 0,
-        "period_stars": 617,
+        "period_stars": 1095,
         "forks": 0,
         "url": "https://github.com/sponsors/obra"
-      },
-      {
-        "full_name": "pbakaus/impeccable",
-        "description": "Star pbakaus / impeccable The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
-        "language": "Rust",
-        "total_stars": 90987,
-        "period_stars": 1449,
-        "forks": 5391,
-        "url": "https://github.com/pbakaus/impeccable"
-      },
-      {
-        "full_name": "makecindy/cindy",
-        "description": "Star makecindy / cindy Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
-        "language": "TypeScript",
-        "total_stars": 7690,
-        "period_stars": 1465,
-        "forks": 911,
-        "url": "https://github.com/makecindy/cindy"
-      },
-      {
-        "full_name": "gitroomhq/postiz-app",
-        "description": "Star gitroomhq / postiz-app 📨 The ultimate agentic social media scheduling tool 🤖",
-        "language": "TypeScript",
-        "total_stars": 39643,
-        "period_stars": 951,
-        "forks": 7535,
-        "url": "https://github.com/gitroomhq/postiz-app"
-      },
-      {
-        "full_name": "sponsors/affaan-m",
-        "description": "Sponsor Star affaan-m / ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-        "language": "JavaScript",
-        "total_stars": 0,
-        "period_stars": 1165,
-        "forks": 0,
-        "url": "https://github.com/sponsors/affaan-m"
       },
       {
         "full_name": "HKUDS/DeepTutor",
         "description": "Star HKUDS / DeepTutor DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
         "language": "Python",
-        "total_stars": 46586,
-        "period_stars": 1598,
-        "forks": 5822,
+        "total_stars": 48619,
+        "period_stars": 2371,
+        "forks": 6019,
         "url": "https://github.com/HKUDS/DeepTutor"
       },
       {
-        "full_name": "JetBrains/thinkrail",
-        "description": "Star JetBrains / thinkrail Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
-        "language": "TypeScript",
-        "total_stars": 4338,
-        "period_stars": 1204,
-        "forks": 231,
-        "url": "https://github.com/JetBrains/thinkrail"
-      }
-    ],
-    "ai_top10": [
+        "full_name": "macro-inc/macro",
+        "description": "Star macro-inc / macro Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+        "language": "Rust",
+        "total_stars": 5558,
+        "period_stars": 117,
+        "forks": 527,
+        "url": "https://github.com/macro-inc/macro"
+      },
       {
         "full_name": "Nutlope/hallmark",
         "description": "Star Nutlope / hallmark Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
         "language": "CSS",
-        "total_stars": 39467,
-        "period_stars": 2830,
-        "forks": 2058,
+        "total_stars": 41102,
+        "period_stars": 2110,
+        "forks": 2134,
         "url": "https://github.com/Nutlope/hallmark"
-      },
-      {
-        "full_name": "nightly-labs/openbot",
-        "description": "Star nightly-labs / openbot A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
-        "language": "TypeScript",
-        "total_stars": 2681,
-        "period_stars": 777,
-        "forks": 274,
-        "url": "https://github.com/nightly-labs/openbot"
-      },
-      {
-        "full_name": "sponsors/obra",
-        "description": "Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works.",
-        "language": "Shell",
-        "total_stars": 0,
-        "period_stars": 617,
-        "forks": 0,
-        "url": "https://github.com/sponsors/obra"
       },
       {
         "full_name": "pbakaus/impeccable",
         "description": "Star pbakaus / impeccable The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
         "language": "Rust",
-        "total_stars": 90987,
-        "period_stars": 1449,
-        "forks": 5391,
+        "total_stars": 93524,
+        "period_stars": 1472,
+        "forks": 5521,
         "url": "https://github.com/pbakaus/impeccable"
       },
       {
         "full_name": "makecindy/cindy",
         "description": "Star makecindy / cindy Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
         "language": "TypeScript",
-        "total_stars": 7690,
-        "period_stars": 1465,
-        "forks": 911,
+        "total_stars": 8315,
+        "period_stars": 728,
+        "forks": 976,
         "url": "https://github.com/makecindy/cindy"
       },
       {
-        "full_name": "gitroomhq/postiz-app",
-        "description": "Star gitroomhq / postiz-app 📨 The ultimate agentic social media scheduling tool 🤖",
+        "full_name": "nightly-labs/openbot",
+        "description": "Star nightly-labs / openbot A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
         "language": "TypeScript",
-        "total_stars": 39643,
-        "period_stars": 951,
-        "forks": 7535,
-        "url": "https://github.com/gitroomhq/postiz-app"
-      },
-      {
-        "full_name": "sponsors/affaan-m",
-        "description": "Sponsor Star affaan-m / ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-        "language": "JavaScript",
-        "total_stars": 0,
-        "period_stars": 1165,
-        "forks": 0,
-        "url": "https://github.com/sponsors/affaan-m"
-      },
-      {
-        "full_name": "JetBrains/thinkrail",
-        "description": "Star JetBrains / thinkrail Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
-        "language": "TypeScript",
-        "total_stars": 4338,
-        "period_stars": 1204,
-        "forks": 231,
-        "url": "https://github.com/JetBrains/thinkrail"
+        "total_stars": 3457,
+        "period_stars": 1054,
+        "forks": 331,
+        "url": "https://github.com/nightly-labs/openbot"
       },
       {
         "full_name": "togg53192-cmd/jailbreaks",
         "description": "Star togg53192-cmd / jailbreaks LIST OF ALL MY JAILBREAKS",
         "language": "",
-        "total_stars": 5986,
-        "period_stars": 902,
-        "forks": 874,
+        "total_stars": 7553,
+        "period_stars": 1477,
+        "forks": 1074,
         "url": "https://github.com/togg53192-cmd/jailbreaks"
+      }
+    ],
+    "ai_top10": [
+      {
+        "full_name": "JetBrains/thinkrail",
+        "description": "Star JetBrains / thinkrail Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+        "language": "TypeScript",
+        "total_stars": 5412,
+        "period_stars": 1068,
+        "forks": 273,
+        "url": "https://github.com/JetBrains/thinkrail"
+      },
+      {
+        "full_name": "sponsors/obra",
+        "description": "Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works.",
+        "language": "Shell",
+        "total_stars": 0,
+        "period_stars": 1095,
+        "forks": 0,
+        "url": "https://github.com/sponsors/obra"
+      },
+      {
+        "full_name": "macro-inc/macro",
+        "description": "Star macro-inc / macro Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+        "language": "Rust",
+        "total_stars": 5558,
+        "period_stars": 117,
+        "forks": 527,
+        "url": "https://github.com/macro-inc/macro"
+      },
+      {
+        "full_name": "Nutlope/hallmark",
+        "description": "Star Nutlope / hallmark Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+        "language": "CSS",
+        "total_stars": 41102,
+        "period_stars": 2110,
+        "forks": 2134,
+        "url": "https://github.com/Nutlope/hallmark"
+      },
+      {
+        "full_name": "pbakaus/impeccable",
+        "description": "Star pbakaus / impeccable The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+        "language": "Rust",
+        "total_stars": 93524,
+        "period_stars": 1472,
+        "forks": 5521,
+        "url": "https://github.com/pbakaus/impeccable"
+      },
+      {
+        "full_name": "makecindy/cindy",
+        "description": "Star makecindy / cindy Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+        "language": "TypeScript",
+        "total_stars": 8315,
+        "period_stars": 728,
+        "forks": 976,
+        "url": "https://github.com/makecindy/cindy"
+      },
+      {
+        "full_name": "nightly-labs/openbot",
+        "description": "Star nightly-labs / openbot A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+        "language": "TypeScript",
+        "total_stars": 3457,
+        "period_stars": 1054,
+        "forks": 331,
+        "url": "https://github.com/nightly-labs/openbot"
+      },
+      {
+        "full_name": "togg53192-cmd/jailbreaks",
+        "description": "Star togg53192-cmd / jailbreaks LIST OF ALL MY JAILBREAKS",
+        "language": "",
+        "total_stars": 7553,
+        "period_stars": 1477,
+        "forks": 1074,
+        "url": "https://github.com/togg53192-cmd/jailbreaks"
+      },
+      {
+        "full_name": "expo/skills",
+        "description": "Star expo / skills A collection of AI agent skills for working with Expo projects and Expo Application Services",
+        "language": "Shell",
+        "total_stars": 3679,
+        "period_stars": 90,
+        "forks": 234,
+        "url": "https://github.com/expo/skills"
+      },
+      {
+        "full_name": "xiaolai/the-craft-of-selfteaching",
+        "description": "Star xiaolai / the-craft-of-selfteaching One has no future if one couldn't teach themself.",
+        "language": "Jupyter Notebook",
+        "total_stars": 18706,
+        "period_stars": 148,
+        "forks": 17911,
+        "url": "https://github.com/xiaolai/the-craft-of-selfteaching"
       }
     ]
   },
@@ -184,63 +193,81 @@
         "full_name": "cloudflare/security-audit-skill",
         "description": "Star cloudflare / security-audit-skill A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
         "language": "JavaScript",
-        "total_stars": 50562,
-        "period_stars": 16388,
-        "forks": 3188,
+        "total_stars": 51989,
+        "period_stars": 16002,
+        "forks": 3322,
         "url": "https://github.com/cloudflare/security-audit-skill"
-      },
-      {
-        "full_name": "anthropics/knowledge-work-plugins",
-        "description": "Star anthropics / knowledge-work-plugins Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-        "language": "Python",
-        "total_stars": 33502,
-        "period_stars": 2789,
-        "forks": 3678,
-        "url": "https://github.com/anthropics/knowledge-work-plugins"
       },
       {
         "full_name": "AgriciDaniel/claude-seo",
         "description": "Star AgriciDaniel / claude-seo Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
         "language": "Python",
-        "total_stars": 22888,
-        "period_stars": 3081,
-        "forks": 3107,
+        "total_stars": 23545,
+        "period_stars": 3516,
+        "forks": 3171,
         "url": "https://github.com/AgriciDaniel/claude-seo"
       },
       {
         "full_name": "multica-ai/andrej-karpathy-skills",
         "description": "Star multica-ai / andrej-karpathy-skills A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
         "language": "",
-        "total_stars": 225625,
-        "period_stars": 4039,
-        "forks": 22542,
+        "total_stars": 226094,
+        "period_stars": 4293,
+        "forks": 22583,
         "url": "https://github.com/multica-ai/andrej-karpathy-skills"
+      },
+      {
+        "full_name": "anthropics/knowledge-work-plugins",
+        "description": "Star anthropics / knowledge-work-plugins Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+        "language": "Python",
+        "total_stars": 33712,
+        "period_stars": 2612,
+        "forks": 3711,
+        "url": "https://github.com/anthropics/knowledge-work-plugins"
       },
       {
         "full_name": "TauricResearch/TradingAgents",
         "description": "Star TauricResearch / TradingAgents TradingAgents: Multi-Agents LLM Financial Trading Framework",
         "language": "Python",
-        "total_stars": 117495,
-        "period_stars": 4882,
-        "forks": 22493,
+        "total_stars": 118017,
+        "period_stars": 5322,
+        "forks": 22573,
         "url": "https://github.com/TauricResearch/TradingAgents"
+      },
+      {
+        "full_name": "pbakaus/impeccable",
+        "description": "Star pbakaus / impeccable The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+        "language": "Rust",
+        "total_stars": 93524,
+        "period_stars": 7283,
+        "forks": 5521,
+        "url": "https://github.com/pbakaus/impeccable"
       },
       {
         "full_name": "Graphify-Labs/graphify",
         "description": "Star Graphify-Labs / graphify Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
         "language": "Python",
-        "total_stars": 137174,
-        "period_stars": 7268,
-        "forks": 13088,
+        "total_stars": 138084,
+        "period_stars": 6662,
+        "forks": 13165,
         "url": "https://github.com/Graphify-Labs/graphify"
+      },
+      {
+        "full_name": "sponsors/Leonxlnx",
+        "description": "Sponsor Star Leonxlnx / taste-skill Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+        "language": "JavaScript",
+        "total_stars": 0,
+        "period_stars": 3940,
+        "forks": 0,
+        "url": "https://github.com/sponsors/Leonxlnx"
       },
       {
         "full_name": "ruvnet/ruflo",
         "description": "Star ruvnet / ruflo 🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
         "language": "TypeScript",
-        "total_stars": 79839,
-        "period_stars": 2296,
-        "forks": 9367,
+        "total_stars": 80026,
+        "period_stars": 1930,
+        "forks": 9386,
         "url": "https://github.com/ruvnet/ruflo"
       },
       {
@@ -248,27 +275,9 @@
         "description": "Sponsor Star anomalyco / opencode The open source coding agent.",
         "language": "TypeScript",
         "total_stars": 0,
-        "period_stars": 4334,
+        "period_stars": 3498,
         "forks": 0,
         "url": "https://github.com/sponsors/anomalyco"
-      },
-      {
-        "full_name": "stablyai/orca",
-        "description": "Star stablyai / orca Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-        "language": "TypeScript",
-        "total_stars": 108319,
-        "period_stars": 8802,
-        "forks": 6848,
-        "url": "https://github.com/stablyai/orca"
-      },
-      {
-        "full_name": "android/skills",
-        "description": "",
-        "language": "Kotlin",
-        "total_stars": 9935,
-        "period_stars": 873,
-        "forks": 641,
-        "url": "https://github.com/android/skills"
       }
     ],
     "ai_top10": [
@@ -276,63 +285,81 @@
         "full_name": "cloudflare/security-audit-skill",
         "description": "Star cloudflare / security-audit-skill A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
         "language": "JavaScript",
-        "total_stars": 50562,
-        "period_stars": 16388,
-        "forks": 3188,
+        "total_stars": 51989,
+        "period_stars": 16002,
+        "forks": 3322,
         "url": "https://github.com/cloudflare/security-audit-skill"
-      },
-      {
-        "full_name": "anthropics/knowledge-work-plugins",
-        "description": "Star anthropics / knowledge-work-plugins Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-        "language": "Python",
-        "total_stars": 33502,
-        "period_stars": 2789,
-        "forks": 3678,
-        "url": "https://github.com/anthropics/knowledge-work-plugins"
       },
       {
         "full_name": "AgriciDaniel/claude-seo",
         "description": "Star AgriciDaniel / claude-seo Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
         "language": "Python",
-        "total_stars": 22888,
-        "period_stars": 3081,
-        "forks": 3107,
+        "total_stars": 23545,
+        "period_stars": 3516,
+        "forks": 3171,
         "url": "https://github.com/AgriciDaniel/claude-seo"
       },
       {
         "full_name": "multica-ai/andrej-karpathy-skills",
         "description": "Star multica-ai / andrej-karpathy-skills A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
         "language": "",
-        "total_stars": 225625,
-        "period_stars": 4039,
-        "forks": 22542,
+        "total_stars": 226094,
+        "period_stars": 4293,
+        "forks": 22583,
         "url": "https://github.com/multica-ai/andrej-karpathy-skills"
+      },
+      {
+        "full_name": "anthropics/knowledge-work-plugins",
+        "description": "Star anthropics / knowledge-work-plugins Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+        "language": "Python",
+        "total_stars": 33712,
+        "period_stars": 2612,
+        "forks": 3711,
+        "url": "https://github.com/anthropics/knowledge-work-plugins"
       },
       {
         "full_name": "TauricResearch/TradingAgents",
         "description": "Star TauricResearch / TradingAgents TradingAgents: Multi-Agents LLM Financial Trading Framework",
         "language": "Python",
-        "total_stars": 117495,
-        "period_stars": 4882,
-        "forks": 22493,
+        "total_stars": 118017,
+        "period_stars": 5322,
+        "forks": 22573,
         "url": "https://github.com/TauricResearch/TradingAgents"
+      },
+      {
+        "full_name": "pbakaus/impeccable",
+        "description": "Star pbakaus / impeccable The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+        "language": "Rust",
+        "total_stars": 93524,
+        "period_stars": 7283,
+        "forks": 5521,
+        "url": "https://github.com/pbakaus/impeccable"
       },
       {
         "full_name": "Graphify-Labs/graphify",
         "description": "Star Graphify-Labs / graphify Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
         "language": "Python",
-        "total_stars": 137174,
-        "period_stars": 7268,
-        "forks": 13088,
+        "total_stars": 138084,
+        "period_stars": 6662,
+        "forks": 13165,
         "url": "https://github.com/Graphify-Labs/graphify"
+      },
+      {
+        "full_name": "sponsors/Leonxlnx",
+        "description": "Sponsor Star Leonxlnx / taste-skill Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+        "language": "JavaScript",
+        "total_stars": 0,
+        "period_stars": 3940,
+        "forks": 0,
+        "url": "https://github.com/sponsors/Leonxlnx"
       },
       {
         "full_name": "ruvnet/ruflo",
         "description": "Star ruvnet / ruflo 🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
         "language": "TypeScript",
-        "total_stars": 79839,
-        "period_stars": 2296,
-        "forks": 9367,
+        "total_stars": 80026,
+        "period_stars": 1930,
+        "forks": 9386,
         "url": "https://github.com/ruvnet/ruflo"
       },
       {
@@ -340,27 +367,9 @@
         "description": "Sponsor Star anomalyco / opencode The open source coding agent.",
         "language": "TypeScript",
         "total_stars": 0,
-        "period_stars": 4334,
+        "period_stars": 3498,
         "forks": 0,
         "url": "https://github.com/sponsors/anomalyco"
-      },
-      {
-        "full_name": "stablyai/orca",
-        "description": "Star stablyai / orca Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-        "language": "TypeScript",
-        "total_stars": 108319,
-        "period_stars": 8802,
-        "forks": 6848,
-        "url": "https://github.com/stablyai/orca"
-      },
-      {
-        "full_name": "akitaonrails/ai-memory",
-        "description": "Star akitaonrails / ai-memory Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-        "language": "Rust",
-        "total_stars": 14155,
-        "period_stars": 2239,
-        "forks": 1010,
-        "url": "https://github.com/akitaonrails/ai-memory"
       }
     ]
   }

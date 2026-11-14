@@ -1,201 +1,201 @@
 {
-  "updated_at": "2026-11-13 16:08:58 GMT+8",
-  "updated_ts": 1794557338,
+  "updated_at": "2026-11-14 15:39:49 GMT+8",
+  "updated_ts": 1794641989,
   "daily": {
     "top10": [
+      {
+        "full_name": "alibaba/open-code-review",
+        "description": "Star alibaba / open-code-review Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
+        "language": "Go",
+        "total_stars": 50872,
+        "period_stars": 215,
+        "forks": 3790,
+        "url": "https://github.com/alibaba/open-code-review"
+      },
       {
         "full_name": "GoogleChrome/modern-web-guidance-src",
         "description": "Star GoogleChrome / modern-web-guidance-src Keep your coding agent up to date with the latest web best practices",
         "language": "TypeScript",
-        "total_stars": 3747,
-        "period_stars": 739,
-        "forks": 227,
+        "total_stars": 5115,
+        "period_stars": 1925,
+        "forks": 282,
         "url": "https://github.com/GoogleChrome/modern-web-guidance-src"
       },
       {
         "full_name": "openai/codex-security",
         "description": "Star openai / codex-security OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
         "language": "TypeScript",
-        "total_stars": 12695,
-        "period_stars": 643,
-        "forks": 992,
+        "total_stars": 13286,
+        "period_stars": 751,
+        "forks": 1029,
         "url": "https://github.com/openai/codex-security"
       },
       {
-        "full_name": "nvm-sh/nvm",
-        "description": "Star nvm-sh / nvm Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
-        "language": "Shell",
-        "total_stars": 96071,
-        "period_stars": 63,
-        "forks": 10762,
-        "url": "https://github.com/nvm-sh/nvm"
-      },
-      {
-        "full_name": "pookjw/HermesEnabler",
-        "description": "Star pookjw / HermesEnabler Enable Hermès Watch Faces on any Apple Watch devices",
-        "language": "Objective-C",
-        "total_stars": 1659,
-        "period_stars": 218,
-        "forks": 146,
-        "url": "https://github.com/pookjw/HermesEnabler"
+        "full_name": "sponsors/ZhuLinsen",
+        "description": "Sponsor Star ZhuLinsen / daily_stock_analysis LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+        "language": "Python",
+        "total_stars": 0,
+        "period_stars": 256,
+        "forks": 0,
+        "url": "https://github.com/sponsors/ZhuLinsen"
       },
       {
         "full_name": "we-promise/sure",
         "description": "Star we-promise / sure The personal finance app for everyone (by everyone)",
         "language": "Ruby",
-        "total_stars": 14220,
-        "period_stars": 967,
-        "forks": 1073,
+        "total_stars": 14902,
+        "period_stars": 925,
+        "forks": 1132,
         "url": "https://github.com/we-promise/sure"
       },
       {
-        "full_name": "QwenLM/qwen-code",
-        "description": "Star QwenLM / qwen-code An open-source AI coding agent that lives in your terminal.",
+        "full_name": "backnotprop/plannotator",
+        "description": "Star backnotprop / plannotator The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
         "language": "TypeScript",
-        "total_stars": 30015,
-        "period_stars": 151,
-        "forks": 3412,
-        "url": "https://github.com/QwenLM/qwen-code"
+        "total_stars": 10576,
+        "period_stars": 108,
+        "forks": 791,
+        "url": "https://github.com/backnotprop/plannotator"
       },
       {
-        "full_name": "sponsors/ashhart",
-        "description": "Sponsor Star ashhart / TensorFold LLM Inference Engine for Metal, CUDA and Vulkan.",
-        "language": "Zig",
-        "total_stars": 0,
-        "period_stars": 54,
-        "forks": 0,
-        "url": "https://github.com/sponsors/ashhart"
-      },
-      {
-        "full_name": "sponsors/nodejs",
-        "description": "Sponsor Star nodejs / node Node.js JavaScript runtime ✨🐢🚀✨",
+        "full_name": "sponsors/louislam",
+        "description": "Sponsor Star louislam / uptime-kuma A fancy self-hosted monitoring tool",
         "language": "JavaScript",
         "total_stars": 0,
-        "period_stars": 62,
+        "period_stars": 71,
         "forks": 0,
-        "url": "https://github.com/sponsors/nodejs"
+        "url": "https://github.com/sponsors/louislam"
       },
       {
-        "full_name": "addyosmani/agent-skills",
-        "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
-        "language": "JavaScript",
-        "total_stars": 116887,
-        "period_stars": 816,
-        "forks": 12221,
-        "url": "https://github.com/addyosmani/agent-skills"
+        "full_name": "block/buzz",
+        "description": "Star block / buzz A hive mind communication platform",
+        "language": "Rust",
+        "total_stars": 37370,
+        "period_stars": 97,
+        "forks": 4944,
+        "url": "https://github.com/block/buzz"
       },
       {
-        "full_name": "meta/astryx",
-        "description": "Star meta / astryx An open source design system that's fully customizable and agent ready",
-        "language": "TypeScript",
-        "total_stars": 26944,
-        "period_stars": 1830,
-        "forks": 2087,
-        "url": "https://github.com/meta/astryx"
+        "full_name": "tradermonty/claude-trading-skills",
+        "description": "Star tradermonty / claude-trading-skills Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+        "language": "Python",
+        "total_stars": 4319,
+        "period_stars": 69,
+        "forks": 881,
+        "url": "https://github.com/tradermonty/claude-trading-skills"
+      },
+      {
+        "full_name": "tailscale/tailcat",
+        "description": "Star tailscale / tailcat like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+        "language": "Go",
+        "total_stars": 9586,
+        "period_stars": 256,
+        "forks": 436,
+        "url": "https://github.com/tailscale/tailcat"
       }
     ],
     "ai_top10": [
       {
+        "full_name": "alibaba/open-code-review",
+        "description": "Star alibaba / open-code-review Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
+        "language": "Go",
+        "total_stars": 50872,
+        "period_stars": 215,
+        "forks": 3790,
+        "url": "https://github.com/alibaba/open-code-review"
+      },
+      {
         "full_name": "GoogleChrome/modern-web-guidance-src",
         "description": "Star GoogleChrome / modern-web-guidance-src Keep your coding agent up to date with the latest web best practices",
         "language": "TypeScript",
-        "total_stars": 3747,
-        "period_stars": 739,
-        "forks": 227,
+        "total_stars": 5115,
+        "period_stars": 1925,
+        "forks": 282,
         "url": "https://github.com/GoogleChrome/modern-web-guidance-src"
       },
       {
         "full_name": "openai/codex-security",
         "description": "Star openai / codex-security OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
         "language": "TypeScript",
-        "total_stars": 12695,
-        "period_stars": 643,
-        "forks": 992,
+        "total_stars": 13286,
+        "period_stars": 751,
+        "forks": 1029,
         "url": "https://github.com/openai/codex-security"
       },
       {
-        "full_name": "pookjw/HermesEnabler",
-        "description": "Star pookjw / HermesEnabler Enable Hermès Watch Faces on any Apple Watch devices",
-        "language": "Objective-C",
-        "total_stars": 1659,
-        "period_stars": 218,
-        "forks": 146,
-        "url": "https://github.com/pookjw/HermesEnabler"
-      },
-      {
-        "full_name": "QwenLM/qwen-code",
-        "description": "Star QwenLM / qwen-code An open-source AI coding agent that lives in your terminal.",
-        "language": "TypeScript",
-        "total_stars": 30015,
-        "period_stars": 151,
-        "forks": 3412,
-        "url": "https://github.com/QwenLM/qwen-code"
-      },
-      {
-        "full_name": "sponsors/ashhart",
-        "description": "Sponsor Star ashhart / TensorFold LLM Inference Engine for Metal, CUDA and Vulkan.",
-        "language": "Zig",
-        "total_stars": 0,
-        "period_stars": 54,
-        "forks": 0,
-        "url": "https://github.com/sponsors/ashhart"
-      },
-      {
-        "full_name": "addyosmani/agent-skills",
-        "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
-        "language": "JavaScript",
-        "total_stars": 116887,
-        "period_stars": 816,
-        "forks": 12221,
-        "url": "https://github.com/addyosmani/agent-skills"
-      },
-      {
-        "full_name": "meta/astryx",
-        "description": "Star meta / astryx An open source design system that's fully customizable and agent ready",
-        "language": "TypeScript",
-        "total_stars": 26944,
-        "period_stars": 1830,
-        "forks": 2087,
-        "url": "https://github.com/meta/astryx"
-      },
-      {
-        "full_name": "CopilotKit/OpenBot",
-        "description": "Star CopilotKit / OpenBot Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
-        "language": "TypeScript",
-        "total_stars": 11889,
-        "period_stars": 298,
-        "forks": 1460,
-        "url": "https://github.com/CopilotKit/OpenBot"
-      },
-      {
-        "full_name": "Alishahryar1/free-claude-code",
-        "description": "Star Alishahryar1 / free-claude-code Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+        "full_name": "sponsors/ZhuLinsen",
+        "description": "Sponsor Star ZhuLinsen / daily_stock_analysis LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
         "language": "Python",
-        "total_stars": 69589,
-        "period_stars": 415,
-        "forks": 10798,
-        "url": "https://github.com/Alishahryar1/free-claude-code"
+        "total_stars": 0,
+        "period_stars": 256,
+        "forks": 0,
+        "url": "https://github.com/sponsors/ZhuLinsen"
       },
       {
-        "full_name": "ggml-org/llama.cpp",
-        "description": "Star ggml-org / llama.cpp LLM inference in C/C++",
+        "full_name": "backnotprop/plannotator",
+        "description": "Star backnotprop / plannotator The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+        "language": "TypeScript",
+        "total_stars": 10576,
+        "period_stars": 108,
+        "forks": 791,
+        "url": "https://github.com/backnotprop/plannotator"
+      },
+      {
+        "full_name": "tradermonty/claude-trading-skills",
+        "description": "Star tradermonty / claude-trading-skills Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+        "language": "Python",
+        "total_stars": 4319,
+        "period_stars": 69,
+        "forks": 881,
+        "url": "https://github.com/tradermonty/claude-trading-skills"
+      },
+      {
+        "full_name": "tailscale/tailcat",
+        "description": "Star tailscale / tailcat like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+        "language": "Go",
+        "total_stars": 9586,
+        "period_stars": 256,
+        "forks": 436,
+        "url": "https://github.com/tailscale/tailcat"
+      },
+      {
+        "full_name": "Likely7/Veyra-NRVideo",
+        "description": "Star Likely7 / Veyra-NRVideo Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience.",
         "language": "C++",
-        "total_stars": 134747,
-        "period_stars": 176,
-        "forks": 25529,
-        "url": "https://github.com/ggml-org/llama.cpp"
+        "total_stars": 1732,
+        "period_stars": 256,
+        "forks": 77,
+        "url": "https://github.com/Likely7/Veyra-NRVideo"
+      },
+      {
+        "full_name": "ChromeDevTools/chrome-devtools-mcp",
+        "description": "Star ChromeDevTools / chrome-devtools-mcp Chrome DevTools for coding agents",
+        "language": "TypeScript",
+        "total_stars": 55705,
+        "period_stars": 67,
+        "forks": 4614,
+        "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
       }
     ]
   },
   "weekly": {
     "top10": [
       {
+        "full_name": "sherlock-project/sherlock",
+        "description": "Star sherlock-project / sherlock Hunt down social media accounts by username across social networks",
+        "language": "Python",
+        "total_stars": 111346,
+        "period_stars": 13364,
+        "forks": 12889,
+        "url": "https://github.com/sherlock-project/sherlock"
+      },
+      {
         "full_name": "anthropics/skills",
         "description": "Star anthropics / skills Public repository for Agent Skills",
         "language": "Python",
-        "total_stars": 193846,
-        "period_stars": 6055,
-        "forks": 22807,
+        "total_stars": 194255,
+        "period_stars": 6169,
+        "forks": 22856,
         "url": "https://github.com/anthropics/skills"
       },
       {
@@ -203,7 +203,7 @@
         "description": "Sponsor Star milind-soni / OpenMausBot Open-source Grok Bot alternative with a virtual machine that bots can use",
         "language": "TypeScript",
         "total_stars": 0,
-        "period_stars": 9104,
+        "period_stars": 7763,
         "forks": 0,
         "url": "https://github.com/sponsors/milind-soni"
       },
@@ -211,73 +211,64 @@
         "full_name": "vercel-labs/agent-browser",
         "description": "Star vercel-labs / agent-browser Browser automation CLI for AI agents",
         "language": "Rust",
-        "total_stars": 50453,
-        "period_stars": 4601,
-        "forks": 3511,
+        "total_stars": 50835,
+        "period_stars": 4360,
+        "forks": 3539,
         "url": "https://github.com/vercel-labs/agent-browser"
+      },
+      {
+        "full_name": "google/elephant-goldfish-model",
+        "description": "Star google / elephant-goldfish-model Open-source plugin for designing and reviewing software with agents",
+        "language": "Python",
+        "total_stars": 18744,
+        "period_stars": 5560,
+        "forks": 1399,
+        "url": "https://github.com/google/elephant-goldfish-model"
+      },
+      {
+        "full_name": "sponsors/ZhuLinsen",
+        "description": "Sponsor Star ZhuLinsen / daily_stock_analysis LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+        "language": "Python",
+        "total_stars": 0,
+        "period_stars": 3778,
+        "forks": 0,
+        "url": "https://github.com/sponsors/ZhuLinsen"
       },
       {
         "full_name": "NVIDIA/auto-ontology",
         "description": "Star NVIDIA / auto-ontology Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
         "language": "Python",
-        "total_stars": 12366,
-        "period_stars": 5802,
-        "forks": 1017,
+        "total_stars": 12642,
+        "period_stars": 4108,
+        "forks": 1039,
         "url": "https://github.com/NVIDIA/auto-ontology"
       },
       {
-        "full_name": "cloudflare/security-audit-skill",
-        "description": "Star cloudflare / security-audit-skill A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-        "language": "JavaScript",
-        "total_stars": 71414,
-        "period_stars": 10700,
-        "forks": 4757,
-        "url": "https://github.com/cloudflare/security-audit-skill"
-      },
-      {
-        "full_name": "vercel-labs/agent-desktop",
-        "description": "Star vercel-labs / agent-desktop Computer use CLI for AI agents",
-        "language": "Rust",
-        "total_stars": 22928,
-        "period_stars": 6414,
-        "forks": 1698,
-        "url": "https://github.com/vercel-labs/agent-desktop"
+        "full_name": "google-deepmind/mujoco",
+        "description": "Star google-deepmind / mujoco Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+        "language": "C++",
+        "total_stars": 17908,
+        "period_stars": 1764,
+        "forks": 2188,
+        "url": "https://github.com/google-deepmind/mujoco"
       },
       {
         "full_name": "sponsors/mattpocock",
         "description": "Sponsor Star mattpocock / skills Skills for Real Engineers. Straight from my .agents directory.",
         "language": "Shell",
         "total_stars": 0,
-        "period_stars": 8731,
+        "period_stars": 7599,
         "forks": 0,
         "url": "https://github.com/sponsors/mattpocock"
       },
       {
-        "full_name": "sponsors/zed-industries",
-        "description": "Sponsor Star zed-industries / zed Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
-        "language": "Rust",
-        "total_stars": 0,
-        "period_stars": 2339,
-        "forks": 0,
-        "url": "https://github.com/sponsors/zed-industries"
-      },
-      {
-        "full_name": "google-deepmind/mujoco",
-        "description": "Star google-deepmind / mujoco Multi-Joint dynamics with Contact. A general purpose physics simulator.",
-        "language": "C++",
-        "total_stars": 17807,
-        "period_stars": 1671,
-        "forks": 2184,
-        "url": "https://github.com/google-deepmind/mujoco"
-      },
-      {
-        "full_name": "google/skills",
-        "description": "Star google / skills Agent Skills for Google products and technologies",
-        "language": "Python",
-        "total_stars": 24104,
-        "period_stars": 1933,
-        "forks": 2006,
-        "url": "https://github.com/google/skills"
+        "full_name": "addyosmani/agent-skills",
+        "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
+        "language": "JavaScript",
+        "total_stars": 117258,
+        "period_stars": 3502,
+        "forks": 12267,
+        "url": "https://github.com/addyosmani/agent-skills"
       }
     ],
     "ai_top10": [
@@ -285,73 +276,91 @@
         "full_name": "anthropics/skills",
         "description": "Star anthropics / skills Public repository for Agent Skills",
         "language": "Python",
-        "total_stars": 193846,
-        "period_stars": 6055,
-        "forks": 22807,
+        "total_stars": 194255,
+        "period_stars": 6169,
+        "forks": 22856,
         "url": "https://github.com/anthropics/skills"
       },
       {
         "full_name": "vercel-labs/agent-browser",
         "description": "Star vercel-labs / agent-browser Browser automation CLI for AI agents",
         "language": "Rust",
-        "total_stars": 50453,
-        "period_stars": 4601,
-        "forks": 3511,
+        "total_stars": 50835,
+        "period_stars": 4360,
+        "forks": 3539,
         "url": "https://github.com/vercel-labs/agent-browser"
+      },
+      {
+        "full_name": "google/elephant-goldfish-model",
+        "description": "Star google / elephant-goldfish-model Open-source plugin for designing and reviewing software with agents",
+        "language": "Python",
+        "total_stars": 18744,
+        "period_stars": 5560,
+        "forks": 1399,
+        "url": "https://github.com/google/elephant-goldfish-model"
+      },
+      {
+        "full_name": "sponsors/ZhuLinsen",
+        "description": "Sponsor Star ZhuLinsen / daily_stock_analysis LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+        "language": "Python",
+        "total_stars": 0,
+        "period_stars": 3778,
+        "forks": 0,
+        "url": "https://github.com/sponsors/ZhuLinsen"
       },
       {
         "full_name": "NVIDIA/auto-ontology",
         "description": "Star NVIDIA / auto-ontology Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
         "language": "Python",
-        "total_stars": 12366,
-        "period_stars": 5802,
-        "forks": 1017,
+        "total_stars": 12642,
+        "period_stars": 4108,
+        "forks": 1039,
         "url": "https://github.com/NVIDIA/auto-ontology"
-      },
-      {
-        "full_name": "cloudflare/security-audit-skill",
-        "description": "Star cloudflare / security-audit-skill A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-        "language": "JavaScript",
-        "total_stars": 71414,
-        "period_stars": 10700,
-        "forks": 4757,
-        "url": "https://github.com/cloudflare/security-audit-skill"
-      },
-      {
-        "full_name": "vercel-labs/agent-desktop",
-        "description": "Star vercel-labs / agent-desktop Computer use CLI for AI agents",
-        "language": "Rust",
-        "total_stars": 22928,
-        "period_stars": 6414,
-        "forks": 1698,
-        "url": "https://github.com/vercel-labs/agent-desktop"
       },
       {
         "full_name": "sponsors/mattpocock",
         "description": "Sponsor Star mattpocock / skills Skills for Real Engineers. Straight from my .agents directory.",
         "language": "Shell",
         "total_stars": 0,
-        "period_stars": 8731,
+        "period_stars": 7599,
         "forks": 0,
         "url": "https://github.com/sponsors/mattpocock"
       },
       {
-        "full_name": "google/skills",
-        "description": "Star google / skills Agent Skills for Google products and technologies",
-        "language": "Python",
-        "total_stars": 24104,
-        "period_stars": 1933,
-        "forks": 2006,
-        "url": "https://github.com/google/skills"
+        "full_name": "addyosmani/agent-skills",
+        "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
+        "language": "JavaScript",
+        "total_stars": 117258,
+        "period_stars": 3502,
+        "forks": 12267,
+        "url": "https://github.com/addyosmani/agent-skills"
       },
       {
-        "full_name": "sponsors/D4Vinci",
-        "description": "Sponsor Star D4Vinci / Scrapling 🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+        "full_name": "cloudflare/security-audit-skill",
+        "description": "Star cloudflare / security-audit-skill A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+        "language": "JavaScript",
+        "total_stars": 72089,
+        "period_stars": 8829,
+        "forks": 4806,
+        "url": "https://github.com/cloudflare/security-audit-skill"
+      },
+      {
+        "full_name": "anthropics/claude-quickstarts",
+        "description": "Star anthropics / claude-quickstarts A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
         "language": "Python",
-        "total_stars": 0,
-        "period_stars": 4743,
-        "forks": 0,
-        "url": "https://github.com/sponsors/D4Vinci"
+        "total_stars": 20891,
+        "period_stars": 1731,
+        "forks": 3491,
+        "url": "https://github.com/anthropics/claude-quickstarts"
+      },
+      {
+        "full_name": "vercel-labs/agent-desktop",
+        "description": "Star vercel-labs / agent-desktop Computer use CLI for AI agents",
+        "language": "Rust",
+        "total_stars": 23448,
+        "period_stars": 5408,
+        "forks": 1738,
+        "url": "https://github.com/vercel-labs/agent-desktop"
       }
     ]
   }

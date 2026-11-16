@@ -1,189 +1,189 @@
 {
-  "updated_at": "2026-11-15 15:56:00 GMT+8",
-  "updated_ts": 1794729360,
+  "updated_at": "2026-11-16 16:03:50 GMT+8",
+  "updated_ts": 1794816230,
   "daily": {
     "top10": [
-      {
-        "full_name": "backnotprop/plannotator",
-        "description": "Star backnotprop / plannotator The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
-        "language": "TypeScript",
-        "total_stars": 11390,
-        "period_stars": 408,
-        "forks": 983,
-        "url": "https://github.com/backnotprop/plannotator"
-      },
-      {
-        "full_name": "GoogleChrome/modern-web-guidance-src",
-        "description": "Star GoogleChrome / modern-web-guidance-src Keep your coding agent up to date with the latest web best practices",
-        "language": "TypeScript",
-        "total_stars": 6340,
-        "period_stars": 1231,
-        "forks": 481,
-        "url": "https://github.com/GoogleChrome/modern-web-guidance-src"
-      },
-      {
-        "full_name": "tradermonty/claude-trading-skills",
-        "description": "Star tradermonty / claude-trading-skills Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
-        "language": "Python",
-        "total_stars": 5031,
-        "period_stars": 553,
-        "forks": 1055,
-        "url": "https://github.com/tradermonty/claude-trading-skills"
-      },
-      {
-        "full_name": "ChromeDevTools/chrome-devtools-mcp",
-        "description": "Star ChromeDevTools / chrome-devtools-mcp Chrome DevTools for coding agents",
-        "language": "TypeScript",
-        "total_stars": 56488,
-        "period_stars": 664,
-        "forks": 4782,
-        "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
-      },
-      {
-        "full_name": "alibaba/open-code-review",
-        "description": "Star alibaba / open-code-review Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
-        "language": "Go",
-        "total_stars": 51597,
-        "period_stars": 893,
-        "forks": 3992,
-        "url": "https://github.com/alibaba/open-code-review"
-      },
-      {
-        "full_name": "QwenLM/qwen-code",
-        "description": "Star QwenLM / qwen-code An open-source AI coding agent that lives in your terminal.",
-        "language": "TypeScript",
-        "total_stars": 30434,
-        "period_stars": 64,
-        "forks": 3524,
-        "url": "https://github.com/QwenLM/qwen-code"
-      },
       {
         "full_name": "dream-num/univer",
         "description": "Star dream-num / univer Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
         "language": "TypeScript",
-        "total_stars": 25113,
-        "period_stars": 495,
-        "forks": 2300,
+        "total_stars": 26663,
+        "period_stars": 988,
+        "forks": 2428,
         "url": "https://github.com/dream-num/univer"
       },
       {
         "full_name": "ag-ui-protocol/ag-ui",
         "description": "Star ag-ui-protocol / ag-ui AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
         "language": "TypeScript",
-        "total_stars": 17478,
-        "period_stars": 9,
-        "forks": 1729,
+        "total_stars": 18189,
+        "period_stars": 355,
+        "forks": 1878,
         "url": "https://github.com/ag-ui-protocol/ag-ui"
       },
       {
-        "full_name": "sponsors/ashhart",
-        "description": "Sponsor Star ashhart / TensorFold LLM Inference Engine for Metal, CUDA and Vulkan.",
-        "language": "Zig",
-        "total_stars": 0,
-        "period_stars": 37,
-        "forks": 0,
-        "url": "https://github.com/sponsors/ashhart"
+        "full_name": "google-labs-code/stitch-skills",
+        "description": "Star google-labs-code / stitch-skills A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+        "language": "TypeScript",
+        "total_stars": 9490,
+        "period_stars": 247,
+        "forks": 1180,
+        "url": "https://github.com/google-labs-code/stitch-skills"
       },
       {
-        "full_name": "sponsors/JuliusBrussee",
-        "description": "Sponsor Star JuliusBrussee / caveman 🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+        "full_name": "backnotprop/plannotator",
+        "description": "Star backnotprop / plannotator The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+        "language": "TypeScript",
+        "total_stars": 12085,
+        "period_stars": 866,
+        "forks": 1135,
+        "url": "https://github.com/backnotprop/plannotator"
+      },
+      {
+        "full_name": "ChromeDevTools/chrome-devtools-mcp",
+        "description": "Star ChromeDevTools / chrome-devtools-mcp Chrome DevTools for coding agents",
+        "language": "TypeScript",
+        "total_stars": 57259,
+        "period_stars": 717,
+        "forks": 4828,
+        "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+      },
+      {
+        "full_name": "alibaba/open-code-review",
+        "description": "Star alibaba / open-code-review Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
         "language": "Go",
+        "total_stars": 52458,
+        "period_stars": 691,
+        "forks": 4205,
+        "url": "https://github.com/alibaba/open-code-review"
+      },
+      {
+        "full_name": "Tencent/LoopForge",
+        "description": "Star Tencent / LoopForge Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
+        "language": "Go",
+        "total_stars": 1938,
+        "period_stars": 423,
+        "forks": 313,
+        "url": "https://github.com/Tencent/LoopForge"
+      },
+      {
+        "full_name": "ggml-org/ggml",
+        "description": "Star ggml-org / ggml Tensor library for machine learning",
+        "language": "C++",
+        "total_stars": 16015,
+        "period_stars": 43,
+        "forks": 2059,
+        "url": "https://github.com/ggml-org/ggml"
+      },
+      {
+        "full_name": "sponsors/elementalsouls",
+        "description": "Sponsor Star elementalsouls / Claude-BugHunter A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+        "language": "Python",
         "total_stars": 0,
-        "period_stars": 227,
+        "period_stars": 98,
         "forks": 0,
-        "url": "https://github.com/sponsors/JuliusBrussee"
+        "url": "https://github.com/sponsors/elementalsouls"
+      },
+      {
+        "full_name": "GoogleChrome/modern-web-guidance-src",
+        "description": "Star GoogleChrome / modern-web-guidance-src Keep your coding agent up to date with the latest web best practices",
+        "language": "TypeScript",
+        "total_stars": 7540,
+        "period_stars": 1219,
+        "forks": 658,
+        "url": "https://github.com/GoogleChrome/modern-web-guidance-src"
       }
     ],
     "ai_top10": [
       {
-        "full_name": "backnotprop/plannotator",
-        "description": "Star backnotprop / plannotator The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
-        "language": "TypeScript",
-        "total_stars": 11390,
-        "period_stars": 408,
-        "forks": 983,
-        "url": "https://github.com/backnotprop/plannotator"
-      },
-      {
-        "full_name": "GoogleChrome/modern-web-guidance-src",
-        "description": "Star GoogleChrome / modern-web-guidance-src Keep your coding agent up to date with the latest web best practices",
-        "language": "TypeScript",
-        "total_stars": 6340,
-        "period_stars": 1231,
-        "forks": 481,
-        "url": "https://github.com/GoogleChrome/modern-web-guidance-src"
-      },
-      {
-        "full_name": "tradermonty/claude-trading-skills",
-        "description": "Star tradermonty / claude-trading-skills Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
-        "language": "Python",
-        "total_stars": 5031,
-        "period_stars": 553,
-        "forks": 1055,
-        "url": "https://github.com/tradermonty/claude-trading-skills"
-      },
-      {
-        "full_name": "ChromeDevTools/chrome-devtools-mcp",
-        "description": "Star ChromeDevTools / chrome-devtools-mcp Chrome DevTools for coding agents",
-        "language": "TypeScript",
-        "total_stars": 56488,
-        "period_stars": 664,
-        "forks": 4782,
-        "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
-      },
-      {
-        "full_name": "alibaba/open-code-review",
-        "description": "Star alibaba / open-code-review Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
-        "language": "Go",
-        "total_stars": 51597,
-        "period_stars": 893,
-        "forks": 3992,
-        "url": "https://github.com/alibaba/open-code-review"
-      },
-      {
-        "full_name": "QwenLM/qwen-code",
-        "description": "Star QwenLM / qwen-code An open-source AI coding agent that lives in your terminal.",
-        "language": "TypeScript",
-        "total_stars": 30434,
-        "period_stars": 64,
-        "forks": 3524,
-        "url": "https://github.com/QwenLM/qwen-code"
-      },
-      {
         "full_name": "dream-num/univer",
         "description": "Star dream-num / univer Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
         "language": "TypeScript",
-        "total_stars": 25113,
-        "period_stars": 495,
-        "forks": 2300,
+        "total_stars": 26663,
+        "period_stars": 988,
+        "forks": 2428,
         "url": "https://github.com/dream-num/univer"
       },
       {
         "full_name": "ag-ui-protocol/ag-ui",
         "description": "Star ag-ui-protocol / ag-ui AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
         "language": "TypeScript",
-        "total_stars": 17478,
-        "period_stars": 9,
-        "forks": 1729,
+        "total_stars": 18189,
+        "period_stars": 355,
+        "forks": 1878,
         "url": "https://github.com/ag-ui-protocol/ag-ui"
       },
       {
-        "full_name": "sponsors/ashhart",
-        "description": "Sponsor Star ashhart / TensorFold LLM Inference Engine for Metal, CUDA and Vulkan.",
-        "language": "Zig",
-        "total_stars": 0,
-        "period_stars": 37,
-        "forks": 0,
-        "url": "https://github.com/sponsors/ashhart"
+        "full_name": "google-labs-code/stitch-skills",
+        "description": "Star google-labs-code / stitch-skills A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+        "language": "TypeScript",
+        "total_stars": 9490,
+        "period_stars": 247,
+        "forks": 1180,
+        "url": "https://github.com/google-labs-code/stitch-skills"
       },
       {
-        "full_name": "sponsors/JuliusBrussee",
-        "description": "Sponsor Star JuliusBrussee / caveman 🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+        "full_name": "backnotprop/plannotator",
+        "description": "Star backnotprop / plannotator The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+        "language": "TypeScript",
+        "total_stars": 12085,
+        "period_stars": 866,
+        "forks": 1135,
+        "url": "https://github.com/backnotprop/plannotator"
+      },
+      {
+        "full_name": "ChromeDevTools/chrome-devtools-mcp",
+        "description": "Star ChromeDevTools / chrome-devtools-mcp Chrome DevTools for coding agents",
+        "language": "TypeScript",
+        "total_stars": 57259,
+        "period_stars": 717,
+        "forks": 4828,
+        "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+      },
+      {
+        "full_name": "alibaba/open-code-review",
+        "description": "Star alibaba / open-code-review Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
         "language": "Go",
+        "total_stars": 52458,
+        "period_stars": 691,
+        "forks": 4205,
+        "url": "https://github.com/alibaba/open-code-review"
+      },
+      {
+        "full_name": "Tencent/LoopForge",
+        "description": "Star Tencent / LoopForge Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
+        "language": "Go",
+        "total_stars": 1938,
+        "period_stars": 423,
+        "forks": 313,
+        "url": "https://github.com/Tencent/LoopForge"
+      },
+      {
+        "full_name": "sponsors/elementalsouls",
+        "description": "Sponsor Star elementalsouls / Claude-BugHunter A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+        "language": "Python",
         "total_stars": 0,
-        "period_stars": 227,
+        "period_stars": 98,
         "forks": 0,
-        "url": "https://github.com/sponsors/JuliusBrussee"
+        "url": "https://github.com/sponsors/elementalsouls"
+      },
+      {
+        "full_name": "GoogleChrome/modern-web-guidance-src",
+        "description": "Star GoogleChrome / modern-web-guidance-src Keep your coding agent up to date with the latest web best practices",
+        "language": "TypeScript",
+        "total_stars": 7540,
+        "period_stars": 1219,
+        "forks": 658,
+        "url": "https://github.com/GoogleChrome/modern-web-guidance-src"
+      },
+      {
+        "full_name": "tradermonty/claude-trading-skills",
+        "description": "Star tradermonty / claude-trading-skills Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+        "language": "Python",
+        "total_stars": 5832,
+        "period_stars": 706,
+        "forks": 1233,
+        "url": "https://github.com/tradermonty/claude-trading-skills"
       }
     ]
   },
@@ -193,91 +193,91 @@
         "full_name": "meta/astryx",
         "description": "Star meta / astryx An open source design system that's fully customizable and agent ready",
         "language": "TypeScript",
-        "total_stars": 28334,
-        "period_stars": 13660,
-        "forks": 2205,
+        "total_stars": 29148,
+        "period_stars": 13501,
+        "forks": 2277,
         "url": "https://github.com/meta/astryx"
-      },
-      {
-        "full_name": "sherlock-project/sherlock",
-        "description": "Star sherlock-project / sherlock Hunt down social media accounts by username across social networks",
-        "language": "Python",
-        "total_stars": 111950,
-        "period_stars": 12401,
-        "forks": 12954,
-        "url": "https://github.com/sherlock-project/sherlock"
       },
       {
         "full_name": "anthropics/skills",
         "description": "Star anthropics / skills Public repository for Agent Skills",
         "language": "Python",
-        "total_stars": 194776,
-        "period_stars": 6220,
-        "forks": 22915,
+        "total_stars": 195545,
+        "period_stars": 6077,
+        "forks": 22981,
         "url": "https://github.com/anthropics/skills"
+      },
+      {
+        "full_name": "sherlock-project/sherlock",
+        "description": "Star sherlock-project / sherlock Hunt down social media accounts by username across social networks",
+        "language": "Python",
+        "total_stars": 112733,
+        "period_stars": 10412,
+        "forks": 13010,
+        "url": "https://github.com/sherlock-project/sherlock"
+      },
+      {
+        "full_name": "backnotprop/plannotator",
+        "description": "Star backnotprop / plannotator The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+        "language": "TypeScript",
+        "total_stars": 12085,
+        "period_stars": 1719,
+        "forks": 1135,
+        "url": "https://github.com/backnotprop/plannotator"
       },
       {
         "full_name": "vercel-labs/agent-browser",
         "description": "Star vercel-labs / agent-browser Browser automation CLI for AI agents",
         "language": "Rust",
-        "total_stars": 51323,
-        "period_stars": 4601,
-        "forks": 3584,
+        "total_stars": 51771,
+        "period_stars": 4217,
+        "forks": 3623,
         "url": "https://github.com/vercel-labs/agent-browser"
-      },
-      {
-        "full_name": "google/elephant-goldfish-model",
-        "description": "Star google / elephant-goldfish-model Open-source plugin for designing and reviewing software with agents",
-        "language": "Python",
-        "total_stars": 19326,
-        "period_stars": 5539,
-        "forks": 1435,
-        "url": "https://github.com/google/elephant-goldfish-model"
-      },
-      {
-        "full_name": "sponsors/milind-soni",
-        "description": "Sponsor Star milind-soni / OpenMausBot Open-source Grok Bot alternative with a virtual machine that bots can use",
-        "language": "TypeScript",
-        "total_stars": 0,
-        "period_stars": 6413,
-        "forks": 0,
-        "url": "https://github.com/sponsors/milind-soni"
       },
       {
         "full_name": "sponsors/ZhuLinsen",
         "description": "Sponsor Star ZhuLinsen / daily_stock_analysis LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 4526,
+        "period_stars": 4548,
         "forks": 0,
         "url": "https://github.com/sponsors/ZhuLinsen"
+      },
+      {
+        "full_name": "we-promise/sure",
+        "description": "Star we-promise / sure The personal finance app for everyone (by everyone)",
+        "language": "Ruby",
+        "total_stars": 15808,
+        "period_stars": 4556,
+        "forks": 1385,
+        "url": "https://github.com/we-promise/sure"
+      },
+      {
+        "full_name": "sponsors/milind-soni",
+        "description": "Sponsor Star milind-soni / OpenMausBot Open-source Grok Bot alternative with a virtual machine that bots can use",
+        "language": "TypeScript",
+        "total_stars": 0,
+        "period_stars": 5463,
+        "forks": 0,
+        "url": "https://github.com/sponsors/milind-soni"
+      },
+      {
+        "full_name": "google/elephant-goldfish-model",
+        "description": "Star google / elephant-goldfish-model Open-source plugin for designing and reviewing software with agents",
+        "language": "Python",
+        "total_stars": 19982,
+        "period_stars": 5060,
+        "forks": 1484,
+        "url": "https://github.com/google/elephant-goldfish-model"
       },
       {
         "full_name": "google-deepmind/mujoco",
         "description": "Star google-deepmind / mujoco Multi-Joint dynamics with Contact. A general purpose physics simulator.",
         "language": "C++",
-        "total_stars": 18013,
-        "period_stars": 1859,
-        "forks": 2204,
+        "total_stars": 18114,
+        "period_stars": 1922,
+        "forks": 2216,
         "url": "https://github.com/google-deepmind/mujoco"
-      },
-      {
-        "full_name": "backnotprop/plannotator",
-        "description": "Star backnotprop / plannotator The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
-        "language": "TypeScript",
-        "total_stars": 11390,
-        "period_stars": 818,
-        "forks": 983,
-        "url": "https://github.com/backnotprop/plannotator"
-      },
-      {
-        "full_name": "addyosmani/agent-skills",
-        "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
-        "language": "JavaScript",
-        "total_stars": 117677,
-        "period_stars": 3670,
-        "forks": 12314,
-        "url": "https://github.com/addyosmani/agent-skills"
       }
     ],
     "ai_top10": [
@@ -285,73 +285,64 @@
         "full_name": "meta/astryx",
         "description": "Star meta / astryx An open source design system that's fully customizable and agent ready",
         "language": "TypeScript",
-        "total_stars": 28334,
-        "period_stars": 13660,
-        "forks": 2205,
+        "total_stars": 29148,
+        "period_stars": 13501,
+        "forks": 2277,
         "url": "https://github.com/meta/astryx"
       },
       {
         "full_name": "anthropics/skills",
         "description": "Star anthropics / skills Public repository for Agent Skills",
         "language": "Python",
-        "total_stars": 194776,
-        "period_stars": 6220,
-        "forks": 22915,
+        "total_stars": 195545,
+        "period_stars": 6077,
+        "forks": 22981,
         "url": "https://github.com/anthropics/skills"
+      },
+      {
+        "full_name": "backnotprop/plannotator",
+        "description": "Star backnotprop / plannotator The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+        "language": "TypeScript",
+        "total_stars": 12085,
+        "period_stars": 1719,
+        "forks": 1135,
+        "url": "https://github.com/backnotprop/plannotator"
       },
       {
         "full_name": "vercel-labs/agent-browser",
         "description": "Star vercel-labs / agent-browser Browser automation CLI for AI agents",
         "language": "Rust",
-        "total_stars": 51323,
-        "period_stars": 4601,
-        "forks": 3584,
+        "total_stars": 51771,
+        "period_stars": 4217,
+        "forks": 3623,
         "url": "https://github.com/vercel-labs/agent-browser"
-      },
-      {
-        "full_name": "google/elephant-goldfish-model",
-        "description": "Star google / elephant-goldfish-model Open-source plugin for designing and reviewing software with agents",
-        "language": "Python",
-        "total_stars": 19326,
-        "period_stars": 5539,
-        "forks": 1435,
-        "url": "https://github.com/google/elephant-goldfish-model"
       },
       {
         "full_name": "sponsors/ZhuLinsen",
         "description": "Sponsor Star ZhuLinsen / daily_stock_analysis LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
         "language": "Python",
         "total_stars": 0,
-        "period_stars": 4526,
+        "period_stars": 4548,
         "forks": 0,
         "url": "https://github.com/sponsors/ZhuLinsen"
       },
       {
-        "full_name": "backnotprop/plannotator",
-        "description": "Star backnotprop / plannotator The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
-        "language": "TypeScript",
-        "total_stars": 11390,
-        "period_stars": 818,
-        "forks": 983,
-        "url": "https://github.com/backnotprop/plannotator"
+        "full_name": "google/elephant-goldfish-model",
+        "description": "Star google / elephant-goldfish-model Open-source plugin for designing and reviewing software with agents",
+        "language": "Python",
+        "total_stars": 19982,
+        "period_stars": 5060,
+        "forks": 1484,
+        "url": "https://github.com/google/elephant-goldfish-model"
       },
       {
         "full_name": "addyosmani/agent-skills",
         "description": "Star addyosmani / agent-skills Production-grade engineering skills for AI coding agents.",
         "language": "JavaScript",
-        "total_stars": 117677,
-        "period_stars": 3670,
-        "forks": 12314,
+        "total_stars": 118071,
+        "period_stars": 3889,
+        "forks": 12349,
         "url": "https://github.com/addyosmani/agent-skills"
-      },
-      {
-        "full_name": "anthropics/claude-quickstarts",
-        "description": "Star anthropics / claude-quickstarts A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
-        "language": "Python",
-        "total_stars": 21011,
-        "period_stars": 1794,
-        "forks": 3499,
-        "url": "https://github.com/anthropics/claude-quickstarts"
       }
     ]
   }

@@ -1,375 +1,375 @@
 {
-  "updated_at": "2026-11-19 16:53:31 GMT+8",
-  "updated_ts": 1795078411,
+  "updated_at": "2026-11-20 16:40:32 GMT+8",
+  "updated_ts": 1795164032,
   "daily": {
     "top10": [
       {
-        "full_name": "cursor/plugins",
-        "description": "Star cursor / plugins Cursor plugin specification and official plugins",
-        "language": "TypeScript",
-        "total_stars": 17361,
-        "period_stars": 314,
-        "forks": 1914,
-        "url": "https://github.com/cursor/plugins"
-      },
-      {
-        "full_name": "HKUDS/CLI-Anything",
-        "description": "Star HKUDS / CLI-Anything \"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+        "full_name": "sponsors/elementalsouls",
+        "description": "Sponsor Star elementalsouls / Claude-BugHunter A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
         "language": "Python",
-        "total_stars": 60086,
-        "period_stars": 389,
-        "forks": 5456,
-        "url": "https://github.com/HKUDS/CLI-Anything"
-      },
-      {
-        "full_name": "mvanhorn/last30days-skill",
-        "description": "Star mvanhorn / last30days-skill AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-        "language": "Python",
-        "total_stars": 70372,
-        "period_stars": 1059,
-        "forks": 6267,
-        "url": "https://github.com/mvanhorn/last30days-skill"
-      },
-      {
-        "full_name": "getarcaneapp/arcane",
-        "description": "Star getarcaneapp / arcane Modern Docker Management, Designed for Everyone",
-        "language": "Go",
-        "total_stars": 9990,
-        "period_stars": 547,
-        "forks": 570,
-        "url": "https://github.com/getarcaneapp/arcane"
-      },
-      {
-        "full_name": "NVIDIA/SkillEvaluator",
-        "description": "Star NVIDIA / SkillEvaluator Multi-tier framework for evaluating AI agent skills and plugins with quality gates, security scanning, harness compatibility checks, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior. Ships reusable CI templates that bring every check to any repository.",
-        "language": "Python",
-        "total_stars": 3940,
-        "period_stars": 312,
-        "forks": 533,
-        "url": "https://github.com/NVIDIA/SkillEvaluator"
-      },
-      {
-        "full_name": "nvm-sh/nvm",
-        "description": "Star nvm-sh / nvm Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
-        "language": "Shell",
-        "total_stars": 96213,
-        "period_stars": 237,
-        "forks": 10795,
-        "url": "https://github.com/nvm-sh/nvm"
-      },
-      {
-        "full_name": "astral-sh/uv",
-        "description": "Star astral-sh / uv An extremely fast Python package and project manager, written in Rust.",
-        "language": "Rust",
-        "total_stars": 92348,
-        "period_stars": 258,
-        "forks": 3932,
-        "url": "https://github.com/astral-sh/uv"
-      },
-      {
-        "full_name": "google-research/paper-orchestra",
-        "description": "Star google-research / paper-orchestra PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
-        "language": "Python",
-        "total_stars": 4664,
-        "period_stars": 1524,
-        "forks": 573,
-        "url": "https://github.com/google-research/paper-orchestra"
-      },
-      {
-        "full_name": "google-labs-code/stitch-skills",
-        "description": "Star google-labs-code / stitch-skills A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
-        "language": "TypeScript",
-        "total_stars": 10531,
-        "period_stars": 365,
-        "forks": 1373,
-        "url": "https://github.com/google-labs-code/stitch-skills"
-      },
-      {
-        "full_name": "sponsors/sveltejs",
-        "description": "Sponsor Star sveltejs / svelte web development for the rest of us",
-        "language": "JavaScript",
         "total_stars": 0,
-        "period_stars": 692,
+        "period_stars": 1349,
         "forks": 0,
-        "url": "https://github.com/sponsors/sveltejs"
-      }
-    ],
-    "ai_top10": [
-      {
-        "full_name": "HKUDS/CLI-Anything",
-        "description": "Star HKUDS / CLI-Anything \"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-        "language": "Python",
-        "total_stars": 60086,
-        "period_stars": 389,
-        "forks": 5456,
-        "url": "https://github.com/HKUDS/CLI-Anything"
-      },
-      {
-        "full_name": "mvanhorn/last30days-skill",
-        "description": "Star mvanhorn / last30days-skill AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-        "language": "Python",
-        "total_stars": 70372,
-        "period_stars": 1059,
-        "forks": 6267,
-        "url": "https://github.com/mvanhorn/last30days-skill"
-      },
-      {
-        "full_name": "NVIDIA/SkillEvaluator",
-        "description": "Star NVIDIA / SkillEvaluator Multi-tier framework for evaluating AI agent skills and plugins with quality gates, security scanning, harness compatibility checks, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior. Ships reusable CI templates that bring every check to any repository.",
-        "language": "Python",
-        "total_stars": 3940,
-        "period_stars": 312,
-        "forks": 533,
-        "url": "https://github.com/NVIDIA/SkillEvaluator"
-      },
-      {
-        "full_name": "google-research/paper-orchestra",
-        "description": "Star google-research / paper-orchestra PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
-        "language": "Python",
-        "total_stars": 4664,
-        "period_stars": 1524,
-        "forks": 573,
-        "url": "https://github.com/google-research/paper-orchestra"
-      },
-      {
-        "full_name": "google-labs-code/stitch-skills",
-        "description": "Star google-labs-code / stitch-skills A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
-        "language": "TypeScript",
-        "total_stars": 10531,
-        "period_stars": 365,
-        "forks": 1373,
-        "url": "https://github.com/google-labs-code/stitch-skills"
-      },
-      {
-        "full_name": "appwrite/appwrite",
-        "description": "Star appwrite / appwrite The open-source cloud for agents &amp; devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more",
-        "language": "TypeScript",
-        "total_stars": 58346,
-        "period_stars": 232,
-        "forks": 5894,
-        "url": "https://github.com/appwrite/appwrite"
-      },
-      {
-        "full_name": "openvinotoolkit/openvino",
-        "description": "Star openvinotoolkit / openvino OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
-        "language": "C++",
-        "total_stars": 11422,
-        "period_stars": 24,
-        "forks": 3609,
-        "url": "https://github.com/openvinotoolkit/openvino"
+        "url": "https://github.com/sponsors/elementalsouls"
       },
       {
         "full_name": "sponsors/obra",
         "description": "Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works.",
         "language": "Shell",
         "total_stars": 0,
-        "period_stars": 822,
+        "period_stars": 2028,
         "forks": 0,
         "url": "https://github.com/sponsors/obra"
       },
       {
-        "full_name": "sponsors/affaan-m",
-        "description": "Sponsor Star affaan-m / ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-        "language": "JavaScript",
-        "total_stars": 0,
-        "period_stars": 1108,
-        "forks": 0,
-        "url": "https://github.com/sponsors/affaan-m"
+        "full_name": "HKUDS/CLI-Anything",
+        "description": "Star HKUDS / CLI-Anything \"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+        "language": "Python",
+        "total_stars": 60843,
+        "period_stars": 898,
+        "forks": 5518,
+        "url": "https://github.com/HKUDS/CLI-Anything"
       },
       {
-        "full_name": "n8n-io/n8n",
-        "description": "Star n8n-io / n8n Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+        "full_name": "jingyaogong/minimind",
+        "description": "Star jingyaogong / minimind 🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+        "language": "Python",
+        "total_stars": 67309,
+        "period_stars": 238,
+        "forks": 8835,
+        "url": "https://github.com/jingyaogong/minimind"
+      },
+      {
+        "full_name": "cursor/plugins",
+        "description": "Star cursor / plugins Cursor plugin specification and official plugins",
         "language": "TypeScript",
-        "total_stars": 211303,
-        "period_stars": 325,
-        "forks": 61579,
-        "url": "https://github.com/n8n-io/n8n"
+        "total_stars": 17658,
+        "period_stars": 384,
+        "forks": 1945,
+        "url": "https://github.com/cursor/plugins"
+      },
+      {
+        "full_name": "firecrawl/firecrawl",
+        "description": "Star firecrawl / firecrawl Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
+        "language": "TypeScript",
+        "total_stars": 204598,
+        "period_stars": 825,
+        "forks": 10725,
+        "url": "https://github.com/firecrawl/firecrawl"
+      },
+      {
+        "full_name": "nginx/nginx",
+        "description": "Star nginx / nginx The official NGINX Open Source repository.",
+        "language": "C",
+        "total_stars": 32426,
+        "period_stars": 73,
+        "forks": 8423,
+        "url": "https://github.com/nginx/nginx"
+      },
+      {
+        "full_name": "openvinotoolkit/openvino",
+        "description": "Star openvinotoolkit / openvino OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+        "language": "C++",
+        "total_stars": 11636,
+        "period_stars": 246,
+        "forks": 3627,
+        "url": "https://github.com/openvinotoolkit/openvino"
+      },
+      {
+        "full_name": "sponsors/cathrynlavery",
+        "description": "Sponsor Star cathrynlavery / diagram-design Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+        "language": "HTML",
+        "total_stars": 0,
+        "period_stars": 271,
+        "forks": 0,
+        "url": "https://github.com/sponsors/cathrynlavery"
+      },
+      {
+        "full_name": "mvanhorn/last30days-skill",
+        "description": "Star mvanhorn / last30days-skill AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+        "language": "Python",
+        "total_stars": 71061,
+        "period_stars": 954,
+        "forks": 6326,
+        "url": "https://github.com/mvanhorn/last30days-skill"
+      }
+    ],
+    "ai_top10": [
+      {
+        "full_name": "sponsors/elementalsouls",
+        "description": "Sponsor Star elementalsouls / Claude-BugHunter A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+        "language": "Python",
+        "total_stars": 0,
+        "period_stars": 1349,
+        "forks": 0,
+        "url": "https://github.com/sponsors/elementalsouls"
+      },
+      {
+        "full_name": "sponsors/obra",
+        "description": "Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works.",
+        "language": "Shell",
+        "total_stars": 0,
+        "period_stars": 2028,
+        "forks": 0,
+        "url": "https://github.com/sponsors/obra"
+      },
+      {
+        "full_name": "HKUDS/CLI-Anything",
+        "description": "Star HKUDS / CLI-Anything \"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+        "language": "Python",
+        "total_stars": 60843,
+        "period_stars": 898,
+        "forks": 5518,
+        "url": "https://github.com/HKUDS/CLI-Anything"
+      },
+      {
+        "full_name": "jingyaogong/minimind",
+        "description": "Star jingyaogong / minimind 🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+        "language": "Python",
+        "total_stars": 67309,
+        "period_stars": 238,
+        "forks": 8835,
+        "url": "https://github.com/jingyaogong/minimind"
+      },
+      {
+        "full_name": "firecrawl/firecrawl",
+        "description": "Star firecrawl / firecrawl Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
+        "language": "TypeScript",
+        "total_stars": 204598,
+        "period_stars": 825,
+        "forks": 10725,
+        "url": "https://github.com/firecrawl/firecrawl"
+      },
+      {
+        "full_name": "openvinotoolkit/openvino",
+        "description": "Star openvinotoolkit / openvino OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+        "language": "C++",
+        "total_stars": 11636,
+        "period_stars": 246,
+        "forks": 3627,
+        "url": "https://github.com/openvinotoolkit/openvino"
+      },
+      {
+        "full_name": "sponsors/cathrynlavery",
+        "description": "Sponsor Star cathrynlavery / diagram-design Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+        "language": "HTML",
+        "total_stars": 0,
+        "period_stars": 271,
+        "forks": 0,
+        "url": "https://github.com/sponsors/cathrynlavery"
+      },
+      {
+        "full_name": "mvanhorn/last30days-skill",
+        "description": "Star mvanhorn / last30days-skill AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+        "language": "Python",
+        "total_stars": 71061,
+        "period_stars": 954,
+        "forks": 6326,
+        "url": "https://github.com/mvanhorn/last30days-skill"
+      },
+      {
+        "full_name": "google-labs-code/stitch-skills",
+        "description": "Star google-labs-code / stitch-skills A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+        "language": "TypeScript",
+        "total_stars": 10835,
+        "period_stars": 302,
+        "forks": 1395,
+        "url": "https://github.com/google-labs-code/stitch-skills"
+      },
+      {
+        "full_name": "sponsors/mjmirza",
+        "description": "Sponsor Star mjmirza / app-store-compliance Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 117 documented rejection patterns and fixes, privacy manifest and Data safety checks, 95 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+        "language": "Shell",
+        "total_stars": 0,
+        "period_stars": 377,
+        "forks": 0,
+        "url": "https://github.com/sponsors/mjmirza"
       }
     ]
   },
   "weekly": {
     "top10": [
       {
-        "full_name": "GoogleChrome/modern-web-guidance-src",
-        "description": "Star GoogleChrome / modern-web-guidance-src Keep your coding agent up to date with the latest web best practices",
-        "language": "TypeScript",
-        "total_stars": 8949,
-        "period_stars": 7257,
-        "forks": 748,
-        "url": "https://github.com/GoogleChrome/modern-web-guidance-src"
-      },
-      {
         "full_name": "backnotprop/plannotator",
         "description": "Star backnotprop / plannotator The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
         "language": "TypeScript",
-        "total_stars": 13549,
-        "period_stars": 3290,
-        "forks": 1367,
+        "total_stars": 13745,
+        "period_stars": 3468,
+        "forks": 1391,
         "url": "https://github.com/backnotprop/plannotator"
-      },
-      {
-        "full_name": "meta/astryx",
-        "description": "Star meta / astryx An open source design system that's fully customizable and agent ready",
-        "language": "TypeScript",
-        "total_stars": 30716,
-        "period_stars": 6250,
-        "forks": 2406,
-        "url": "https://github.com/meta/astryx"
-      },
-      {
-        "full_name": "we-promise/sure",
-        "description": "Star we-promise / sure The personal finance app for everyone (by everyone)",
-        "language": "Ruby",
-        "total_stars": 16580,
-        "period_stars": 3866,
-        "forks": 1453,
-        "url": "https://github.com/we-promise/sure"
-      },
-      {
-        "full_name": "alibaba/open-code-review",
-        "description": "Star alibaba / open-code-review Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
-        "language": "Go",
-        "total_stars": 54258,
-        "period_stars": 4383,
-        "forks": 4488,
-        "url": "https://github.com/alibaba/open-code-review"
       },
       {
         "full_name": "google-labs-code/stitch-skills",
         "description": "Star google-labs-code / stitch-skills A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
         "language": "TypeScript",
-        "total_stars": 10531,
-        "period_stars": 1567,
-        "forks": 1373,
+        "total_stars": 10835,
+        "period_stars": 1829,
+        "forks": 1395,
         "url": "https://github.com/google-labs-code/stitch-skills"
       },
-      {
-        "full_name": "tradermonty/claude-trading-skills",
-        "description": "Star tradermonty / claude-trading-skills Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
-        "language": "Python",
-        "total_stars": 7130,
-        "period_stars": 3242,
-        "forks": 1445,
-        "url": "https://github.com/tradermonty/claude-trading-skills"
-      },
-      {
-        "full_name": "ChromeDevTools/chrome-devtools-mcp",
-        "description": "Star ChromeDevTools / chrome-devtools-mcp Chrome DevTools for coding agents",
-        "language": "TypeScript",
-        "total_stars": 58269,
-        "period_stars": 3143,
-        "forks": 4879,
-        "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
-      },
-      {
-        "full_name": "anthropics/skills",
-        "description": "Star anthropics / skills Public repository for Agent Skills",
-        "language": "Python",
-        "total_stars": 197412,
-        "period_stars": 4381,
-        "forks": 23114,
-        "url": "https://github.com/anthropics/skills"
-      },
-      {
-        "full_name": "sponsors/ZhuLinsen",
-        "description": "Sponsor Star ZhuLinsen / daily_stock_analysis LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-        "language": "Python",
-        "total_stars": 0,
-        "period_stars": 3566,
-        "forks": 0,
-        "url": "https://github.com/sponsors/ZhuLinsen"
-      }
-    ],
-    "ai_top10": [
       {
         "full_name": "GoogleChrome/modern-web-guidance-src",
         "description": "Star GoogleChrome / modern-web-guidance-src Keep your coding agent up to date with the latest web best practices",
         "language": "TypeScript",
-        "total_stars": 8949,
-        "period_stars": 7257,
-        "forks": 748,
+        "total_stars": 9318,
+        "period_stars": 6858,
+        "forks": 763,
         "url": "https://github.com/GoogleChrome/modern-web-guidance-src"
-      },
-      {
-        "full_name": "backnotprop/plannotator",
-        "description": "Star backnotprop / plannotator The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
-        "language": "TypeScript",
-        "total_stars": 13549,
-        "period_stars": 3290,
-        "forks": 1367,
-        "url": "https://github.com/backnotprop/plannotator"
-      },
-      {
-        "full_name": "meta/astryx",
-        "description": "Star meta / astryx An open source design system that's fully customizable and agent ready",
-        "language": "TypeScript",
-        "total_stars": 30716,
-        "period_stars": 6250,
-        "forks": 2406,
-        "url": "https://github.com/meta/astryx"
       },
       {
         "full_name": "alibaba/open-code-review",
         "description": "Star alibaba / open-code-review Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
         "language": "Go",
-        "total_stars": 54258,
-        "period_stars": 4383,
-        "forks": 4488,
+        "total_stars": 54490,
+        "period_stars": 4492,
+        "forks": 4512,
         "url": "https://github.com/alibaba/open-code-review"
-      },
-      {
-        "full_name": "google-labs-code/stitch-skills",
-        "description": "Star google-labs-code / stitch-skills A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
-        "language": "TypeScript",
-        "total_stars": 10531,
-        "period_stars": 1567,
-        "forks": 1373,
-        "url": "https://github.com/google-labs-code/stitch-skills"
-      },
-      {
-        "full_name": "tradermonty/claude-trading-skills",
-        "description": "Star tradermonty / claude-trading-skills Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
-        "language": "Python",
-        "total_stars": 7130,
-        "period_stars": 3242,
-        "forks": 1445,
-        "url": "https://github.com/tradermonty/claude-trading-skills"
-      },
-      {
-        "full_name": "ChromeDevTools/chrome-devtools-mcp",
-        "description": "Star ChromeDevTools / chrome-devtools-mcp Chrome DevTools for coding agents",
-        "language": "TypeScript",
-        "total_stars": 58269,
-        "period_stars": 3143,
-        "forks": 4879,
-        "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
-      },
-      {
-        "full_name": "anthropics/skills",
-        "description": "Star anthropics / skills Public repository for Agent Skills",
-        "language": "Python",
-        "total_stars": 197412,
-        "period_stars": 4381,
-        "forks": 23114,
-        "url": "https://github.com/anthropics/skills"
-      },
-      {
-        "full_name": "sponsors/ZhuLinsen",
-        "description": "Sponsor Star ZhuLinsen / daily_stock_analysis LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-        "language": "Python",
-        "total_stars": 0,
-        "period_stars": 3566,
-        "forks": 0,
-        "url": "https://github.com/sponsors/ZhuLinsen"
       },
       {
         "full_name": "mvanhorn/last30days-skill",
         "description": "Star mvanhorn / last30days-skill AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
         "language": "Python",
-        "total_stars": 70372,
-        "period_stars": 2423,
-        "forks": 6267,
+        "total_stars": 71061,
+        "period_stars": 3179,
+        "forks": 6326,
         "url": "https://github.com/mvanhorn/last30days-skill"
+      },
+      {
+        "full_name": "ChromeDevTools/chrome-devtools-mcp",
+        "description": "Star ChromeDevTools / chrome-devtools-mcp Chrome DevTools for coding agents",
+        "language": "TypeScript",
+        "total_stars": 58434,
+        "period_stars": 3229,
+        "forks": 4881,
+        "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+      },
+      {
+        "full_name": "tradermonty/claude-trading-skills",
+        "description": "Star tradermonty / claude-trading-skills Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+        "language": "Python",
+        "total_stars": 7314,
+        "period_stars": 3385,
+        "forks": 1468,
+        "url": "https://github.com/tradermonty/claude-trading-skills"
+      },
+      {
+        "full_name": "ag-ui-protocol/ag-ui",
+        "description": "Star ag-ui-protocol / ag-ui AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+        "language": "TypeScript",
+        "total_stars": 20703,
+        "period_stars": 3455,
+        "forks": 2125,
+        "url": "https://github.com/ag-ui-protocol/ag-ui"
+      },
+      {
+        "full_name": "meta/astryx",
+        "description": "Star meta / astryx An open source design system that's fully customizable and agent ready",
+        "language": "TypeScript",
+        "total_stars": 31143,
+        "period_stars": 4977,
+        "forks": 2443,
+        "url": "https://github.com/meta/astryx"
+      },
+      {
+        "full_name": "pookjw/HermesEnabler",
+        "description": "Star pookjw / HermesEnabler Enable Hermès Watch Faces on any Apple Watch devices",
+        "language": "Objective-C",
+        "total_stars": 2269,
+        "period_stars": 904,
+        "forks": 190,
+        "url": "https://github.com/pookjw/HermesEnabler"
+      }
+    ],
+    "ai_top10": [
+      {
+        "full_name": "backnotprop/plannotator",
+        "description": "Star backnotprop / plannotator The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+        "language": "TypeScript",
+        "total_stars": 13745,
+        "period_stars": 3468,
+        "forks": 1391,
+        "url": "https://github.com/backnotprop/plannotator"
+      },
+      {
+        "full_name": "google-labs-code/stitch-skills",
+        "description": "Star google-labs-code / stitch-skills A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+        "language": "TypeScript",
+        "total_stars": 10835,
+        "period_stars": 1829,
+        "forks": 1395,
+        "url": "https://github.com/google-labs-code/stitch-skills"
+      },
+      {
+        "full_name": "GoogleChrome/modern-web-guidance-src",
+        "description": "Star GoogleChrome / modern-web-guidance-src Keep your coding agent up to date with the latest web best practices",
+        "language": "TypeScript",
+        "total_stars": 9318,
+        "period_stars": 6858,
+        "forks": 763,
+        "url": "https://github.com/GoogleChrome/modern-web-guidance-src"
+      },
+      {
+        "full_name": "alibaba/open-code-review",
+        "description": "Star alibaba / open-code-review Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
+        "language": "Go",
+        "total_stars": 54490,
+        "period_stars": 4492,
+        "forks": 4512,
+        "url": "https://github.com/alibaba/open-code-review"
+      },
+      {
+        "full_name": "mvanhorn/last30days-skill",
+        "description": "Star mvanhorn / last30days-skill AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+        "language": "Python",
+        "total_stars": 71061,
+        "period_stars": 3179,
+        "forks": 6326,
+        "url": "https://github.com/mvanhorn/last30days-skill"
+      },
+      {
+        "full_name": "ChromeDevTools/chrome-devtools-mcp",
+        "description": "Star ChromeDevTools / chrome-devtools-mcp Chrome DevTools for coding agents",
+        "language": "TypeScript",
+        "total_stars": 58434,
+        "period_stars": 3229,
+        "forks": 4881,
+        "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+      },
+      {
+        "full_name": "tradermonty/claude-trading-skills",
+        "description": "Star tradermonty / claude-trading-skills Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+        "language": "Python",
+        "total_stars": 7314,
+        "period_stars": 3385,
+        "forks": 1468,
+        "url": "https://github.com/tradermonty/claude-trading-skills"
+      },
+      {
+        "full_name": "ag-ui-protocol/ag-ui",
+        "description": "Star ag-ui-protocol / ag-ui AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+        "language": "TypeScript",
+        "total_stars": 20703,
+        "period_stars": 3455,
+        "forks": 2125,
+        "url": "https://github.com/ag-ui-protocol/ag-ui"
+      },
+      {
+        "full_name": "meta/astryx",
+        "description": "Star meta / astryx An open source design system that's fully customizable and agent ready",
+        "language": "TypeScript",
+        "total_stars": 31143,
+        "period_stars": 4977,
+        "forks": 2443,
+        "url": "https://github.com/meta/astryx"
+      },
+      {
+        "full_name": "pookjw/HermesEnabler",
+        "description": "Star pookjw / HermesEnabler Enable Hermès Watch Faces on any Apple Watch devices",
+        "language": "Objective-C",
+        "total_stars": 2269,
+        "period_stars": 904,
+        "forks": 190,
+        "url": "https://github.com/pookjw/HermesEnabler"
       }
     ]
   }
